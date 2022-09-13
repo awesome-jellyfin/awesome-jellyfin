@@ -26,4 +26,4 @@ About this section. Optional. Keep this short and focus on the list.
 
 ## Contribute
 
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
