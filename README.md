@@ -15,6 +15,7 @@ About this section. Optional. Keep this short and focus on the list.
 
 - [`intro-skipper` Fingerprint audio to automatically detect and skip intro sequences in Jellyfin](https://github.com/ConfusedPolarBear/intro-skipper)
 - [`jellyfin-plugin-sso` Allows users to sign in through an SSO provider](https://github.com/9p4/jellyfin-plugin-sso)
+- [`jellyfin-plugin-ldapauth` Allows the use of ldap as an auth provider](https://github.com/jellyfin/jellyfin-plugin-ldapauth)
 
 
 ## Themes
