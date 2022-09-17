@@ -25,6 +25,9 @@ About this section. Optional. Keep this short and focus on the list.
 - [`JellySkin` Vibrante/minimal Jellyfin CSS using custom Icons and more](https://github.com/prayag17/JellySkin)
 - [`JellyFlix` Jellyfin but Looks, Feels and Smells like Netflix](https://github.com/prayag17/JellyFlix)
 
+## Other
+
+- [`jellyseerr` Fork of overseerr with jellyfin support](https://github.com/Fallenbagel/jellyseerr)
 
 ## Contribute
 
