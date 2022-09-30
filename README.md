@@ -27,7 +27,9 @@ About this section. Optional. Keep this short and focus on the list.
 
 ## Other
 
+- [`jellyfin-mods` A collection of things you can do to personalize and improve your JF server](https://github.com/BobHasNoSoul/jellyfin-mods)
 - [`jellyseerr` Fork of overseerr with jellyfin support](https://github.com/Fallenbagel/jellyseerr)
+- [`jfa-go` User/Invite management system for Jellyfin](https://github.com/hrfee/jfa-go)
 
 ## Contribute
 
