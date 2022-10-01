@@ -11,8 +11,6 @@
 
 ## Plugins
 
-About this section. Optional. Keep this short and focus on the list.
-
 - [`intro-skipper` Fingerprint audio to automatically detect and skip intro sequences in Jellyfin](https://github.com/ConfusedPolarBear/intro-skipper)
 - [`jellyfin-plugin-sso` Allows users to sign in through an SSO provider](https://github.com/9p4/jellyfin-plugin-sso)
 - [`jellyfin-plugin-ldapauth` Allows the use of ldap as an auth provider](https://github.com/jellyfin/jellyfin-plugin-ldapauth)
@@ -28,7 +26,7 @@ About this section. Optional. Keep this short and focus on the list.
 ## Other
 
 - [`jellyfin-mods` A collection of things you can do to personalize and improve your JF server](https://github.com/BobHasNoSoul/jellyfin-mods)
-- [`jellyseerr` Fork of overseerr with jellyfin support](https://github.com/Fallenbagel/jellyseerr)
+- [`jellyseerr` Fork of Overseerr with Jellyfin support](https://github.com/Fallenbagel/jellyseerr)
 - [`jfa-go` User/Invite management system for Jellyfin](https://github.com/hrfee/jfa-go)
 
 ## Contribute
