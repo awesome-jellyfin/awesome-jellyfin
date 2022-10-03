@@ -8,9 +8,11 @@ project you agree to abide by its terms.
 
 Ensure your pull request adheres to the following guidelines:
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+- Use the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) (`<type>[optional scope]: <description>`)
+- List items should be sorted alphabetically
+- Search previous suggestions before making a new one, as yours may be a duplicate
+- New categories, or improvements to the existing categorization are welcome
+- Keep descriptions short and simple, but descriptive and non-promotional
 
 Thank you for your suggestions!
 
