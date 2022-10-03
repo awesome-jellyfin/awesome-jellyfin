@@ -12,16 +12,16 @@
 ## Plugins
 
 - [`intro-skipper` Fingerprint audio to automatically detect and skip intro sequences in Jellyfin](https://github.com/ConfusedPolarBear/intro-skipper)
-- [`jellyfin-plugin-sso` Allows users to sign in through an SSO provider](https://github.com/9p4/jellyfin-plugin-sso)
 - [`jellyfin-plugin-ldapauth` Allows the use of ldap as an auth provider](https://github.com/jellyfin/jellyfin-plugin-ldapauth)
+- [`jellyfin-plugin-sso` Allows users to sign in through an SSO provider](https://github.com/9p4/jellyfin-plugin-sso)
 - [`jellyscrub` Smooth mouse-over video scrubbing previews for Jellyfin](https://github.com/nicknsy/jellyscrub)
 
 
 ## Themes
 
-- [`Ultrachromic` The final form, the true evolution of the chromic theme saga](https://github.com/CTalvio/Ultrachromic)
-- [`JellySkin` Vibrante/minimal Jellyfin CSS using custom Icons and more](https://github.com/prayag17/JellySkin)
 - [`JellyFlix` Jellyfin but Looks, Feels and Smells like Netflix](https://github.com/prayag17/JellyFlix)
+- [`JellySkin` Vibrante/minimal Jellyfin CSS using custom Icons and more](https://github.com/prayag17/JellySkin)
+- [`Ultrachromic` The final form, the true evolution of the chromic theme saga](https://github.com/CTalvio/Ultrachromic)
 
 ## Other
 
