@@ -7,7 +7,7 @@
 
 - [Plugins](#plugins)
 - [Themes](#themes)
-
+- [Other](#other)
 
 ## Plugins
 
