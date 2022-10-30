@@ -13,6 +13,7 @@
 
 - [`intro-skipper` Fingerprint audio to automatically detect and skip intro sequences in Jellyfin](https://github.com/ConfusedPolarBear/intro-skipper)
 - [`jellyfin-plugin-ldapauth` Allows the use of ldap as an auth provider](https://github.com/jellyfin/jellyfin-plugin-ldapauth)
+- [`jellyfin-plugin-skin-manager` Helps you to download and install skins](https://github.com/danieladov/jellyfin-plugin-skin-manager)
 - [`jellyfin-plugin-sso` Allows users to sign in through an SSO provider](https://github.com/9p4/jellyfin-plugin-sso)
 - [`jellyscrub` Smooth mouse-over video scrubbing previews for Jellyfin](https://github.com/nicknsy/jellyscrub)
 
