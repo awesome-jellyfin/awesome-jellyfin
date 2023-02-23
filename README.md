@@ -1,6 +1,6 @@
-# awesome-jellyfin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Jellyfin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A list of awesome Jellyfin Themes and Plugins
+> A List of Awesome Jellyfin Themes and Plugins
 
 
 ## Contents
@@ -8,6 +8,7 @@
 - [Plugins](#plugins)
 - [Themes](#themes)
 - [Other](#other)
+- [Contribute](#contribute)
 
 ## Plugins
 
