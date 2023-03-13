@@ -38,10 +38,12 @@
 
 ## 👾 Other
 
+- [`autoscan` - Replaces the default Plex and Emby behaviour for picking up changes on the file system.](https://github.com/Cloudbox/autoscan)
 - [`JellyBook` (App) - A nice way to read books and comics on Jellyfin](https://github.com/Kara-Zor-El/JellyBook)
 - [`jellyfin-mods` A collection of things you can do to personalize and improve your JF server](https://github.com/BobHasNoSoul/jellyfin-mods)
 - [`jellyseerr` Fork of Overseerr with Jellyfin support](https://github.com/Fallenbagel/jellyseerr)
 - [`jfa-go` User/Invite management system for Jellyfin](https://github.com/hrfee/jfa-go)
+- [`ytdl-sub` - Automate downloading and metadata generation with YoutubeDL](https://github.com/jmbannon/ytdl-sub)
 
 ## Contribute
 
