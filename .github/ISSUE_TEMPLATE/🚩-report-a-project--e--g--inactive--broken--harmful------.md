@@ -4,7 +4,7 @@ about: Did you find a project, which shouldn't be on the list anymore because it
   broken, harmful, ...? Are you a maintainer of one of the listed projects and want
   it removed?
 title: "[REMOVAL] "
-labels: ''
+labels: removal
 assignees: TomRomeo, darmiel
 
 ---
