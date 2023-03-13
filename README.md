@@ -7,11 +7,11 @@
 
 - [Plugins](#plugins)
 - [Themes](#themes)
+- [Metadata Providers](#metadata-providers)
 - [Other](#other)
 - [Contribute](#contribute)
 
 ## Plugins
-
 - [`intro-skipper` Fingerprint audio to automatically detect and skip intro sequences in Jellyfin](https://github.com/ConfusedPolarBear/intro-skipper)
 - [`jellyfin-plugin-ldapauth` Allows the use of ldap as an auth provider](https://github.com/jellyfin/jellyfin-plugin-ldapauth)
 - [`jellyfin-plugin-skin-manager` Helps you to download and install skins](https://github.com/danieladov/jellyfin-plugin-skin-manager)
@@ -24,6 +24,11 @@
 - [`JellyFlix` Jellyfin but Looks, Feels and Smells like Netflix](https://github.com/prayag17/JellyFlix)
 - [`JellySkin` Vibrante/minimal Jellyfin CSS using custom Icons and more](https://github.com/prayag17/JellySkin)
 - [`Ultrachromic` The final form, the true evolution of the chromic theme saga](https://github.com/CTalvio/Ultrachromic)
+
+
+## Metadata Providers
+
+- [`jellyfin-youtube-metadata-plugin` Youtube Metadata Plugin for Jellyfin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin)
 
 ## Other
 
