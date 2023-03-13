@@ -1,36 +1,42 @@
-# Awesome Jellyfin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71837281/224832049-05e56fd0-84cb-48a9-b81c-6d9273e013e3.svg" />
+  <h1 align="center">Awesome Jellyfin</h1>
+</p>
 
-> A List of Awesome Jellyfin Themes and Plugins
 
 
-## Contents
+<blockquote align="center"> A List of Awesome Jellyfin Themes and Plugins</blockquote>
 
-- [Plugins](#plugins)
-- [Themes](#themes)
-- [Metadata Providers](#metadata-providers)
-- [Other](#other)
-- [Contribute](#contribute)
+<p align="center">
+[
+  <a href="#-plugins">Plugins</a> •
+  <a href="%EF%B8%8F-themes">Themes</a> •
+  <a href="#%EF%B8%8F-metadata-providers">Metadata Providers</a> •
+  <a href="#-other">Other</a> • 
+  <a href="#contribute">Contribute</a>
+]
+</p>
 
-## Plugins
+## 🧩 Plugins
+
 - [`intro-skipper` Fingerprint audio to automatically detect and skip intro sequences in Jellyfin](https://github.com/ConfusedPolarBear/intro-skipper)
 - [`jellyfin-plugin-ldapauth` Allows the use of ldap as an auth provider](https://github.com/jellyfin/jellyfin-plugin-ldapauth)
 - [`jellyfin-plugin-skin-manager` Helps you to download and install skins](https://github.com/danieladov/jellyfin-plugin-skin-manager)
 - [`jellyfin-plugin-sso` Allows users to sign in through an SSO provider](https://github.com/9p4/jellyfin-plugin-sso)
 - [`jellyscrub` Smooth mouse-over video scrubbing previews for Jellyfin](https://github.com/nicknsy/jellyscrub)
 
+### 🏷️ Metadata Providers
 
-## Themes
+- [`jellyfin-youtube-metadata-plugin` Youtube Metadata Plugin for Jellyfin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin)
+
+## 🖌️ Themes
 
 - [`JellyFlix` Jellyfin but Looks, Feels and Smells like Netflix](https://github.com/prayag17/JellyFlix)
 - [`JellySkin` Vibrante/minimal Jellyfin CSS using custom Icons and more](https://github.com/prayag17/JellySkin)
 - [`Ultrachromic` The final form, the true evolution of the chromic theme saga](https://github.com/CTalvio/Ultrachromic)
 
 
-## Metadata Providers
-
-- [`jellyfin-youtube-metadata-plugin` Youtube Metadata Plugin for Jellyfin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin)
-
-## Other
+## 👾 Other
 
 - [`JellyBook` (App) - A nice way to read books and comics on Jellyfin](https://github.com/Kara-Zor-El/JellyBook)
 - [`jellyfin-mods` A collection of things you can do to personalize and improve your JF server](https://github.com/BobHasNoSoul/jellyfin-mods)
@@ -39,4 +45,5 @@
 
 ## Contribute
 
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.  
+You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
