@@ -1,0 +1,30 @@
+name: "\U0001F6A9 Report a project (e. g. Inactive, Broken, Harmful, ...)"
+description: >
+  Did you find a project, which shouldn't be on the list anymore? 
+  Are you a maintainer of one of the listed projects and want it removed?
+
+title: "[REMOVAL] <affected-project>"
+labels: removal
+assignees: TomRomeo, darmiel
+
+body:
+  - type: markdown
+    attributes:
+      value: "> Thank you so much for your help to make this list even better! 💖"
+      
+  - type: input
+    id: affected-project
+    attributes:
+      label: Affected Project
+      description: Which project should be removed?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reason-for-removal
+    attributes:
+      label: Reason for removal
+      description: Why should this project be removed?
+    validations:
+      required: true
+    

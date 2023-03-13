@@ -1,0 +1,30 @@
+name: "✨ Request new project"
+description: >
+  Do you have a tool that is not yet listed and want it to be listed in the repo?
+
+title: "[REQEUST] <project>"
+labels: request
+assignees: TomRomeo, darmiel
+
+body:
+  - type: markdown
+    attributes:
+      value: "> Thank you so much for your help to make this list even better! 💖"
+      
+  - type: input
+    id: project-website
+    attributes:
+      label: Project Website
+      description: Link to the project (e.g. GitHub)
+      placeholder: ex. https://github.com/awesome-jellyfin/awesome-jellyfin
+    validations:
+      required: true
+      
+  - type: textarea
+    id: project-description
+    attributes:
+      label: Project Description
+      description: Short description of the project
+    validations:
+      required: true
+    
