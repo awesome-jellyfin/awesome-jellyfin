@@ -33,17 +33,19 @@
 
 - [`JellyFlix` Jellyfin but Looks, Feels and Smells like Netflix](https://github.com/prayag17/JellyFlix)
 - [`JellySkin` Vibrante/minimal Jellyfin CSS using custom Icons and more](https://github.com/prayag17/JellySkin)
+- [`scyfin` Custom theme for Jellyfin WebUI (Backdrops supported)](https://github.com/loof2736/scyfin)
 - [`Ultrachromic` The final form, the true evolution of the chromic theme saga](https://github.com/CTalvio/Ultrachromic)
 
 
 ## 👾 Other
 
-- [`autoscan` - Replaces the default Plex and Emby behaviour for picking up changes on the file system](https://github.com/Cloudbox/autoscan)
-- [`JellyBook` (App) - A nice way to read books and comics on Jellyfin](https://github.com/Kara-Zor-El/JellyBook)
+- [`autoscan` Replaces the default Plex and Emby behaviour for picking up changes on the file system](https://github.com/Cloudbox/autoscan)
+- [`JellyBook` (App) A nice way to read books and comics on Jellyfin](https://github.com/Kara-Zor-El/JellyBook)
 - [`jellyfin-mods` A collection of things you can do to personalize and improve your JF server](https://github.com/BobHasNoSoul/jellyfin-mods)
 - [`jellyseerr` Fork of Overseerr with Jellyfin support](https://github.com/Fallenbagel/jellyseerr)
 - [`jfa-go` User/Invite management system for Jellyfin](https://github.com/hrfee/jfa-go)
-- [`ytdl-sub` - Automate downloading and metadata generation with YoutubeDL](https://github.com/jmbannon/ytdl-sub)
+- [`TitleCardMaker` Automated title card maker for Plex, Jellyfin, and Emby](https://github.com/CollinHeist/TitleCardMaker)
+- [`ytdl-sub` Automate downloading and metadata generation with YoutubeDL](https://github.com/jmbannon/ytdl-sub)
 
 > **Note**: The ` 🔸 ` suffix means Early Release/BETA software.
 > Probably not stable but looks already promising!
