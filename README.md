@@ -12,9 +12,11 @@
   <a href="%EF%B8%8F-themes">Themes</a> •
   <a href="#%EF%B8%8F-metadata-providers">Metadata Providers</a> •
   <a href="#-other">Other</a> • 
+  <a href="#-related-tools">Related</a> • 
   <a href="#contribute">Contribute</a>
 ]
 </p>
+
 
 ## 🧩 Plugins
 
@@ -25,9 +27,11 @@
 - [`jellyfin-plugin-sso 🔸` Allows users to sign in through an SSO provider](https://github.com/9p4/jellyfin-plugin-sso)
 - [`jellyscrub` Smooth mouse-over video scrubbing previews for Jellyfin](https://github.com/nicknsy/jellyscrub)
 
-### 🏷️ Metadata Providers
+
+#### 🏷️ Metadata Providers
 
 - [`jellyfin-youtube-metadata-plugin` Youtube Metadata Plugin for Jellyfin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin)
+
 
 ## 🖌️ Themes
 
@@ -47,10 +51,23 @@
 - [`TitleCardMaker` Automated title card maker for Plex, Jellyfin, and Emby](https://github.com/CollinHeist/TitleCardMaker)
 - [`ytdl-sub` Automate downloading and metadata generation with YoutubeDL](https://github.com/jmbannon/ytdl-sub)
 
-> **Note**: The ` 🔸 ` suffix means Early Release/BETA software.
-> Probably not stable but looks already promising!
+
+## 🌌 Related Tools
+
+This section includes software and tools that are not _specifically_ designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
+
+- [`locatarr` A list of tools used to automate the downloading and organization of media files](https://github.com/BrenekH/locatarr)
+  - [`radarr` Automates downloading & management of movies](https://github.com/Radarr/Radarr)
+  - [`sonarr` Automates downloading & management of TV series](https://github.com/Sonarr/Sonarr)
+  - [`tdarr 📛` Distributed transcode automation + Library analytics + Video health checking](https://github.com/HaveAGitGat/Tdarr)
+
 
 ## Contribute
 
 Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.  
 You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
+
+---
+
+* Early Release / BETA software ` 🔸 `
+* Closed-Source Software ` 📛 `
