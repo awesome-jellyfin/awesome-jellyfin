@@ -56,6 +56,7 @@
 
 This section includes software and tools that are not _specifically_ designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
 
+- [`ErsatzTV 🔸` Stream custom live channels using your own media](https://github.com/jasongdove/ErsatzTV)
 - [`locatarr` A list of tools used to automate the downloading and organization of media files](https://github.com/BrenekH/locatarr)
   - [`radarr` Automates downloading & management of movies](https://github.com/Radarr/Radarr)
   - [`sonarr` Automates downloading & management of TV series](https://github.com/Sonarr/Sonarr)
