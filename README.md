@@ -51,6 +51,7 @@
 - [`jfa-go` User/Invite management system for Jellyfin](https://github.com/hrfee/jfa-go)
 - [`TitleCardMaker` Automated title card maker for Plex, Jellyfin, and Emby](https://github.com/CollinHeist/TitleCardMaker)
 - [`ytdl-sub` Automate downloading and metadata generation with YoutubeDL](https://github.com/jmbannon/ytdl-sub)
+- [`wizarr` Advanced user invitation and management system](https://github.com/Wizarrrr/wizarr)
 
 #### 📜 Snippets
 
