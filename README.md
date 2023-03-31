@@ -9,9 +9,10 @@
 <p align="center">
 [
   <a href="#-plugins">Plugins</a> •
-  <a href="%EF%B8%8F-themes">Themes</a> •
   <a href="#%EF%B8%8F-metadata-providers">Metadata Providers</a> •
+  <a href="%EF%B8%8F-themes">Themes</a> •
   <a href="#-other">Other</a> • 
+  <a href="#-snippets">Snippets</a> •
   <a href="#-related-tools">Related</a> • 
   <a href="#contribute">Contribute</a>
 ]
@@ -50,6 +51,10 @@
 - [`jfa-go` User/Invite management system for Jellyfin](https://github.com/hrfee/jfa-go)
 - [`TitleCardMaker` Automated title card maker for Plex, Jellyfin, and Emby](https://github.com/CollinHeist/TitleCardMaker)
 - [`ytdl-sub` Automate downloading and metadata generation with YoutubeDL](https://github.com/jmbannon/ytdl-sub)
+
+#### 📜 Snippets
+
+- [`snippets/language-overlay` A script to add flags to movie posters](snippets/language-overlay)
 
 
 ## 🌌 Related Tools
