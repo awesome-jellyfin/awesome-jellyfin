@@ -21,52 +21,52 @@
 
 ## 🧩 Plugins
 
-- [`intro-skipper` Fingerprint audio to automatically detect and skip intro sequences in Jellyfin](https://github.com/ConfusedPolarBear/intro-skipper)
-- [`Jellyfin-Newsletter-Plugin 🔸` Creates newsletters with recently added media to send to provided email addresses](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin)
-- [`jellyfin-plugin-ldapauth` Allows the use of ldap as an auth provider](https://github.com/jellyfin/jellyfin-plugin-ldapauth)
-- [`jellyfin-plugin-skin-manager` Helps you to download and install skins](https://github.com/danieladov/jellyfin-plugin-skin-manager)
-- [`jellyfin-plugin-sso 🔸` Allows users to sign in through an SSO provider](https://github.com/9p4/jellyfin-plugin-sso)
-- [`jellyscrub` Smooth mouse-over video scrubbing previews for Jellyfin](https://github.com/nicknsy/jellyscrub)
+- [intro-skipper](https://github.com/ConfusedPolarBear/intro-skipper) Detect and skip intro sequences using audio fingerprinting
+- [Jellyfin-Newsletter-Plugin](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) ` 🔸 ` Newsletters for recently added media
+- [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) Allows the use of ldap as an auth provider
+- [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager) Helps you to download and install skins
+- [jellyfin-plugin-sso](https://github.com/9p4/jellyfin-plugin-sso) ` 🔸 ` Allows users to sign in through an SSO provider
+- [jellyscrub](https://github.com/nicknsy/jellyscrub) Smooth mouse-over video scrubbing previews
 
 
 #### 🏷️ Metadata Providers
 
-- [`jellyfin-youtube-metadata-plugin` Youtube Metadata Plugin for Jellyfin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin)
+- [jellyfin-youtube-metadata-plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) YouTube Metadata Plugin
 
 
 ## 🖌️ Themes
 
-- [`JellyFlix` Jellyfin but Looks, Feels and Smells like Netflix](https://github.com/prayag17/JellyFlix)
-- [`JellySkin` Vibrante/minimal Jellyfin CSS using custom Icons and more](https://github.com/prayag17/JellySkin)
-- [`scyfin` Custom theme for Jellyfin WebUI (Backdrops supported)](https://github.com/loof2736/scyfin)
-- [`Ultrachromic` The final form, the true evolution of the chromic theme saga](https://github.com/CTalvio/Ultrachromic)
+- [JellyFlix](https://github.com/prayag17/JellyFlix) Jellyfin but Looks, Feels and Smells like Netflix
+- [JellySkin](https://github.com/prayag17/JellySkin) Vibrante & Minimal theme using custom icons and more
+- [scyfin](https://github.com/loof2736/scyfin) Custom theme for Jellyfin WebUI (Backdrops supported)
+- [Ultrachromic](https://github.com/CTalvio/Ultrachromic) The final form, the true evolution of the chromic theme saga
 
 
 ## 👾 Other
 
-- [`autoscan` Replaces the default Plex and Emby behaviour for picking up changes on the file system](https://github.com/Cloudbox/autoscan)
-- [`JellyBook` (App) A nice way to read books and comics on Jellyfin](https://github.com/Kara-Zor-El/JellyBook)
-- [`jellyfin-mods` A collection of things you can do to personalize and improve your JF server](https://github.com/BobHasNoSoul/jellyfin-mods)
-- [`jellyseerr` Fork of Overseerr with Jellyfin support](https://github.com/Fallenbagel/jellyseerr)
-- [`jfa-go` User/Invite management system for Jellyfin](https://github.com/hrfee/jfa-go)
-- [`TitleCardMaker` Automated title card maker for Plex, Jellyfin, and Emby](https://github.com/CollinHeist/TitleCardMaker)
-- [`ytdl-sub` Automate downloading and metadata generation with YoutubeDL](https://github.com/jmbannon/ytdl-sub)
-- [`wizarr` Advanced user invitation and management system](https://github.com/Wizarrrr/wizarr)
+- [autoscan](https://github.com/Cloudbox/autoscan) Replaces the default Plex and Emby behaviour for picking up changes on the file system
+- [JellyBook](https://github.com/Kara-Zor-El/JellyBook) ` 📱 ` A nice way to read books and comics on Jellyfin
+- [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) A collection of things you can do to personalize Jellyfin
+- [jellyseerr](https://github.com/Fallenbagel/jellyseerr) A request management and media discovery tool
+- [jfa-go](https://github.com/hrfee/jfa-go) User- / Invite-Management system for Jellyfin
+- [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) Automated title card maker for Plex, Jellyfin, and Emby
+- [ytdl-sub](https://github.com/jmbannon/ytdl-sub) Automate downloading and metadata generation with YoutubeDL
+- [wizarr](https://github.com/Wizarrrr/wizarr) Advanced user invitation and management system
 
 #### 📜 Snippets
 
-- [`snippets/language-overlay` A script to add flags to movie posters](snippets/language-overlay)
+- [snippets/language-overlay](snippets/language-overlay) A script to add flags to movie posters
 
 
 ## 🌌 Related Tools
 
 This section includes software and tools that are not _specifically_ designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
 
-- [`ErsatzTV 🔸` Stream custom live channels using your own media](https://github.com/jasongdove/ErsatzTV)
-- [`locatarr` A list of tools used to automate the downloading and organization of media files](https://github.com/BrenekH/locatarr)
-  - [`radarr` Automates downloading & management of movies](https://github.com/Radarr/Radarr)
-  - [`sonarr` Automates downloading & management of TV series](https://github.com/Sonarr/Sonarr)
-  - [`tdarr 📛` Distributed transcode automation + Library analytics + Video health checking](https://github.com/HaveAGitGat/Tdarr)
+- [ErsatzTV](https://github.com/jasongdove/ErsatzTV) ` 🔸 ` Stream custom live channels using your own media
+- [locatarr](https://github.com/BrenekH/locatarr) A list of tools used to automate the downloading and organization of media files
+  - [radarr](https://github.com/Radarr/Radarr) Automates downloading & management of movies
+  - [sonarr](https://github.com/Sonarr/Sonarr) Automates downloading & management of TV series
+  - [tdarr](https://github.com/HaveAGitGat/Tdarr) ` 📛 ` Distributed transcode automation + Library analytics + Video health checking
 
 
 ## Contribute
@@ -78,3 +78,4 @@ You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-je
 
 * Early Release / BETA software ` 🔸 `
 * Closed-Source Software ` 📛 `
+* Mobile App ` 📱 `
