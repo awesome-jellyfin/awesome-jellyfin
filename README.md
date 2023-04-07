@@ -48,6 +48,7 @@
 - [autoscan](https://github.com/Cloudbox/autoscan) Replaces the default Plex and Emby behaviour for picking up changes on the file system
 - [JellyBook](https://github.com/Kara-Zor-El/JellyBook) ` 📱 ` A nice way to read books and comics on Jellyfin
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) A collection of things you can do to personalize Jellyfin
+- [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) A "Spotify Wrapped"-like app made for people who use Jellyfin for listening to music
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) A request management and media discovery tool
 - [Jellystat](https://github.com/CyferShepard/Jellystat) A free and open source Statistics App for Jellyfin
 - [jfa-go](https://github.com/hrfee/jfa-go) User- / Invite-Management system for Jellyfin
