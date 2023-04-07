@@ -69,6 +69,7 @@ This section includes software, guides and tools that are not _specifically_ des
   - [radarr](https://github.com/Radarr/Radarr) Automates downloading & management of movies [`🟣 TRaSH Guide`](https://trash-guides.info/Radarr/)
   - [sonarr](https://github.com/Sonarr/Sonarr) Automates downloading & management of TV series [`🟣 TRaSH Guide`](https://trash-guides.info/Sonarr/)
   - [tdarr](https://github.com/HaveAGitGat/Tdarr) ` 📛 ` Distributed transcode automation + Library analytics + Video health checking
+- [rffmpeg](https://github.com/joshuaboniface/rffmpeg) A remote FFmpeg wrapper, commonly used for transcoding media on more capable machines
 - [TRaSH Guides](https://trash-guides.info/) Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools
 - [watchstate](https://github.com/ArabCoders/watchstate) Sync play state between different media servers
 
