@@ -10,7 +10,7 @@
 [
   <a href="#-plugins">Plugins</a> •
   <a href="#%EF%B8%8F-metadata-providers">Metadata Providers</a> •
-  <a href="%EF%B8%8F-themes">Themes</a> •
+  <a href="#%EF%B8%8F-themes">Themes</a> •
   <a href="#-other">Other</a> • 
   <a href="#-snippets">Snippets</a> •
   <a href="#-related-tools">Related</a> • 
