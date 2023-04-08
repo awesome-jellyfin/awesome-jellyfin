@@ -22,6 +22,7 @@
 ## 🧩 Plugins
 
 - [intro-skipper](https://github.com/ConfusedPolarBear/intro-skipper) Detect and skip intro sequences using audio fingerprinting
+- [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) ` 🔸 ` Ignore filename patterns on library scans
 - [Jellyfin-Newsletter-Plugin](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) ` 🔸 ` Newsletters for recently added media
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) Allows the use of ldap as an auth provider
 - [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager) Helps you to download and install skins
