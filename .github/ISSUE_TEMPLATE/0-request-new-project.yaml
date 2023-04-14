@@ -28,3 +28,6 @@ body:
     validations:
       required: true
     
+  - type: markdown
+    attributes:
+      value: "> **Note**: If you suggest a theme, please include screenshots / links to screenshots if possible."
