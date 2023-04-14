@@ -21,6 +21,7 @@
 
 ## 🧩 Plugins
 
+- [AnilistSync](https://github.com/ARufenach/AnilistSync) Automatically tracks anime watching progress on Anilist
 - [intro-skipper](https://github.com/ConfusedPolarBear/intro-skipper) Detect and skip intro sequences using audio fingerprinting
 - [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) ` 🔸 ` Ignore filename patterns on library scans
 - [Jellyfin-Newsletter-Plugin](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) ` 🔸 ` Newsletters for recently added media
