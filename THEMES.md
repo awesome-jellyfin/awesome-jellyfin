@@ -4,7 +4,9 @@
 </p>
 
 
-<blockquote align="center"> A List of Awesome Jellyfin Themes</blockquote>
+
+The preview / screenshots were taken directly from the linked repositories.  
+If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
 ## [JellyFlix](https://github.com/prayag17/JellyFlix) by prayag17
 
