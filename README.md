@@ -50,7 +50,7 @@
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) A request management and media discovery tool
 - [Jellystat](https://github.com/CyferShepard/Jellystat) A free and open source Statistics App for Jellyfin
 - [jfa-go](https://github.com/hrfee/jfa-go) User- / Invite-Management system for Jellyfin
-- [reiverr](https://github.com/aleksilassila/reiverr) Combined interface for JF, TMDB, Radarr and Sonarr
+- [reiverr](https://github.com/aleksilassila/reiverr) ` 🔸 ` Combined interface for JF, TMDB, Radarr and Sonarr
 - [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) Automated title card maker for Plex, Jellyfin, and Emby
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) Automate downloading and metadata generation with YoutubeDL
 - [wizarr](https://github.com/Wizarrrr/wizarr) Advanced user invitation and management system
