@@ -2,7 +2,7 @@ name: "✨ Request new project"
 description: >
   Do you have a tool that is not yet listed and want it to be listed in the repo?
 
-title: "[REQEUST] <project>"
+title: "[REQUEST] <project>"
 labels: request
 assignees: TomRomeo, darmiel
 
