@@ -65,7 +65,7 @@
 
 ## 🌌 Related
 
-This section includes software, guides and tools that are not _specifically_ designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
+This section includes software, guides and tools that are not *specifically* designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
 
 - [ErsatzTV ` 🔸 `](https://github.com/jasongdove/ErsatzTV) - Stream custom live channels using your own media.
 - [locatarr](https://github.com/BrenekH/locatarr) - A list of tools used to automate the downloading and organization of media files.
