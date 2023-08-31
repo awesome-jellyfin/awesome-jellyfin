@@ -1,7 +1,7 @@
 <!--lint disable awesome-heading awesome-toc-->
 
 <p align="center">
-  <img src="/banner.png" />
+  <img src="/assets/banner.png" />
   <h1 align="center">Awesome Jellyfin</h1>
 </p>
 
