@@ -23,12 +23,12 @@
 
 ## 🧩 Plugins
 
-- [AnilistSync](https://github.com/ARufenach/AnilistSync) - Automatically tracks anime watching progress on [Anilist](https://anilist.co/).
+- [AnilistSync ` 📅 `](https://github.com/ARufenach/AnilistSync) - Automatically tracks anime watching progress on [Anilist](https://anilist.co/).
 - [intro-skipper](https://github.com/ConfusedPolarBear/intro-skipper) - Detect and skip intro sequences using audio fingerprinting.
 - [Jellyfin Ignore ` 🔸 `](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [Jellyfin-Newsletter-Plugin ` 🔸 `](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
-- [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
+- [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [jellyfin-plugin-sso ` 🔸 `](https://github.com/9p4/jellyfin-plugin-sso) - Allows users to sign in through an SSO provider.
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews.
 - [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin) - Adds theme songs to movies using [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB/).
@@ -90,3 +90,4 @@ You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-je
 * Early Release / BETA software ` 🔸 `
 * Closed-Source Software ` 📛 `
 * Mobile App ` 📱 `
+* Stale / Inactive / May not work anymore ` 📅 `
