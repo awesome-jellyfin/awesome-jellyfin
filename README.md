@@ -79,6 +79,7 @@ This section includes software, guides and tools that are not *specifically* des
 - [Threadfin](https://github.com/Threadfin/Threadfin) - M3U proxy for Jellyfin (Based on xTeVe).
 - [TRaSH Guides](https://trash-guides.info/) - Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools.
 - [watchstate](https://github.com/ArabCoders/watchstate) - Sync play state between different media servers.
+- [Manet ` 🔸 `](https://stormlight.space/@manet) - iOS app for streaming your music from Jellyfin, written in Swift.
 
 
 ## Contribute
