@@ -127,7 +127,7 @@ The final form, the true evolution of the chromic theme saga [` 🔵 Get this Th
 
 ## [BlueBerry](https://codeberg.org/Udon/BlueBerry) by Udon
 
-Custom theme for Jellyfin WebUI [` 🔵 Get this Theme `](https://codeberg.org/Udon/BlueBerry)
+Custom recolor for default Jellyfin Theme [` 🔵 Get this Theme `](https://codeberg.org/Udon/BlueBerry)
 
 <table>
   <tr>
