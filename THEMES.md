@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71837281/224832049-05e56fd0-84cb-48a9-b81c-6d9273e013e3.svg" />
+  <img src="assets/banner.png" />
   <h1 align="center"><a href="https://github.com/awesome-jellyfin/awesome-jellyfin">Awesome Jellyfin</a> > Themes</h1>
 </p>
 
