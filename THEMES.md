@@ -125,6 +125,31 @@ The final form, the true evolution of the chromic theme saga [` 🔵 Get this Th
 
 ---
 
+## [BlueBerry](https://codeberg.org/Udon/BlueBerry) by Udon
+
+Custom theme for Jellyfin WebUI [` 🔵 Get this Theme `](https://codeberg.org/Udon/BlueBerry)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-login.png" />
+    </td>
+    <td>
+      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-home.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-detail.png" />
+    </td>
+    <td>
+      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-admin.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
 <p align="center">
   <strong>
     👉 Back to <a href="https://github.com/awesome-jellyfin/awesome-jellyfin">awesome-jellyfin/awesome-jellyfin</a>
