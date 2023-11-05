@@ -76,6 +76,7 @@ This section includes software, guides and tools that are not *specifically* des
   - [tdarr ` 📛 `](https://github.com/HaveAGitGat/Tdarr) - Distributed transcode automation + Library analytics + Video health checking.
   - [recyclarr](https://github.com/recyclarr/recyclarr) - Automatically sync TRaSH guides to Sonarr and Radarr instances.
 - [MediaTracker](https://github.com/bonukai/MediaTracker) - Media tracker and user rating platform with [Jellyfin integration](https://github.com/bonukai/jellyfin-plugin-mediatracker).
+- [Movary ` 🔸 `](https://github.com/leepeuker/movary) - Media tracker and user rating platform.
 - [rffmpeg](https://github.com/joshuaboniface/rffmpeg) - A remote FFmpeg wrapper, commonly used for transcoding media on more capable machines.
 - [Threadfin](https://github.com/Threadfin/Threadfin) - M3U proxy for Jellyfin (Based on xTeVe).
 - [TRaSH Guides](https://trash-guides.info/) - Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools.
