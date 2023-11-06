@@ -45,6 +45,7 @@
 👉 Moved themes to [THEMES.md](THEMES.md)
 
 ## 👾 Other
+
 - [autoscan](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
 - [Fixarr ` 🔸 `](https://github.com/sachinsenal0x64/FIXARR) - Media Renamer and Backup tool. (Backup still WIP)
 - [JellyBook ` 📱 `](https://github.com/Kara-Zor-El/JellyBook) - A nice way to read books and comics on Jellyfin.
@@ -54,7 +55,7 @@
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - A free and open source Statistics App for Jellyfin.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
 - [reiverr ` 🔸 `](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr.
-- [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin, Plex, Emby, Tautulli, or Bazarr
+- [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
 - [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) - Automated title card maker for Plex, Jellyfin, and Emby.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
