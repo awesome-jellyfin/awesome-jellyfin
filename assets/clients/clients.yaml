@@ -272,7 +272,7 @@ icons:
   amazon-appstore:
     single: "assets/clients/icons/amazon.png"
   testflight:
-    single: "assets/clients/icons/testflight.png
+    single: "assets/clients/icons/testflight.png"
 
 targets:
   - key: Browser
