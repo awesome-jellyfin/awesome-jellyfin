@@ -49,7 +49,7 @@ clients:
   - name: "Jellyfin for Android"
     targets: [ Android ]
     oss: https://github.com/jellyfin/jellyfin-android
-    official: false
+    official: true
     downloads:
       - icon: f-droid
         url: https://f-droid.org/en/packages/org.jellyfin.mobile/
