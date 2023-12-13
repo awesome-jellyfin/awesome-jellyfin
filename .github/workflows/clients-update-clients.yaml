@@ -22,7 +22,7 @@ jobs:
 
     - name: Generate CLIENTS.md
       run: |
-        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@cb53ae2fa0a08f082525d9dd06bddbece01dca31
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@da30b0c7f289b11292644570842ff9dcb2f374b6
         generate -input assets/clients/clients.yaml -out-file assets/clients/generated-clients.md
 
         echo "" > CLIENTS.md
