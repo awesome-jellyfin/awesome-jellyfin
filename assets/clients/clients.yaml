@@ -1,0 +1,208 @@
+clients:
+  - name: "Jellyfin Media Player"
+    targets: [ Windows, Linux, macOS ]
+    oss: https://github.com/jellyfin/jellyfin-media-player
+    downloads:
+      - icon: github
+        url: https://github.com/jellyfin/jellyfin-media-player/releases
+
+      - icon: flathub
+        url: https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player
+
+  - name: "Swiftfin"
+    targets: [ iOS, AppleTV ]
+    oss: https://github.com/jellyfin/swiftfin
+    official: false
+    beta: true
+    downloads:
+      - icon: apple-appstore
+        url: https://apps.apple.com/ca/app/swiftfin/id1604098728
+
+  - name: "Jellyfin Vue"
+    targets: [ Browser ]
+    oss: https://github.com/jellyfin/jellyfin-vue
+    official: false
+    beta: true
+    downloads:
+      - text: "Browser"
+        url: https://jf-vue.pages.dev/
+
+      - icon: docker-hub
+        url: https://github.com/jellyfin/jellyfin-vue/pkgs/container/jellyfin-vue
+
+  - name: "JellyCon"
+    targets: [ Kodi ]
+    oss: https://github.com/jellyfin/jellycon
+    downloads:
+      - text: "Installation Guide"
+        url: https://github.com/jellyfin/jellycon#installation
+
+  - name: "Jellyfin for Kodi"
+    targets: [ Kodi ]
+    oss: https://github.com/jellyfin/jellyfin-kodi
+    downloads:
+      - text: "Installation Guide"
+        url: https://jellyfin.org/docs/general/clients/kodi
+
+  - name: "Jellyfin for Android"
+    targets: [ Android ]
+    oss: https://github.com/jellyfin/jellyfin-android
+    downloads:
+      - icon: f-droid
+        url: https://f-droid.org/en/packages/org.jellyfin.mobile/
+
+      - icon: amazon-appstore
+        url: https://www.amazon.com/gp/aw/d/B081RFTTQ9
+
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=org.jellyfin.mobile
+
+  - name: "Jellyfin Mobile for iOS"
+    targets: [ iOS ]
+    oss: https://github.com/jellyfin/jellyfin-expo
+    downloads:
+      - icon: apple-appstore
+        url: https://apps.apple.com/us/app/jellyfin-mobile/id1480192618?mt=8
+
+  - name: "Jellyfin for Android TV"
+    targets: [ AndroidTV ]
+    oss: https://github.com/jellyfin/jellyfin-androidtv
+    downloads:
+      - icon: amazon-appstore
+        url: https://www.amazon.com/gp/aw/d/B07TX7Z725
+
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=org.jellyfin.androidtv
+
+  - name: "Jellyfin for Roku"
+    targets: [ Roku ]
+    oss: https://github.com/jellyfin/jellyfin-roku
+    downloads:
+      - text: Channel Store
+        url: https://channelstore.roku.com/details/592369/jellyfin
+
+  - name: "Jellyfin for WebOS"
+    targets: [ WebOS ]
+    oss: https://github.com/jellyfin/jellyfin-webos
+    downloads:
+      - text: Content Store
+        url: https://us.lgappstv.com/main/tvapp/detail?appId=1030579
+
+  - name: "Findroid"
+    targets: [ Android ]
+    oss: https://github.com/jarnedemeulemeester/findroid
+    downloads:
+      - text: IzzyOnDroid
+        url: https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin
+
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin
+
+  - name: "Sailfin"
+    targets: [ SailfishOS ]
+    oss: https://github.com/heartfin/harbour-sailfin
+    downloads:
+      - text: OpenRepos
+        url: https://openrepos.net/content/ahappyhuman/sailfin
+
+  - name: 'Infuse'
+    targets: [ iOS, AppleTV, macOS ]
+    website: https://firecore.com/infuse
+    price:
+      free: true
+      paid: true
+    downloads:
+      - icon: apple-appstore
+        url: https://apps.apple.com/app/id1136220934?mt=8
+
+  - name: "sonixd"
+    targets: [ Browser ]
+    types: [ Music ]
+    oss: https://github.com/jeffvli/sonixd
+    downloads:
+      - icon: github
+        url: https://github.com/jeffvli/sonixd/releases
+
+  - name: "Finamp"
+    targets: [ Android ]
+    types: [ Music ]
+    oss: https://github.com/jmshrv/finamp
+    downloads:
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp
+
+  - name: "MrMC"
+    targets: [ AppleTV ]
+    oss: https://github.com/MrMC/mrmc
+    price:
+      free: true
+      paid: true
+    downloads:
+      - icon: amazon-appstore
+        url: https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc
+
+      - icon: apple-appstore
+        url: https://apps.apple.com/us/app/mrmc/id1059536415
+
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=tv.mrmc.mrmc
+
+icons:
+  github:
+    light: "assets/clients/icons/github-mark-white.png"
+    dark: "assets/clients/icons/github-mark.png"
+  flathub:
+    light: "assets/clients/icons/flathub.png"
+    dark: "assets/clients/icons/flathub.png"
+  apple-appstore:
+    light: "assets/clients/icons/appstore-light.png"
+    dark: "assets/clients/icons/appstore-dark.png"
+  google-playstore:
+    single: "assets/clients/icons/google-play-badge.png"
+  docker-hub:
+    text: "🐳"
+  f-droid:
+    single: "assets/clients/icons/f-droid.png"
+  amazon-appstore:
+    single: "assets/clients/icons/amazon.png"
+
+targets:
+  - key: Browser
+    display: "🌎 Browser-Based"
+    has:
+      - name: Browser
+        mapped: Browser
+
+  - key: Desktop
+    display: "💻 Desktop"
+    has:
+      - name: Windows
+        mapped: Windows
+      - name: macOS
+        mapped: "macOS"
+      - name: Linux
+        mapped: "Linux"
+      - name: SailfishOS
+        mapped: "Sailfish OS"
+
+  - key: Mobile
+    display: "📱 Mobile"
+    has:
+      - name: iOS
+        mapped: "iOS"
+      - name: Android
+        mapped: "Android"
+
+  - key: TV
+    display: "📺 TV"
+    has:
+      - name: AppleTV
+        mapped: "Apple TV"
+      - name: AndroidTV
+        mapped: "Android TV"
+      - name: Kodi
+        mapped: "Kodi"
+      - name: Roku
+        mapped: "Roku"
+      - name: WebOS
+        mapped: "webOS"

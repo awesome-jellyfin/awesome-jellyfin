@@ -1,0 +1,43 @@
+name: '[Clients] Update CLIENTS.md'
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'assets/clients/clients.yaml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: '1.21'
+
+    - name: Generate CLIENTS.md
+      run: |
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@da30b0c7f289b11292644570842ff9dcb2f374b6
+        generate -input assets/clients/clients.yaml -out-file assets/clients/generated-clients.md
+
+        echo "" > CLIENTS.md
+        while read p; do
+          if [[ $p == "{{ CLIENTS }}" ]]; then
+            cat assets/clients/generated-clients.md >> CLIENTS.md
+          else
+            echo "$p" >> CLIENTS.md
+          fi
+        done < assets/clients/CLIENTS.template.md
+
+    - name: Commit and push if there are changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add CLIENTS.md
+        git commit -m "Update CLIENTS.md" --allow-empty || exit 0
+        git push

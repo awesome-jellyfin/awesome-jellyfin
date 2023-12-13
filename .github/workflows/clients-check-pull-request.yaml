@@ -1,0 +1,23 @@
+name: '[Clients] Check clients.yaml'
+
+on:
+  pull_request:
+    paths:
+      - 'assets/clients/clients.yaml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: '1.21'
+
+    - name: Test if we can generate clients
+      run: |
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@da30b0c7f289b11292644570842ff9dcb2f374b6
+        generate -input assets/clients/clients.yaml
