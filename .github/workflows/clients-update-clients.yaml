@@ -6,6 +6,7 @@ on:
       - 'main'
     paths:
       - 'assets/clients/clients.yaml'
+      - 'assets/clients/CLIENTS.template.md'
   workflow_dispatch:
 
 jobs:
@@ -25,7 +26,7 @@ jobs:
 
     - name: Generate CLIENTS.md
       run: |
-        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@da30b0c7f289b11292644570842ff9dcb2f374b6
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@b6f86c42190bce8717d9524a4b73ba86e9a49d1c
         generate -input assets/clients/clients.yaml -out-file assets/clients/generated-clients.md
 
         echo "" > CLIENTS.md

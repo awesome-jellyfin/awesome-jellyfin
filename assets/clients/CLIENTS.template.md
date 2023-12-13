@@ -17,3 +17,9 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 > Any updates to the `.yaml` file will result in this Markdown file being re-generated to reflect those changes.
 
 {{ CLIENTS }}
+
+---
+
+* Music Client ` 🎵 `
+* Early Release / BETA software ` 🛠️ `
+* Official ` 🔹 `
