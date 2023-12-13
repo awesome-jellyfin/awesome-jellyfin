@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
     paths:
-      - 'clients.yaml'
+      - 'assets/clients/clients.yaml'
   workflow_dispatch:
 
 jobs:

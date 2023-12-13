@@ -3,7 +3,7 @@ name: '[Clients] Check clients.yaml'
 on:
   pull_request:
     paths:
-      - 'clients.yaml'
+      - 'assets/clients/clients.yaml'
 
 jobs:
   build:
