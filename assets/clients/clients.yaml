@@ -2,6 +2,7 @@ clients:
   - name: "Jellyfin Media Player"
     targets: [ Windows, Linux, macOS ]
     oss: https://github.com/jellyfin/jellyfin-media-player
+    official: true
     downloads:
       - icon: github
         url: https://github.com/jellyfin/jellyfin-media-player/releases
@@ -12,7 +13,7 @@ clients:
   - name: "Swiftfin"
     targets: [ iOS, AppleTV ]
     oss: https://github.com/jellyfin/swiftfin
-    official: false
+    official: true
     beta: true
     downloads:
       - icon: apple-appstore
@@ -33,6 +34,7 @@ clients:
   - name: "JellyCon"
     targets: [ Kodi ]
     oss: https://github.com/jellyfin/jellycon
+    official: true
     downloads:
       - text: "Installation Guide"
         url: https://github.com/jellyfin/jellycon#installation
@@ -47,6 +49,7 @@ clients:
   - name: "Jellyfin for Android"
     targets: [ Android ]
     oss: https://github.com/jellyfin/jellyfin-android
+    official: true
     downloads:
       - icon: f-droid
         url: https://f-droid.org/en/packages/org.jellyfin.mobile/
@@ -60,6 +63,7 @@ clients:
   - name: "Jellyfin Mobile for iOS"
     targets: [ iOS ]
     oss: https://github.com/jellyfin/jellyfin-expo
+    official: true
     downloads:
       - icon: apple-appstore
         url: https://apps.apple.com/us/app/jellyfin-mobile/id1480192618?mt=8
@@ -67,6 +71,7 @@ clients:
   - name: "Jellyfin for Android TV"
     targets: [ AndroidTV ]
     oss: https://github.com/jellyfin/jellyfin-androidtv
+    official: true
     downloads:
       - icon: amazon-appstore
         url: https://www.amazon.com/gp/aw/d/B07TX7Z725
@@ -77,6 +82,7 @@ clients:
   - name: "Jellyfin for Roku"
     targets: [ Roku ]
     oss: https://github.com/jellyfin/jellyfin-roku
+    official: true
     downloads:
       - text: Channel Store
         url: https://channelstore.roku.com/details/592369/jellyfin
@@ -84,6 +90,7 @@ clients:
   - name: "Jellyfin for WebOS"
     targets: [ WebOS ]
     oss: https://github.com/jellyfin/jellyfin-webos
+    official: true
     downloads:
       - text: Content Store
         url: https://us.lgappstv.com/main/tvapp/detail?appId=1030579
@@ -91,6 +98,8 @@ clients:
   - name: "Findroid"
     targets: [ Android ]
     oss: https://github.com/jarnedemeulemeester/findroid
+    official: false
+    beta: true
     downloads:
       - text: IzzyOnDroid
         url: https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin
@@ -119,6 +128,8 @@ clients:
     targets: [ Browser ]
     types: [ Music ]
     oss: https://github.com/jeffvli/sonixd
+    official: false
+    beta: true
     downloads:
       - icon: github
         url: https://github.com/jeffvli/sonixd/releases
@@ -127,6 +138,8 @@ clients:
     targets: [ Android, iOS ]
     types: [ Music ]
     oss: https://github.com/jmshrv/finamp
+    official: false
+    beta: true
     downloads:
       - icon: google-playstore
         url: https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp
@@ -149,6 +162,97 @@ clients:
       - icon: google-playstore
         url: https://play.google.com/store/apps/details?id=tv.mrmc.mrmc
 
+  - name: "Delfin"
+    targets: [ Linux ]
+    oss: https://codeberg.org/avery42/delfin
+    official: false
+    beta: true
+    downloads:
+      - icon: flathub
+        url: https://flathub.org/apps/cafe.avery.Delfin
+
+  - name: "Supersonic"
+    targets: [ Windows, Linux, macOS ]
+    types: [ Music ]
+    oss: https://github.com/dweymouth/supersonic
+    official: false
+    beta: true
+    downloads:
+      - icon: github
+        url: https://github.com/dweymouth/supersonic
+      - icon: flathub
+        url: https://flathub.org/apps/io.github.dweymouth.supersonic
+
+  - name: "Tauon Music Box"
+    targets: [ Windows, Linux ]
+    types: [ Music ]
+    oss: https://github.com/Taiko2k/TauonMusicBox
+    official: false
+    downloads:
+      - icon: github
+        url: https://github.com/Taiko2k/TauonMusicBox
+      - icon: flathub
+        url: https://flathub.org/apps/com.github.taiko2k.tauonmb
+
+  - name: "Jellyfin MPV Shim"
+    targets: [ Windows, Linux, macOS ]
+    oss: https://github.com/jellyfin/jellyfin-mpv-shim
+    official: true
+    downloads:
+      - icon: github
+        url: https://github.com/jellyfin/jellyfin-mpv-shim
+      - icon: flathub
+        url: https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim
+
+  - name: "Jellyamp"
+    targets: [ Windows, Linux ]
+    types: [ Music ]
+    oss: https://github.com/m0ngr31/jellyamp
+    official: false
+    downloads:
+      - icon: github
+        url: https://github.com/m0ngr31/jellyamp
+
+  - name: "Preserve"
+    targets: [ Browser, Windows, Linux ]
+    types: [ Music ]
+    oss: https://gitlab.com/preserve/preserve
+    official: false
+    beta: true
+    downloads:
+      - icon: github
+        url: https://gitlab.com/preserve/preserve
+
+  - name: "Sonixd"
+    targets: [ Windows, Linux, macOS ]
+    types: [ Music ]
+    oss: https://github.com/jeffvli/sonixd
+    official: false
+    beta: true
+    downloads:
+      - icon: github
+        url: https://github.com/jeffvli/sonixd
+
+  - name: "Feishin"
+    targets: [ Browser, Windows, Linux, macOS ]
+    types: [ Music ]
+    oss: https://github.com/jeffvli/feishin
+    official: false
+    beta: true
+    downloads:
+      - icon: github
+        url: https://github.com/jeffvli/feishin
+
+  - name: "Manet"
+    targets: [ iOS ]
+    types: [ Music ]
+    website: https://tilo.dev/manet/
+    official: false
+    beta: true
+    downloads:
+      - icon: testflight
+        url: https://tilo.dev/manet/
+
 icons:
   github:
     light: "assets/clients/icons/github-mark-white.png"
@@ -167,6 +271,8 @@ icons:
     single: "assets/clients/icons/f-droid.png"
   amazon-appstore:
     single: "assets/clients/icons/amazon.png"
+  testflight:
+    single: "assets/clients/icons/testflight.png"
 
 targets:
   - key: Browser
