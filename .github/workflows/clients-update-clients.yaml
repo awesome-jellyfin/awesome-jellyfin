@@ -20,7 +20,7 @@ jobs:
       with:
         go-version: '1.21'
 
-    - name: Run generate.sh to update CLIENTS.md
+    - name: Generate CLIENTS.md
       run: |
         go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@cb53ae2fa0a08f082525d9dd06bddbece01dca31
         generate -input assets/clients/clients.yaml -out-file assets/clients/generated-clients.md

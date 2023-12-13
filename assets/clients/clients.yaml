@@ -147,8 +147,6 @@ clients:
       - icon: google-playstore
         url: https://play.google.com/store/apps/details?id=tv.mrmc.mrmc
 
-# ---
-
 icons:
   github:
     light: "assets/clients/icons/github-mark-white.png"
@@ -168,10 +166,9 @@ icons:
   amazon-appstore:
     single: "assets/clients/icons/amazon.png"
 
-
 targets:
   - key: Browser
-    display: "🌎 Browser-Based" # TODO: only 1-level heading
+    display: "🌎 Browser-Based"
     has:
       - name: Browser
         mapped: Browser
