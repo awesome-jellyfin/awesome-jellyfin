@@ -255,8 +255,8 @@ clients:
 
 icons:
   github:
-    light: "assets/clients/icons/github-mark-white.png"
-    dark: "assets/clients/icons/github-mark.png"
+    light: "assets/clients/icons/github-mark.png"
+    dark: "assets/clients/icons/github-mark-white.png"
   flathub:
     light: "assets/clients/icons/flathub.png"
     dark: "assets/clients/icons/flathub.png"
