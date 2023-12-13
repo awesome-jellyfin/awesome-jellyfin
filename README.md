@@ -44,6 +44,10 @@
 
 👉 Moved themes to [THEMES.md](THEMES.md)
 
+## 📺 Clients
+
+👉 Moved clients to [CLIENTS.md](CLIENTS.md)
+
 ## 👾 Other
 
 - [autoscan](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
