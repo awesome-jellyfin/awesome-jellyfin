@@ -124,12 +124,14 @@ clients:
         url: https://github.com/jeffvli/sonixd/releases
 
   - name: "Finamp"
-    targets: [ Android ]
+    targets: [ Android, iOS ]
     types: [ Music ]
     oss: https://github.com/jmshrv/finamp
     downloads:
       - icon: google-playstore
         url: https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp
+      - icon: apple-appstore
+        url: https://apps.apple.com/us/app/finamp/id1574922594
 
   - name: "MrMC"
     targets: [ AppleTV ]
@@ -182,8 +184,6 @@ targets:
         mapped: "macOS"
       - name: Linux
         mapped: "Linux"
-      - name: SailfishOS
-        mapped: "Sailfish OS"
 
   - key: Mobile
     display: "📱 Mobile"
@@ -192,6 +192,8 @@ targets:
         mapped: "iOS"
       - name: Android
         mapped: "Android"
+      - name: SailfishOS
+        mapped: "Sailfish OS"
 
   - key: TV
     display: "📺 TV"
