@@ -220,6 +220,8 @@ clients:
     official: false
     beta: true
     downloads:
+      - icon: demo
+        url: https://preserveplayer.com/
       - icon: github
         url: https://gitlab.com/preserve/preserve
 
