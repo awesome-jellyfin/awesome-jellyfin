@@ -255,6 +255,57 @@ clients:
       - icon: testflight
         url: https://tilo.dev/manet/
 
+  - name: "Fintunes"
+    targets: [ Android, iOS ]
+    types: [ Music ]
+    website: https://github.com/leinelissen/jellyfin-audio-player
+    official: false
+    beta: false
+    downloads:
+      - icon: github
+        url: https://github.com/leinelissen/jellyfin-audio-player
+      - icon: f-droid
+        url: https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer
+      - icon: apple-appstore
+        url: https://apple.co/3MFYIJH
+
+
+  - name: "Jellyplayer"
+    targets: [ Windows, Linux, macOS ]
+    website: https://github.com/prayag17/JellyPlayer
+    official: false
+    beta: true
+    downloads:
+      - icon: github
+        url: https://github.com/prayag17/JellyPlayer
+
+  - name: "Gelli"
+    targets: [ Android ]
+    website: https://github.com/dkanada/gelli
+    official: false
+    beta: false
+    downloads:
+      - icon: github
+        url: https://github.com/dkanada/gelli
+      - icon: f-droid
+        url: https://f-droid.org/packages/com.dkanada.gramophone
+
+  - name: "Jellybook"
+    targets: [ Android, iOS ]
+    types: [ Reader ]
+    website: https://github.com/prayag17/JellyPlayer
+    official: false
+    beta: false
+    downloads:
+      - icon: github
+        url: https://github.com/prayag17/JellyPlayer
+      - icon: izzisoft
+        url: https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/
+      - icon: testflight
+        url: https://testflight.apple.com/join/lEXKY4Dl
+
 icons:
   github:
     single: "assets/clients/icons/github.png"
