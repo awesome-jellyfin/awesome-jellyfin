@@ -58,6 +58,7 @@
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - A free and open source Statistics App for Jellyfin.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
+- [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts Youtube Music playlists to Jellyfin playlists.
 - [reiverr ` 🔸 `](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr.
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
 - [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) - Automated title card maker for Plex, Jellyfin, and Emby.
@@ -85,6 +86,7 @@ This section includes software, guides and tools that are not *specifically* des
   - [recyclarr](https://github.com/recyclarr/recyclarr) - Automatically sync TRaSH guides to Sonarr and Radarr instances.
 - [MediaTracker](https://github.com/bonukai/MediaTracker) - Media tracker and user rating platform with [Jellyfin integration](https://github.com/bonukai/jellyfin-plugin-mediatracker).
 - [Movary ` 🔸 `](https://github.com/leepeuker/movary) - Media tracker and user rating platform.
+- [Multi Scrobbler ` 🔸 `](https://github.com/foxxmd/multi-scrobbler) - Scrobbles music from many sources to many clients.
 - [rffmpeg](https://github.com/joshuaboniface/rffmpeg) - A remote FFmpeg wrapper, commonly used for transcoding media on more capable machines.
 - [Threadfin](https://github.com/Threadfin/Threadfin) - M3U proxy for Jellyfin (Based on xTeVe).
 - [TRaSH Guides](https://trash-guides.info/) - Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools.
