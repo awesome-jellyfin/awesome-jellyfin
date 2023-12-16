@@ -16,11 +16,14 @@ Each client in the `clients` list has fields detailing its specifics.
 | **`name`**         | String           | Yes      | Name of the client.                                                                   |
 | **`targets`**      | List[String]     | Yes      | Platforms supported (e.g., iOS, Android, Windows).                                    |
 | `oss`              | String           | No       | URL to the open-source repository, if available.                                      |
-| `official`         | Boolean          | No       | Marks the client as an official Jellyfin client (defaults inferred).                   |
+| `official`         | Boolean          | No       | Marks the client as an official Jellyfin client (defaults inferred).                  |
 | `beta`             | Boolean          | No       | Marks the client as being in beta.                                                    |
 | `website`          | String           | No       | Official website URL for the client.                                                  |
 | `price`            | Price Object \*  | No       | Specifies if the client is free, paid, or both. Default is free if `oss` is provided. |
 | **`downloads`**    | List[Hoster]     | Yes      | List of hosters where the client can be downloaded.                                   |
+| `types`            | List[String]     | No       | A list of strings representing additional client categories or features.              |
+
+The `types` field within a client's definition is an optional list of strings that provides additional classification for the client based on its functionality or use case. This can be particularly useful for denoting special features or categories that the client falls under, such as 'Music' for music-specific clients or other identifiers for unique client types.
 
 #### \*) Price Definition
 | Field  | Type    | Required | Description                                      |
@@ -123,6 +126,7 @@ Reference these new identifiers when creating a client entry:
   official: false
   beta: false
   website: https://newclient.example.com/
+  types: [ Music ]
   price:
     free: true
     paid: false
