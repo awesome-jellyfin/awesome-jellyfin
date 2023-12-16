@@ -312,7 +312,7 @@ icons:
   flathub:
     single: "assets/clients/icons/flathub.png"
   apple-appstore:
-    single: "assets/clients/icons/appstore.png
+    single: "assets/clients/icons/appstore.png"
   google-playstore:
     single: "assets/clients/icons/googleplay.png"
   docker-hub:
@@ -328,7 +328,7 @@ icons:
   testflight:
     single: "assets/clients/icons/testflight.png"
   demo:
-    single: "assets/clients/icons/demo.png
+    single: "assets/clients/icons/demo.png"
 
 targets:
   - key: Browser
