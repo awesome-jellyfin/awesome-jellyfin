@@ -12,19 +12,15 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 <h1 align="center"><a href="https://github.com/awesome-jellyfin/awesome-jellyfin">Awesome Jellyfin</a> > Clients</h1>
 </p>
 
-> [!NOTE]
-> Please note that this Markdown file is automatically generated from the [`clients.yaml`](./assets/clients/clients.yaml) file.
-> **Contributions should only be made by updating the `clients.yaml` file.**
-> Any updates to the `.yaml` file will result in this Markdown file being re-generated to reflect those changes.
-
+# By Environment
 ## 🌎 Browser-Based
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin Vue ` 🛠️ `](https://github.com/jellyfin/jellyfin-vue) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jf-vue.pages.dev/) [![img](assets/clients/icons/docker.png)](https://github.com/jellyfin/jellyfin-vue/pkgs/container/jellyfin-vue) |
-| [sonixd ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd/releases) |
-| [Preserve ` 🛠️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
-| [Feishin ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
+| [Jellyfin Vue ` ⚒️ `](https://github.com/jellyfin/jellyfin-vue) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jf-vue.pages.dev/) [![img](assets/clients/icons/docker.png)](https://github.com/jellyfin/jellyfin-vue/pkgs/container/jellyfin-vue) |
+| [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd/releases) |
+| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
 
 ## 💻 Desktop
 
@@ -33,14 +29,14 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-media-player/releases) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player) |
-| [Supersonic ` 🛠️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
+| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
 | [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/Taiko2k/TauonMusicBox) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
 | [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
 | [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/m0ngr31/jellyamp) |
-| [Preserve ` 🛠️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
-| [Sonixd ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
-| [Feishin ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Jellyplayer ` 🛠️ `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
+| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
+| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
+| [Jellyplayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
 
 ### macOS
 
@@ -48,26 +44,26 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | ---- | --- | ---- | ---- | --------- |
 | [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-media-player/releases) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player) |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
-| [Supersonic ` 🛠️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
+| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
 | [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
-| [Sonixd ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
-| [Feishin ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Jellyplayer ` 🛠️ `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
+| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
+| [Jellyplayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
 
 ### Linux
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-media-player/releases) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player) |
-| [Delfin ` 🛠️ `](https://codeberg.org/avery42/delfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/cafe.avery.Delfin) |
-| [Supersonic ` 🛠️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
+| [Delfin ` ⚒️ `](https://codeberg.org/avery42/delfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/cafe.avery.Delfin) |
+| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
 | [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/Taiko2k/TauonMusicBox) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
 | [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
 | [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/m0ngr31/jellyamp) |
-| [Preserve ` 🛠️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
-| [Sonixd ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
-| [Feishin ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Jellyplayer ` 🛠️ `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
+| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
+| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
+| [Jellyplayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
 
 ## 📱 Mobile
 
@@ -75,24 +71,24 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Swiftfin ` 🔹 ` ` 🛠️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/ca/app/swiftfin/id1604098728) |
+| [Swiftfin ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/ca/app/swiftfin/id1604098728) |
 | [Jellyfin Mobile for iOS ` 🔹 `](https://github.com/jellyfin/jellyfin-expo) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/jellyfin-mobile/id1480192618?mt=8) |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
-| [Finamp ` 🛠️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
-| [Manet ` 🛠️ ` ` 🎵 `](https://tilo.dev/manet/) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/testflight.png)](https://tilo.dev/manet/) |
+| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
+| [Manet ` ⚒️ ` ` 🎵 `](https://tilo.dev/manet/) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/testflight.png)](https://tilo.dev/manet/) |
 | [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
-| [Jellybook](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
+| [Jellybook ` 📖 `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
 
 ### Android
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [Jellyfin for Android ` 🔹 `](https://github.com/jellyfin/jellyfin-android) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/org.jellyfin.mobile/) [![img](assets/clients/icons/amazon.png)](https://www.amazon.com/gp/aw/d/B081RFTTQ9) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=org.jellyfin.mobile) |
-| [Findroid ` 🛠️ `](https://github.com/jarnedemeulemeester/findroid) | ✅ | ✅ | ❎ | [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin) |
-| [Finamp ` 🛠️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
+| [Findroid ` ⚒️ `](https://github.com/jarnedemeulemeester/findroid) | ✅ | ✅ | ❎ | [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin) |
+| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
 | [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
 | [Gelli](https://github.com/dkanada/gelli) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dkanada/gelli) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/packages/com.dkanada.gramophone) |
-| [Jellybook](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
+| [Jellybook ` 📖 `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
 
 ### Sailfish OS
 
@@ -106,7 +102,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Swiftfin ` 🔹 ` ` 🛠️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/ca/app/swiftfin/id1604098728) |
+| [Swiftfin ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/ca/app/swiftfin/id1604098728) |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
 | [MrMC](https://github.com/MrMC/mrmc) | ✅ | ✅ | ☑️ | [![img](assets/clients/icons/amazon.png)](https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/mrmc/id1059536415) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=tv.mrmc.mrmc) |
 
@@ -138,6 +134,47 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 ---
 
-* Music Client ` 🎵 `
-* Early Release / BETA software ` 🛠️ `
-* Official ` 🔹 `
+# By Type
+
+## ` 🎵 ` Music Client
+
+| Name | OSS | Free | Paid | Downloads |
+| ---- | --- | ---- | ---- | --------- |
+| [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd/releases) |
+| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
+| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
+| [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/Taiko2k/TauonMusicBox) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
+| [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/m0ngr31/jellyamp) |
+| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
+| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
+| [Manet ` ⚒️ ` ` 🎵 `](https://tilo.dev/manet/) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/testflight.png)](https://tilo.dev/manet/) |
+| [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
+
+## ` 📖 ` Reader
+
+| Name | OSS | Free | Paid | Downloads |
+| ---- | --- | ---- | ---- | --------- |
+| [Jellybook ` 📖 `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
+
+---
+
+* Official: ` 🔹 `
+* Beta: ` ⚒️ `
+* Music Client: ` 🎵 `
+* Reader: ` 📖 `
+
+---
+
+> [!NOTE]
+> Please note that this Markdown file is automatically generated from the [`clients.yaml`](./assets/clients/clients.yaml) file.
+> **Contributions should only be made by updating the `clients.yaml` file.**
+> Any updates to the `.yaml` file will result in this Markdown file being re-generated to reflect those changes.
+
+<!--
+⚠️ WARNING: DO NOT EDIT THIS FILE ⚠️
+
+This Markdown file is auto-generated from the `assets/clients/clients.yaml` file.
+Any manual changes made to this file will be overwritten the next time it is generated.
+To make changes, please edit the `assets/clients/clients.yaml` file and regenerate this Markdown file.
+-->
