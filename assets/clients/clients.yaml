@@ -25,7 +25,7 @@ clients:
     official: false
     beta: true
     downloads:
-      - text: "Browser"
+      - icon: demo
         url: https://jf-vue.pages.dev/
 
       - icon: docker-hub
@@ -111,7 +111,7 @@ clients:
     targets: [ SailfishOS ]
     oss: https://github.com/heartfin/harbour-sailfin
     downloads:
-      - text: OpenRepos
+      - icon: openrepos
         url: https://openrepos.net/content/ahappyhuman/sailfin
 
   - name: 'Infuse'
@@ -220,6 +220,8 @@ clients:
     official: false
     beta: true
     downloads:
+      - icon: demo
+        url: https://preserveplayer.com/
       - icon: github
         url: https://gitlab.com/preserve/preserve
 
@@ -253,26 +255,80 @@ clients:
       - icon: testflight
         url: https://tilo.dev/manet/
 
+  - name: "Fintunes"
+    targets: [ Android, iOS ]
+    types: [ Music ]
+    website: https://github.com/leinelissen/jellyfin-audio-player
+    official: false
+    beta: false
+    downloads:
+      - icon: github
+        url: https://github.com/leinelissen/jellyfin-audio-player
+      - icon: f-droid
+        url: https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer
+      - icon: apple-appstore
+        url: https://apple.co/3MFYIJH
+
+
+  - name: "Jellyplayer"
+    targets: [ Windows, Linux, macOS ]
+    website: https://github.com/prayag17/JellyPlayer
+    official: false
+    beta: true
+    downloads:
+      - icon: github
+        url: https://github.com/prayag17/JellyPlayer
+
+  - name: "Gelli"
+    targets: [ Android ]
+    website: https://github.com/dkanada/gelli
+    official: false
+    beta: false
+    downloads:
+      - icon: github
+        url: https://github.com/dkanada/gelli
+      - icon: f-droid
+        url: https://f-droid.org/packages/com.dkanada.gramophone
+
+  - name: "Jellybook"
+    targets: [ Android, iOS ]
+    types: [ Reader ]
+    website: https://github.com/prayag17/JellyPlayer
+    official: false
+    beta: false
+    downloads:
+      - icon: github
+        url: https://github.com/prayag17/JellyPlayer
+      - icon: izzisoft
+        url: https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/
+      - icon: testflight
+        url: https://testflight.apple.com/join/lEXKY4Dl
+
 icons:
   github:
-    light: "assets/clients/icons/github-mark.png"
-    dark: "assets/clients/icons/github-mark-white.png"
+    single: "assets/clients/icons/github.png"
   flathub:
-    light: "assets/clients/icons/flathub.png"
-    dark: "assets/clients/icons/flathub.png"
+    single: "assets/clients/icons/flathub.png"
   apple-appstore:
-    light: "assets/clients/icons/appstore-light.png"
-    dark: "assets/clients/icons/appstore-dark.png"
+    single: "assets/clients/icons/appstore.png"
   google-playstore:
-    single: "assets/clients/icons/google-play-badge.png"
+    single: "assets/clients/icons/googleplay.png"
   docker-hub:
-    text: "🐳"
+    single: "assets/clients/icons/docker.png"
   f-droid:
-    single: "assets/clients/icons/f-droid.png"
+    single: "assets/clients/icons/fdroid.png"
   amazon-appstore:
     single: "assets/clients/icons/amazon.png"
+  izzisoft:
+    single: "assets/clients/icons/izzisoft.png"
+  openrepos:
+    single: "assets/clients/icons/openrepos.png"
   testflight:
     single: "assets/clients/icons/testflight.png"
+  demo:
+    single: "assets/clients/icons/demo.png"
 
 targets:
   - key: Browser
