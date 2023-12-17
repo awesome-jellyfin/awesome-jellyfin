@@ -370,3 +370,22 @@ targets:
         mapped: "Roku"
       - name: WebOS
         mapped: "webOS"
+
+types:
+  # dummy type for official badge
+  - key: Official
+    badge: "🔹"
+
+  # dummy type for beta badge
+  - key: Beta
+    badge: "⚒️"
+
+  - key: Music
+    badge: "🎵"
+    display: Music Client
+    section: true
+
+  - key: Reader
+    badge: "📖"
+    display: Reader
+    section: true
