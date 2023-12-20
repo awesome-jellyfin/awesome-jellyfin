@@ -292,15 +292,15 @@ clients:
       - icon: f-droid
         url: https://f-droid.org/packages/com.dkanada.gramophone
 
-  - name: "Jellybook"
+  - name: "JellyBook"
     targets: [ Android, iOS ]
     types: [ Reader ]
-    oss: https://github.com/prayag17/JellyPlayer
+    oss: https://github.com/JellyBookOrg/JellyBook
     official: false
     beta: false
     downloads:
       - icon: github
-        url: https://github.com/prayag17/JellyPlayer
+        url: https://github.com/JellyBookOrg/JellyBook
       - icon: izzisoft
         url: https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/
       - icon: testflight
