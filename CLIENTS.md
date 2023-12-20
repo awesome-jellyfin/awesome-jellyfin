@@ -48,7 +48,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
 | [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Jellyplayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
+| [JellyPlayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
 
 ### Linux
 
