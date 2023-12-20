@@ -272,11 +272,14 @@ clients:
         url: https://apple.co/3MFYIJH
 
 
-  - name: "Jellyplayer"
+  - name: "JellyPlayer"
     targets: [ Windows, Linux, macOS ]
     website: https://github.com/prayag17/JellyPlayer
+    oss: https://github.com/prayag17/JellyPlayer
     official: false
     beta: true
+    price:
+      free: true
     downloads:
       - icon: github
         url: https://github.com/prayag17/JellyPlayer
@@ -295,12 +298,13 @@ clients:
   - name: "Jellybook"
     targets: [ Android, iOS ]
     types: [ Reader ]
-    website: https://github.com/prayag17/JellyPlayer
+    website: https://github.com/JellyBookOrg/JellyBook
     official: false
     beta: false
+    oss: 
     downloads:
       - icon: github
-        url: https://github.com/prayag17/JellyPlayer
+        url: https://github.com/JellyBookOrg/JellyBook
       - icon: izzisoft
         url: https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/
       - icon: testflight
