@@ -258,7 +258,7 @@ clients:
   - name: "Fintunes"
     targets: [ Android, iOS ]
     types: [ Music ]
-    website: https://github.com/leinelissen/jellyfin-audio-player
+    oss: https://github.com/leinelissen/jellyfin-audio-player
     official: false
     beta: false
     downloads:
@@ -274,7 +274,7 @@ clients:
 
   - name: "Jellyplayer"
     targets: [ Windows, Linux, macOS ]
-    website: https://github.com/prayag17/JellyPlayer
+    oss: https://github.com/prayag17/JellyPlayer
     official: false
     beta: true
     downloads:
@@ -283,7 +283,7 @@ clients:
 
   - name: "Gelli"
     targets: [ Android ]
-    website: https://github.com/dkanada/gelli
+    oss: https://github.com/dkanada/gelli
     official: false
     beta: false
     downloads:
@@ -295,7 +295,7 @@ clients:
   - name: "Jellybook"
     targets: [ Android, iOS ]
     types: [ Reader ]
-    website: https://github.com/prayag17/JellyPlayer
+    oss: https://github.com/prayag17/JellyPlayer
     official: false
     beta: false
     downloads:
