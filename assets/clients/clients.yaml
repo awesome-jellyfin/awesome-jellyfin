@@ -272,7 +272,7 @@ clients:
         url: https://apple.co/3MFYIJH
 
 
-  - name: "Jellyplayer"
+  - name: "JellyPlayer"
     targets: [ Windows, Linux, macOS ]
     oss: https://github.com/prayag17/JellyPlayer
     official: false
