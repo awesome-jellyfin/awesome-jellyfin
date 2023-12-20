@@ -50,15 +50,9 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
 | [Supersonic ` 🛠️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
 | [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
-<<<<<<< HEAD
-| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
-| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [JellyPlayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
-=======
 | [Sonixd ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
 | [Feishin ` 🛠️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
 | [Jellyplayer ` 🛠️ `](https://github.com/prayag17/JellyPlayer) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
->>>>>>> parent of b5fc126 (Update CLIENTS.md)
 
 ### Linux
 
