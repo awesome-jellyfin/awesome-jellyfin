@@ -64,7 +64,7 @@
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
-
+- [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query your Jellyfin server for the movies, tv episodes, audio tracks, and audiobooks in your libraries. Then delete media items you no longer want taking up disk space.
 
 #### 📜 Snippets
 
