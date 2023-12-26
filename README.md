@@ -64,7 +64,7 @@
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
-
+- [Jellyfin Segment Editor](https://github.com/endrl/segment-editor) - Manage Jellyfin Media Segment positions.
 
 #### 📜 Snippets
 
