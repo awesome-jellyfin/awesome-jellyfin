@@ -306,6 +306,18 @@ clients:
       - icon: testflight
         url: https://testflight.apple.com/join/lEXKY4Dl
 
+  - name: "Symfonium"
+    targets: [ Android ]
+    types: [ Music ]
+    official: false
+    beta: true
+    website: https://symfonium.app
+    price:
+      paid: true
+    downloads:
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=app.symfonik.music.player
+
 icons:
   github:
     single: "assets/clients/icons/github.png"
