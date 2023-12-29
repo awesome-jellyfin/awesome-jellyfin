@@ -89,6 +89,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
 | [Gelli](https://github.com/dkanada/gelli) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dkanada/gelli) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/packages/com.dkanada.gramophone) |
 | [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/JellyBookOrg/JellyBook) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
+| [Symfonium ` ⚒️ ` ` 🎵 `](https://symfonium.app) | ❌ | ❌ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=app.symfonik.music.player) |
 
 ### Sailfish OS
 
@@ -150,6 +151,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
 | [Manet ` ⚒️ ` ` 🎵 `](https://tilo.dev/manet/) | ❌ | ❌ | ❎ | [![img](assets/clients/icons/testflight.png)](https://tilo.dev/manet/) |
 | [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
+| [Symfonium ` ⚒️ ` ` 🎵 `](https://symfonium.app) | ❌ | ❌ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=app.symfonik.music.player) |
 
 ## ` 📖 ` Reader
 
