@@ -57,6 +57,7 @@
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - A free and open source Statistics App for Jellyfin.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
+- [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
 - [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts YouTube Music playlists to Jellyfin playlists.
 - [reiverr ` 🔸 `](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr.
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
@@ -64,7 +65,6 @@
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
-- [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
 
 #### 📜 Snippets
 
