@@ -102,5 +102,4 @@ You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-je
 <!--lint ignore unordered-list-marker-style-->
 * Early Release / BETA software ` 🔸 `
 * Closed-Source Software ` 📛 `
-* Mobile App ` 📱 `
 * Stale / Inactive / May not work anymore ` 📅 `
