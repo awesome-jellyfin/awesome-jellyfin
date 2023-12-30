@@ -8,38 +8,6 @@
 The preview / screenshots were taken directly from the linked repositories.  
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
-## [JellyFlix](https://github.com/prayag17/JellyFlix) by prayag17
-
-Jellyfin but Looks, Feels and Smells like Netflix [` 🔵 Get this Theme `](https://github.com/prayag17/JellyFlix)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/Login.jpg" />
-    </td>
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/Home.jpg" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/Movies.jpg" />
-    </td>
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/TV%20Shows.jpg" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/Title%20Page-Movie.jpg" />
-    </td>
-  </tr>
-</table>
-
-[` 🔵 Get this theme `](#)
-
----
-
 ## [JellySkin](https://github.com/prayag17/JellySkin) by prayag17
 
 Vibrante & Minimal theme using custom icons and more [` 🔵 Get this Theme `](https://github.com/prayag17/JellySkin)
