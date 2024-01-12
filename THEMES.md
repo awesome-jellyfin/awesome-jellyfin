@@ -94,7 +94,8 @@ The final form, the true evolution of the chromic theme saga [` 🔵 Get this Th
 ---
 
 ## [BlueBerry](https://codeberg.org/Udon/BlueBerry) by Udon
-
+> Duo to current DDoS attacks on the Codeberg Platform the theme may not work.
+> This is duo the use of Codeberg pages as CDN. <a href="https://status.codeberg.eu/status/codeberg">Status</a> - <a href="https://social.anoxinon.de/@Codeberg/111740075240915378">Mastodon</a>
 Custom recolor for default Jellyfin Theme [` 🔵 Get this Theme `](https://codeberg.org/Udon/BlueBerry)
 
 <table>
