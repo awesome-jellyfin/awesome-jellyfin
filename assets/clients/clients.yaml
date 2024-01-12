@@ -101,7 +101,7 @@ clients:
     official: false
     beta: true
     downloads:
-      - text: IzzyOnDroid
+      - text: izzisoft
         url: https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin
 
       - icon: google-playstore
