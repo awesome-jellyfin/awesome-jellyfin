@@ -249,11 +249,11 @@ clients:
     targets: [ iOS ]
     types: [ Music ]
     website: https://tilo.dev/manet/
-    official: false
-    beta: true
+    price:
+      free: true
     downloads:
-      - icon: testflight
-        url: https://tilo.dev/manet/
+      - icon: apple-appstore
+        url: https://apps.apple.com/us/app/manet-music/id6470928235
 
   - name: "Fintunes"
     targets: [ Android, iOS ]
