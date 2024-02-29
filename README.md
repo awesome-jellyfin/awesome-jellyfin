@@ -22,7 +22,6 @@
 
 
 ## 🧩 Plugins
-https://github.com/knackebrot/jellyfin-plugin-enigma2
 - [AnilistSync ` 📅 `](https://github.com/ARufenach/AnilistSync) - Automatically tracks anime watching progress on [Anilist](https://anilist.co/).
 - [FinTube](https://github.com/AECX/FinTube) - Easily add content from YouTube to your Jellyfin installation.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
