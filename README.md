@@ -22,7 +22,7 @@
 
 
 ## 🧩 Plugins
-
+https://github.com/knackebrot/jellyfin-plugin-enigma2
 - [AnilistSync ` 📅 `](https://github.com/ARufenach/AnilistSync) - Automatically tracks anime watching progress on [Anilist](https://anilist.co/).
 - [FinTube](https://github.com/AECX/FinTube) - Easily add content from YouTube to your Jellyfin installation.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
@@ -30,6 +30,7 @@
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Synchronize anime watch status between Jellyfin and anime tracking sites.
 - [Jellyfin Ignore ` 🔸 `](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [Jellyfin-Newsletter-Plugin ` 🔸 `](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
+- [jellyfin-plugin-enigma2 `📅`](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers.
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
 - [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [jellyfin-plugin-sso ` 🔸 `](https://github.com/9p4/jellyfin-plugin-sso) - Allows users to sign in through an SSO provider.
