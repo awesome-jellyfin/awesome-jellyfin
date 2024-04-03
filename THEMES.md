@@ -125,6 +125,25 @@ Custom recolor for default Jellyfin Theme [` 🔵 Get this Theme `](https://code
 
 ---
 
+## [Jellyfin better styles](https://github.com/Tetrax-10/jellyfin-better-styles) by Tetrax-10
+
+This theme preserves the original aesthetics while upgrading layout and animations for a more polished look and feel.
+
+Better Movie/TV page layout, improved card animation on hover.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/movie-tv-page.png" />
+    </td>
+    <td>
+      <img src="https://github.com/awesome-jellyfin/awesome-jellyfin/assets/75513645/3f7e5b5e-6edc-4721-84dc-0661a806fad0" />
+    </td>
+  </tr>
+</table>
+
+---
+
 <p align="center">
   <strong>
     👉 Back to <a href="https://github.com/awesome-jellyfin/awesome-jellyfin">awesome-jellyfin/awesome-jellyfin</a>
