@@ -125,7 +125,7 @@ Custom recolor for default Jellyfin Theme [` 🔵 Get this Theme `](https://code
 
 ---
 
-## [Jellyfin better styles](https://github.com/Tetrax-10/jellyfin-better-styles) by Tetrax-10
+## [Jellyfin Better Styles](https://github.com/Tetrax-10/jellyfin-better-styles) by Tetrax-10
 
 This theme preserves the original aesthetics while upgrading layout and animations for a more polished look and feel.
 
