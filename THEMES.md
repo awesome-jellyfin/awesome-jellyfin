@@ -95,13 +95,6 @@ The final form, the true evolution of the chromic theme saga [` 🔵 Get this Th
 
 ## [BlueBerry](https://codeberg.org/Udon/BlueBerry) by Udon
 
-
-> [!NOTE]
-> 
-> Due to ongoing DDoS attacks on the Codeberg platform, the theme might not function properly because the Codeberg pages are being used as a CDN.
-> 
-> [Status](https://status.codeberg.eu/status/codeberg) - [Mastodon](https://social.anoxinon.de/@Codeberg/111740075240915378)
-
 Custom recolor for default Jellyfin Theme [` 🔵 Get this Theme `](https://codeberg.org/Udon/BlueBerry)
 
 <table>
