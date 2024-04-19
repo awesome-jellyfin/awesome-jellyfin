@@ -27,8 +27,8 @@
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks anime watching progress on [Anilist](https://anilist.co/).
 - [jellyfin-plugin-media-analyzer](https://github.com/endrl/jellyfin-plugin-media-analyzer) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Synchronize anime watch status between Jellyfin and anime tracking sites.
-- [Jellyfin Ignore ` 🔸 `](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
-- [Jellyfin-Newsletter-Plugin ` 🔸 `](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
+- [Jellyfin Ignore ` 🔸 ` `📅`](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
+- [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
 - [jellyfin-plugin-enigma2 `📅`](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers.
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
 - [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
@@ -39,7 +39,7 @@
 
 #### 🏷️ Metadata Providers
 
-- [jellyfin-youtube-metadata-plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
+- [jellyfin-youtube-metadata-plugin `📅`](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
 
 
 ## 🖌️ Themes
@@ -52,7 +52,7 @@
 
 ## 👾 Other
 
-- [autoscan](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
+- [autoscan `📅`](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
 - [Fixarr ` 🔸 `](https://github.com/sachinsenal0x64/FIXARR) - Media Renamer and Backup tool. (Backup still WIP)
 - [jellyfin-cover-art-generator](https://github.com/Tetrax-10/jellyfin-cover-art-generator) - CLI tool to generate Jellyfin styled library coverart from a backdrop.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
@@ -81,16 +81,16 @@
 This section includes software, guides and tools that are not *specifically* designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
 
 - [calibre2jellyfin](https://github.com/shawn61cp/calibre2jellyfin) - Python script to construct a Jellyfin ebook library from a Calibre library.
-- [ErsatzTV ` 🔸 `](https://github.com/jasongdove/ErsatzTV) - Stream custom live channels using your own media.
+- [ErsatzTV ` 🔸 `](https://github.com/ErsatzTV/ErsatzTV) - Stream custom live channels using your own media.
 - [locatarr](https://github.com/Locatarr/Locatarr) - A list of tools used to automate the downloading and organization of media files.
   - [radarr](https://github.com/Radarr/Radarr) - Automates downloading & management of movies [`🟣 TRaSH Guide`](https://trash-guides.info/Radarr/).
   - [sonarr](https://github.com/Sonarr/Sonarr) - Automates downloading & management of TV series [`🟣 TRaSH Guide`](https://trash-guides.info/Sonarr/).
   - [tdarr ` 📛 `](https://github.com/HaveAGitGat/Tdarr) - Distributed transcode automation + Library analytics + Video health checking.
   - [recyclarr](https://github.com/recyclarr/recyclarr) - Automatically sync TRaSH guides to Sonarr and Radarr instances.
-- [MediaTracker](https://github.com/bonukai/MediaTracker) - Media tracker and user rating platform with [Jellyfin integration](https://github.com/bonukai/jellyfin-plugin-mediatracker).
+- [MediaTracker `📅`](https://github.com/bonukai/MediaTracker) - Media tracker and user rating platform with [Jellyfin integration](https://github.com/bonukai/jellyfin-plugin-mediatracker).
 - [Movary ` 🔸 `](https://github.com/leepeuker/movary) - Media tracker and user rating platform.
 - [Multi Scrobbler ` 🔸 `](https://github.com/foxxmd/multi-scrobbler) - Scrobbles music from many sources to many clients.
-- [rffmpeg](https://github.com/joshuaboniface/rffmpeg) - A remote FFmpeg wrapper, commonly used for transcoding media on more capable machines.
+- [rffmpeg `📅`](https://github.com/joshuaboniface/rffmpeg) - A remote FFmpeg wrapper, commonly used for transcoding media on more capable machines.
 - [Threadfin](https://github.com/Threadfin/Threadfin) - M3U proxy for Jellyfin (Based on xTeVe).
 - [TRaSH Guides](https://trash-guides.info/) - Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools.
 - [watchstate](https://github.com/ArabCoders/watchstate) - Sync play state between different media servers.
