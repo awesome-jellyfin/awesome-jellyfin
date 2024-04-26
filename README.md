@@ -1,4 +1,4 @@
-<!--lint disable awesome-heading awesome-toc-->
+<!--lint disable awesome-heading awesome-toc double-link-->
 
 <p align="center">
   <img src="/assets/banner.png" />

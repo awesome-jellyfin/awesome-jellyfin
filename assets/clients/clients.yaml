@@ -318,6 +318,27 @@ clients:
       - icon: google-playstore
         url: https://play.google.com/store/apps/details?id=app.symfonik.music.player
 
+  - name: "Jellyflix"
+    targets: [ Android, iOS, Windows, Linux, macOS, Browser ]
+    official: false
+    beta: false
+    oss: https://github.com/jellyflix-app/jellyflix
+    price:
+      free: true
+    downloads:
+      - icon: demo
+        url: https://jellyflix.kiejon.com/
+      - icon: apple-appstore
+        url: https://apps.apple.com/de/app/jellyflix/id6476043683
+      - text: ".apk"
+        url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk
+      - text: ".dmg"
+        url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg
+      - text: "windows.zip"
+        url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip
+      - text: "linux.zip"
+        url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip
+
 icons:
   github:
     single: "assets/clients/icons/github.png"
