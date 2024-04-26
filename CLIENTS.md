@@ -21,6 +21,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd/releases) |
 | [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 
 ## 💻 Desktop
 
@@ -37,6 +38,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
 | [JellyPlayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 
 ### macOS
 
@@ -49,6 +51,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
 | [JellyPlayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 
 ### Linux
 
@@ -64,6 +67,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
 | [JellyPlayer ` ⚒️ `](https://github.com/prayag17/JellyPlayer) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/JellyPlayer) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 
 ## 📱 Mobile
 
@@ -78,6 +82,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Manet ` 🎵 `](https://tilo.dev/manet/) | ❌ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/manet-music/id6470928235) |
 | [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
 | [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/JellyBookOrg/JellyBook) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 
 ### Android
 
@@ -90,6 +95,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Gelli](https://github.com/dkanada/gelli) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dkanada/gelli) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/packages/com.dkanada.gramophone) |
 | [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/JellyBookOrg/JellyBook) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
 | [Symfonium ` ⚒️ ` ` 🎵 `](https://symfonium.app) | ❌ | ❌ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=app.symfonik.music.player) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 
 ### Sailfish OS
 
