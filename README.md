@@ -59,7 +59,7 @@
 - [jellyfin-cover-art-generator](https://github.com/Tetrax-10/jellyfin-cover-art-generator) - CLI tool to generate Jellyfin styled library coverart from a backdrop.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
-- [Jellyfin Segment Editor](https://github.com/endrl/segment-editor) - Manage Jellyfin Media Segment positions.
+- [Jellyfin Segment Editor `📅`](https://github.com/endrl/segment-editor) - Manage Jellyfin Media Segment positions.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - A CLI Program for installing and managing Jellyfin.
 - [JellyRoller ` 🔸 `](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller.
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
@@ -87,7 +87,7 @@ This section includes software, guides and tools that are not *specifically* des
 
 - [calibre2jellyfin](https://github.com/shawn61cp/calibre2jellyfin) - Python script to construct a Jellyfin ebook library from a Calibre library.
 - [ErsatzTV ` 🔸 `](https://github.com/ErsatzTV/ErsatzTV) - Stream custom live channels using your own media.
-- [locatarr](https://github.com/Locatarr/Locatarr) - A list of tools used to automate the downloading and organization of media files.
+- [locatarr `📅`](https://github.com/Locatarr/Locatarr) - A list of tools used to automate the downloading and organization of media files.
   - [radarr](https://github.com/Radarr/Radarr) - Automates downloading & management of movies [`🟣 TRaSH Guide`](https://trash-guides.info/Radarr/).
   - [sonarr](https://github.com/Sonarr/Sonarr) - Automates downloading & management of TV series [`🟣 TRaSH Guide`](https://trash-guides.info/Sonarr/).
   - [tdarr ` 📛 `](https://github.com/HaveAGitGat/Tdarr) - Distributed transcode automation + Library analytics + Video health checking.
