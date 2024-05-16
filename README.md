@@ -31,6 +31,8 @@
 - [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
 - [jellyfin-plugin-enigma2 `📅`](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers.
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
+- [jellyfin-plugin-media-cleaner]() - Automatically removes played Media after time period.
+- [jellyfin-plugin-onepace](https://github.com/jwueller/jellyfin-plugin-onepace) - Plugin for the [One Pace](https://onepace.net) Projekt
 - [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [jellyfin-plugin-sso ` 🔸 `](https://github.com/9p4/jellyfin-plugin-sso) - Allows users to sign in through an SSO provider.
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews.
@@ -58,6 +60,8 @@
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
 - [Jellyfin Segment Editor](https://github.com/endrl/segment-editor) - Manage Jellyfin Media Segment positions.
+- [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - A CLI Program for installing and managing Jellyfin.
+- [JellyRoller](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller.
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - A free and open source Statistics App for Jellyfin.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
@@ -68,6 +72,7 @@
 - [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) - Automated title card maker for Plex, Jellyfin, and Emby.
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
+- [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - streams YT, Twitch and more via ytdlp to Jellyfin.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
 
 #### 📜 Snippets
