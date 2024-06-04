@@ -5,7 +5,7 @@
 
 
 
-The preview / screenshots were taken directly from the linked repositories.  
+The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
 ## [JellySkin](https://github.com/prayag17/JellySkin) by prayag17
@@ -93,25 +93,25 @@ The final form, the true evolution of the chromic theme saga [` 🔵 Get this Th
 
 ---
 
-## [BlueBerry](https://codeberg.org/Udon/BlueBerry) by Udon
+## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
 
-Custom recolor for default Jellyfin Theme [` 🔵 Get this Theme `](https://codeberg.org/Udon/BlueBerry)
+Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
 
 <table>
   <tr>
     <td>
-      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-login.png" />
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/home.jpg" />
     </td>
     <td>
-      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-home.png" />
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/details.jpg" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-detail.png" />
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/library.jpg" />
     </td>
     <td>
-      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-admin.png" />
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/admin.jpg" />
     </td>
   </tr>
 </table>
