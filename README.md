@@ -71,6 +71,7 @@
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
+- [mnamer](https://github.com/jkwill87/mnamer) - Highly customizable tool to automatically rename all media files. 
 
 #### 📜 Snippets
 
