@@ -43,23 +43,44 @@ Vibrante & Minimal theme using custom icons and more [` 🔵 Get this Theme `](h
 
 ## [scyfin](https://github.com/loof2736/scyfin) by loof2736
 
-Custom theme for Jellyfin WebUI (Backdrops supported) [` 🔵 Get this Theme `](https://github.com/loof2736/scyfin)
+Custom CSS theme for Jellyfin with support for backdrops and themes [` 🔵 Get this Theme `](https://github.com/loof2736/scyfin)
 
 <table>
   <tr>
     <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/scyfin/scyfin1.png" />
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/homepage.png" />
     </td>
     <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/scyfin/scyfin2.png" />
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/homepage-backdrops.png" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/scyfin/scyfin3.jpg" />
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/details.png" />
     </td>
     <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/scyfin/scyfin4.png" />
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/details-backdrops.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/dashboard.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/login.png" />
+    </td>
+  </tr>
+</table>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/seafoam.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/coral.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/snow.png" />
     </td>
   </tr>
 </table>
