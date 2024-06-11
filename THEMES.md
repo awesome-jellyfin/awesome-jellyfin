@@ -139,31 +139,6 @@ Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media 
 
 ---
 
-## [BlueBerry ` 📅 `](https://codeberg.org/Udon/BlueBerry) by Udon
-
-Custom recolor for default Jellyfin Theme [` 🔵 Get this Theme `](https://codeberg.org/Udon/BlueBerry)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-login.png" />
-    </td>
-    <td>
-      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-home.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-detail.png" />
-    </td>
-    <td>
-      <img src="https://codeberg.org/Udon/BlueBerry/media/branch/main/assets/screenshots/screenshot-admin.png" />
-    </td>
-  </tr>
-</table>
-
----
-
 ## [Jellyfin Better Styles](https://github.com/Tetrax-10/jellyfin-better-styles) by Tetrax-10
 
 This theme preserves the original aesthetics while upgrading layout and animations for a more polished look and feel.
