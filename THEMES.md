@@ -5,7 +5,7 @@
 
 
 
-The preview / screenshots were taken directly from the linked repositories.  
+The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
 ## [JellySkin](https://github.com/prayag17/JellySkin) by prayag17
@@ -43,23 +43,44 @@ Vibrante & Minimal theme using custom icons and more [` 🔵 Get this Theme `](h
 
 ## [scyfin](https://github.com/loof2736/scyfin) by loof2736
 
-Custom theme for Jellyfin WebUI (Backdrops supported) [` 🔵 Get this Theme `](https://github.com/loof2736/scyfin)
+Custom CSS theme for Jellyfin with support for backdrops and themes [` 🔵 Get this Theme `](https://github.com/loof2736/scyfin)
 
 <table>
   <tr>
     <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/scyfin/scyfin1.png" />
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/homepage.png" />
     </td>
     <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/scyfin/scyfin2.png" />
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/homepage-backdrops.png" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/scyfin/scyfin3.jpg" />
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/details.png" />
     </td>
     <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/scyfin/scyfin4.png" />
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/details-backdrops.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/dashboard.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/login.png" />
+    </td>
+  </tr>
+</table>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/seafoam.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/coral.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/snow.png" />
     </td>
   </tr>
 </table>
@@ -93,6 +114,31 @@ The final form, the true evolution of the chromic theme saga [` 🔵 Get this Th
 
 ---
 
+## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
+
+Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/home.jpg" />
+    </td>
+    <td>
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/details.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/library.jpg" />
+    </td>
+    <td>
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/admin.jpg" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Jellyfin Better Styles](https://github.com/Tetrax-10/jellyfin-better-styles) by Tetrax-10
 
 This theme preserves the original aesthetics while upgrading layout and animations for a more polished look and feel.
@@ -109,6 +155,11 @@ Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this 
     </td>
   </tr>
 </table>
+
+---
+
+<!--lint ignore unordered-list-marker-style-->
+* Stale / Inactive / May not work anymore ` 📅 `
 
 ---
 
