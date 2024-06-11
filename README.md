@@ -88,6 +88,7 @@
 This section includes software, guides and tools that are not *specifically* designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
 
 - [calibre2jellyfin](https://github.com/shawn61cp/calibre2jellyfin) - Python script to construct a Jellyfin ebook library from a Calibre library.
+- [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder) - A 1-click installer and maintainer for Jellyfin on Windows, Mac and Linux.
 - [ErsatzTV ` 🔸 `](https://github.com/ErsatzTV/ErsatzTV) - Stream custom live channels using your own media.
 - [locatarr `📅`](https://github.com/Locatarr/Locatarr) - A list of tools used to automate the downloading and organization of media files.
   - [radarr](https://github.com/Radarr/Radarr) - Automates downloading & management of movies [`🟣 TRaSH Guide`](https://trash-guides.info/Radarr/).
