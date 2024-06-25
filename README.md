@@ -35,6 +35,7 @@
 - [jellyfin-plugin-onepace](https://github.com/jwueller/jellyfin-plugin-onepace) - Plugin for the [One Pace](https://onepace.net) project.
 - [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [jellyfin-plugin-sso ` 🔸 `](https://github.com/9p4/jellyfin-plugin-sso) - Allows users to sign in through an SSO provider.
+- [jellyfin-plugin-TelegramNotifier](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier) - Receive notifications of Jellyfin server events via Telegram.
 - [jellyscrub ` 📅 `](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews.
   <!--lint ignore list-item-indent awesome-list-item-->
   -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
