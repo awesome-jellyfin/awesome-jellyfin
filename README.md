@@ -39,6 +39,7 @@
   <!--lint ignore list-item-indent awesome-list-item-->
   -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
 - [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin) - Adds theme songs to movies and tv shows using [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB/).
+- [tubearchivist-jf-plugin](https://github.com/tubearchivist/tubearchivist-jf-plugin) - Metadata provider for TubeArchivist.
 
 
 #### 🏷️ Metadata Providers
