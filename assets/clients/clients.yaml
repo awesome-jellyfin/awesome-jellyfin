@@ -22,7 +22,7 @@ clients:
   - name: "Jellyfin Vue"
     targets: [ Browser ]
     oss: https://github.com/jellyfin/jellyfin-vue
-    official: false
+    official: true
     beta: true
     downloads:
       - icon: demo
