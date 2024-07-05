@@ -31,6 +31,9 @@ clients:
       - icon: docker-hub
         url: https://github.com/jellyfin/jellyfin-vue/pkgs/container/jellyfin-vue
 
+      - icon: github
+        url: https://github.com/jellyfin/jellyfin-vue/actions/workflows/release.yml
+
   - name: "JellyCon"
     targets: [ Kodi ]
     oss: https://github.com/jellyfin/jellycon
