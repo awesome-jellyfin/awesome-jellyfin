@@ -17,7 +17,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin Vue ` ⚒️ `](https://github.com/jellyfin/jellyfin-vue) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jf-vue.pages.dev/) [![img](assets/clients/icons/docker.png)](https://github.com/jellyfin/jellyfin-vue/pkgs/container/jellyfin-vue) |
+| [Jellyfin Vue ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/jellyfin-vue) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jf-vue.pages.dev/) [![img](assets/clients/icons/docker.png)](https://github.com/jellyfin/jellyfin-vue/pkgs/container/jellyfin-vue) [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-vue/actions/workflows/release.yml) |
 | [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd/releases) |
 | [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
