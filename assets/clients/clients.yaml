@@ -127,6 +127,16 @@ clients:
       - icon: apple-appstore
         url: https://apps.apple.com/app/id1136220934?mt=8
 
+  - name: 'VidHub'
+    targets: [ iOS, AppleTV, macOS ]
+    website: https://okaapps.com/product/1659622164
+    price:
+      free: true
+      paid: true
+    downloads:
+      - icon: apple-appstore
+        url: https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164
+
   - name: "sonixd"
     targets: [ Browser ]
     types: [ Music ]
