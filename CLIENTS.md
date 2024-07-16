@@ -46,6 +46,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | ---- | --- | ---- | ---- | --------- |
 | [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-media-player/releases) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player) |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
+| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164) |
 | [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
 | [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
 | [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
@@ -78,6 +79,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Swiftfin ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/ca/app/swiftfin/id1604098728) |
 | [Jellyfin Mobile for iOS ` 🔹 `](https://github.com/jellyfin/jellyfin-expo) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/jellyfin-mobile/id1480192618?mt=8) |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
+| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164) |
 | [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
 | [Manet ` 🎵 `](https://tilo.dev/manet/) | ❌ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/manet-music/id6470928235) |
 | [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
@@ -111,6 +113,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | ---- | --- | ---- | ---- | --------- |
 | [Swiftfin ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/ca/app/swiftfin/id1604098728) |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
+| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164) |
 | [MrMC](https://github.com/MrMC/mrmc) | ✅ | ✅ | ☑️ | [![img](assets/clients/icons/amazon.png)](https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/mrmc/id1059536415) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=tv.mrmc.mrmc) |
 
 ### Android TV
