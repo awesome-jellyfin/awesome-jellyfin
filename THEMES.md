@@ -37,6 +37,41 @@ If an image is no longer available or out of date, please create an [issue](http
   </tr>
 </table>
 
+---
+
+## [finimalism](https://github.com/tedhinklater/finimalism) by tedhinklater
+
+[` 🔵 Get this Theme `](https://github.com/tedhinklater/finimalism)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/hRUk1VN.png" />
+    </td>
+    <td>
+      <img src="https://i.imgur.com/MYBUHEH.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/ts13B1n.png" />
+    </td>
+    <td>
+      <img src="https://i.imgur.com/xPTC9s0.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/261AqYj.png" />
+    </td>
+    <td>
+      <img src="https://i.imgur.com/IXTxQEO.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
 
 Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
