@@ -6,6 +6,31 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
+## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
+
+Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/home.jpg" />
+    </td>
+    <td>
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/details.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/library.jpg" />
+    </td>
+    <td>
+      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/admin.jpg" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [JellySkin](https://github.com/prayag17/JellySkin) by prayag17
 
 Vibrante & Minimal theme using custom icons and more [` 🔵 Get this Theme `](https://github.com/prayag17/JellySkin)
@@ -33,6 +58,52 @@ Vibrante & Minimal theme using custom icons and more [` 🔵 Get this Theme `](h
     </td>
     <td>
       <img src="https://user-images.githubusercontent.com/55829513/200133302-5d7e7ac1-201b-4cb4-a839-ee53c5c6a6f2.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Jellyfin Better Styles](https://github.com/Tetrax-10/jellyfin-better-styles) by Tetrax-10
+
+This theme preserves the original aesthetics while upgrading layout and animations for a more polished look and feel.
+
+Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this Theme `](https://github.com/Tetrax-10/jellyfin-better-styles)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/movie-tv-page.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/cards.gif" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Ultrachromic](https://github.com/CTalvio/Ultrachromic) by CTalvio
+
+The final form, the true evolution of the chromic theme saga [` 🔵 Get this Theme `](https://github.com/CTalvio/Ultrachromic)
+
+> **Note**: There are several variations of the theme, for a more detailed overview, see the [Ultrachromic README](https://github.com/CTalvio/Ultrachromic#readme).
+
+<table>
+  <tr>
+    <td>
+      <img src="https://user-images.githubusercontent.com/4365015/127774204-03957527-7178-4ea2-8674-d83fe6a97d1c.png" />
+    </td>
+    <td>
+      <img src="https://user-images.githubusercontent.com/4365015/127768733-c86aee2c-3bff-4b78-be54-003823d60276.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://user-images.githubusercontent.com/4365015/127768970-e827c7e4-f4ce-4229-a68a-b2e87a723ef0.png" />
+    </td>
+    <td>
+      <img src="https://user-images.githubusercontent.com/4365015/127778994-ddee8235-6bb2-42ae-a8b1-f9023dc69398.png" />
     </td>
   </tr>
 </table>
@@ -79,77 +150,6 @@ Custom CSS theme for Jellyfin with support for backdrops and themes [` 🔵 Get 
     </td>
     <td>
       <img src="https://github.com/loof2736/scyfin/raw/main/images/snow.png" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [Ultrachromic](https://github.com/CTalvio/Ultrachromic) by CTalvio
-
-The final form, the true evolution of the chromic theme saga [` 🔵 Get this Theme `](https://github.com/CTalvio/Ultrachromic)
-
-> **Note**: There are several variations of the theme, for a more detailed overview, see the [Ultrachromic README](https://github.com/CTalvio/Ultrachromic#readme).
-
-<table>
-  <tr>
-    <td>
-      <img src="https://user-images.githubusercontent.com/4365015/127774204-03957527-7178-4ea2-8674-d83fe6a97d1c.png" />
-    </td>
-    <td>
-      <img src="https://user-images.githubusercontent.com/4365015/127768733-c86aee2c-3bff-4b78-be54-003823d60276.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://user-images.githubusercontent.com/4365015/127768970-e827c7e4-f4ce-4229-a68a-b2e87a723ef0.png" />
-    </td>
-    <td>
-      <img src="https://user-images.githubusercontent.com/4365015/127778994-ddee8235-6bb2-42ae-a8b1-f9023dc69398.png" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
-
-Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/home.jpg" />
-    </td>
-    <td>
-      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/details.jpg" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/library.jpg" />
-    </td>
-    <td>
-      <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/admin.jpg" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [Jellyfin Better Styles](https://github.com/Tetrax-10/jellyfin-better-styles) by Tetrax-10
-
-This theme preserves the original aesthetics while upgrading layout and animations for a more polished look and feel.
-
-Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this Theme `](https://github.com/Tetrax-10/jellyfin-better-styles)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/movie-tv-page.png" />
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/cards.gif" />
     </td>
   </tr>
 </table>
