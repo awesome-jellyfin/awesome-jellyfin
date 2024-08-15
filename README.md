@@ -80,7 +80,9 @@
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
 - [jellyfin-tools](https://github.com/eebette/jellyfin-tools) - This library is to generate images with Jellyfin-like styling (shadow overlay and library title text) from source images.
-- [Jellyfin Update Poster](https://github.com/Iceshadow1404/JellyfinUpdatePoster) - Handles ZIP files containing multiple cover images from [ThePosterDB](https://theposterdb.com/) and [MediUX](https://mediux.pro). Set Downloader for [MediUX](https://mediux.pro)
+- [Jellyfin Update Poster](https://github.com/Iceshadow1404/JellyfinUpdatePoster) - Handles ZIP files containing multiple cover images from [ThePosterDB](https://theposterdb.com/) and [MediUX](https://mediux.pro). Set Downloader for [MediUX](https://mediux.pro).
+- [Jellyfin Notification System](https://github.com/Fahmula/jellyfin-telegram-notifier) - Sends Telegram notifications with media images whenever a new movie, series, season, or episode is added to Jellyfin.
+- [speedrr](https://github.com/itschasa/speedrr) - Change your torrent client's upload speed dynamically, on certain events such as when a Plex/Jellyfin stream starts.
 
 #### 📜 Snippets
 
