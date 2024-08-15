@@ -44,6 +44,7 @@
 #### 🏷️ Metadata Providers
 - [jellyfin-youtube-metadata-plugin `📅`](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
 - [tubearchivist-jf-plugin](https://github.com/tubearchivist/tubearchivist-jf-plugin) - Metadata provider for TubeArchivist.
+- [jellyfin-plugin-kinopoisk](https://github.com/LinFor/jellyfin-plugin-kinopoisk) - Metadata provider for [Kinopoisk](https://www.kinopoisk.ru/).
 
 
 ## 🖌️ Themes
