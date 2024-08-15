@@ -39,6 +39,7 @@
   <!--lint ignore list-item-indent awesome-list-item-->
   -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
 - [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin) - Adds theme songs to movies and tv shows using [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB/).
+- [jellyfin-plugin-spotify-import](https://github.com/Viperinius/jellyfin-plugin-spotify-import) - This plugin enables you to import playlists from Spotify to your Jellyfin server automatically.
 
 
 #### 🏷️ Metadata Providers
