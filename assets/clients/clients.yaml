@@ -365,7 +365,7 @@ clients:
         url: https://apps.apple.com/us/app/streamyfin/id6593660679
       - icon: google-playstore
         url: https://play.google.com/store/apps/details?id=com.fredrikburmester.streamyfin
-        icon : testflight
+      - icon : testflight
         url: https://testflight.apple.com/join/CWBaAAK2
       - text: ".apk"
         url: https://github.com/fredrikburmester/streamyfin/releases
