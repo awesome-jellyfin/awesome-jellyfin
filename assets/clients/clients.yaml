@@ -285,14 +285,14 @@ clients:
         url: https://apple.co/3MFYIJH
 
 
-  - name: "JellyPlayer"
+  - name: "Blink"
     targets: [ Windows, Linux, macOS ]
-    oss: https://github.com/prayag17/JellyPlayer
+    oss: https://github.com/prayag17/Blink
     official: false
     beta: true
     downloads:
       - icon: github
-        url: https://github.com/prayag17/JellyPlayer
+        url: https://github.com/prayag17/Blink
 
   - name: "Gelli"
     targets: [ Android ]
