@@ -352,6 +352,25 @@ clients:
       - text: "linux.zip"
         url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip
 
+  - name: "Streamyfin"
+    targets: [ Android, iOS ]
+    official: false
+    beta: false
+    website: https://streamyfin.app
+    oss: https://github.com/fredrikburmester/streamyfin
+    price:
+      free: true
+    downloads:
+      - icon: apple-appstore
+        url: https://apps.apple.com/us/app/streamyfin/id6593660679
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=com.fredrikburmester.streamyfin
+      - icon : testflight
+        url: https://testflight.apple.com/join/CWBaAAK2
+      - text: ".apk"
+        url: https://github.com/fredrikburmester/streamyfin/releases
+
+
 icons:
   github:
     single: "assets/clients/icons/github.png"
