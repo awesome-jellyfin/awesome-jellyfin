@@ -74,6 +74,7 @@
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - A free and open source Statistics App for Jellyfin.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
+- [List-Sync ` 🔸 `](https://github.com/Woahai321/list-sync) - Automatically import movies and TV shows from IMDB or Trakt lists into [Jellyseerr](https://github.com/Fallenbagel/jellyseerr).
 - [mnamer](https://github.com/jkwill87/mnamer) - Highly customizable tool to automatically rename all media files.
 - [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
 - [OpenSubtitlesDownload](https://github.com/emericg/OpenSubtitlesDownload) - Automatically or manually download subtitles using CLI/Gnome/KDE. 
