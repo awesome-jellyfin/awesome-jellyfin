@@ -39,7 +39,6 @@
 - [jellyscrub ` 📅 `](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews.
   <!--lint ignore list-item-indent awesome-list-item-->
   -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
-- [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin) - Adds theme songs to movies and tv shows using [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB/).
 
 
 #### 🏷️ Metadata Providers
