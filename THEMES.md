@@ -8,6 +8,37 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ## [finality](https://github.com/tedhinklater/finality) by tedhinklater
 
+[` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/1.%20Homepage.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/2.%20Movies%20Library.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/3.%20Sidebar.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/4.%20Movie%20Page.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/5.%20Extra%20Dialog.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/6.%20Settings%20Page.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
 [` 🔵 Get this Theme `](https://github.com/tedhinklater/finality)
 
 <table>
