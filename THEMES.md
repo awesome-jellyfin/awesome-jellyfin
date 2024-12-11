@@ -6,7 +6,7 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
-## [Elegantfin](https://github.com/lscambo13/ElegantFin) by lscambo13
+## [ElegantFin](https://github.com/lscambo13/ElegantFin) by lscambo13
 
 [` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
 
