@@ -62,6 +62,7 @@
 
 - [autoscan `📅`](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
 - [Fixarr ` 🔸 `](https://github.com/sachinsenal0x64/FIXARR) - Media Renamer and Backup tool. (Backup still WIP)
+- [jelly-clipper ` 🔸 `](https://github.com/arnolicious/jelly-clipper) - A web application for creating, sharing, and managing video clips from your Jellyfin media library.
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and letterboxd.
 - [jellyfin-cover-art-generator](https://github.com/Tetrax-10/jellyfin-cover-art-generator) - CLI tool to generate Jellyfin styled library coverart from a backdrop.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
