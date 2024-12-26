@@ -370,6 +370,17 @@ clients:
       - text: ".apk"
         url: https://github.com/fredrikburmester/streamyfin/releases
 
+  - name: "Switchfin"
+    targets: [ NintendoSwitch, macOS, Linux, Windows ]
+    official: false
+    beta: true
+    oss: https://github.com/dragonflylee/switchfin
+    price:
+      free: true
+    downloads:
+      - icon: github
+        url: https://github.com/dragonflylee/switchfin/releases/latest
+
 
 icons:
   github:
@@ -421,6 +432,8 @@ targets:
         mapped: "Android"
       - name: SailfishOS
         mapped: "Sailfish OS"
+      - name: NintendoSwitch
+        mapped: "Nintendo Switch"
 
   - key: TV
     display: "📺 TV"
