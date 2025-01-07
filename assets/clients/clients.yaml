@@ -296,6 +296,7 @@ clients:
 
   - name: "Gelli"
     targets: [ Android ]
+    types: [ Music ]
     oss: https://github.com/dkanada/gelli
     official: false
     beta: false
