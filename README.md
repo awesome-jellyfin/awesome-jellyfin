@@ -1,3 +1,4 @@
+```markdown
 <!--lint disable awesome-heading awesome-toc double-link-->
 
 <p align="center">
@@ -39,6 +40,7 @@
 - [jellyscrub ` 📅 `](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews.
   <!--lint ignore list-item-indent awesome-list-item-->
   -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
+- [JellyfinUpscalerRepo](https://github.com/Kuschel-code/JellyfinUpscalerRepo/blob/main/README.md) - This plugin enhances video quality in real-time through AI upscaling and customizable profiles tailored for different media types.
 
 
 #### 🏷️ Metadata Providers
@@ -132,3 +134,4 @@ You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-je
 * Early Release / BETA software ` 🔸 `
 * Closed-Source Software ` 📛 `
 * Stale / Inactive / May not work anymore ` 📅 `
+```
