@@ -26,6 +26,7 @@
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/jumoog/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
+- [jellyfin-cover-art-generator](https://github.com/Tetrax-10/jellyfin-cover-art-generator) - CLI tool to generate Jellyfin styled library coverart from a backdrop.
 - [Jellyfin Ignore ` 🔸 ` `📅`](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [jellyfin-lyrics-plugin](https://github.com/Felitendo/jellyfin-lyrics-plugin) - Automatically downloads and applies the lyrics for the songs in your music library from LrcLib.
 - [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
@@ -36,6 +37,7 @@
 - [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [jellyfin-plugin-sso ` 🔸 `](https://github.com/9p4/jellyfin-plugin-sso) - Allows users to sign in through an SSO provider.
 - [jellyfin-plugin-TelegramNotifier](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier) - Receive notifications of Jellyfin server events via Telegram.
+- [jellyplist](https://github.com/kamilkosek/jellyplist/blob/main/README.md) - A utility for syncing Spotify playlists to a self-hosted Jellyfin server, enabling seamless music integration.
 - [jellyscrub ` 📅 `](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews.
   <!--lint ignore list-item-indent awesome-list-item-->
   -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
@@ -64,7 +66,6 @@
 - [Fixarr ` 🔸 `](https://github.com/sachinsenal0x64/FIXARR) - Media Renamer and Backup tool. (Backup still WIP)
 - [jelly-clipper ` 🔸 `](https://github.com/arnolicious/jelly-clipper) - A web application for creating, sharing, and managing video clips from your Jellyfin media library.
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and letterboxd.
-- [jellyfin-cover-art-generator](https://github.com/Tetrax-10/jellyfin-cover-art-generator) - CLI tool to generate Jellyfin styled library coverart from a backdrop.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
 - [Jellyfin Segment Editor `📅`](https://github.com/endrl/segment-editor) - Manage Jellyfin Media Segment positions.
