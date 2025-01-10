@@ -26,6 +26,7 @@
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/jumoog/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
+- [jellyfin-plugin-animethemes](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes/blob/main/README.md) - Fetches anime openings and endings from animethemes.moe for Jellyfin users.
 - [Jellyfin Ignore ` 🔸 ` `📅`](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [jellyfin-lyrics-plugin](https://github.com/Felitendo/jellyfin-lyrics-plugin) - Automatically downloads and applies the lyrics for the songs in your music library from LrcLib.
 - [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
