@@ -25,6 +25,7 @@
 - [FinTube](https://github.com/AECX/FinTube) - Easily add content from YouTube to your Jellyfin installation.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/jumoog/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
+- [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise/blob/main/README.md) - This application helps manage and enforce time limits for users on your Jellyfin media server, restricting access once defined limits are exceeded.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
 - [Jellyfin Ignore ` 🔸 ` `📅`](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [jellyfin-lyrics-plugin](https://github.com/Felitendo/jellyfin-lyrics-plugin) - Automatically downloads and applies the lyrics for the songs in your music library from LrcLib.
