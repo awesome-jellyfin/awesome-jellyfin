@@ -69,7 +69,7 @@
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
 - [Jellyfin Segment Editor `📅`](https://github.com/endrl/segment-editor) - Manage Jellyfin Media Segment positions.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - A CLI Program for installing and managing Jellyfin.
-- - [jellyplist ` 🔸 `](https://github.com/kamilkosek/jellyplist) - Utility for syncing Spotify playlists to Jellyfin.
+- [jellyplist ` 🔸 `](https://github.com/kamilkosek/jellyplist) - Utility for syncing Spotify playlists to Jellyfin.
 - [JellyRoller ` 🔸 `](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller.
 - [JellySearch](https://gitlab.com/DomiStyle/jellysearch) - A fast full-text search proxy for Jellyfin using Meilisearch.
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
