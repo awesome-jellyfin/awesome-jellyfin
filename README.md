@@ -22,7 +22,6 @@
 
 
 ## 🧩 Plugins
-- [Explo](https://github.com/LumePart/Explo/blob/main/README.md) - An automated music discovery tool that generates a "Discover Weekly" playlist by downloading recommended tracks based on your listening history for self-hosted music systems.
 - [FinTube](https://github.com/AECX/FinTube) - Easily add content from YouTube to your Jellyfin installation.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/jumoog/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
@@ -108,6 +107,7 @@ This section includes software, guides and tools that are not *specifically* des
 - [calibre2jellyfin](https://github.com/shawn61cp/calibre2jellyfin) - Python script to construct a Jellyfin ebook library from a Calibre library.
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder) - A 1-click installer and maintainer for Jellyfin on Windows, Mac and Linux.
 - [ErsatzTV ` 🔸 `](https://github.com/ErsatzTV/ErsatzTV) - Stream custom live channels using your own media.
+- [Explo](https://github.com/LumePart/Explo/blob/main/README.md) - Automated music discovery tool that recommended tracks based on your listening history.
 - [locatarr `📅`](https://github.com/Locatarr/Locatarr) - A list of tools used to automate the downloading and organization of media files.
   - [radarr](https://github.com/Radarr/Radarr) - Automates downloading & management of movies [`🟣 TRaSH Guide`](https://trash-guides.info/Radarr/).
   - [sonarr](https://github.com/Sonarr/Sonarr) - Automates downloading & management of TV series [`🟣 TRaSH Guide`](https://trash-guides.info/Sonarr/).
