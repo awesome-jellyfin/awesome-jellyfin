@@ -320,6 +320,18 @@ clients:
       - icon: testflight
         url: https://testflight.apple.com/join/lEXKY4Dl
 
+  - name: "Shadfin"
+    targets: [ Browser ]
+    oss: https://github.com/Shadfin/app
+    official: false
+    beta: true
+    downloads:
+      - icon: demo
+        url: https://main.shadfin-standalone.pages.dev
+
+      - icon: github
+        url: https://github.com/Shadfin/app/pkgs/container/app
+
   - name: "Symfonium"
     targets: [ Android ]
     types: [ Music ]
@@ -381,7 +393,6 @@ clients:
     downloads:
       - icon: github
         url: https://github.com/dragonflylee/switchfin/releases/latest
-
 
 icons:
   github:
