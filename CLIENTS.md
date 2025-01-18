@@ -21,6 +21,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd/releases) |
 | [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
+| [Shadfin ` ⚒️ `](https://github.com/Shadfin/app) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://main.shadfin-standalone.pages.dev) [![img](assets/clients/icons/github.png)](https://github.com/Shadfin/app/pkgs/container/app) |
 | [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 
 ## 💻 Desktop
