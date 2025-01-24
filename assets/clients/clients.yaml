@@ -394,6 +394,17 @@ clients:
       - icon: github
         url: https://github.com/dragonflylee/switchfin/releases/latest
 
+  - name: "tsukimi"
+    targets: [ Linux ]
+    oss: https://github.com/tsukinaha/tsukimi
+    official: false
+    beta: true
+    price:
+      free: true
+    downloads:
+      - icon: github
+        url: https://github.com/tsukinaha/tsukimi/releases
+
 icons:
   github:
     single: "assets/clients/icons/github.png"
