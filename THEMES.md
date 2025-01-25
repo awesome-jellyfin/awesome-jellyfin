@@ -255,6 +255,39 @@ Custom CSS theme for Jellyfin with support for backdrops and themes [` 🔵 Get 
 
 ---
 
+## [ZestyTheme](https://github.com/stpnwf/ZestyTheme/) by stpnwf
+
+A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://github.com/MakD/zombie-release)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/home.jpg" />
+    </td>
+    <td>
+      <img src="https://github.com/stpnwf/ZestyTheme/raw/main/images/nice-guys.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/avatar.jpg" />
+    </td>
+    <td>
+      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/player.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/login.jpg" />
+    </td>
+    <td>
+      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/phone.jpg" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [zombie-release](https://github.com/MakD/zombie-release) by MakD
 
 A theme for Jellyfin 10.9.x combining the best from the Public Themes [` 🔵 Get this Theme `](https://github.com/MakD/zombie-release)
