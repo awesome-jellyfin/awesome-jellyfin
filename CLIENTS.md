@@ -41,6 +41,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/Blink) |
 | [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 | [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dragonflylee/switchfin/releases/latest) |
+| [tsukimi ` ⚒️ `](https://github.com/tsukinaha/tsukimi) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/tsukinaha/tsukimi/releases) |
 
 ### macOS
 
@@ -73,6 +74,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/Blink) |
 | [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
 | [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dragonflylee/switchfin/releases/latest) |
+| [tsukimi ` ⚒️ `](https://github.com/tsukinaha/tsukimi) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/tsukinaha/tsukimi/releases) |
 
 ## 📱 Mobile
 
