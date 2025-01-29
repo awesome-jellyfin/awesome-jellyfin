@@ -4,11 +4,13 @@ clients:
     oss: https://github.com/jellyfin/jellyfin-media-player
     official: true
     downloads:
-      - icon: github
-        url: https://github.com/jellyfin/jellyfin-media-player/releases
-
-      - icon: flathub
-        url: https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player
+      -
+        type: github
+        owner: jellyfin
+        repo: jellyfin-media-player
+      -
+        type: flathub
+        package: com.github.iwalton3.jellyfin-media-player
 
   - name: "Swiftfin"
     targets: [ iOS, AppleTV ]
@@ -16,8 +18,8 @@ clients:
     official: true
     beta: true
     downloads:
-      - icon: apple-appstore
-        url: https://apps.apple.com/ca/app/swiftfin/id1604098728
+      - type: app-store
+        id: "1604098728"
 
   - name: "Jellyfin Vue"
     targets: [ Browser ]
@@ -25,69 +27,77 @@ clients:
     official: true
     beta: true
     downloads:
-      - icon: demo
-        url: https://jf-vue.pages.dev/
-
-      - icon: docker-hub
-        url: https://github.com/jellyfin/jellyfin-vue/pkgs/container/jellyfin-vue
-
-      - icon: github
+      -
+        type: github
+        owner: jellyfin
+        repo: jellyfin-vue
         url: https://github.com/jellyfin/jellyfin-vue/actions/workflows/release.yml
+      -
+        type: demo
+        url: https://jf-vue.pages.dev/
 
   - name: "JellyCon"
     targets: [ Kodi ]
     oss: https://github.com/jellyfin/jellycon
     official: true
     downloads:
-      - text: "Installation Guide"
-        url: https://github.com/jellyfin/jellycon#installation
+      - type: github
+        owner: jellyfin
+        repo: jellycon
 
   - name: "Jellyfin for Kodi"
     targets: [ Kodi ]
     oss: https://github.com/jellyfin/jellyfin-kodi
     downloads:
-      - text: "Installation Guide"
-        url: https://jellyfin.org/docs/general/clients/kodi
+      - type: github
+        owner: jellyfin
+        repo: jellyfin-kodi
 
   - name: "Jellyfin for Android"
     targets: [ Android ]
     oss: https://github.com/jellyfin/jellyfin-android
     official: true
     downloads:
-      - icon: f-droid
+      -
+        type: shield
+        icon: F-Droid
         url: https://f-droid.org/en/packages/org.jellyfin.mobile/
-
-      - icon: amazon-appstore
+      -
+        type: shield
+        icon: Amazon
         url: https://www.amazon.com/gp/aw/d/B081RFTTQ9
-
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=org.jellyfin.mobile
+      -
+        type: google-play
+        id: org.jellyfin.mobile
 
   - name: "Jellyfin Mobile for iOS"
     targets: [ iOS ]
     oss: https://github.com/jellyfin/jellyfin-expo
     official: true
     downloads:
-      - icon: apple-appstore
-        url: https://apps.apple.com/us/app/jellyfin-mobile/id1480192618?mt=8
+      - type: app-store
+        id: "1480192618"
 
   - name: "Jellyfin for Android TV"
     targets: [ AndroidTV ]
     oss: https://github.com/jellyfin/jellyfin-androidtv
     official: true
     downloads:
-      - icon: amazon-appstore
+      -
+        type: shield
+        icon: Amazon
         url: https://www.amazon.com/gp/aw/d/B07TX7Z725
-
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=org.jellyfin.androidtv
+      -
+        type: google-play
+        id: org.jellyfin.androidtv
 
   - name: "Jellyfin for Roku"
     targets: [ Roku ]
     oss: https://github.com/jellyfin/jellyfin-roku
     official: true
     downloads:
-      - text: Channel Store
+      - type: shield
+        icon: Roku
         url: https://channelstore.roku.com/details/592369/jellyfin
 
   - name: "Jellyfin for WebOS"
@@ -95,7 +105,8 @@ clients:
     oss: https://github.com/jellyfin/jellyfin-webos
     official: true
     downloads:
-      - text: Content Store
+      - type: shield
+        icon: LG
         url: https://us.lgappstv.com/main/tvapp/detail?appId=1030579
 
   - name: "Findroid"
@@ -104,17 +115,20 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: izzisoft
+      -
+        type: shield
+        label: Izzysoft
         url: https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin
-
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin
+      -
+        type: google-play
+        id: dev.jdtech.jellyfin
 
   - name: "Sailfin"
     targets: [ SailfishOS ]
     oss: https://github.com/heartfin/harbour-sailfin
     downloads:
-      - icon: openrepos
+      - type: shield
+        label: OpenRepos
         url: https://openrepos.net/content/ahappyhuman/sailfin
 
   - name: 'Infuse'
@@ -124,8 +138,8 @@ clients:
       free: true
       paid: true
     downloads:
-      - icon: apple-appstore
-        url: https://apps.apple.com/app/id1136220934?mt=8
+      - type: app-store
+        id: "1136220934"
 
   - name: 'VidHub'
     targets: [ Android ,iOS, AppleTV, macOS ]
@@ -134,10 +148,12 @@ clients:
       free: true
       paid: true
     downloads:
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub
-      - icon: apple-appstore
-        url: https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164
+      -
+        type: google-play
+        id: com.oumi.utility.media.hub
+      -
+        type: app-store
+        id: "1659622164"
 
   - name: "sonixd"
     targets: [ Browser ]
@@ -146,8 +162,9 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: github
-        url: https://github.com/jeffvli/sonixd/releases
+      - type: github
+        owner: jeffvli
+        repo: sonixd
 
   - name: "Finamp"
     targets: [ Android, iOS ]
@@ -156,10 +173,12 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp
-      - icon: apple-appstore
-        url: https://apps.apple.com/us/app/finamp/id1574922594
+      -
+        type: google-play
+        id: com.unicornsonlsd.finamp
+      -
+        type: app-store
+        id: "1574922594"
 
   - name: "MrMC"
     targets: [ AppleTV ]
@@ -168,14 +187,16 @@ clients:
       free: true
       paid: true
     downloads:
-      - icon: amazon-appstore
+      -
+        type: shield
+        icon: Amazon
         url: https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc
-
-      - icon: apple-appstore
-        url: https://apps.apple.com/us/app/mrmc/id1059536415
-
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=tv.mrmc.mrmc
+      -
+        type: app-store
+        id: "1059536415"
+      -
+        type: google-play
+        id: tv.mrmc.mrmc
 
   - name: "Delfin"
     targets: [ Linux ]
@@ -183,8 +204,8 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: flathub
-        url: https://flathub.org/apps/cafe.avery.Delfin
+      - type: flathub
+        package: cafe.avery.Delfin
 
   - name: "Supersonic"
     targets: [ Windows, Linux, macOS ]
@@ -193,10 +214,13 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: github
-        url: https://github.com/dweymouth/supersonic
-      - icon: flathub
-        url: https://flathub.org/apps/io.github.dweymouth.supersonic
+      -
+        type: github
+        owner: dweymouth
+        repo: supersonic
+      -
+        type: flathub
+        package: io.github.dweymouth.supersonic
 
   - name: "Tauon Music Box"
     targets: [ Windows, Linux ]
@@ -204,20 +228,26 @@ clients:
     oss: https://github.com/Taiko2k/TauonMusicBox
     official: false
     downloads:
-      - icon: github
-        url: https://github.com/Taiko2k/TauonMusicBox
-      - icon: flathub
-        url: https://flathub.org/apps/com.github.taiko2k.tauonmb
+      -
+        type: github
+        owner: Taiko2k
+        repo: TauonMusicBox
+      -
+        type: flathub
+        package: com.github.taiko2k.tauonmb
 
   - name: "Jellyfin MPV Shim"
     targets: [ Windows, Linux, macOS ]
     oss: https://github.com/jellyfin/jellyfin-mpv-shim
     official: true
     downloads:
-      - icon: github
-        url: https://github.com/jellyfin/jellyfin-mpv-shim
-      - icon: flathub
-        url: https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim
+      -
+        type: github
+        owner: jellyfin
+        repo: jellyfin-mpv-shim
+      -
+        type: flathub
+        package: com.github.iwalton3.jellyfin-mpv-shim
 
   - name: "Jellyamp"
     targets: [ Windows, Linux ]
@@ -225,8 +255,9 @@ clients:
     oss: https://github.com/m0ngr31/jellyamp
     official: false
     downloads:
-      - icon: github
-        url: https://github.com/m0ngr31/jellyamp
+      - type: github
+        owner: m0ngr31
+        repo: jellyamp
 
   - name: "Preserve"
     targets: [ Browser, Windows, Linux ]
@@ -235,10 +266,13 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: demo
+      -
+        type: gitlab
+        owner: preserve
+        repo: preserve
+      -
+        type: demo
         url: https://preserveplayer.com/
-      - icon: github
-        url: https://gitlab.com/preserve/preserve
 
   - name: "Sonixd"
     targets: [ Windows, Linux, macOS ]
@@ -247,8 +281,9 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: github
-        url: https://github.com/jeffvli/sonixd
+      - type: github
+        owner: jeffvli
+        repo: sonixd
 
   - name: "Feishin"
     targets: [ Browser, Windows, Linux, macOS ]
@@ -257,8 +292,9 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: github
-        url: https://github.com/jeffvli/feishin
+      - type: github
+        owner: jeffvli
+        repo: feishin
 
   - name: "Manet"
     targets: [ iOS ]
@@ -267,8 +303,8 @@ clients:
     price:
       free: true
     downloads:
-      - icon: apple-appstore
-        url: https://apps.apple.com/us/app/manet-music/id6470928235
+      - type: app-store
+        id: "6470928235"
 
   - name: "Fintunes"
     targets: [ Android, iOS ]
@@ -277,15 +313,20 @@ clients:
     official: false
     beta: false
     downloads:
-      - icon: github
-        url: https://github.com/leinelissen/jellyfin-audio-player
-      - icon: f-droid
+      -
+        type: github
+        owner: leinelissen
+        repo: jellyfin-audio-player
+      -
+        type: shield
+        icon: F-Droid
         url: https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer
-      - icon: apple-appstore
-        url: https://apple.co/3MFYIJH
-
+      -
+        type: google-play
+        id: nl.moeilijkedingen.jellyfinaudioplayer
+      -
+        type: app-store
+        id: "1527732194"
 
   - name: "Blink"
     targets: [ Windows, Linux, macOS ]
@@ -293,8 +334,9 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: github
-        url: https://github.com/prayag17/Blink
+      - type: github
+        owner: prayag17
+        repo: Blink
 
   - name: "Gelli"
     targets: [ Android ]
@@ -303,9 +345,13 @@ clients:
     official: false
     beta: false
     downloads:
-      - icon: github
-        url: https://github.com/dkanada/gelli
-      - icon: f-droid
+      -
+        type: github
+        owner: dkanada
+        repo: gelli
+      -
+        type: shield
+        icon: F-Droid
         url: https://f-droid.org/packages/com.dkanada.gramophone
 
   - name: "JellyBook"
@@ -315,12 +361,19 @@ clients:
     official: false
     beta: false
     downloads:
-      - icon: github
-        url: https://github.com/JellyBookOrg/JellyBook
-      - icon: izzisoft
-        url: https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/
-      - icon: testflight
-        url: https://testflight.apple.com/join/lEXKY4Dl
+      -
+        type: github
+        owner: JellyBookOrg
+        repo: JellyBook
+      -
+        type: shield
+        label: Izzysoft
+        url: "https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/"
+      -
+        type: shield
+        icon: App Store
+        label: TestFlight
+        url: "https://testflight.apple.com/join/lEXKY4Dl"
 
   - name: "Shadfin"
     targets: [ Browser ]
@@ -328,11 +381,13 @@ clients:
     official: false
     beta: true
     downloads:
-      - icon: demo
+      -
+        type: github
+        owner: Shadfin
+        repo: app
+      -
+        type: demo
         url: https://main.shadfin-standalone.pages.dev
-
-      - icon: github
-        url: https://github.com/Shadfin/app/pkgs/container/app
 
   - name: "Symfonium"
     targets: [ Android ]
@@ -343,8 +398,8 @@ clients:
     price:
       paid: true
     downloads:
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=app.symfonik.music.player
+      - type: google-play
+        id: app.symfonik.music.player
 
   - name: "Jellyflix"
     targets: [ Android, iOS, Windows, Linux, macOS, Browser ]
@@ -354,18 +409,16 @@ clients:
     price:
       free: true
     downloads:
-      - icon: demo
+      -
+        type: demo
         url: https://jellyflix.kiejon.com/
-      - icon: apple-appstore
-        url: https://apps.apple.com/de/app/jellyflix/id6476043683
-      - text: ".apk"
-        url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk
-      - text: ".dmg"
-        url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg
-      - text: "windows.zip"
-        url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip
-      - text: "linux.zip"
-        url: https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip
+      -
+        type: app-store
+        id: 6476043683
+      -
+        type: github
+        owner: jellyflix-app
+        repo: jellyflix
 
   - name: "Streamyfin"
     targets: [ Android, iOS ]
@@ -376,14 +429,21 @@ clients:
     price:
       free: true
     downloads:
-      - icon: apple-appstore
-        url: https://apps.apple.com/us/app/streamyfin/id6593660679
-      - icon: google-playstore
-        url: https://play.google.com/store/apps/details?id=com.fredrikburmester.streamyfin
-      - icon : testflight
+      -
+        type: app-store
+        id: "6593660679"
+      -
+        type: shield
+        icon: App Store
+        label: TestFlight
         url: https://testflight.apple.com/join/CWBaAAK2
-      - text: ".apk"
-        url: https://github.com/fredrikburmester/streamyfin/releases
+      -
+        type: google-play
+        id: com.fredrikburmester.streamyfin
+      -
+        type: github
+        owner: fredrikburmester
+        repo: streamyfin
 
   - name: "Switchfin"
     targets: [ NintendoSwitch, macOS, Linux, Windows ]
@@ -393,8 +453,9 @@ clients:
     price:
       free: true
     downloads:
-      - icon: github
-        url: https://github.com/dragonflylee/switchfin/releases/latest
+      - type: github
+        owner: dragonflylee
+        repo: switchfin
 
   - name: "tsukimi"
     targets: [ Linux, Windows ]
@@ -404,32 +465,9 @@ clients:
     price:
       free: true
     downloads:
-      - icon: github
-        url: https://github.com/tsukinaha/tsukimi/releases
-
-icons:
-  github:
-    single: "assets/clients/icons/github.png"
-  flathub:
-    single: "assets/clients/icons/flathub.png"
-  apple-appstore:
-    single: "assets/clients/icons/appstore.png"
-  google-playstore:
-    single: "assets/clients/icons/googleplay.png"
-  docker-hub:
-    single: "assets/clients/icons/docker.png"
-  f-droid:
-    single: "assets/clients/icons/fdroid.png"
-  amazon-appstore:
-    single: "assets/clients/icons/amazon.png"
-  izzisoft:
-    single: "assets/clients/icons/izzisoft.png"
-  openrepos:
-    single: "assets/clients/icons/openrepos.png"
-  testflight:
-    single: "assets/clients/icons/testflight.png"
-  demo:
-    single: "assets/clients/icons/demo.png"
+      - type: github
+        owner: tsukinaha
+        repo: tsukimi
 
 targets:
   - key: Browser

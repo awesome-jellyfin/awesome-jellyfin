@@ -19,5 +19,5 @@ jobs:
 
     - name: Test if we can generate clients
       run: |
-        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@c6c44360024954a72a46617421c297aca4a2565e
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@latest
         generate -input assets/clients/clients.yaml -check-icons
