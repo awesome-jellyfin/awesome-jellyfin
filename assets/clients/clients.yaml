@@ -128,12 +128,14 @@ clients:
         url: https://apps.apple.com/app/id1136220934?mt=8
 
   - name: 'VidHub'
-    targets: [ iOS, AppleTV, macOS ]
+    targets: [ Android ,iOS, AppleTV, macOS ]
     website: https://okaapps.com/product/1659622164
     price:
       free: true
       paid: true
     downloads:
+      - icon: google-playstore
+        url: https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub
       - icon: apple-appstore
         url: https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164
 
