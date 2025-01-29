@@ -395,7 +395,7 @@ clients:
         url: https://github.com/dragonflylee/switchfin/releases/latest
 
   - name: "tsukimi"
-    targets: [ Linux ]
+    targets: [ Linux, Windows ]
     oss: https://github.com/tsukinaha/tsukimi
     official: false
     beta: true
