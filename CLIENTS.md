@@ -13,16 +13,18 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 </p>
 
 # By Environment
+
 ## 🌎 Browser-Based
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin Vue ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/jellyfin-vue) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jf-vue.pages.dev/) [![img](assets/clients/icons/docker.png)](https://github.com/jellyfin/jellyfin-vue/pkgs/container/jellyfin-vue) [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-vue/actions/workflows/release.yml) |
-| [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd/releases) |
-| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
-| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Shadfin ` ⚒️ `](https://github.com/Shadfin/app) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://main.shadfin-standalone.pages.dev) [![img](assets/clients/icons/github.png)](https://github.com/Shadfin/app/pkgs/container/app) |
-| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
+| [Jellyfin Vue ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/jellyfin-vue) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-vue/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-vue/actions/workflows/release.yml) [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://jf-vue.pages.dev/) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://jellyflix.kiejon.com/) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6476043683) [![github](https://img.shields.io/github/downloads/jellyflix-app/jellyflix/total?logo=github&label=GitHub)](https://github.com/jellyflix-app/jellyflix/releases) |
+| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![GitLab](https://img.shields.io/badge/GitLab-grey?logo=GitLab&label=)](https://gitlab.com/preserve/preserve) [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://preserveplayer.com/) |
+| [Shadfin ` ⚒️ `](https://github.com/Shadfin/app) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/Shadfin/app/total?logo=github&label=GitHub)](https://github.com/Shadfin/app/releases) [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://main.shadfin-standalone.pages.dev) |
+| [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/sonixd/total?logo=github&label=GitHub)](https://github.com/jeffvli/sonixd/releases) |
+
 
 ## 💻 Desktop
 
@@ -30,51 +32,54 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-media-player/releases) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player) |
-| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
-| [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/Taiko2k/TauonMusicBox) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
-| [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
-| [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/m0ngr31/jellyamp) |
-| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
-| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
-| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/Blink) |
-| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
-| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dragonflylee/switchfin/releases/latest) |
-| [tsukimi ` ⚒️ `](https://github.com/tsukinaha/tsukimi) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/tsukinaha/tsukimi/releases) |
+| [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
+| [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/m0ngr31/jellyamp/total?logo=github&label=GitHub)](https://github.com/m0ngr31/jellyamp/releases) |
+| [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-media-player/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-media-player/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.iwalton3.jellyfin-media-player?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.iwalton3.jellyfin-media-player) |
+| [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-mpv-shim/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-mpv-shim/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.iwalton3.jellyfin-mpv-shim?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://jellyflix.kiejon.com/) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6476043683) [![github](https://img.shields.io/github/downloads/jellyflix-app/jellyflix/total?logo=github&label=GitHub)](https://github.com/jellyflix-app/jellyflix/releases) |
+| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![GitLab](https://img.shields.io/badge/GitLab-grey?logo=GitLab&label=)](https://gitlab.com/preserve/preserve) [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://preserveplayer.com/) |
+| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/sonixd/total?logo=github&label=GitHub)](https://github.com/jeffvli/sonixd/releases) |
+| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dweymouth/supersonic/total?logo=github&label=GitHub)](https://github.com/dweymouth/supersonic/releases) [![flathub](https://img.shields.io/flathub/downloads/io.github.dweymouth.supersonic?logo=Flathub&label=Flathub)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
+| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dragonflylee/switchfin/total?logo=github&label=GitHub)](https://github.com/dragonflylee/switchfin/releases) |
+| [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/Taiko2k/TauonMusicBox/total?logo=github&label=GitHub)](https://github.com/Taiko2k/TauonMusicBox/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.taiko2k.tauonmb?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
+| [tsukimi ` ⚒️ `](https://github.com/tsukinaha/tsukimi) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/tsukinaha/tsukimi/total?logo=github&label=GitHub)](https://github.com/tsukinaha/tsukimi/releases) |
+
 
 ### macOS
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-media-player/releases) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player) |
-| [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
-| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164) |
-| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
-| [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
-| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
-| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/Blink) |
-| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
-| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dragonflylee/switchfin/releases/latest) |
+| [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
+| [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1136220934) |
+| [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-media-player/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-media-player/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.iwalton3.jellyfin-media-player?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.iwalton3.jellyfin-media-player) |
+| [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-mpv-shim/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-mpv-shim/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.iwalton3.jellyfin-mpv-shim?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://jellyflix.kiejon.com/) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6476043683) [![github](https://img.shields.io/github/downloads/jellyflix-app/jellyflix/total?logo=github&label=GitHub)](https://github.com/jellyflix-app/jellyflix/releases) |
+| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/sonixd/total?logo=github&label=GitHub)](https://github.com/jeffvli/sonixd/releases) |
+| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dweymouth/supersonic/total?logo=github&label=GitHub)](https://github.com/dweymouth/supersonic/releases) [![flathub](https://img.shields.io/flathub/downloads/io.github.dweymouth.supersonic?logo=Flathub&label=Flathub)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
+| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dragonflylee/switchfin/total?logo=github&label=GitHub)](https://github.com/dragonflylee/switchfin/releases) |
+| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1659622164) |
+
 
 ### Linux
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-media-player/releases) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player) |
-| [Delfin ` ⚒️ `](https://codeberg.org/avery42/delfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/cafe.avery.Delfin) |
-| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
-| [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/Taiko2k/TauonMusicBox) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
-| [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jellyfin/jellyfin-mpv-shim) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
-| [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/m0ngr31/jellyamp) |
-| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
-| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
-| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/prayag17/Blink) |
-| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
-| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dragonflylee/switchfin/releases/latest) |
-| [tsukimi ` ⚒️ `](https://github.com/tsukinaha/tsukimi) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/tsukinaha/tsukimi/releases) |
+| [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
+| [Delfin ` ⚒️ `](https://codeberg.org/avery42/delfin) | ✅ | ✅ | ❎ | [![flathub](https://img.shields.io/flathub/downloads/cafe.avery.Delfin?logo=Flathub&label=Flathub)](https://flathub.org/apps/cafe.avery.Delfin) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
+| [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/m0ngr31/jellyamp/total?logo=github&label=GitHub)](https://github.com/m0ngr31/jellyamp/releases) |
+| [Jellyfin Media Player ` 🔹 `](https://github.com/jellyfin/jellyfin-media-player) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-media-player/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-media-player/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.iwalton3.jellyfin-media-player?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.iwalton3.jellyfin-media-player) |
+| [Jellyfin MPV Shim ` 🔹 `](https://github.com/jellyfin/jellyfin-mpv-shim) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-mpv-shim/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-mpv-shim/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.iwalton3.jellyfin-mpv-shim?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://jellyflix.kiejon.com/) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6476043683) [![github](https://img.shields.io/github/downloads/jellyflix-app/jellyflix/total?logo=github&label=GitHub)](https://github.com/jellyflix-app/jellyflix/releases) |
+| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![GitLab](https://img.shields.io/badge/GitLab-grey?logo=GitLab&label=)](https://gitlab.com/preserve/preserve) [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://preserveplayer.com/) |
+| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/sonixd/total?logo=github&label=GitHub)](https://github.com/jeffvli/sonixd/releases) |
+| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dweymouth/supersonic/total?logo=github&label=GitHub)](https://github.com/dweymouth/supersonic/releases) [![flathub](https://img.shields.io/flathub/downloads/io.github.dweymouth.supersonic?logo=Flathub&label=Flathub)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
+| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dragonflylee/switchfin/total?logo=github&label=GitHub)](https://github.com/dragonflylee/switchfin/releases) |
+| [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/Taiko2k/TauonMusicBox/total?logo=github&label=GitHub)](https://github.com/Taiko2k/TauonMusicBox/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.taiko2k.tauonmb?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
+| [tsukimi ` ⚒️ `](https://github.com/tsukinaha/tsukimi) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/tsukinaha/tsukimi/total?logo=github&label=GitHub)](https://github.com/tsukinaha/tsukimi/releases) |
+
 
 ## 📱 Mobile
 
@@ -82,43 +87,47 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Swiftfin ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/ca/app/swiftfin/id1604098728) |
-| [Jellyfin Mobile for iOS ` 🔹 `](https://github.com/jellyfin/jellyfin-expo) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/jellyfin-mobile/id1480192618?mt=8) |
-| [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
-| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164) |
-| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
-| [Manet ` 🎵 `](https://tilo.dev/manet/) | ❌ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/manet-music/id6470928235) |
-| [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
-| [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/JellyBookOrg/JellyBook) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
-| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
-| [Streamyfin](https://streamyfin.app) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/streamyfin/id6593660679) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.fredrikburmester.streamyfin) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/CWBaAAK2) [.apk](https://github.com/fredrikburmester/streamyfin/releases) |
+| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
+| [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/leinelissen/jellyfin-audio-player/total?logo=github&label=GitHub)](https://github.com/leinelissen/jellyfin-audio-player/releases) [![F-Droid](https://img.shields.io/badge/F-Droid-grey?logo=F-Droid&label=)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1527732194) |
+| [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1136220934) |
+| [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/JellyBookOrg/JellyBook/total?logo=github&label=GitHub)](https://github.com/JellyBookOrg/JellyBook/releases) [![Izzysoft](https://img.shields.io/badge/-grey?logo=&label=Izzysoft)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![TestFlight](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=TestFlight)](https://testflight.apple.com/join/lEXKY4Dl) |
+| [Jellyfin Mobile for iOS ` 🔹 `](https://github.com/jellyfin/jellyfin-expo) | ✅ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1480192618) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://jellyflix.kiejon.com/) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6476043683) [![github](https://img.shields.io/github/downloads/jellyflix-app/jellyflix/total?logo=github&label=GitHub)](https://github.com/jellyflix-app/jellyflix/releases) |
+| [Manet ` 🎵 `](https://tilo.dev/manet/) | ❌ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6470928235) |
+| [Streamyfin](https://streamyfin.app) | ✅ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6593660679) [![TestFlight](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=TestFlight)](https://testflight.apple.com/join/CWBaAAK2) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.fredrikburmester.streamyfin) [![github](https://img.shields.io/github/downloads/fredrikburmester/streamyfin/total?logo=github&label=GitHub)](https://github.com/fredrikburmester/streamyfin/releases) |
+| [Swiftfin ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1604098728) |
+| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1659622164) |
+
 
 ### Android
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin for Android ` 🔹 `](https://github.com/jellyfin/jellyfin-android) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/org.jellyfin.mobile/) [![img](assets/clients/icons/amazon.png)](https://www.amazon.com/gp/aw/d/B081RFTTQ9) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=org.jellyfin.mobile) |
-| [Findroid ` ⚒️ `](https://github.com/jarnedemeulemeester/findroid) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin) |
-| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164) |
-| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
-| [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
-| [Gelli ` 🎵 `](https://github.com/dkanada/gelli) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dkanada/gelli) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/packages/com.dkanada.gramophone) |
-| [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/JellyBookOrg/JellyBook) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
-| [Symfonium ` ⚒️ ` ` 🎵 `](https://symfonium.app) | ❌ | ❌ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=app.symfonik.music.player) |
-| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://jellyflix.kiejon.com/) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/de/app/jellyflix/id6476043683) [.apk](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.apk) [.dmg](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix.dmg) [windows.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-windows.zip) [linux.zip](https://github.com/jellyflix-app/jellyflix/releases/latest/download/jellyflix-linux.zip) |
-| [Streamyfin](https://streamyfin.app) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/streamyfin/id6593660679) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.fredrikburmester.streamyfin) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/CWBaAAK2) [.apk](https://github.com/fredrikburmester/streamyfin/releases) |
+| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
+| [Findroid ` ⚒️ `](https://github.com/jarnedemeulemeester/findroid) | ✅ | ✅ | ❎ | [![Izzysoft](https://img.shields.io/badge/-grey?logo=&label=Izzysoft)](https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin) |
+| [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/leinelissen/jellyfin-audio-player/total?logo=github&label=GitHub)](https://github.com/leinelissen/jellyfin-audio-player/releases) [![F-Droid](https://img.shields.io/badge/F-Droid-grey?logo=F-Droid&label=)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1527732194) |
+| [Gelli ` 🎵 `](https://github.com/dkanada/gelli) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dkanada/gelli/total?logo=github&label=GitHub)](https://github.com/dkanada/gelli/releases) [![F-Droid](https://img.shields.io/badge/F-Droid-grey?logo=F-Droid&label=)](https://f-droid.org/packages/com.dkanada.gramophone) |
+| [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/JellyBookOrg/JellyBook/total?logo=github&label=GitHub)](https://github.com/JellyBookOrg/JellyBook/releases) [![Izzysoft](https://img.shields.io/badge/-grey?logo=&label=Izzysoft)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![TestFlight](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=TestFlight)](https://testflight.apple.com/join/lEXKY4Dl) |
+| [Jellyfin for Android ` 🔹 `](https://github.com/jellyfin/jellyfin-android) | ✅ | ✅ | ❎ | [![F-Droid](https://img.shields.io/badge/F-Droid-grey?logo=F-Droid&label=)](https://f-droid.org/en/packages/org.jellyfin.mobile/) [![Amazon](https://img.shields.io/badge/Amazon-grey?logo=Amazon&label=)](https://www.amazon.com/gp/aw/d/B081RFTTQ9) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=org.jellyfin.mobile) |
+| [Jellyflix](https://github.com/jellyflix-app/jellyflix) | ✅ | ✅ | ❎ | [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://jellyflix.kiejon.com/) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6476043683) [![github](https://img.shields.io/github/downloads/jellyflix-app/jellyflix/total?logo=github&label=GitHub)](https://github.com/jellyflix-app/jellyflix/releases) |
+| [Streamyfin](https://streamyfin.app) | ✅ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6593660679) [![TestFlight](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=TestFlight)](https://testflight.apple.com/join/CWBaAAK2) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.fredrikburmester.streamyfin) [![github](https://img.shields.io/github/downloads/fredrikburmester/streamyfin/total?logo=github&label=GitHub)](https://github.com/fredrikburmester/streamyfin/releases) |
+| [Symfonium ` ⚒️ ` ` 🎵 `](https://symfonium.app) | ❌ | ❌ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=app.symfonik.music.player) |
+| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1659622164) |
+
 
 ### Sailfish OS
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Sailfin](https://github.com/heartfin/harbour-sailfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/openrepos.png)](https://openrepos.net/content/ahappyhuman/sailfin) |
+| [Sailfin](https://github.com/heartfin/harbour-sailfin) | ✅ | ✅ | ❎ | [![OpenRepos](https://img.shields.io/badge/-grey?logo=&label=OpenRepos)](https://openrepos.net/content/ahappyhuman/sailfin) |
+
 
 ### Nintendo Switch
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dragonflylee/switchfin/releases/latest) |
+| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dragonflylee/switchfin/total?logo=github&label=GitHub)](https://github.com/dragonflylee/switchfin/releases) |
+
 
 ## 📺 TV
 
@@ -126,35 +135,39 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Swiftfin ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/ca/app/swiftfin/id1604098728) |
-| [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/app/id1136220934?mt=8) |
-| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/vidhub-video-library-player/id1659622164) |
-| [MrMC](https://github.com/MrMC/mrmc) | ✅ | ✅ | ☑️ | [![img](assets/clients/icons/amazon.png)](https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/mrmc/id1059536415) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=tv.mrmc.mrmc) |
+| [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1136220934) |
+| [MrMC](https://github.com/MrMC/mrmc) | ✅ | ✅ | ☑️ | [![Amazon](https://img.shields.io/badge/Amazon-grey?logo=Amazon&label=)](https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1059536415) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=tv.mrmc.mrmc) |
+| [Swiftfin ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/swiftfin) | ✅ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1604098728) |
+| [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1659622164) |
+
 
 ### Android TV
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin for Android TV ` 🔹 `](https://github.com/jellyfin/jellyfin-androidtv) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/amazon.png)](https://www.amazon.com/gp/aw/d/B07TX7Z725) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=org.jellyfin.androidtv) |
+| [Jellyfin for Android TV ` 🔹 `](https://github.com/jellyfin/jellyfin-androidtv) | ✅ | ✅ | ❎ | [![Amazon](https://img.shields.io/badge/Amazon-grey?logo=Amazon&label=)](https://www.amazon.com/gp/aw/d/B07TX7Z725) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=org.jellyfin.androidtv) |
+
 
 ### Kodi
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [JellyCon ` 🔹 `](https://github.com/jellyfin/jellycon) | ✅ | ✅ | ❎ | [Installation Guide](https://github.com/jellyfin/jellycon#installation) |
-| [Jellyfin for Kodi ` 🔹 `](https://github.com/jellyfin/jellyfin-kodi) | ✅ | ✅ | ❎ | [Installation Guide](https://jellyfin.org/docs/general/clients/kodi) |
+| [JellyCon ` 🔹 `](https://github.com/jellyfin/jellycon) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellycon/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellycon/releases) |
+| [Jellyfin for Kodi ` 🔹 `](https://github.com/jellyfin/jellyfin-kodi) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-kodi/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-kodi/releases) |
+
 
 ### Roku
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin for Roku ` 🔹 `](https://github.com/jellyfin/jellyfin-roku) | ✅ | ✅ | ❎ | [Channel Store](https://channelstore.roku.com/details/592369/jellyfin) |
+| [Jellyfin for Roku ` 🔹 `](https://github.com/jellyfin/jellyfin-roku) | ✅ | ✅ | ❎ | [![Roku](https://img.shields.io/badge/Roku-grey?logo=Roku&label=)](https://channelstore.roku.com/details/592369/jellyfin) |
+
 
 ### webOS
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [Jellyfin for WebOS ` 🔹 `](https://github.com/jellyfin/jellyfin-webos) | ✅ | ✅ | ❎ | [Content Store](https://us.lgappstv.com/main/tvapp/detail?appId=1030579) |
+| [Jellyfin for WebOS ` 🔹 `](https://github.com/jellyfin/jellyfin-webos) | ✅ | ✅ | ❎ | [![LG](https://img.shields.io/badge/LG-grey?logo=LG&label=)](https://us.lgappstv.com/main/tvapp/detail?appId=1030579) |
 
 
 ---
@@ -165,31 +178,33 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd/releases) |
-| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/finamp/id1574922594) |
-| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dweymouth/supersonic) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
-| [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/Taiko2k/TauonMusicBox) [![img](assets/clients/icons/flathub.png)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
-| [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/m0ngr31/jellyamp) |
-| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/demo.png)](https://preserveplayer.com/) [![img](assets/clients/icons/github.png)](https://gitlab.com/preserve/preserve) |
-| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/sonixd) |
-| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/jeffvli/feishin) |
-| [Manet ` 🎵 `](https://tilo.dev/manet/) | ❌ | ✅ | ❎ | [![img](assets/clients/icons/appstore.png)](https://apps.apple.com/us/app/manet-music/id6470928235) |
-| [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/leinelissen/jellyfin-audio-player) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![img](assets/clients/icons/appstore.png)](https://apple.co/3MFYIJH) |
-| [Gelli ` 🎵 `](https://github.com/dkanada/gelli) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/dkanada/gelli) [![img](assets/clients/icons/fdroid.png)](https://f-droid.org/packages/com.dkanada.gramophone) |
-| [Symfonium ` ⚒️ ` ` 🎵 `](https://symfonium.app) | ❌ | ❌ | ☑️ | [![img](assets/clients/icons/googleplay.png)](https://play.google.com/store/apps/details?id=app.symfonik.music.player) |
+| [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
+| [Finamp ` ⚒️ ` ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
+| [Fintunes ` 🎵 `](https://github.com/leinelissen/jellyfin-audio-player) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/leinelissen/jellyfin-audio-player/total?logo=github&label=GitHub)](https://github.com/leinelissen/jellyfin-audio-player/releases) [![F-Droid](https://img.shields.io/badge/F-Droid-grey?logo=F-Droid&label=)](https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1527732194) |
+| [Gelli ` 🎵 `](https://github.com/dkanada/gelli) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dkanada/gelli/total?logo=github&label=GitHub)](https://github.com/dkanada/gelli/releases) [![F-Droid](https://img.shields.io/badge/F-Droid-grey?logo=F-Droid&label=)](https://f-droid.org/packages/com.dkanada.gramophone) |
+| [Jellyamp ` 🎵 `](https://github.com/m0ngr31/jellyamp) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/m0ngr31/jellyamp/total?logo=github&label=GitHub)](https://github.com/m0ngr31/jellyamp/releases) |
+| [Manet ` 🎵 `](https://tilo.dev/manet/) | ❌ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6470928235) |
+| [Preserve ` ⚒️ ` ` 🎵 `](https://gitlab.com/preserve/preserve) | ✅ | ✅ | ❎ | [![GitLab](https://img.shields.io/badge/GitLab-grey?logo=GitLab&label=)](https://gitlab.com/preserve/preserve) [![Demo](https://img.shields.io/badge/Web-blue?logo=&label=Demo)](https://preserveplayer.com/) |
+| [sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/sonixd/total?logo=github&label=GitHub)](https://github.com/jeffvli/sonixd/releases) |
+| [Sonixd ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/sonixd) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/sonixd/total?logo=github&label=GitHub)](https://github.com/jeffvli/sonixd/releases) |
+| [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dweymouth/supersonic/total?logo=github&label=GitHub)](https://github.com/dweymouth/supersonic/releases) [![flathub](https://img.shields.io/flathub/downloads/io.github.dweymouth.supersonic?logo=Flathub&label=Flathub)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
+| [Symfonium ` ⚒️ ` ` 🎵 `](https://symfonium.app) | ❌ | ❌ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=app.symfonik.music.player) |
+| [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/Taiko2k/TauonMusicBox/total?logo=github&label=GitHub)](https://github.com/Taiko2k/TauonMusicBox/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.taiko2k.tauonmb?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
+
 
 ## ` 📖 ` Reader
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![img](assets/clients/icons/github.png)](https://github.com/JellyBookOrg/JellyBook) [![img](assets/clients/icons/izzisoft.png)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![img](assets/clients/icons/testflight.png)](https://testflight.apple.com/join/lEXKY4Dl) |
+| [JellyBook ` 📖 `](https://github.com/JellyBookOrg/JellyBook) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/JellyBookOrg/JellyBook/total?logo=github&label=GitHub)](https://github.com/JellyBookOrg/JellyBook/releases) [![Izzysoft](https://img.shields.io/badge/-grey?logo=&label=Izzysoft)](https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/) [![TestFlight](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=TestFlight)](https://testflight.apple.com/join/lEXKY4Dl) |
+
 
 ---
 
-* Official: ` 🔹 `
-* Beta: ` ⚒️ `
-* Music Client: ` 🎵 `
-* Reader: ` 📖 `
+* **Official** ` 🔹 `
+* **Beta** ` ⚒️ `
+* **Music Client** ` 🎵 `
+* **Reader** ` 📖 `
 
 ---
 
