@@ -25,15 +25,22 @@
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
+- [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a full-width slider to the main page to feature selected content, similar to the main Netflix home page.
+- [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin Ignore ` 🔸 ` `📅`](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Create and sort collections by importing from external sources like *mdblist*.
 - [jellyfin-plugin-enigma2 `📅`](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers.
+- [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Adds metadata and image providers for anime, and manga from the Hikka website.
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
+- [jellyfin-plugin-letterboxd-sync](https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync) - Automatically keeps your watched movie history updated to your Letterboxd diary.
+- [jellyfin-plugin-media-bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar) - A Featured Content Bar to show off your media collection.
 - [jellyfin-plugin-media-cleaner](https://github.com/shemanaev/jellyfin-plugin-media-cleaner) - Automatically removes played media after a specified time period.
+- [jellyfin-plugin-myanimelist](https://github.com/ryandash/jellyfin-plugin-myanimelist) - Adds a metadata provider for MyAnimeList anime.
 - [jellyfin-plugin-onepace](https://github.com/jwueller/jellyfin-plugin-onepace) - Plugin for the [One Pace](https://onepace.net) project.
 - [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [jellyfin-plugin-sso ` 🔸 `](https://github.com/9p4/jellyfin-plugin-sso) - Allows users to sign in through an SSO provider.
+- [jellyfin-plugin-streamlimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows users to limit the number of simultaneous streams per user.
 - [jellyfin-plugin-TelegramNotifier](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier) - Receive notifications of Jellyfin server events via Telegram.
 - [jellyscrub ` 📅 `](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews.
   <!--lint ignore list-item-indent awesome-list-item-->
@@ -85,6 +92,7 @@
 - [streamystats](https://github.com/fredrikburmester/streamystats) - Statistics service for Jellyfin, providing analytics and data visualization.
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
 - [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) - Automated title card maker for Plex, Jellyfin, and Emby.
+- [trailarr](https://github.com/nandyalu/trailarr) - A Docker application to download and manage trailers for your Radarr and Sonarr libraries.
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
