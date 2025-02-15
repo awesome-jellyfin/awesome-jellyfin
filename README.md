@@ -67,6 +67,7 @@
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
 - [jellyfin-poster-hrd-logo](https://github.com/Druidblack/jellyfin-poster-hrd-logo/tree/main) - Automatically downloads covers for HDR movies from TMDb and applies an HDR logo in the top-right corner.
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
+- [jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A collection of seasonal themes/animations.
 - [Jellyfin Segment Editor `📅`](https://github.com/endrl/segment-editor) - Manage Jellyfin Media Segment positions.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - A CLI Program for installing and managing Jellyfin.
 - [jellyplist ` 🔸 `](https://github.com/kamilkosek/jellyplist) - Utility for syncing Spotify playlists to Jellyfin.
