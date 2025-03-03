@@ -19,21 +19,17 @@ jobs:
       
     - name: Install Sorter
       run: |
-        go install github.com/awesome-jellyfin/clients-md-generator/cmd/sort@v1.0.0
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/sort@v1.0.1
       
     - name: Sort README
       id: sorting
       run: |
-        go run github.com/awesome-jellyfin/clients-md-generator/cmd/sort@v1.0.0 \
+        go run github.com/awesome-jellyfin/clients-md-generator/cmd/sort@v1.0.1 \
            -input README.md \
            -out-file README.sorted.md \
            -out-stdout \
            -fail
-      continue-on-error: false
-
-    - name: Display Sorted File
-      run: |
-        cat README.sorted.md
+      continue-on-error: true
 
     - name: Generate diff
       id: diff
