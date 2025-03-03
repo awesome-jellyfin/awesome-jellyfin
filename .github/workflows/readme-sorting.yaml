@@ -1,0 +1,75 @@
+name: 'README Update Pull Request'
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: '1.21'
+      
+    - name: Sort README
+      id: sorting
+      run: |
+        go run github.com/awesome-jellyfin/clients-md-generator/cmd/sort@latest \
+           -input README.md \
+           -out-file README.sorted.md
+      continue-on-error: true
+
+    - name: Generate diff
+      id: diff
+      if: steps.sorting.outcome == 'failure'
+      run: |
+        if [ ! -f README.md ]; then touch README.md; fi
+        if [ ! -f README.sorted.md ]; then touch README.sorted.md; fi
+
+        diff -u README.md README.sorted.md > README.diff || true
+
+        echo "diff_body<<EOF" >> $GITHUB_OUTPUT
+        cat readme.diff
+        echo "EOF" >> $GITHUB_OUTPUT
+
+    - name: Find Comment from Linter
+      uses: peter-evans/find-comment@v3
+      id: fc
+      with:
+        issue-number: ${{ github.event.number }}
+        comment-author: 'github-actions[bot]'
+        body-includes: '<!-- [sort-result] -->'
+
+    - name: Create or Update Sorting Diff Comment
+      if: steps.sorting.outcome == 'failure'
+      uses: peter-evans/create-or-update-comment@v4
+      with:
+        comment-id: ${{ steps.fc.outputs.comment-id }}
+        issue-number: ${{ github.event.number }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        body: |
+          <!-- [sort-result] -->
+          **Sorting changes detected in \`README.md\`**  
+          Here is a diff showing what changed:
+
+          <details>
+          <summary>Diff</summary>
+
+          ```diff
+          ${{ steps.diff.outputs.diff_body }}
+          ```
+
+          </details>
+        edit-mode: replace
+
+    - name: Fail if sorting changed
+      if: steps.sorting.outcome == 'failure'
+      run: |
+        echo "README.md requires sorting. Failing the pipeline."
+        exit 1
