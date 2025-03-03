@@ -1,4 +1,4 @@
-name: 'README Sorting Check'
+name: 'README Update Pull Request'
 
 on:
   pull_request:
@@ -31,13 +31,9 @@ jobs:
            -fail
       continue-on-error: true
 
-    - name: Generate diff
-      id: diff
+    - name: Generate Comment Body on Failure
       if: steps.sorting.outcome == 'failure'
       run: |
-        if [ ! -f README.md ]; then touch README.md; fi
-        if [ ! -f README.sorted.md ]; then touch README.sorted.md; fi
-
         cat <<EOF > comment_body.txt
         <!-- [sort-result] -->
         **Thank you for your contribution! ❤️**
@@ -48,11 +44,21 @@ jobs:
         <details>
           <summary><code>README.md</code> diff</summary>
 
-          \`\`\`diff
-          $(diff -u README.md README.sorted.md || true)
-          \`\`\`
+        \`\`\`diff
+        $(diff -u README.md README.sorted.md || true)
+        \`\`\`
           
         </details>
+        EOF
+
+    - name: Generate Comment Body on Success
+      if: steps.sorting.outcome != 'failure'
+      run: |
+        cat <<EOF > comment_body.txt
+        <!-- [sort-result] -->
+        **Thank you for your contribution! ❤️**
+        
+        No issues found with the ordering.
         EOF
 
     - name: Find Comment from Linter
@@ -64,7 +70,6 @@ jobs:
         body-includes: '<!-- [sort-result] -->'
 
     - name: Create or Update Sorting Diff Comment
-      if: steps.sorting.outcome == 'failure'
       uses: peter-evans/create-or-update-comment@v4
       with:
         comment-id: ${{ steps.fc.outputs.comment-id }}
