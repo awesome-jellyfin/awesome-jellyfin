@@ -26,7 +26,9 @@ jobs:
       run: |
         go run github.com/awesome-jellyfin/clients-md-generator/cmd/sort@v1.0.0 \
            -input README.md \
-           -out-file README.sorted.md
+           -out-file README.sorted.md \
+           -out-stdout \
+           -fail
       continue-on-error: true
 
     - name: Generate diff
