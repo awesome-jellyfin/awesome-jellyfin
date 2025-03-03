@@ -17,10 +17,14 @@ jobs:
       with:
         go-version: '1.21'
       
+    - name: Install Sorter
+      run: |
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/sort@v1.0.0
+      
     - name: Sort README
       id: sorting
       run: |
-        go run github.com/awesome-jellyfin/clients-md-generator/cmd/sort@latest \
+        "$GOBIN/sort" \
            -input README.md \
            -out-file README.sorted.md
       continue-on-error: true
