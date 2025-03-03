@@ -38,11 +38,22 @@ jobs:
         if [ ! -f README.md ]; then touch README.md; fi
         if [ ! -f README.sorted.md ]; then touch README.sorted.md; fi
 
-        diff -u README.md README.sorted.md > README.diff || true
+        cat <<EOF > comment_body.txt
+        <!-- [sort-result] -->
+        **Thank you for your contribution! ❤️**
+        
+        We found sorting changes in <code>README.md</code>.
+        Here is a diff showing what changed:
 
-        echo "diff_body<<EOF" >> $GITHUB_OUTPUT
-        cat README.diff
-        echo "EOF" >> $GITHUB_OUTPUT
+        <details>
+          <summary><code>README.md</code> diff</summary>
+
+          \`\`\`diff
+          $(diff -u README.md README.sorted.md || true)
+          \`\`\`
+          
+        </details>
+        EOF
 
     - name: Find Comment from Linter
       uses: peter-evans/find-comment@v3
@@ -59,19 +70,7 @@ jobs:
         comment-id: ${{ steps.fc.outputs.comment-id }}
         issue-number: ${{ github.event.number }}
         token: ${{ secrets.GITHUB_TOKEN }}
-        body: |
-          <!-- [sort-result] -->
-          **Sorting changes detected in \`README.md\`**  
-          Here is a diff showing what changed:
-
-          <details>
-          <summary>Diff</summary>
-
-          ```diff
-          ${{ steps.diff.outputs.diff_body }}
-          ```
-
-          </details>
+        body-path: comment_body.txt
         edit-mode: replace
 
     - name: Fail if sorting changed
