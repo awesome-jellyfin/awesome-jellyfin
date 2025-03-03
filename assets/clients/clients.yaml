@@ -469,6 +469,18 @@ clients:
         owner: tsukinaha
         repo: tsukimi
 
+  - name: "Finer"
+    targets: [ macOS, iOS ]
+    types: [ Music ]
+    website: https://monk-studio.com/finer
+    official: false
+    beta: false
+    price:
+      free: true
+    downloads:
+      - type: app-store
+        id: "6738301953"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
