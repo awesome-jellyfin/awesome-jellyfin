@@ -24,7 +24,7 @@ jobs:
     - name: Sort README
       id: sorting
       run: |
-        "$GOBIN/sort" \
+        go run github.com/awesome-jellyfin/clients-md-generator/cmd/sort@v1.0.0 \
            -input README.md \
            -out-file README.sorted.md
       continue-on-error: true
