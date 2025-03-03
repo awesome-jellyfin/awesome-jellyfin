@@ -22,14 +22,19 @@
 
 
 ## 🧩 Plugins
+
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
+- [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a Netflix-style, full-width content slider to the home page to feature selected content.
+- [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin Ignore ` 🔸 ` `📅`](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Create and sort collections by importing from external sources like *mdblist*.
 - [jellyfin-plugin-enigma2 `📅`](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers.
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
+- [jellyfin-plugin-letterboxd-sync](https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync) - Automatically syncs your watched movie history with Letterboxd.
+- [jellyfin-plugin-media-bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar) - A Featured Content Bar to show off your media collection.
 - [jellyfin-plugin-media-cleaner](https://github.com/shemanaev/jellyfin-plugin-media-cleaner) - Automatically removes played media after a specified time period.
 - [jellyfin-plugin-onepace](https://github.com/jwueller/jellyfin-plugin-onepace) - Plugin for the [One Pace](https://onepace.net) project.
 - [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
@@ -41,12 +46,14 @@
 
 
 #### 🏷️ Metadata Providers
-- [jellyfin-youtube-metadata-plugin `📅`](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
-- [tubearchivist-jf-plugin](https://github.com/tubearchivist/tubearchivist-jf-plugin) - Metadata provider for TubeArchivist.
+
+- [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Metadata and images for anime and manga from the Hikka website.
 - [jellyfin-plugin-kinopoisk](https://github.com/LinFor/jellyfin-plugin-kinopoisk) - Metadata provider for [Kinopoisk](https://www.kinopoisk.ru/).
+- [jellyfin-plugin-myanimelist](https://github.com/ryandash/jellyfin-plugin-myanimelist) - Provides MyAnimeList metadata for anime.
 - [Jellyfin Plugin Stash](https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash) - Metadata provider for Metadata provider for [Stash](https://github.com/stashapp/stash).
 - [Jellyfin Plugin ThePornDB](https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB) - Metadata provider for ThePornDB.
 - [Jellyfin Plugin PhoenixAdult](https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult) - Metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.
+- [jellyfin-youtube-metadata-plugin `📅`](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
 
 
 ## 🖌️ Themes
@@ -85,6 +92,7 @@
 - [streamystats](https://github.com/fredrikburmester/streamystats) - Statistics service for Jellyfin, providing analytics and data visualization.
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
 - [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) - Automated title card maker for Plex, Jellyfin, and Emby.
+- [trailarr](https://github.com/nandyalu/trailarr) - Manages trailer downloads for your Radarr and Sonarr libraries.
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
