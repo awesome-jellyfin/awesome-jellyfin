@@ -28,14 +28,14 @@ jobs:
         <!-- [clients-result] -->
         **Thank you for your contribution! ❤️**
         
-        Here you can find a preview of the generated `CLIENTS.md` file:
+        Here you can find a preview of the generated <code>CLIENTS.md</code> file:
 
         <details>
           <summary><code>CLIENTS.md</code></summary>
 
           $(cat clients_result.md)
           
-        <details>
+        </details>
         EOF
         
     - name: Find Comment from Linter
