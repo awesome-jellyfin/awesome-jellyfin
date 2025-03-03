@@ -1,0 +1,55 @@
+name: 'Clients Update Pull Request'
+
+on:
+  pull_request:
+    paths:
+      - 'assets/clients/clients.yaml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: '1.21'
+
+    - name: Test if we can generate clients
+      run: |
+        go install github.com/awesome-jellyfin/clients-md-generator/cmd/generate@latest
+        generate -input assets/clients/clients.yaml -out-stdout -out-file clients_result.md
+    
+    - name: Create Comment Body
+      run: |
+        cat <<EOF > comment_body.txt
+        <!-- [clients-result] -->
+        **Thank you for your contribution! ❤️**
+        
+        Here you can find a preview of the generated <code>CLIENTS.md</code> file:
+
+        <details>
+          <summary><code>CLIENTS.md</code></summary>
+
+          $(cat clients_result.md)
+          
+        </details>
+        EOF
+        
+    - name: Find Comment from Linter
+      uses: peter-evans/find-comment@v3
+      id: fc
+      with:
+        issue-number: ${{ github.event.number }}
+        comment-author: 'github-actions[bot]'
+        body-includes: '<!-- [clients-result] -->'
+          
+    - name: Create or Update Comment
+      uses: peter-evans/create-or-update-comment@v4
+      with:
+        comment-id: ${{ steps.fc.outputs.comment-id }}
+        issue-number: ${{ github.event.number }}
+        edit-mode: replace
+        body-path: comment_body.txt
