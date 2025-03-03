@@ -29,7 +29,11 @@ jobs:
            -out-file README.sorted.md \
            -out-stdout \
            -fail
-      continue-on-error: true
+      continue-on-error: false
+
+    - name: Display Sorted File
+      run: |
+        cat README.sorted.md
 
     - name: Generate diff
       id: diff
