@@ -41,7 +41,7 @@ jobs:
         diff -u README.md README.sorted.md > README.diff || true
 
         echo "diff_body<<EOF" >> $GITHUB_OUTPUT
-        cat readme.diff
+        cat README.diff
         echo "EOF" >> $GITHUB_OUTPUT
 
     - name: Find Comment from Linter
