@@ -82,8 +82,6 @@
 - [CineSync](https://github.com/sureshfizzy/CineSync) - A Python based library management tool designed to organize debrid & local libraries without the support of Sonarr & Radarr.
 - [Fixarr ` 🔸 `](https://github.com/sachinsenal0x64/FIXARR) - Media Renamer and Backup tool. (Backup still WIP)
 - [jelly-clipper ` 🔸 `](https://github.com/arnolicious/jelly-clipper) - A web application for creating, sharing, and managing video clips from your Jellyfin media library.
-- [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - A Python application designed to help you manage and enforce watch time limits for users.
-- [JellyPlex-Watched](https://github.com/luigi311/JellyPlex-Watched) - Syncs watch history between Jellyfin, Plex, and Emby Servers.
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and letterboxd.
 - [jellyfin-cover-art-generator](https://github.com/Tetrax-10/jellyfin-cover-art-generator) - CLI tool to generate Jellyfin styled library coverart from a backdrop.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
@@ -95,11 +93,13 @@
 - [jellyfin-tools](https://github.com/eebette/jellyfin-tools) - This library is to generate images with Jellyfin-like styling (shadow overlay and library title text) from source images.
 - [Jellyfin Update Poster](https://github.com/Iceshadow1404/JellyfinUpdatePoster) - Handles ZIP files containing multiple cover images from [ThePosterDB](https://theposterdb.com/) and [MediUX](https://mediux.pro). Set Downloader for [MediUX](https://mediux.pro).
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - A CLI Program for installing and managing Jellyfin.
+- [JellyPlex-Watched](https://github.com/luigi311/JellyPlex-Watched) - Syncs watch history between Jellyfin, Plex, and Emby Servers.
 - [jellyplist ` 🔸 `](https://github.com/kamilkosek/jellyplist) - Utility for syncing Spotify playlists to Jellyfin.
 - [JellyRoller ` 🔸 `](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller.
 - [JellySearch](https://gitlab.com/DomiStyle/jellysearch) - A fast full-text search proxy for Jellyfin using Meilisearch.
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - A free and open source Statistics App for Jellyfin.
+- [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - A Python application designed to help you manage and enforce watch time limits for users.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
 - [List-Sync ` 🔸 `](https://github.com/Woahai321/list-sync) - Automatically import movies and TV shows from IMDB or Trakt lists into [Jellyseerr](https://github.com/Fallenbagel/jellyseerr).
 - [mnamer](https://github.com/jkwill87/mnamer) - Highly customizable tool to automatically rename all media files.
