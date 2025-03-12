@@ -32,7 +32,7 @@
 - [Jellyfin Ignore ` 🔸 ` `📅`](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
 - [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
-- [jellyfin-plugin-animethemes](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes) -  Fetches anime themes (OPs and EDs) from animethemes.moe. Both audio files and video files are supported.
+- [jellyfin-plugin-animethemes](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes) - Fetches anime opening and ending themes from [AnimeThemes.moe](https://animethemes.moe/), supporting both audio and video.
 - [jellyfin-plugin-cinemamode](https://github.com/CherryFloors/jellyfin-plugin-cinemamode) - A plugin that allows users to enable Jellyfin's Cinema Mode functionality with local trailers and pre-rolls.
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Create and sort collections by importing from external sources like *mdblist*.
 - [jellyfin-plugin-enigma2 `📅`](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers.
@@ -42,7 +42,7 @@
 - [jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz) - Automatically syncs your music activity with ListenBrainz.
 - [jellyfin-plugin-media-bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar) - A Featured Content Bar to show off your media collection.
 - [jellyfin-plugin-media-cleaner](https://github.com/shemanaev/jellyfin-plugin-media-cleaner) - Automatically removes played media after a specified time period.
-- [jellyfin-plugin-meilisearch](https://github.com/arnesacnussem/jellyfin-plugin-meilisearch) - Improves search speed and results by utilize Meilisearch as search engine.
+- [jellyfin-plugin-meilisearch](https://github.com/arnesacnussem/jellyfin-plugin-meilisearch) - Enhances Jellyfin search speed and accuracy by offloading queries to a Meilisearch instance.
 - [jellyfin-plugin-onepace](https://github.com/jwueller/jellyfin-plugin-onepace) - Plugin for the [One Pace](https://onepace.net) project.
 - [jellyfin-plugin-skin-manager ` 📅 `](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [jellyfin-plugin-sso ` 🔸 `](https://github.com/9p4/jellyfin-plugin-sso) - Allows users to sign in through an SSO provider.
@@ -99,7 +99,7 @@
 - [JellySearch](https://gitlab.com/DomiStyle/jellysearch) - A fast full-text search proxy for Jellyfin using Meilisearch.
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - A free and open source Statistics App for Jellyfin.
-- [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - A Python application designed to help you manage and enforce watch time limits for users.
+- [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - A standalone app that monitors and enforces Jellyfin watch time limits per user, with API integration and a simple GUI.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
 - [List-Sync ` 🔸 `](https://github.com/Woahai321/list-sync) - Automatically import movies and TV shows from IMDB or Trakt lists into [Jellyseerr](https://github.com/Fallenbagel/jellyseerr).
 - [mnamer](https://github.com/jkwill87/mnamer) - Highly customizable tool to automatically rename all media files.
