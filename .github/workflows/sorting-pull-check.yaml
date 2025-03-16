@@ -72,9 +72,9 @@ jobs:
     - name: Create or Update Sorting Diff Comment
       uses: peter-evans/create-or-update-comment@v4
       with:
+        token: ${{ secrets.AWESOME_JELLYFIN_BOT_TOKEN }}
         comment-id: ${{ steps.fc.outputs.comment-id }}
         issue-number: ${{ github.event.number }}
-        token: ${{ secrets.GITHUB_TOKEN }}
         body-path: comment_body.txt
         edit-mode: replace
 
