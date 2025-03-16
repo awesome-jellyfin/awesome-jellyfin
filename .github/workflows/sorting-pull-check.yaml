@@ -66,7 +66,7 @@ jobs:
       id: fc
       with:
         issue-number: ${{ github.event.number }}
-        comment-author: 'github-actions[bot]'
+        comment-author: 'awesome-jellyfin-bot'
         body-includes: '<!-- [sort-result] -->'
 
     - name: Create or Update Sorting Diff Comment
