@@ -43,12 +43,13 @@ jobs:
       id: fc
       with:
         issue-number: ${{ github.event.number }}
-        comment-author: 'github-actions[bot]'
+        comment-author: 'awesome-jellyfin-bot'
         body-includes: '<!-- [clients-result] -->'
           
     - name: Create or Update Comment
       uses: peter-evans/create-or-update-comment@v4
       with:
+        token: ${{ secrets.AWESOME_JELLYFIN_BOT_TOKEN }}
         comment-id: ${{ steps.fc.outputs.comment-id }}
         issue-number: ${{ github.event.number }}
         edit-mode: replace
