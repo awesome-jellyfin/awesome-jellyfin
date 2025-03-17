@@ -257,7 +257,7 @@ Custom CSS theme for Jellyfin with support for backdrops and themes [` 🔵 Get 
 
 ## [ZestyTheme](https://github.com/stpnwf/ZestyTheme/) by stpnwf
 
-A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://github.com/MakD/zombie-release)
+A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://github.com/stpnwf/ZestyTheme/)
 
 <table>
   <tr>
