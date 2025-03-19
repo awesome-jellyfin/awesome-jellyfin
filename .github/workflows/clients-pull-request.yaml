@@ -1,9 +1,10 @@
 name: 'Clients Update Pull Request'
 
 on:
-  pull_request:
-    paths:
-      - 'assets/clients/clients.yaml'
+  # pull_request:
+  #  paths:
+  #    - 'assets/clients/clients.yaml'
+  workflow_dispatch:
 
 jobs:
   build:
