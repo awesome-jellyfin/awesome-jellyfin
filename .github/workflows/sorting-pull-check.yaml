@@ -1,9 +1,10 @@
 name: 'README Update Pull Request'
 
 on:
-  pull_request:
-    paths:
-      - 'README.md'
+  # pull_request:
+  #   paths:
+  #     - 'README.md'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -66,15 +67,15 @@ jobs:
       id: fc
       with:
         issue-number: ${{ github.event.number }}
-        comment-author: 'github-actions[bot]'
+        comment-author: 'awesome-jellyfin-bot'
         body-includes: '<!-- [sort-result] -->'
 
     - name: Create or Update Sorting Diff Comment
       uses: peter-evans/create-or-update-comment@v4
       with:
+        token: ${{ secrets.AWESOME_JELLYFIN_BOT_TOKEN }}
         comment-id: ${{ steps.fc.outputs.comment-id }}
         issue-number: ${{ github.event.number }}
-        token: ${{ secrets.GITHUB_TOKEN }}
         body-path: comment_body.txt
         edit-mode: replace
 
