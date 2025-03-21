@@ -23,7 +23,7 @@
 
 ## 🧩 Plugins
 
-<!--sort-->
+<!-- sort list:plugins -->
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
@@ -56,7 +56,7 @@
 
 #### 🏷️ Metadata Providers
 
-<!--sort-->
+<!-- sort list:metadata-providers -->
 - [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Metadata and images for anime and manga from the Hikka website.
 - [jellyfin-plugin-kinopoisk](https://github.com/LinFor/jellyfin-plugin-kinopoisk) - Metadata provider for [Kinopoisk](https://www.kinopoisk.ru/).
 - [jellyfin-plugin-myanimelist](https://github.com/ryandash/jellyfin-plugin-myanimelist) - Provides MyAnimeList metadata for anime.
@@ -76,7 +76,7 @@
 
 ## 👾 Other
 
-<!--sort-->
+<!-- sort list:other -->
 - [AudioBookRequest](https://github.com/markbeep/AudioBookRequest) - A request management tool for audiobooks on Plex, Jellyfin, and Audiobookshelf.
 - [autopulse](https://github.com/dan-online/autopulse) - A lightweight automation service that updates Plex, Jellyfin, and Emby libraries based on notifications from media organizers like Sonarr and Radarr.
 - [autoscan `📅`](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
@@ -132,7 +132,7 @@
 
 This section includes software, guides and tools that are not *specifically* designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
 
-<!--sort-->
+<!-- sort list:related -->
 - [calibre2jellyfin](https://github.com/shawn61cp/calibre2jellyfin) - Python script to construct a Jellyfin ebook library from a Calibre library.
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder) - A 1-click installer and maintainer for Jellyfin on Windows, Mac and Linux.
 - [ErsatzTV ` 🔸 `](https://github.com/ErsatzTV/ErsatzTV) - Stream custom live channels using your own media.
