@@ -58,6 +58,7 @@
 
 <!-- sort list:metadata-providers -->
 - [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Metadata and images for anime and manga from the Hikka website.
+- [jellyfin-plugin-itunes](https://github.com/lyarenei/jellyfin-plugin-itunes) - A Jellyfin plugin that fetches album and artist metadata from Apple Music.
 - [jellyfin-plugin-kinopoisk](https://github.com/LinFor/jellyfin-plugin-kinopoisk) - Metadata provider for [Kinopoisk](https://www.kinopoisk.ru/).
 - [jellyfin-plugin-myanimelist](https://github.com/ryandash/jellyfin-plugin-myanimelist) - Provides MyAnimeList metadata for anime.
 - [Jellyfin Plugin PhoenixAdult](https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult) - Metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.
@@ -162,3 +163,4 @@ You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-je
 * Early Release / BETA software ` 🔸 `
 * Closed-Source Software ` 📛 `
 * Stale / Inactive / May not work anymore ` 📅 `
+
