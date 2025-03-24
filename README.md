@@ -55,6 +55,7 @@
 - [media-upload-plugin](https://github.com/grandguyjs/media-upload-plugin) - Allows remote media uploads to a designated directory without direct server access.
 - [MyAnimeSync](https://github.com/iankiller77/MyAnimeSync) - Automatically synchronizes anime watching progress between Jellyfin and MyAnimeList.
 - [Shokofin](https://github.com/ShokoAnime/Shokofin) - A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).
+- [TeleJelly](https://github.com/hexxone/TeleJelly) - A Plugin for logging into [Jellyfin](https://jellyfin.org/) using the [Telegram Login Widget](https://core.telegram.org/widgets/login) as "SSO" provider.
 
 
 #### 🏷️ Metadata Providers
@@ -168,4 +169,5 @@ You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-je
 * Early Release / BETA software ` 🔸 `
 * Closed-Source Software ` 📛 `
 * Stale / Inactive / May not work anymore ` 📅 `
+
 
