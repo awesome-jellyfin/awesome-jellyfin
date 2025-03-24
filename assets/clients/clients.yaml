@@ -513,6 +513,18 @@ clients:
         type: github
         owner: AttemptD
         repo: AfuseKtV-release
+  
+  - name: FluentFin
+    targets: [ Windows ]
+    oss: https://github.com/insomniachi/FluentFin
+    official: false
+    beta: true
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: insomniachi
+        repo: FluentFin
 
 targets:
   - key: Browser
