@@ -496,6 +496,23 @@ clients:
       - 
         type: google-play
         id: nl.jknaapen.fladder
+  
+  - name: AfuseKt
+    targets: [ Android, AndroidTV ]
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: true
+    downloads:
+      -
+        type: github
+        owner: AttemptD
+        repo: AfuseKt-release
+      -
+        type: github
+        owner: AttemptD
+        repo: AfuseKtV-release
 
 targets:
   - key: Browser
