@@ -9,8 +9,8 @@ project you agree to abide by its terms.
 Ensure your pull request adheres to the following guidelines:
 
 - Use the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) (`<type>[optional scope]: <description>`)
-- **Alphabetical Sorting**: Items in `README.md` must be sorted alphabetically. See [#sorting-rules](Sorting Rules).
-- **Generated Content**: Some files, like `CLIENTS.md` are automatically generated from files. You should only edit the original source files from which they're generated from. See [#generated-content](Generated Content)
+- **Alphabetical Sorting**: Items in `README.md` must be sorted alphabetically. See [Sorting Rules](#sorting-rules).
+- **Generated Content**: Some files, like `CLIENTS.md` are automatically generated from files. You should only edit the original source files from which they're generated from. See [Generated Content](#generated-content)
 - Search previous suggestions before making a new one, as yours may be a duplicate
 - New categories, or improvements to the existing categorization are welcome
 - Keep descriptions short and simple, but descriptive and non-promotional
