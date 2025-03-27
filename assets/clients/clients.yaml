@@ -501,6 +501,7 @@ clients:
     targets: [ Android, AndroidTV ]
     official: false
     beta: false
+    website: "https://github.com/AttemptD/AfuseKt-release"
     price:
       free: true
       paid: true
@@ -525,6 +526,18 @@ clients:
       - type: github
         owner: insomniachi
         repo: FluentFin
+
+  - name: VidHub
+    targets: [ Android, AndroidTV, iOS ]
+    price:
+      free: true
+    downloads:
+      - 
+        type: app-store
+        id: "1659622164"
+      - 
+        type: google-play
+        id: nl.jknaapen.fladder
 
 targets:
   - key: Browser
