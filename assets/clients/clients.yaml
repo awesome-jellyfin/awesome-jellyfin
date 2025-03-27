@@ -142,7 +142,7 @@ clients:
         id: "1136220934"
 
   - name: 'VidHub'
-    targets: [ Android ,iOS, AppleTV, macOS ]
+    targets: [ Android, AndroidTV, iOS, AppleTV, macOS ]
     website: https://okaapps.com/product/1659622164
     price:
       free: true
@@ -526,18 +526,6 @@ clients:
       - type: github
         owner: insomniachi
         repo: FluentFin
-
-  - name: VidHub
-    targets: [ Android, AndroidTV, iOS ]
-    price:
-      free: true
-    downloads:
-      - 
-        type: app-store
-        id: "1659622164"
-      - 
-        type: google-play
-        id: nl.jknaapen.fladder
 
 targets:
   - key: Browser
