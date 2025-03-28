@@ -123,6 +123,7 @@
 - [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) - Automatically request suggested movies and TV shows to [Jellyseerr](https://github.com/Fallenbagel/jellyseerr) based on recently watched.
 - [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) - Automated title card maker for Plex, Jellyfin, and Emby.
 - [trailarr](https://github.com/nandyalu/trailarr) - Manages trailer downloads for your Radarr and Sonarr libraries.
+- [tunarr](https://github.com/chrisbenincasa/tunarr) - Create custom live TV channels from your Plex or Jellyfin library with a web UI and IPTV support.
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
