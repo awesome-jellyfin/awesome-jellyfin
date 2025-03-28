@@ -142,7 +142,7 @@ clients:
         id: "1136220934"
 
   - name: 'VidHub'
-    targets: [ Android ,iOS, AppleTV, macOS ]
+    targets: [ Android, AndroidTV, iOS, AppleTV, macOS ]
     website: https://okaapps.com/product/1659622164
     price:
       free: true
@@ -501,6 +501,7 @@ clients:
     targets: [ Android, AndroidTV ]
     official: false
     beta: false
+    website: "https://github.com/AttemptD/AfuseKt-release"
     price:
       free: true
       paid: true
