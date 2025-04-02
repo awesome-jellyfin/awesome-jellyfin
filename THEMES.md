@@ -6,6 +6,31 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
+## [catppuccin](https://github.com/catppuccin/jellyfin) by catppuccin
+
+[` 🔵 Get this Theme `](https://github.com/catppuccin/jellyfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/latte.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/frappe.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/macchiato.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/mocha.webp" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [ElegantFin](https://github.com/lscambo13/ElegantFin) by lscambo13
 
 [` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
