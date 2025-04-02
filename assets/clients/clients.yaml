@@ -180,6 +180,17 @@ clients:
         type: app-store
         id: "1574922594"
 
+  - name: "Plappa"
+    targets: [ iOS ]
+    types: [ Music ]
+    oss: https://github.com/LeoKlaus/plappa
+    official: false
+    beta: false
+    downloads:
+      -
+        type: app-store
+        id: "6475201956"
+
   - name: "MrMC"
     targets: [ AppleTV ]
     oss: https://github.com/MrMC/mrmc
