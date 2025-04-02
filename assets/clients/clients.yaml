@@ -189,7 +189,7 @@ clients:
     downloads:
       -
         type: app-store
-        id: "id6475201956"
+        id: "6475201956"
 
   - name: "MrMC"
     targets: [ AppleTV ]
