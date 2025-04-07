@@ -8,7 +8,7 @@ labels: removal
 
 body:
   - type: input
-    id: affected-project
+    id: project
     attributes:
       label: Affected Project
       description: Which project should be removed?
