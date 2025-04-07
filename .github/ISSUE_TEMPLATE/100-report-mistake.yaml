@@ -2,9 +2,7 @@ name: "🚩 Report a mistake (e. g. Spelling, Grammar, ...)"
 description: >
   Did you find an error in the list?
 
-title: "[BUG] "
 labels: bug
-assignees: TomRomeo, darmiel
 
 body:
   - type: markdown

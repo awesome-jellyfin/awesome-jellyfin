@@ -3,17 +3,12 @@ description: >
   Did you find a project, which shouldn't be on the list anymore? 
   Are you a maintainer of one of the listed projects and want it removed?
 
-title: "[REMOVAL] <affected-project>"
+title: "Remove <project>"
 labels: removal
-assignees: TomRomeo, darmiel
 
 body:
-  - type: markdown
-    attributes:
-      value: "> Thank you so much for your help to make this list even better! 💖"
-      
   - type: input
-    id: affected-project
+    id: project
     attributes:
       label: Affected Project
       description: Which project should be removed?

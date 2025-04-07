@@ -1,10 +1,9 @@
-name: "✨ Request new project"
+name: "✨ Add a new Plugin / Tool"
 description: >
   Do you have a tool that is not yet listed and want it to be listed in the repo?
 
-title: "[REQUEST] <project>"
+title: "Add Project <project>"
 labels: request
-assignees: TomRomeo, darmiel
 
 body:
   - type: markdown
@@ -27,7 +26,3 @@ body:
       description: Short description of the project
     validations:
       required: true
-    
-  - type: markdown
-    attributes:
-      value: "> **Note**: If you suggest a theme, please include screenshots / links to screenshots if possible."
