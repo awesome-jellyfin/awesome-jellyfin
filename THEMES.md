@@ -313,39 +313,6 @@ A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://githu
 
 ---
 
-## [zombie-release](https://github.com/MakD/zombie-release) by MakD
-
-A theme for Jellyfin 10.9.x combining the best from the Public Themes [` 🔵 Get this Theme `](https://github.com/MakD/zombie-release)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/login.png" />
-    </td>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/homepage.png?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/detail.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/sidebar.png?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/tv-series.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/seasonpage.png?raw=true" />
-    </td>
-  </tr>
-</table>
-
----
-
 <!--lint ignore unordered-list-marker-style-->
 * Stale / Inactive / May not work anymore ` 📅 `
 
