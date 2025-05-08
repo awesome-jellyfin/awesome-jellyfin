@@ -124,10 +124,10 @@
 - [Posterizarr](https://github.com/fscorrupt/Posterizarr) - Automates the creation of high-quality posters, backgrounds, and title cards for Plex, Jellyfin, and Emby with customizable overlays and direct uploads.
 - [reiverr ` 🔸 `](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr.
 - [speedrr](https://github.com/itschasa/speedrr) - Change your torrent client's upload speed dynamically, on certain events such as when a Plex/Jellyfin stream starts.
+- [Squishy](https://github.com/cleverdevil/squishy) - The easiest way to transcode and download your Jellyfin media with fully customizable presets and hardware acceleration.
 - [streamystats](https://github.com/fredrikburmester/streamystats) - Statistics service for Jellyfin, providing analytics and data visualization.
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
 - [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) - Automatically request suggested movies and TV shows to [Jellyseerr](https://github.com/Fallenbagel/jellyseerr) based on recently watched.
-- [Squishy](https://github.com/cleverdevil/squishy) - The easiest way to transcode and download your Jellyfin media with fully customizable presets and hardware acceleration.
 - [TitleCardMaker](https://github.com/CollinHeist/TitleCardMaker) - Automated title card maker for Plex, Jellyfin, and Emby.
 - [trailarr](https://github.com/nandyalu/trailarr) - Manages trailer downloads for your Radarr and Sonarr libraries.
 - [tunarr](https://github.com/chrisbenincasa/tunarr) - Create custom live TV channels from your Plex or Jellyfin library with a web UI and IPTV support.
