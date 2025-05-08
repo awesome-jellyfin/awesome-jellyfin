@@ -58,7 +58,7 @@
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
 - [media-upload-plugin](https://github.com/grandguyjs/media-upload-plugin) - Allows remote media uploads to a designated directory without direct server access.
 - [MyAnimeSync](https://github.com/iankiller77/MyAnimeSync) - Automatically synchronizes anime watching progress between Jellyfin and MyAnimeList.
-- [Plexyfin](https://github.com/cleverdevil/plexyfin) – Automatically synchronize artwork and collections from your Plex Media Server to Jellyfin. Useful for users of Kometa.
+- [Plexyfin](https://github.com/cleverdevil/plexyfin) - Automatically synchronize artwork and collections from your Plex Media Server to Jellyfin. Useful for users of Kometa.
 - [Shokofin](https://github.com/ShokoAnime/Shokofin) - A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin.
 - [TeleJelly](https://github.com/hexxone/TeleJelly) - Allows users to sign in through the [Telegram Login Widget](https://core.telegram.org/widgets/login).
