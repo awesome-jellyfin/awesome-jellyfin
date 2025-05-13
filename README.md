@@ -97,6 +97,7 @@
 - [JellyfinEasyMetadataManager](https://github.com/CesarBianchi/JellyfinEasyMetadataManager) - A desktop tool for managing and editing metadata in Jellyfin libraries.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
 - [Jellyfin Notification System `📅`](https://github.com/Fahmula/jellyfin-telegram-notifier) - Sends Telegram notifications with media images whenever a new movie, series, season, or episode is added to Jellyfin.
+- [jellyfin-on-macos](https://github.com/Digital-Shane/jellyfin-on-macos/blob/main/README.md) - Guide for hosting Jellyfin on macOS with dynamic DNS, geo-filtering, and monitoring dashboards. 
 - [jellyfin-poster-hrd-logo](https://github.com/Druidblack/jellyfin-poster-hrd-logo/tree/main) - Automatically downloads covers for HDR movies from TMDb and applies an HDR logo in the top-right corner.
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
 - [jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A collection of seasonal themes/animations.
