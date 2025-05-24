@@ -118,6 +118,7 @@
 - [List-Sync ` 🔸 `](https://github.com/Woahai321/list-sync) - Automatically import movies and TV shows from IMDB or Trakt lists into [Jellyseerr](https://github.com/Fallenbagel/jellyseerr).
 - [mnamer `📅`](https://github.com/jkwill87/mnamer) - Highly customizable tool to automatically rename all media files.
 - [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
+- [MusicBrainz-UserScripts](https://github.com/Druidblack/MusicBrainz-UserScripts) - One-click importing of album from Jellyfin into MusicBrainz.
 - [OpenSubtitlesDownload](https://github.com/emericg/OpenSubtitlesDownload) - Automatically or manually download subtitles using CLI/Gnome/KDE.
 - [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts YouTube Music playlists to Jellyfin playlists.
 - [Posterizarr](https://github.com/fscorrupt/Posterizarr) - Automates the creation of high-quality posters, backgrounds, and title cards for Plex, Jellyfin, and Emby with customizable overlays and direct uploads.
