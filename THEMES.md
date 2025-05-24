@@ -130,6 +130,31 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
+## [Finity](https://github.com/prism2001/finity) by prism2001
+
+[` 🔵 Get this Theme `](https://github.com/prism2001/finity)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/prism2001/finity/raw/main/screenshots/home_featured.png" />
+    </td>
+    <td>
+      <img src="https://github.com/prism2001/finity/raw/main/screenshots/home_drawers.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/prism2001/finity/raw/main/screenshots/show_season.png" />
+    </td>
+    <td>
+      <img src="https://github.com/prism2001/finity/raw/main/screenshots/movie.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
 
 Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
