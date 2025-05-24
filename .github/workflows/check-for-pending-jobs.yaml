@@ -1,0 +1,21 @@
+name: Check for Pending Jobs
+
+on:
+  schedule:
+    - cron: '32 */6 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  hit-endpoint:
+    runs-on: ubuntu-latest
+
+    concurrency:
+      group: ping-url
+      cancel-in-progress: false
+
+    steps:
+      - name: Run checks
+        env:
+          TARGET_URL: "${{ secrets.PENDING_JOBS_CHECK_URL }}&owner=awesome-jellyfin&repo=awesome-jellyfin&ping=darmiel%2CTomRomeo"
+        run: |
+          curl -fL --retry 3 --max-time 30 "$TARGET_URL"
