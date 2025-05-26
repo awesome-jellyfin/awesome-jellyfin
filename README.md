@@ -116,6 +116,7 @@
 - [jellytools](https://github.com/cleverdevil/jellytools) - A CLI tool for synchronizing artwork and collections to Jellyfin from Plex and to generate and embed customizable animated library card videos in the Jellyfin UI.
 - [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - A standalone app that monitors and enforces Jellyfin watch time limits per user, with API integration and a simple GUI.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
+- [jf-avatars](https://github.com/kalibrado/jf-avatars) - Allows users to select avatars from an image gallery.
 - [List-Sync ` 🔸 `](https://github.com/Woahai321/list-sync) - Automatically import movies and TV shows from IMDB or Trakt lists into [Jellyseerr](https://github.com/Fallenbagel/jellyseerr).
 - [mnamer `📅`](https://github.com/jkwill87/mnamer) - Highly customizable tool to automatically rename all media files.
 - [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
