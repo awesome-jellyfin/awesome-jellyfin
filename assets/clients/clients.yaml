@@ -171,7 +171,7 @@ clients:
     types: [ Music ]
     oss: https://github.com/jmshrv/finamp
     official: false
-    beta: true
+    beta: false
     downloads:
       -
         type: google-play
