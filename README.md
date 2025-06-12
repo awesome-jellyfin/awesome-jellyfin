@@ -92,7 +92,7 @@
 - [autopulse](https://github.com/dan-online/autopulse) - A lightweight automation service that updates Plex, Jellyfin, and Emby libraries based on notifications from media organizers like Sonarr and Radarr.
 - [autoscan](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
 - [CineSync](https://github.com/sureshfizzy/CineSync) - A Python based library management tool designed to organize debrid & local libraries without the support of Sonarr & Radarr.
-- [declarative-jellyfin ` 🔸 `](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your jellyfin server on NixOS.
+- [declarative-jellyfin ` 🔸 `](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS.
 - [Fixarr ` 🔸 `](https://github.com/sachinsenal0x64/FIXARR) - Media Renamer and Backup tool. (Backup still WIP)
 - [jelly-clipper ` 🔸 `](https://github.com/arnolicious/jelly-clipper) - A web application for creating, sharing, and managing video clips from your Jellyfin media library.
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and letterboxd.
