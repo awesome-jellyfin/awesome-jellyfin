@@ -101,7 +101,7 @@
 - [Jellyfin Notification System `📅`](https://github.com/Fahmula/jellyfin-telegram-notifier) - Sends Telegram notifications with media images whenever a new movie, series, season, or episode is added to Jellyfin.
 - [jellyfin-on-macos](https://github.com/Digital-Shane/jellyfin-on-macos) - Guide for hosting Jellyfin on macOS with dynamic DNS, geo-filtering, and monitoring dashboards. 
 - [jellyfin-poster-hrd-logo](https://github.com/Druidblack/jellyfin-poster-hrd-logo/tree/main) - Automatically downloads covers for HDR movies from TMDb and applies an HDR logo in the top-right corner.
-- [jellyfin_ratings](https://github.com/Druidblack/jellyfin_ratings) - Replaces Jellyfin ratings with ratings from various sources (IMDb, Trakt, Imdb, Letterboxd, ...).
+- [jellyfin_ratings](https://github.com/Druidblack/jellyfin_ratings) - Replaces Jellyfin ratings with ratings from various sources (IMDb, Trakt, Imdb, Letterboxd, etc.).
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
 - [jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A collection of seasonal themes/animations.
 - [Jellyfin Segment Editor](https://github.com/endrl/segment-editor) - Manage Jellyfin Media Segment positions.
