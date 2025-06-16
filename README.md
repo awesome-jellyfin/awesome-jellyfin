@@ -24,7 +24,7 @@
 ## 🧩 Plugins
 
 <!-- sort list:plugins -->
-- [CustomLogoPlugin](https://github.com/bvolvy/CustomLogoPlugin) - Allows uploading of custom logos to replace the default Jellyfin logo.
+- [CustomLogo]([https://github.com/bvolvy/CustomLogoPlugin](https://github.com/ImLacy/Jellyfin-CustomLogo)) - Allows uploading of custom logos to replace the default Jellyfin logo.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
