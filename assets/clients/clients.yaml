@@ -499,6 +499,17 @@ clients:
         owner: insomniachi
         repo: FluentFin
 
+  - name: FinVideo
+    targets: [HarmonyOS]
+    website: https://ohpg.org/#FinVideo
+    price:
+      free: true
+    downloads:
+      - type: shield
+        icon: AppGallery
+        label: AppGallery
+        url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
@@ -525,6 +536,8 @@ targets:
         mapped: "Android"
       - name: SailfishOS
         mapped: "Sailfish OS"
+      - name: HarmonyOS
+        mapped: "HarmonyOS"
       - name: NintendoSwitch
         mapped: "Nintendo Switch"
 
