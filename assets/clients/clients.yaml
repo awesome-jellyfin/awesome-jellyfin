@@ -492,8 +492,6 @@ clients:
     oss: https://github.com/insomniachi/FluentFin
     official: false
     beta: true
-    price:
-      free: true
     downloads:
       - type: github
         owner: insomniachi
@@ -507,23 +505,18 @@ clients:
     downloads:
       - type: shield
         icon: AppGallery
-        label: AppGallery
         url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video
 
   - name: Bloodin
     targets: [Windows, Linux, macOS]
     oss: https://github.com/pathetic/bloodin
     beta: true
-    price:
-      free: true
 
   - name: DUNE
     targets: [Android]
     oss: https://github.com/Sam42a/DUNE
     official: false
     beta: true
-    price:
-      free: true
     downloads:
       - type: github
         owner: Sam42a
@@ -562,8 +555,6 @@ clients:
     targets: [Android, AndroidTV]
     oss: https://github.com/GhostenEditor/Ghosten-Player
     official: false
-    price:
-      free: true
     downloads:
       - type: github
         owner: GhostenEditor
@@ -578,6 +569,23 @@ clients:
     downloads:
       - type: app-store
         id: "6443975850"
+
+  - name: iPlay
+    targets: [iOS, Windows, macOS]
+    oss: https://github.com/saltpi/iPlay
+    official: false
+    downloads:
+      - type: github
+        owner: saltpi
+        repo: iPlay
+      - type: app-store
+        id: "6480576133"
+      - type: shield
+        icon: Amazon
+        url: https://www.amazon.com/gp/product/B0DB2KL58G
+      - type: shield
+        label: Microsoft Store
+        url: https://apps.microsoft.com/detail/9NBZ2BXD4WFZ
 
 targets:
   - key: Browser
