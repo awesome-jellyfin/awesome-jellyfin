@@ -548,6 +548,16 @@ clients:
       - type: app-store
         id: "6458691598"
 
+  - name: "Filebar"
+    targets: [iOS, AppleTV]
+    website: https://fileball.app/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "1558391784"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
