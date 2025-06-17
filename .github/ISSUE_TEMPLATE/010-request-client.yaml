@@ -13,6 +13,13 @@ body:
       value: "> Thank you so much for your help to make this list even better! 💖"
 
   - type: input
+    id: client-name
+    attributes:
+      label: Client Name
+    validations:
+      required: true
+
+  - type: input
     id: project-website
     attributes:
       label: Project Website

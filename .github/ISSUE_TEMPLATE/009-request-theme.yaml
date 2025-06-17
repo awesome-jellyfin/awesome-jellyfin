@@ -2,7 +2,7 @@ name: "🎨 Add Theme"
 description: >
   Do you have a theme that is not yet listed and want it to be listed in the repo?
 
-title: "Add Theme <client>"
+title: "Add Theme <theme>"
 labels:
   - request
   - theme
@@ -38,7 +38,7 @@ body:
         - label: Introduces something
         - label: Fixes something
 
-  - type: input
+  - type: textarea
     id: screenshot-1
     attributes:
       label: Screenshot 1
@@ -46,7 +46,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: screenshot-2
     attributes:
       label: Screenshot 2
