@@ -503,6 +503,9 @@ clients:
     price:
       free: true
     downloads:
+      - type: github
+        owner: OHPG
+        repo: FinVideo
       - type: shield
         icon: AppGallery
         url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video
