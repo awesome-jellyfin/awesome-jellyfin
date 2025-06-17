@@ -539,6 +539,15 @@ clients:
       - type: app-store
         id: "1519723194"
 
+  - name: "HamHub"
+    targets: [iOS, AppleTV, macOS]
+    website: https://www.hamhub.app/
+    price:
+      free: true
+    downloads:
+      - type: app-store
+        id: "6458691598"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
