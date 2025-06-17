@@ -510,6 +510,12 @@ clients:
         label: AppGallery
         url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video
 
+  - name: Bloodin
+    targets: [Windows, Linux, macOS]
+    oss: https://github.com/pathetic/bloodin
+    price:
+      free: true
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
