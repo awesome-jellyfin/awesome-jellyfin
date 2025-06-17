@@ -569,6 +569,15 @@ clients:
         owner: GhostenEditor
         repo: Ghosten-Player
 
+  - name: "SenPlayer"
+    targets: [macOS, iOS, AppleTV]
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6443975850"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
