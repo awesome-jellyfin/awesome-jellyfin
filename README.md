@@ -96,6 +96,7 @@
 - [declarative-jellyfin ` 🔸 `](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS.
 - [Fixarr ` 🔸 `](https://github.com/sachinsenal0x64/FIXARR) - Media Renamer and Backup tool. (Backup still WIP)
 - [jelly-clipper ` 🔸 `](https://github.com/arnolicious/jelly-clipper) - A web application for creating, sharing, and managing video clips from your Jellyfin media library.
+- [Jellycord](https://github.com/SiddheshDongare/Jellycord) - A Discord companion bot for managing your JFA-GO instance.
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and letterboxd.
 - [jellyfin-cover-art-generator](https://github.com/Tetrax-10/jellyfin-cover-art-generator) - CLI tool to generate Jellyfin styled library coverart from a backdrop.
 - [JellyfinEasyMetadataManager](https://github.com/CesarBianchi/JellyfinEasyMetadataManager) - A desktop tool for managing and editing metadata in Jellyfin libraries.
