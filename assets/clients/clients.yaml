@@ -499,7 +499,7 @@ clients:
 
   - name: FinVideo
     targets: [HarmonyOS]
-    website: https://ohpg.org/#FinVideo
+    oss: https://github.com/OHPG/FinVideo
     price:
       free: true
     downloads:
