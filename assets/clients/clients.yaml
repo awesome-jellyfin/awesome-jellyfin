@@ -517,7 +517,7 @@ clients:
     price:
       free: true
 
-  - name: Dune
+  - name: DUNE
     targets: [Android]
     oss: https://github.com/Sam42a/DUNE
     official: false
@@ -557,6 +557,17 @@ clients:
     downloads:
       - type: app-store
         id: "1558391784"
+
+  - name: Ghosten-Player
+    targets: [Android, AndroidTV]
+    oss: https://github.com/GhostenEditor/Ghosten-Player
+    official: false
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: GhostenEditor
+        repo: Ghosten-Player
 
 targets:
   - key: Browser
