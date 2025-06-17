@@ -571,6 +571,7 @@ clients:
 
   - name: "SenPlayer"
     targets: [macOS, iOS, AppleTV]
+    website: https://apps.apple.com/app/id6443975850
     price:
       free: true
       paid: true
