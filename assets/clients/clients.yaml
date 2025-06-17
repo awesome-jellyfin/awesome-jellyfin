@@ -516,7 +516,7 @@ clients:
     beta: true
 
   - name: DUNE
-    targets: [Android]
+    targets: [AndroidTV]
     oss: https://github.com/Sam42a/DUNE
     official: false
     beta: true
