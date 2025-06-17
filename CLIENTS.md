@@ -151,7 +151,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
-| [FinVideo](https://ohpg.org/#FinVideo) | ❌ | ✅ | ❎ | [![AppGallery](https://img.shields.io/badge/AppGallery-grey?logo=AppGallery&label=)](https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video) |
+| [FinVideo](https://github.com/OHPG/FinVideo) | ✅ | ✅ | ❎ | [![AppGallery](https://img.shields.io/badge/AppGallery-grey?logo=AppGallery&label=)](https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video) |
 
 
 ### Nintendo Switch
