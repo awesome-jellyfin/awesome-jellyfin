@@ -529,6 +529,16 @@ clients:
         owner: Sam42a
         repo: DUNE
 
+  - name: "yybx"
+    targets: [iOS, AppleTV]
+    website: https://yybpro.com
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "1519723194"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
