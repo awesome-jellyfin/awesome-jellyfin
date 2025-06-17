@@ -513,8 +513,21 @@ clients:
   - name: Bloodin
     targets: [Windows, Linux, macOS]
     oss: https://github.com/pathetic/bloodin
+    beta: true
     price:
       free: true
+
+  - name: Dune
+    targets: [Android]
+    oss: https://github.com/Sam42a/DUNE
+    official: false
+    beta: true
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: Sam42a
+        repo: DUNE
 
 targets:
   - key: Browser
