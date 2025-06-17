@@ -20,9 +20,9 @@ body:
       required: true
 
   - type: input
-    id: project-website
+    id: client-website
     attributes:
-      label: Project Website
+      label: Client Website
       description: Link to the project (e.g. GitHub)
       placeholder: ex. https://github.com/awesome-jellyfin/awesome-jellyfin
     validations:

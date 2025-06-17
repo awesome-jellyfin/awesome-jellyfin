@@ -20,9 +20,9 @@ body:
       required: true
 
   - type: input
-    id: project-website
+    id: theme-website
     attributes:
-      label: Project Website
+      label: Theme Website
       description: Link to the project (e.g. GitHub)
       placeholder: ex. https://github.com/awesome-jellyfin/awesome-jellyfin
     validations:
@@ -57,7 +57,7 @@ body:
   - type: textarea
     id: screenshot-3
     attributes:
-      label: More Screenshots
+      label: Additional Screenshots (optional)
       description: Here you can add more screenshots
     validations:
       required: false
