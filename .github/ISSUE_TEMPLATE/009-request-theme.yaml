@@ -1,0 +1,68 @@
+name: "🎨 Add Theme"
+description: >
+  Do you have a theme that is not yet listed and want it to be listed in the repo?
+
+title: "Add Theme <client>"
+labels:
+  - request
+  - theme
+
+body:      
+  - type: markdown
+    attributes:
+      value: "> Thank you so much for your help to make this list even better! 💖"
+
+  - type: input
+    id: theme-name
+    attributes:
+      label: Theme Name
+    validations:
+      required: true
+
+  - type: input
+    id: project-website
+    attributes:
+      label: Project Website
+      description: Link to the project (e.g. GitHub)
+      placeholder: ex. https://github.com/awesome-jellyfin/awesome-jellyfin
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: type
+    attributes:
+      label: Type
+      description: Select the type of the theme
+      options:
+        - label: Changes Look and Feel
+        - label: Introduces something
+        - label: Fixes something
+
+  - type: input
+    id: screenshot-1
+    attributes:
+      label: Screenshot 1
+      description: Add a link to a screenshot (if possible from original repository)
+    validations:
+      required: true
+
+  - type: input
+    id: screenshot-2
+    attributes:
+      label: Screenshot 2
+      description: Add a link to a screenshot (if possible from original repository)
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot-3
+    attributes:
+      label: More Screenshots
+      description: Here you can add more screenshots
+    validations:
+      required: false
+      
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else?
