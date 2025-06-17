@@ -1,0 +1,75 @@
+name: "📱 Add Client"
+description: >
+  Do you have a client that is not yet listed and want it to be listed in the repo?
+
+title: "Add Client <client>"
+labels:
+  - request
+  - client
+
+body:      
+  - type: markdown
+    attributes:
+      value: "> Thank you so much for your help to make this list even better! 💖"
+
+  - type: input
+    id: client-name
+    attributes:
+      label: Client Name
+    validations:
+      required: true
+
+  - type: input
+    id: client-website
+    attributes:
+      label: Client Website
+      description: Link to the project (e.g. GitHub)
+      placeholder: ex. https://github.com/awesome-jellyfin/awesome-jellyfin
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: targets
+    attributes:
+      label: Targets
+      description: Which platforms does the client target?
+      options:
+        - label: Browser
+        - label: Windows
+        - label: macOS
+        - label: Linux
+        - label: iOS
+        - label: Android
+        - label: Sailfish OS
+        - label: HarmonyOS
+        - label: Nintendo Switch
+        - label: Apple TV
+        - label: Android TV
+        - label: Kodi
+        - label: Roku
+        - label: WebOS
+      
+  - type: checkboxes
+    id: price
+    attributes:
+      label: Price
+      description: In-App Purchases should be marked as Paid
+      options:
+        - label: Free
+        - label: Paid
+
+  - type: textarea
+    id: downloads
+    attributes:
+      label: Download Links
+      description: Please provide all download links you can find, e.g. App Store, Play Store, ...
+      placeholder: |
+        GitHub: https://github.com/awesome-jellyfin/client
+        App Store: https://apps.apple.com/app/id0000000000
+    validations:
+      required: true
+    
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else?
