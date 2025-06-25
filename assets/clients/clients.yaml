@@ -589,6 +589,17 @@ clients:
       - type: shield
         label: Microsoft Store
         url: https://apps.microsoft.com/detail/9NBZ2BXD4WFZ
+  
+  - name: Jellyfin for Tizen
+    targets: [Tizen]
+    oss: https://github.com/jellyfin/jellyfin-tizen
+    official: true
+    downloads:
+    - type: github
+      owner: jellyfin
+      repo: jellyfin-tizen
+
+
 
 targets:
   - key: Browser
@@ -632,6 +643,8 @@ targets:
         mapped: "Kodi"
       - name: Roku
         mapped: "Roku"
+      - name: Tizen
+        mapped: "Tizen"
       - name: WebOS
         mapped: "webOS"
 
