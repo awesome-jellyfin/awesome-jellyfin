@@ -595,9 +595,8 @@ clients:
     oss: https://github.com/jellyfin/jellyfin-tizen
     official: true
     downloads:
-    - type: github
-      owner: jellyfin
-      repo: jellyfin-tizen
+    - type: text
+      url: Build It Yourself
 
 
 
