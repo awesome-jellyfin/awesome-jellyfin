@@ -596,7 +596,8 @@ clients:
     official: true
     downloads:
     - type: text
-      url: Build It Yourself
+      text: Build It Yourself
+      url: https://github.com/jellyfin/jellyfin-tizen
 
 
 
