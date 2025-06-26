@@ -130,6 +130,31 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
+## [Flow](https://github.com/LitCastVlog/Flow) by LitCastVlog
+
+[` 🔵 Get this Theme `](https://github.com/LitCastVlog/Flow)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/LitCastVlog/Flow/raw/main/images/screen.jpg" />
+    </td>
+    <td>
+      <img src="https://github.com/LitCastVlog/Flow/raw/main/images/details.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/LitCastVlog/Flow/raw/main/images/episodegrid-outline.gif" />
+    </td>
+    <td>
+      <img src="https://github.com/LitCastVlog/Flow/raw/main/images/blue.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Finity](https://github.com/prism2001/finity) by prism2001
 
 [` 🔵 Get this Theme `](https://github.com/prism2001/finity)
