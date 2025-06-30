@@ -1,19 +1,17 @@
 clients:
   - name: "Jellyfin Media Player"
-    targets: [ Windows, Linux, macOS ]
+    targets: [Windows, Linux, macOS]
     oss: https://github.com/jellyfin/jellyfin-media-player
     official: true
     downloads:
-      -
-        type: github
+      - type: github
         owner: jellyfin
         repo: jellyfin-media-player
-      -
-        type: flathub
+      - type: flathub
         package: com.github.iwalton3.jellyfin-media-player
 
   - name: "Swiftfin"
-    targets: [ iOS, AppleTV ]
+    targets: [iOS, AppleTV]
     oss: https://github.com/jellyfin/swiftfin
     official: true
     beta: true
@@ -22,22 +20,20 @@ clients:
         id: "1604098728"
 
   - name: "Jellyfin Vue"
-    targets: [ Browser ]
+    targets: [Browser]
     oss: https://github.com/jellyfin/jellyfin-vue
     official: true
     beta: true
     downloads:
-      -
-        type: github
+      - type: github
         owner: jellyfin
         repo: jellyfin-vue
         url: https://github.com/jellyfin/jellyfin-vue/actions/workflows/release.yml
-      -
-        type: demo
+      - type: demo
         url: https://jf-vue.pages.dev/
 
   - name: "JellyCon"
-    targets: [ Kodi ]
+    targets: [Kodi]
     oss: https://github.com/jellyfin/jellycon
     official: true
     downloads:
@@ -46,7 +42,7 @@ clients:
         repo: jellycon
 
   - name: "Jellyfin for Kodi"
-    targets: [ Kodi ]
+    targets: [Kodi]
     oss: https://github.com/jellyfin/jellyfin-kodi
     downloads:
       - type: github
@@ -54,24 +50,21 @@ clients:
         repo: jellyfin-kodi
 
   - name: "Jellyfin for Android"
-    targets: [ Android ]
+    targets: [Android]
     oss: https://github.com/jellyfin/jellyfin-android
     official: true
     downloads:
-      -
-        type: shield
+      - type: shield
         icon: F-Droid
         url: https://f-droid.org/en/packages/org.jellyfin.mobile/
-      -
-        type: shield
+      - type: shield
         icon: Amazon
         url: https://www.amazon.com/gp/aw/d/B081RFTTQ9
-      -
-        type: google-play
+      - type: google-play
         id: org.jellyfin.mobile
 
   - name: "Jellyfin Mobile for iOS"
-    targets: [ iOS ]
+    targets: [iOS]
     oss: https://github.com/jellyfin/jellyfin-expo
     official: true
     downloads:
@@ -79,20 +72,18 @@ clients:
         id: "1480192618"
 
   - name: "Jellyfin for Android TV"
-    targets: [ AndroidTV ]
+    targets: [AndroidTV]
     oss: https://github.com/jellyfin/jellyfin-androidtv
     official: true
     downloads:
-      -
-        type: shield
+      - type: shield
         icon: Amazon
         url: https://www.amazon.com/gp/aw/d/B07TX7Z725
-      -
-        type: google-play
+      - type: google-play
         id: org.jellyfin.androidtv
 
   - name: "Jellyfin for Roku"
-    targets: [ Roku ]
+    targets: [Roku]
     oss: https://github.com/jellyfin/jellyfin-roku
     official: true
     downloads:
@@ -101,7 +92,7 @@ clients:
         url: https://channelstore.roku.com/details/592369/jellyfin
 
   - name: "Jellyfin for WebOS"
-    targets: [ WebOS ]
+    targets: [WebOS]
     oss: https://github.com/jellyfin/jellyfin-webos
     official: true
     downloads:
@@ -110,29 +101,27 @@ clients:
         url: https://us.lgappstv.com/main/tvapp/detail?appId=1030579
 
   - name: "Findroid"
-    targets: [ Android ]
+    targets: [Android]
     oss: https://github.com/jarnedemeulemeester/findroid
     official: false
     beta: true
     downloads:
-      -
-        type: shield
+      - type: shield
         label: Izzysoft
         url: https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin
-      -
-        type: google-play
+      - type: google-play
         id: dev.jdtech.jellyfin
 
   - name: "Sailfin"
-    targets: [ SailfishOS ]
+    targets: [SailfishOS]
     oss: https://github.com/heartfin/harbour-sailfin
     downloads:
       - type: shield
         label: OpenRepos
         url: https://openrepos.net/content/ahappyhuman/sailfin
 
-  - name: 'Infuse'
-    targets: [ iOS, AppleTV, macOS ]
+  - name: "Infuse"
+    targets: [iOS, AppleTV, macOS]
     website: https://firecore.com/infuse
     price:
       free: true
@@ -141,23 +130,21 @@ clients:
       - type: app-store
         id: "1136220934"
 
-  - name: 'VidHub'
-    targets: [ Android, AndroidTV, iOS, AppleTV, macOS ]
+  - name: "VidHub"
+    targets: [Android, AndroidTV, iOS, AppleTV, macOS]
     website: https://okaapps.com/product/1659622164
     price:
       free: true
       paid: true
     downloads:
-      -
-        type: google-play
+      - type: google-play
         id: com.oumi.utility.media.hub
-      -
-        type: app-store
+      - type: app-store
         id: "1659622164"
 
   - name: "sonixd"
-    targets: [ Browser ]
-    types: [ Music ]
+    targets: [Browser]
+    types: [Music]
     oss: https://github.com/jeffvli/sonixd
     official: false
     beta: true
@@ -167,50 +154,44 @@ clients:
         repo: sonixd
 
   - name: "Finamp"
-    targets: [ Android, iOS ]
-    types: [ Music ]
+    targets: [Android, iOS]
+    types: [Music]
     oss: https://github.com/jmshrv/finamp
     official: false
-    beta: true
+    beta: false
     downloads:
-      -
-        type: google-play
+      - type: google-play
         id: com.unicornsonlsd.finamp
-      -
-        type: app-store
+      - type: app-store
         id: "1574922594"
 
   - name: "Plappa"
-    targets: [ iOS ]
-    types: [ Music ]
+    targets: [iOS]
+    types: [Music]
     oss: https://github.com/LeoKlaus/plappa
     official: false
     beta: false
     downloads:
-      -
-        type: app-store
+      - type: app-store
         id: "6475201956"
 
   - name: "MrMC"
-    targets: [ AppleTV ]
+    targets: [AppleTV]
     oss: https://github.com/MrMC/mrmc
     price:
       free: true
       paid: true
     downloads:
-      -
-        type: shield
+      - type: shield
         icon: Amazon
         url: https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc
-      -
-        type: app-store
+      - type: app-store
         id: "1059536415"
-      -
-        type: google-play
+      - type: google-play
         id: tv.mrmc.mrmc
 
   - name: "Delfin"
-    targets: [ Linux ]
+    targets: [Linux]
     oss: https://codeberg.org/avery42/delfin
     official: false
     beta: true
@@ -219,50 +200,44 @@ clients:
         package: cafe.avery.Delfin
 
   - name: "Supersonic"
-    targets: [ Windows, Linux, macOS ]
-    types: [ Music ]
+    targets: [Windows, Linux, macOS]
+    types: [Music]
     oss: https://github.com/dweymouth/supersonic
     official: false
     beta: true
     downloads:
-      -
-        type: github
+      - type: github
         owner: dweymouth
         repo: supersonic
-      -
-        type: flathub
+      - type: flathub
         package: io.github.dweymouth.supersonic
 
   - name: "Tauon Music Box"
-    targets: [ Windows, Linux ]
-    types: [ Music ]
+    targets: [Windows, Linux]
+    types: [Music]
     oss: https://github.com/Taiko2k/TauonMusicBox
     official: false
     downloads:
-      -
-        type: github
+      - type: github
         owner: Taiko2k
         repo: TauonMusicBox
-      -
-        type: flathub
+      - type: flathub
         package: com.github.taiko2k.tauonmb
 
   - name: "Jellyfin MPV Shim"
-    targets: [ Windows, Linux, macOS ]
+    targets: [Windows, Linux, macOS]
     oss: https://github.com/jellyfin/jellyfin-mpv-shim
     official: true
     downloads:
-      -
-        type: github
+      - type: github
         owner: jellyfin
         repo: jellyfin-mpv-shim
-      -
-        type: flathub
+      - type: flathub
         package: com.github.iwalton3.jellyfin-mpv-shim
 
   - name: "Jellyamp"
-    targets: [ Windows, Linux ]
-    types: [ Music ]
+    targets: [Windows, Linux]
+    types: [Music]
     oss: https://github.com/m0ngr31/jellyamp
     official: false
     downloads:
@@ -271,23 +246,21 @@ clients:
         repo: jellyamp
 
   - name: "Preserve"
-    targets: [ Browser, Windows, Linux ]
-    types: [ Music ]
+    targets: [Browser, Windows, Linux]
+    types: [Music]
     oss: https://gitlab.com/preserve/preserve
     official: false
     beta: true
     downloads:
-      -
-        type: gitlab
+      - type: gitlab
         owner: preserve
         repo: preserve
-      -
-        type: demo
+      - type: demo
         url: https://preserveplayer.com/
 
   - name: "Sonixd"
-    targets: [ Windows, Linux, macOS ]
-    types: [ Music ]
+    targets: [Windows, Linux, macOS]
+    types: [Music]
     oss: https://github.com/jeffvli/sonixd
     official: false
     beta: true
@@ -297,8 +270,8 @@ clients:
         repo: sonixd
 
   - name: "Feishin"
-    targets: [ Browser, Windows, Linux, macOS ]
-    types: [ Music ]
+    targets: [Browser, Windows, Linux, macOS]
+    types: [Music]
     oss: https://github.com/jeffvli/feishin
     official: false
     beta: true
@@ -308,8 +281,8 @@ clients:
         repo: feishin
 
   - name: "Manet"
-    targets: [ iOS ]
-    types: [ Music ]
+    targets: [iOS]
+    types: [Music]
     website: https://tilo.dev/manet/
     price:
       free: true
@@ -318,29 +291,25 @@ clients:
         id: "6470928235"
 
   - name: "Fintunes"
-    targets: [ Android, iOS ]
-    types: [ Music ]
+    targets: [Android, iOS]
+    types: [Music]
     oss: https://github.com/leinelissen/jellyfin-audio-player
     official: false
     beta: false
     downloads:
-      -
-        type: github
+      - type: github
         owner: leinelissen
         repo: jellyfin-audio-player
-      -
-        type: shield
+      - type: shield
         icon: F-Droid
         url: https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer
-      -
-        type: google-play
+      - type: google-play
         id: nl.moeilijkedingen.jellyfinaudioplayer
-      -
-        type: app-store
+      - type: app-store
         id: "1527732194"
 
   - name: "Blink"
-    targets: [ Windows, Linux, macOS ]
+    targets: [Windows, Linux, macOS]
     oss: https://github.com/prayag17/Blink
     official: false
     beta: true
@@ -350,59 +319,52 @@ clients:
         repo: Blink
 
   - name: "Gelli"
-    targets: [ Android ]
-    types: [ Music ]
+    targets: [Android]
+    types: [Music]
     oss: https://github.com/dkanada/gelli
     official: false
     beta: false
     downloads:
-      -
-        type: github
+      - type: github
         owner: dkanada
         repo: gelli
-      -
-        type: shield
+      - type: shield
         icon: F-Droid
         url: https://f-droid.org/packages/com.dkanada.gramophone
 
   - name: "JellyBook"
-    targets: [ Android, iOS ]
-    types: [ Reader ]
+    targets: [Android, iOS]
+    types: [Reader]
     oss: https://github.com/JellyBookOrg/JellyBook
     official: false
     beta: false
     downloads:
-      -
-        type: github
+      - type: github
         owner: JellyBookOrg
         repo: JellyBook
-      -
-        type: shield
+      - type: shield
         label: Izzysoft
         url: "https://apt.izzysoft.de/fdroid/index/apk/com.KaraWilson.JellyBook/"
-      -
-        type: shield
+      - type: shield
         icon: App Store
         label: TestFlight
         url: "https://testflight.apple.com/join/lEXKY4Dl"
 
   - name: "Shadfin"
-    targets: [ Browser ]
+    targets: [Browser]
     oss: https://github.com/Shadfin/app
     official: false
     beta: true
     downloads:
-      -
-        type: github
+      - type: github
         owner: Shadfin
         repo: app
-      -
-        type: demo
+      - type: demo
         url: https://main.shadfin-standalone.pages.dev
 
   - name: "Symfonium"
-    targets: [ Android ]
-    types: [ Music ]
+    targets: [Android]
+    types: [Music]
     official: false
     beta: true
     website: https://symfonium.app
@@ -413,26 +375,23 @@ clients:
         id: app.symfonik.music.player
 
   - name: "Jellyflix"
-    targets: [ Android, iOS, Windows, Linux, macOS, Browser ]
+    targets: [Android, iOS, Windows, Linux, macOS, Browser]
     official: false
     beta: false
     oss: https://github.com/jellyflix-app/jellyflix
     price:
       free: true
     downloads:
-      -
-        type: demo
+      - type: demo
         url: https://jellyflix.kiejon.com/
-      -
-        type: app-store
+      - type: app-store
         id: 6476043683
-      -
-        type: github
+      - type: github
         owner: jellyflix-app
         repo: jellyflix
 
   - name: "Streamyfin"
-    targets: [ Android, iOS ]
+    targets: [Android, iOS]
     official: false
     beta: false
     website: https://streamyfin.app
@@ -440,24 +399,20 @@ clients:
     price:
       free: true
     downloads:
-      -
-        type: app-store
+      - type: app-store
         id: "6593660679"
-      -
-        type: shield
+      - type: shield
         icon: App Store
         label: TestFlight
         url: https://testflight.apple.com/join/CWBaAAK2
-      -
-        type: google-play
+      - type: google-play
         id: com.fredrikburmester.streamyfin
-      -
-        type: github
+      - type: github
         owner: fredrikburmester
         repo: streamyfin
 
   - name: "Switchfin"
-    targets: [ NintendoSwitch, macOS, Linux, Windows ]
+    targets: [NintendoSwitch, macOS, Linux, Windows]
     official: false
     beta: true
     oss: https://github.com/dragonflylee/switchfin
@@ -469,7 +424,7 @@ clients:
         repo: switchfin
 
   - name: "tsukimi"
-    targets: [ Linux, Windows ]
+    targets: [Linux, Windows]
     oss: https://github.com/tsukinaha/tsukimi
     official: false
     beta: true
@@ -481,8 +436,8 @@ clients:
         repo: tsukimi
 
   - name: "Finer"
-    targets: [ macOS, iOS ]
-    types: [ Music ]
+    targets: [macOS, iOS]
+    types: [Music]
     website: https://monk-studio.com/finer
     official: false
     beta: false
@@ -491,25 +446,23 @@ clients:
     downloads:
       - type: app-store
         id: "6738301953"
-    
+
   - name: "Fladder"
-    targets: [ Android, iOS, macOS, Windows, Linux, Browser ]
+    targets: [Android, iOS, macOS, Windows, Linux, Browser]
     oss: https://github.com/DonutWare/Fladder
     official: false
     beta: false
     price:
       free: true
     downloads:
-      -
-        type: github
+      - type: github
         owner: DonutWare
         repo: Fladder
-      - 
-        type: google-play
+      - type: google-play
         id: nl.jknaapen.fladder
-  
+
   - name: AfuseKt
-    targets: [ Android ]
+    targets: [Android]
     official: false
     beta: false
     website: "https://github.com/AttemptD/AfuseKt-release"
@@ -520,9 +473,9 @@ clients:
       - type: github
         owner: AttemptD
         repo: AfuseKt-release
-  
+
   - name: AfuseKt TV
-    targets: [ AndroidTV ]
+    targets: [AndroidTV]
     official: false
     beta: false
     website: "https://github.com/AttemptD/AfuseKtV-release"
@@ -533,18 +486,120 @@ clients:
       - type: github
         owner: AttemptD
         repo: AfuseKtV-release
-  
+
   - name: FluentFin
-    targets: [ Windows ]
+    targets: [Windows]
     oss: https://github.com/insomniachi/FluentFin
     official: false
     beta: true
-    price:
-      free: true
     downloads:
       - type: github
         owner: insomniachi
         repo: FluentFin
+
+  - name: FinVideo
+    targets: [HarmonyOS]
+    oss: https://github.com/OHPG/FinVideo
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: OHPG
+        repo: FinVideo
+      - type: shield
+        icon: AppGallery
+        url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video
+
+  - name: Bloodin
+    targets: [Windows, Linux, macOS]
+    oss: https://github.com/pathetic/bloodin
+    beta: true
+
+  - name: DUNE
+    targets: [AndroidTV]
+    oss: https://github.com/Sam42a/DUNE
+    official: false
+    beta: true
+    downloads:
+      - type: github
+        owner: Sam42a
+        repo: DUNE
+
+  - name: "yybx"
+    targets: [iOS, AppleTV]
+    website: https://yybpro.com
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "1519723194"
+
+  - name: "HamHub"
+    targets: [iOS, AppleTV, macOS]
+    website: https://www.hamhub.app/
+    price:
+      free: true
+    downloads:
+      - type: app-store
+        id: "6458691598"
+
+  - name: "Filebar"
+    targets: [iOS, AppleTV]
+    website: https://fileball.app/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "1558391784"
+
+  - name: Ghosten-Player
+    targets: [Android, AndroidTV]
+    oss: https://github.com/GhostenEditor/Ghosten-Player
+    official: false
+    downloads:
+      - type: github
+        owner: GhostenEditor
+        repo: Ghosten-Player
+
+  - name: "SenPlayer"
+    targets: [macOS, iOS, AppleTV]
+    website: https://apps.apple.com/app/id6443975850
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6443975850"
+
+  - name: iPlay
+    targets: [iOS, Windows, macOS]
+    oss: https://github.com/saltpi/iPlay
+    official: false
+    downloads:
+      - type: github
+        owner: saltpi
+        repo: iPlay
+      - type: app-store
+        id: "6480576133"
+      - type: shield
+        icon: Amazon
+        url: https://www.amazon.com/gp/product/B0DB2KL58G
+      - type: shield
+        label: Microsoft Store
+        url: https://apps.microsoft.com/detail/9NBZ2BXD4WFZ
+  
+  - name: Jellyfin for Tizen
+    targets: [Tizen]
+    oss: https://github.com/jellyfin/jellyfin-tizen
+    official: true
+    downloads:
+    - type: text
+      text: Build It Yourself
+      url: https://github.com/jellyfin/jellyfin-tizen
+
+
 
 targets:
   - key: Browser
@@ -572,6 +627,8 @@ targets:
         mapped: "Android"
       - name: SailfishOS
         mapped: "Sailfish OS"
+      - name: HarmonyOS
+        mapped: "HarmonyOS"
       - name: NintendoSwitch
         mapped: "Nintendo Switch"
 
@@ -586,6 +643,8 @@ targets:
         mapped: "Kodi"
       - name: Roku
         mapped: "Roku"
+      - name: Tizen
+        mapped: "Tizen"
       - name: WebOS
         mapped: "webOS"
 

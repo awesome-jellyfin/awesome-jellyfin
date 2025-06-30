@@ -2,7 +2,8 @@ name: "🚩 Report a mistake (e. g. Spelling, Grammar, ...)"
 description: >
   Did you find an error in the list?
 
-labels: bug
+labels: 
+  - bug
 
 body:
   - type: markdown
