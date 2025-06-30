@@ -60,7 +60,9 @@
 - [media-upload-plugin](https://github.com/grandguyjs/media-upload-plugin) - Media-manager that provides uploads, bulk downloads from URLs, and directory browsing within Jellyfin.
 - [MyAnimeSync](https://github.com/iankiller77/MyAnimeSync) - Automatically synchronizes anime watching progress between Jellyfin and MyAnimeList.
 - [playlist-generator](https://github.com/Eeeeelias/playlist-generator) - Create personal playlists based on your listening history.
+- [Plexyfin](https://github.com/cleverdevil/plexyfin) - Automatically synchronize artwork and collections from your Plex Media Server to Jellyfin. Useful for users of Kometa.
 - [Shokofin](https://github.com/ShokoAnime/Shokofin) - A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).
+- [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin.
 - [TeleJelly](https://github.com/hexxone/TeleJelly) - Allows users to sign in through the [Telegram Login Widget](https://core.telegram.org/widgets/login).
 
 
@@ -131,6 +133,7 @@
 - [reiverr ` 🔸 `](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr.
 - [scenepeek-android](https://github.com/Divinelink/scenepeek-android) - An Android app that provides detailed movie and TV show information with TMDB and Jellyseerr integration.
 - [speedrr](https://github.com/itschasa/speedrr) - Change your torrent client's upload speed dynamically, on certain events such as when a Plex/Jellyfin stream starts.
+- [Squishy](https://github.com/cleverdevil/squishy) - Transcode and download your Jellyfin media with fully customizable presets and hardware acceleration.
 - [streamystats](https://github.com/fredrikburmester/streamystats) - Statistics service for Jellyfin, providing analytics and data visualization.
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
 - [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) - Automatically request suggested movies and TV shows to [Jellyseerr](https://github.com/Fallenbagel/jellyseerr) based on recently watched.
