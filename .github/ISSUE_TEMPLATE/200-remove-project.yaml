@@ -4,11 +4,16 @@ description: >
   Are you a maintainer of one of the listed projects and want it removed?
 
 title: "Remove <project>"
-labels: removal
+labels: 
+  - removal
 
 body:
+  - type: markdown
+    attributes:
+      value: "> Thank you so much for your help to make this list even better! 💖"
+      
   - type: input
-    id: project
+    id: affected-project
     attributes:
       label: Affected Project
       description: Which project should be removed?
