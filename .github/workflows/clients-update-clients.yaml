@@ -43,5 +43,5 @@ jobs:
         git config --local user.email "awesome-jellyfin@d2a.io"
         git config --local user.name "awesome-jellyfin-bot"
         git add CLIENTS.md
-        git commit -m "Update CLIENTS.md" --allow-empty || exit 0
+        git commit -m "chore: update CLIENTS.md" --allow-empty || exit 0
         git push
