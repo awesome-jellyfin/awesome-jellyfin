@@ -595,11 +595,21 @@ clients:
     oss: https://github.com/jellyfin/jellyfin-tizen
     official: true
     downloads:
-    - type: text
-      text: Build It Yourself
-      url: https://github.com/jellyfin/jellyfin-tizen
+      - type: text
+        text: Build It Yourself
+        url: https://github.com/jellyfin/jellyfin-tizen
 
-
+  - name: FinMusic
+    targets: [HarmonyOS]
+    types: [Music]
+    oss: https://github.com/OHPG/FinMusic
+    downloads:
+      - type: shield
+        icon: AppGallery
+        url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.music
+      - type: github
+        owner: OHPG
+        repo: FinMusic
 
 targets:
   - key: Browser
