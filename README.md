@@ -13,9 +13,9 @@
   <a href="#-plugins">Plugins</a> •
   <a href="#%EF%B8%8F-metadata-providers">Metadata Providers</a> •
   <a href="THEMES.md">Themes</a> •
-  <a href="#-other">Other</a> • 
+  <a href="#-other">Other</a> •
   <a href="#-snippets">Snippets</a> •
-  <a href="#-related">Related</a> • 
+  <a href="#-related">Related</a> •
   <a href="#contribute">Contribute</a>
 ]
 </p>
@@ -106,7 +106,7 @@
 - [JellyfinEasyMetadataManager](https://github.com/CesarBianchi/JellyfinEasyMetadataManager) - A desktop tool for managing and editing metadata in Jellyfin libraries.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
 - [Jellyfin Notification System `📅`](https://github.com/Fahmula/jellyfin-telegram-notifier) - Sends Telegram notifications with media images whenever a new movie, series, season, or episode is added to Jellyfin.
-- [jellyfin-on-macos](https://github.com/Digital-Shane/jellyfin-on-macos) - Guide for hosting Jellyfin on macOS with dynamic DNS, geo-filtering, and monitoring dashboards. 
+- [jellyfin-on-macos](https://github.com/Digital-Shane/jellyfin-on-macos) - Guide for hosting Jellyfin on macOS with dynamic DNS, geo-filtering, and monitoring dashboards.
 - [jellyfin-poster-hrd-logo](https://github.com/Druidblack/jellyfin-poster-hrd-logo/tree/main) - Automatically downloads covers for HDR movies from TMDb and applies an HDR logo in the top-right corner.
 - [jellyfin_ratings](https://github.com/Druidblack/jellyfin_ratings) - Replaces Jellyfin ratings with ratings from various sources (IMDb, Trakt, Imdb, Letterboxd, etc.).
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
@@ -155,6 +155,7 @@
 
 <!--lint ignore awesome-list-item-->
 - [snippets/language-overlay](snippets/language-overlay) - A script to add flags to movie posters.
+- [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - A script to add keyboard shortcuts, subtitle styling and more to the Jellyfin UI.
 
 
 ## 🌌 Related
@@ -182,7 +183,7 @@ This section includes software, guides and tools that are not *specifically* des
 
 ## Contribute
 
-Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.  
+Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.
 You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
 
 ---
