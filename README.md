@@ -154,7 +154,7 @@
 
 <!--lint ignore awesome-list-item-->
 - [snippets/language-overlay](snippets/language-overlay) - A script to add flags to movie posters.
-- [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - A custom javascript that adds hotkeys, subtitle style settings and more.
+- [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - A script to add keyboard shortcuts, subtitle styling and more to the Jellyfin UI.
 
 
 ## 🌌 Related
