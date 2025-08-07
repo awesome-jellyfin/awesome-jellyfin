@@ -611,6 +611,19 @@ clients:
         owner: OHPG
         repo: FinMusic
 
+  - name: "Discrete"
+    targets: [iOS, macOS]
+    types: [Music]
+    website: https://discrete.app/
+    price:
+      free: true
+      paid: true
+    official: false
+    beta: false
+    downloads:
+      - type: app-store
+        id: "6746067740"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
