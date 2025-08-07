@@ -57,6 +57,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | ---- | --- | ---- | ---- | --------- |
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
 | [Bloodin ` ⚒️ `](https://github.com/pathetic/bloodin) | ✅ | ✅ | ❎ |  |
+| [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
 | [Finer ` 🎵 `](https://monk-studio.com/finer) | ❌ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6738301953) |
 | [Fladder](https://github.com/DonutWare/Fladder) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/DonutWare/Fladder/total?logo=github&label=GitHub)](https://github.com/DonutWare/Fladder/releases) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) |
@@ -100,6 +101,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
 | [Filebar](https://fileball.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1558391784) |
 | [Finamp ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
 | [Finer ` 🎵 `](https://monk-studio.com/finer) | ❌ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6738301953) |
@@ -225,6 +227,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
 | [Finamp ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
 | [Finer ` 🎵 `](https://monk-studio.com/finer) | ❌ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6738301953) |
