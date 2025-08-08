@@ -99,7 +99,7 @@
 - [autoscan `📅`](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
 - [CineSync](https://github.com/sureshfizzy/CineSync) - A Python based library management tool designed to organize debrid & local libraries without the support of Sonarr & Radarr.
 - [declarative-jellyfin ` 🔸 `](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS.
-- [embyToLocalPlayer](https://github.com/kjtsune/embyToLocalPlayer) - Lets you watch videos from Jellyfin using a local video player (like VLC, MPV, ...) and syncs watch progress back.
+- [embyToLocalPlayer](https://github.com/kjtsune/embyToLocalPlayer) - Lets you watch videos from Jellyfin using a local video player (like VLC and MPV) and syncs watch progress back.
 - [Fixarr ` 🔸 `](https://github.com/sachinsenal0x64/FIXARR) - Media Renamer and Backup tool. (Backup still WIP)
 - [jelly-clipper ` 🔸 `](https://github.com/arnolicious/jelly-clipper) - A web application for creating, sharing, and managing video clips from your Jellyfin media library.
 - [Jellycord](https://github.com/SiddheshDongare/Jellycord) - A Discord companion bot for managing your JFA-GO instance.
