@@ -177,6 +177,7 @@ This section includes software, guides and tools that are not *specifically* des
 - [MediaTracker](https://github.com/bonukai/MediaTracker) - Media tracker and user rating platform with [Jellyfin integration](https://github.com/bonukai/jellyfin-plugin-mediatracker).
 - [Movary ` 🔸 `](https://github.com/leepeuker/movary) - Media tracker and user rating platform.
 - [Multi Scrobbler ` 🔸 `](https://github.com/foxxmd/multi-scrobbler) - Scrobbles music from many sources to many clients.
+- [Quasarr](https://github.com/rix1337/Quasarr) - Emulates a usenet indexer and download client to allow direct downloads with sonarr/radarr.
 - [rffmpeg](https://github.com/joshuaboniface/rffmpeg) - A remote FFmpeg wrapper, commonly used for transcoding media on more capable machines.
 - [Threadfin](https://github.com/Threadfin/Threadfin) - M3U proxy for Jellyfin (Based on xTeVe).
 - [TRaSH Guides](https://trash-guides.info/) - Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools.
