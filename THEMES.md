@@ -38,26 +38,26 @@ If an image is no longer available or out of date, please create an [issue](http
 <table>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/1.%20Homepage.png" />
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/1.%20Homepage.webp" />
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/2.%20Movies%20Library.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/3.%20Sidebar.png" />
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/4.%20Movie%20Page.png" />
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/3.%20Sidebar.webp" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/5.%20Extra%20Dialog.png" />
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/4.%20Movie%20Page.webp" />
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Previews/6.%20Settings%20Page.png" />
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/9.%20Web%20Player.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/20.%20Live%20TV%20Guide.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/12.%20Movie%20Details.webp" />
     </td>
   </tr>
 </table>
