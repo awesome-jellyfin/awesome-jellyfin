@@ -29,8 +29,11 @@
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
 - [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a Netflix-style, full-width content slider to the home page to feature selected content.
+- [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - A plugin to add keyboard shortcuts, subtitle styling, built in Jellyseerr search and request to Jellyfin.
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin Ignore ` 🔸 `](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
+- [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - A plugin to inject custom javascript into jellyfin UI without modifying index.html*
+- [JellyfinTweaks](https://github.com/n00bcodr/JellyfinTweaks) - A plugin to override jellyfin settings like Enable Backdrops, Enable Theme Music on all devices.
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
 - [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
 - [jellyfin-plugin-air-times](https://github.com/apteryxxyz/jellyfin-plugin-air-times) - Provides localized series air times based on server location.
@@ -157,8 +160,6 @@
 
 <!--lint ignore awesome-list-item-->
 - [snippets/language-overlay](snippets/language-overlay) - A script to add flags to movie posters.
-- [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - A script to add keyboard shortcuts, subtitle styling and more to the Jellyfin UI.
-
 
 ## 🌌 Related
 
