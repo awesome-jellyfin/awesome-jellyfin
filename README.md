@@ -32,6 +32,7 @@
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin Ignore ` 🔸 `](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans.
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
+- [Jellyfin Media Slider](https://github.com/G-grbz/Jellyfin-Media-Slider) - Customizable media slider and UI enhancements (hover trailers, pause screen, mini music player, DiceBear avatars, notifications, StudioHubs ).
 - [Jellyfin-Newsletter-Plugin ` 🔸 ` `📅`](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media.
 - [jellyfin-plugin-air-times](https://github.com/apteryxxyz/jellyfin-plugin-air-times) - Provides localized series air times based on server location.
 - [jellyfin-plugin-animethemes](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes) - Fetches anime opening and ending themes from [AnimeThemes.moe](https://animethemes.moe/), supporting both audio and video.
