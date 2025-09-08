@@ -3,13 +3,19 @@ name: Lint
 on:
   pull_request:
     branches: [main]
+    paths:
+      - "**/*.md"
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - run: npx awesome-lint
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - run: bunx https://github.com/awesome-jellyfin/awesome-lint
