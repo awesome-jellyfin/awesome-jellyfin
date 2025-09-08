@@ -589,7 +589,7 @@ clients:
       - type: shield
         label: Microsoft Store
         url: https://apps.microsoft.com/detail/9NBZ2BXD4WFZ
-  
+
   - name: Jellyfin for Tizen
     targets: [Tizen]
     oss: https://github.com/jellyfin/jellyfin-tizen
@@ -623,6 +623,17 @@ clients:
     downloads:
       - type: app-store
         id: "6746067740"
+
+  - name: "Foxy"
+    targets: [Windows, Linux, macOS]
+    types: [Music]
+    oss: https://github.com/Devioxic/Foxy-Desktop
+    official: false
+    beta: false
+    downloads:
+      - type: github
+        owner: Devioxic
+        repo: Foxy-Desktop
 
 targets:
   - key: Browser
