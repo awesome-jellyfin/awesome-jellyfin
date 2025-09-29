@@ -138,6 +138,7 @@
 - [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
 - [MusicBrainz-UserScripts](https://github.com/Druidblack/MusicBrainz-UserScripts) - One-click importing of album from Jellyfin into MusicBrainz.
 - [OpenSubtitlesDownload](https://github.com/emericg/OpenSubtitlesDownload) - Automatically or manually download subtitles using CLI/Gnome/KDE.
+- [pixelfin](https://github.com/nothing2obvi/pixelfin) - Lets you quickly see which image types are present, missing, or low resolution in your Jellyfin libraries. You can also save images in embedded HTML files or ZIP archives.
 - [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts YouTube Music playlists to Jellyfin playlists.
 - [Posterizarr](https://github.com/fscorrupt/Posterizarr) - Automates the creation of high-quality posters, backgrounds, and title cards for Plex, Jellyfin, and Emby with customizable overlays and direct uploads.
 - [reiverr](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr. `🔹 Beta`
