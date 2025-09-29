@@ -635,6 +635,84 @@ clients:
         owner: Devioxic
         repo: Foxy-Desktop
 
+  - name: "Jelly Music App"
+    targets: [Browser, Windows, macOS, Linux]
+    types: [Music]
+    oss: https://github.com/Stannnnn/jelly-app
+    official: false
+    beta: false
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: Stannnnn
+        repo: jelly-app
+
+  - name: "Phyn"
+    targets: [macOS, iOS, Android]
+    website: https://phyn.app
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: com.appsynergyts.phyn
+      - type: app-store
+        id: "6457674815"
+
+  - name: "Finetic"
+    targets: [Browser]
+    oss: https://github.com/AyaanZaveri/finetic
+    official: false
+    beta: false
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: AyaanZaveri
+        repo: finetic
+
+  - name: "Reefin"
+    targets: [Android]
+    website: https://play.google.com/store/apps/details?id=com.shady.reefin
+    official: false
+    beta: false
+    price:
+      free: true
+    downloads:
+      - type: google-play
+        id: com.shady.reefin
+
+  - name: "Hills"
+    targets: [Windows, Android]
+    types: [Music]
+    website: https://play.google.com/store/apps/details?id=com.mountains.hills
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: com.mountains.hills
+      - type: shield
+        label: Microsoft Store
+        url: https://apps.microsoft.com/detail/9NXNZFRLLWZX
+
+  - name: "Rodel Player"
+    targets: [Windows]
+    website: https://apps.microsoft.com/detail/9nb0h051m4v4
+    official: false
+    beta: false
+    price:
+      free: true
+    downloads:
+      - type: shield
+        label: Microsoft Store
+        url: https://apps.microsoft.com/detail/9nb0h051m4v4
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
