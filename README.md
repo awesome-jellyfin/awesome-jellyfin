@@ -129,6 +129,7 @@
 - [JellySearch](https://gitlab.com/DomiStyle/jellysearch) - A fast full-text search proxy for Jellyfin using Meilisearch.
 - [jellyseerr](https://github.com/Fallenbagel/jellyseerr) - A request management and media discovery tool.
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - A free and open source Statistics App for Jellyfin.
+- [Jellyswarrm](https://github.com/LLukas22/Jellyswarrm) - Reverse proxy that lets you combine multiple Jellyfin servers into one virtual instance.
 - [jellytools](https://github.com/cleverdevil/jellytools) - A CLI tool for synchronizing artwork and collections to Jellyfin from Plex and to generate and embed customizable animated library card videos in the Jellyfin UI.
 - [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - A standalone app that monitors and enforces Jellyfin watch time limits per user, with API integration and a simple GUI.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
