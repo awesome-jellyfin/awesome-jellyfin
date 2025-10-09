@@ -13,6 +13,7 @@
   <a href="#-plugins">Plugins</a> •
   <a href="#%EF%B8%8F-metadata-providers">Metadata Providers</a> •
   <a href="THEMES.md">Themes</a> •
+  <a href="CLIENTS.md">Clients</a> •
   <a href="#-other">Other</a> •
   <a href="#-snippets">Snippets</a> •
   <a href="#-related">Related</a> •
