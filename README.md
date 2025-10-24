@@ -193,6 +193,16 @@ This section includes software, guides and tools that are not *specifically* des
 - [TRaSH Guides](https://trash-guides.info/) - Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools.
 - [watchstate](https://github.com/ArabCoders/watchstate) - Sync play state between different media servers.
 
+## Communities
+
+This section contains links to communities which focus on Jellyfin or related topics.
+
+<!-- sort list:communities -->
+- [Jellyfin Discord](https://discord.gg/zHBxVSXdBV) - The official Jellyfin Discord server. `🔰 Official`
+- [Jellyfin Forum](https://forum.jellyfin.org/) - The official Jellyfin forum. `🔰 Official`
+- [Jellyfin Matrix](https://matrix.to/#/#jellyfinorg:matrix.org) - The official Jellyfin Matrix server. `🔰 Official`
+- [r/Jellyfin](https://www.reddit.com/r/jellyfin/) - The official Jellyfin subreddit. `🔰 Official`
+- [r/JellyfinCommunity](https://www.reddit.com/r/JellyfinCommunity/) - An independent, community-run subreddit.
 
 ## Contribute
 
