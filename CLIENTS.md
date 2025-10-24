@@ -219,6 +219,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [Jellyfin for Roku ` 🔹 `](https://github.com/jellyfin/jellyfin-roku) | ✅ | ✅ | ❎ | [![Roku](https://img.shields.io/badge/Roku-grey?logo=Roku&label=)](https://channelstore.roku.com/details/592369/jellyfin) |
+| [JellyRock](https://github.com/cewert/jellyrock) | ✅ | ✅ | ❎ | [![Roku](https://img.shields.io/badge/Roku-grey?logo=Roku&label=)](https://channelstore.roku.com/details/232f9e82db11ce628e3fe7e01382a330:a85d6e9e520567806e8dae1c0cabadd5/jellyrock) [![github](https://img.shields.io/github/downloads/cewert/jellyrock/total?logo=github&label=GitHub)](https://github.com/cewert/jellyrock/releases) |
 
 
 ### Tizen
