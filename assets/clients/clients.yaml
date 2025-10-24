@@ -713,6 +713,16 @@ clients:
         label: Microsoft Store
         url: https://apps.microsoft.com/detail/9nb0h051m4v4
 
+  - name: Wholphin
+    targets: [AndroidTV]
+    oss: https://github.com/damontecres/Wholphin
+    official: false
+    beta: false
+    downloads:
+      - type: github
+        owner: damontecres
+        repo: Wholphin
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
