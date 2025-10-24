@@ -687,7 +687,6 @@ clients:
 
   - name: "Hills"
     targets: [Windows, Android]
-    types: [Music]
     website: https://play.google.com/store/apps/details?id=com.mountains.hills
     official: false
     beta: false
