@@ -712,6 +712,22 @@ clients:
       - type: shield
         label: Microsoft Store
         url: https://apps.microsoft.com/detail/9nb0h051m4v4
+        
+  - name: "JellyRock"
+    targets: [Roku]
+    oss: https://github.com/cewert/jellyrock
+    price:
+      free: true
+      paid: false
+    beta: false
+    official: false
+    downloads:
+      - type: shield
+        icon: Roku
+        url: https://channelstore.roku.com/details/232f9e82db11ce628e3fe7e01382a330:a85d6e9e520567806e8dae1c0cabadd5/jellyrock
+      - type: github
+        owner: cewert
+        repo: jellyrock
 
   - name: Wholphin
     targets: [AndroidTV]
