@@ -203,6 +203,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Ghosten-Player](https://github.com/GhostenEditor/Ghosten-Player) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/GhostenEditor/Ghosten-Player/total?logo=github&label=GitHub)](https://github.com/GhostenEditor/Ghosten-Player/releases) |
 | [Jellyfin for Android TV ` 🔹 `](https://github.com/jellyfin/jellyfin-androidtv) | ✅ | ✅ | ❎ | [![Amazon](https://img.shields.io/badge/Amazon-grey?logo=Amazon&label=)](https://www.amazon.com/gp/aw/d/B07TX7Z725) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=org.jellyfin.androidtv) |
 | [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1659622164) |
+| [Wholphin](https://github.com/damontecres/Wholphin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/damontecres/Wholphin/total?logo=github&label=GitHub)](https://github.com/damontecres/Wholphin/releases) |
 
 
 ### Kodi
