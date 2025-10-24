@@ -105,6 +105,7 @@
 - [autopulse](https://github.com/dan-online/autopulse) - A lightweight automation service that updates Plex, Jellyfin, and Emby libraries based on notifications from media organizers like Sonarr and Radarr.
 - [autoscan](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system. `🔸 Stale`
 - [CineSync](https://github.com/sureshfizzy/CineSync) - A Python based library management tool designed to organize debrid & local libraries without the support of Sonarr & Radarr.
+- [content-recommender](https://github.com/jeffersoncgo/content-recommender) - Webpage that suggests Movies or Shows from your library based on your watch history.
 - [CoverMaker](https://github.com/jeffersoncgo/CoverMaker) - Allows designing and generating custom cover images for your media collections.
 - [declarative-jellyfin](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS. `🔹 Beta`
 - [embyToLocalPlayer](https://github.com/kjtsune/embyToLocalPlayer) - Lets you watch videos from Jellyfin using a local video player (like VLC and MPV) and syncs watch progress back.
