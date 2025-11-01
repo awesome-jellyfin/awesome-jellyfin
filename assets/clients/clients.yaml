@@ -738,6 +738,20 @@ clients:
         owner: damontecres
         repo: Wholphin
 
+  - name: "Tempus"
+    targets: [Android]
+    types: [Music]
+    oss: https://github.com/eddyizm/tempus
+    official: false
+    beta: false
+    downloads:
+      - type: github
+        owner: eddyizm
+        repo: tempus
+      - type: shield
+        label: Izzysoft
+        url: https://apt.izzysoft.de/fdroid/index/apk/com.eddyizm.degoogled.tempus
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
