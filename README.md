@@ -10,15 +10,15 @@
 </p>
 
 <p align="center">
-  <a href="#-plugins">Plugins</a> •
-  <a href="#%EF%B8%8F-metadata-providers">Metadata Providers</a> •
+  <a href="#plugins">Plugins</a> •
+  <a href="#metadata-providers">Metadata Providers</a> •
   <a href="THEMES.md">Themes</a> •
   <a href="CLIENTS.md">Clients</a> •
-  <a href="#%EF%B8%8F-other-tools">Other Tools</a> •
-  <a href="#-snippets">Snippets</a> •
-  <a href="#-related-projects">Related</a> •
-  <a href="#-communities">Communities</a> •
-  <a href="#-contribute">Contribute</a>
+  <a href="#other-tools">Other Tools</a> •
+  <a href="#snippets">Snippets</a> •
+  <a href="#related-projects">Related</a> •
+  <a href="#communities">Communities</a> •
+  <a href="#contribute">Contribute</a>
 </p>
 
 ---
