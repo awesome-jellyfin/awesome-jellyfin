@@ -5,24 +5,32 @@
   <h1 align="center">Awesome Jellyfin</h1>
 </p>
 
-
-<blockquote align="center"> A List of Awesome Jellyfin Themes and Plugins</blockquote>
+<p align="center">
+  <strong>A curated list of awesome Jellyfin plugins, themes, clients, and tools</strong>
+</p>
 
 <p align="center">
-[
   <a href="#-plugins">Plugins</a> •
   <a href="#%EF%B8%8F-metadata-providers">Metadata Providers</a> •
   <a href="THEMES.md">Themes</a> •
   <a href="CLIENTS.md">Clients</a> •
-  <a href="#-other">Other</a> •
+  <a href="#%EF%B8%8F-other-tools">Other Tools</a> •
   <a href="#-snippets">Snippets</a> •
-  <a href="#-related">Related</a> •
-  <a href="#contribute">Contribute</a>
-]
+  <a href="#-related-projects">Related</a> •
+  <a href="#-communities">Communities</a> •
+  <a href="#-contribute">Contribute</a>
 </p>
 
+---
+
+> **Legend:**  
+> `🔹 Beta` - In beta/testing phase  
+> `🔸 Stale` - Not recently updated  
+> `🔺 Paid` - Requires payment
 
 ## 🧩 Plugins
+
+Extend Jellyfin's functionality with these community-developed plugins.
 
 <!-- sort list:plugins -->
 - [Gelato](https://github.com/lostb1t/Gelato) - Replaces Jellyfin's default search with Stremio-powered results and can automatically import entire catalogs into your library through scheduled tasks.
@@ -77,8 +85,9 @@
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin.
 - [TeleJelly](https://github.com/hexxone/TeleJelly) - Allows users to sign in through the [Telegram Login Widget](https://core.telegram.org/widgets/login).
 
-
 #### 🏷️ Metadata Providers
+
+Enhance your media library with metadata from various sources.
 
 <!-- sort list:metadata-providers -->
 - [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Metadata and images for anime and manga from the Hikka website.
@@ -91,16 +100,23 @@
 - [Jellyfin Plugin ThePornDB](https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB) - Metadata provider for ThePornDB.
 - [jellyfin-youtube-metadata-plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
 
+---
 
 ## 🖌️ Themes
 
-👉 Moved themes to [THEMES.md](THEMES.md)
+👉 View beautiful themes for Jellyfin in **[THEMES.md](THEMES.md)**
+
+---
 
 ## 📺 Clients
 
-👉 Moved clients to [CLIENTS.md](CLIENTS.md)
+👉 Explore Jellyfin clients for all platforms in **[CLIENTS.md](CLIENTS.md)**
 
-## 👾 Other
+---
+
+## 🛠️ Other Tools
+
+Tools and utilities that complement your Jellyfin setup.
 
 <!-- sort list:other -->
 - [aphrodite](https://github.com/jackkerouac/aphrodite) - Enhances media library posters with quality indicators like resolution, audio codec, and review ratings.
@@ -169,15 +185,17 @@
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 
-
 #### 📜 Snippets
+
+Helpful code snippets and scripts for Jellyfin customization.
 
 <!--lint ignore awesome-list-item-->
 - [snippets/language-overlay](snippets/language-overlay) - A script to add flags to movie posters.
+---
 
-## 🌌 Related
+## 🌌 Related Projects
 
-This section includes software, guides and tools that are not *specifically* designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
+Software and tools not specifically designed for Jellyfin, but useful for media management and enhancement.
 
 <!-- sort list:related -->
 - [calibre2jellyfin](https://github.com/shawn61cp/calibre2jellyfin) - Python script to construct a Jellyfin ebook library from a Calibre library.
@@ -197,10 +215,11 @@ This section includes software, guides and tools that are not *specifically* des
 - [Threadfin](https://github.com/Threadfin/Threadfin) - M3U proxy for Jellyfin (Based on xTeVe).
 - [TRaSH Guides](https://trash-guides.info/) - Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools.
 - [watchstate](https://github.com/ArabCoders/watchstate) - Sync play state between different media servers.
+---
 
-## Communities
+## 💬 Communities
 
-This section contains links to communities which focus on Jellyfin or related topics.
+Connect with other Jellyfin users and get support.
 
 <!-- sort list:communities -->
 - [Jellyfin Discord](https://discord.gg/zHBxVSXdBV) - The official Jellyfin Discord server. `🔰 Official`
@@ -208,9 +227,11 @@ This section contains links to communities which focus on Jellyfin or related to
 - [Jellyfin Matrix](https://matrix.to/#/#jellyfinorg:matrix.org) - The official Jellyfin Matrix server. `🔰 Official`
 - [r/Jellyfin](https://www.reddit.com/r/jellyfin/) - The official Jellyfin subreddit. `🔰 Official`
 - [r/JellyfinCommunity](https://www.reddit.com/r/JellyfinCommunity/) - An independent, community-run subreddit.
+---
 
-## Contribute
+## 🤝 Contribute
 
-Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.
-You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new) to suggest additions or improvements.
 
