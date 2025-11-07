@@ -185,12 +185,15 @@ Tools and utilities that complement your Jellyfin setup.
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 
+---
+
 #### 📜 Snippets
 
 Helpful code snippets and scripts for Jellyfin customization.
 
 <!--lint ignore awesome-list-item-->
 - [snippets/language-overlay](snippets/language-overlay) - A script to add flags to movie posters.
+
 ---
 
 ## 🌌 Related Projects
