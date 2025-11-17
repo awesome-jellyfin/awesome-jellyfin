@@ -750,6 +750,9 @@ clients:
       - type: github
         owner: hritwikjohri
         repo: Void-for-jellyfin
+      - type: github
+        owner: hritwikjohri
+        repo: VoidTV-for-jellyfin
 
 targets:
   - key: Browser
