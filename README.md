@@ -63,7 +63,8 @@
 - [jellyfin-plugin-streamyfin](https://github.com/streamyfin/jellyfin-plugin-streamyfin) - Companion plugin for Streamyfin which allows for a centralized configuration of the Streamyfin application.
 - [jellyfin-plugin-TelegramNotifier](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier) - Receive notifications of Jellyfin server events via Telegram.
 - [Jellyfin-Roulette](https://github.com/ztffn/Jellyfin-Roulette) - Adds a roulette feature that plays a random entry from a playlist.
-- [jellyfin-rpc](https://github.com/Radiicall/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
+- [jellyfin-rpc by *kennethsible*](https://github.com/kennethsible/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
+- [jellyfin-rpc by *Radiicall*](https://github.com/Radiicall/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
 - [jellyfin-smartlists-plugin](https://github.com/jyourstone/jellyfin-smartlists-plugin) - Creates dynamic playlists in Jellyfin that automatically update based on customizable rules as the library changes.
 - [JellyfinTweaks](https://github.com/n00bcodr/JellyfinTweaks) - Override Jellyfin settings such as *Enable Backdrops* and *Enable Theme Music* across all devices.
 - [jellynext](https://github.com/luall0/jellynext) - Creates per-user virtual libraries for personalized Trakt recommendations and new seasons.
