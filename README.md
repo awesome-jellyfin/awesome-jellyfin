@@ -64,7 +64,7 @@
 - [jellyfin-plugin-TelegramNotifier](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier) - Receive notifications of Jellyfin server events via Telegram.
 - [Jellyfin-Roulette](https://github.com/ztffn/Jellyfin-Roulette) - Adds a roulette feature that plays a random entry from a playlist.
 - [jellyfin-rpc](https://github.com/Radiicall/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
-- [jellyfin-smartplaylist-plugin](https://github.com/jyourstone/jellyfin-smartplaylist-plugin) - Creates dynamic playlists in Jellyfin that automatically update based on customizable rules as the library changes.
+- [jellyfin-smartlists-plugin](https://github.com/jyourstone/jellyfin-smartlists-plugin) - Creates dynamic playlists in Jellyfin that automatically update based on customizable rules as the library changes.
 - [JellyfinTweaks](https://github.com/n00bcodr/JellyfinTweaks) - Override Jellyfin settings such as *Enable Backdrops* and *Enable Theme Music* across all devices.
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews. `🔸 Stale`
   <!--lint ignore list-item-indent awesome-list-item-->
