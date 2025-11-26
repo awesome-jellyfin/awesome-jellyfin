@@ -737,6 +737,22 @@ clients:
       - type: github
         owner: damontecres
         repo: Wholphin
+        
+  - name: Void
+    targets: [Android, AndroidTV]
+    oss: https://github.com/hritwikjohri/Void-for-jellyfin
+    price:
+      free: true
+      paid: false
+    beta: true
+    official: false
+    downloads:
+      - type: github
+        owner: hritwikjohri
+        repo: Void-for-jellyfin
+      - type: github
+        owner: hritwikjohri
+        repo: VoidTV-for-jellyfin
 
 targets:
   - key: Browser
