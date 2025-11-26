@@ -754,6 +754,21 @@ clients:
         owner: hritwikjohri
         repo: VoidTV-for-jellyfin
 
+  - name: Gelly
+    targets: [Linux]
+    types: [Music]
+    oss: https://github.com/Fingel/gelly
+    official: false
+    beta: true
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: Fingel
+        repo: gelly
+      - type: flathub
+        package: io.m51.Gelly 
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
