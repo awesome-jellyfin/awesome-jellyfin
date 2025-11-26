@@ -180,6 +180,39 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
+## [infinitv](https://github.com/buesche87/infinitv) by buesche87
+
+[` 🔵 Get this Theme `](https://github.com/buesche87/infinitv)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/8e61244a-38e7-49f2-b6c6-5cbdd2dc03a8" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/0bc4337c-ce95-45d1-985a-081cfdd15388" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/dbaff509-a708-4e26-9a0b-52cc804288d0" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/2d548971-aa17-4f6a-9f2c-3e327a203f3a" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/bd4afc57-9031-4226-b650-8626dfafcdcd" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/78d2378b-17e1-4a13-895c-9352a6d293b8" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
 
 Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
