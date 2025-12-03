@@ -106,7 +106,7 @@
 ## 👾 Other
 
 <!-- sort list:other -->
-- [aphrodite](https://github.com/jackkerouac/aphrodite) - Enhances media library posters with quality indicators like resolution, audio codec, and review ratings.
+- [aphrodite](https://github.com/jackkerouac/aphrodite) - Enhances media library posters with quality indicators like resolution, audio codec, and review ratings. `🔸 Stale`
 - [AudioBookRequest](https://github.com/markbeep/AudioBookRequest) - A request management tool for audiobooks on Plex, Jellyfin, and Audiobookshelf.
 - [AudioMuse-AI](https://github.com/NeptuneHub/AudioMuse-AI) - Sonic analysis and AI-powered clustering to create smart, tempo and mood-based playlists using the Jellyfin API.
 - [autopulse](https://github.com/dan-online/autopulse) - A lightweight automation service that updates Plex, Jellyfin, and Emby libraries based on notifications from media organizers like Sonarr and Radarr.
