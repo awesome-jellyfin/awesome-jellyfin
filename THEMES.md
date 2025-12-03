@@ -64,39 +64,6 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
-## [finality](https://github.com/tedhinklater/finality) by tedhinklater
-
-[` 🔵 Get this Theme `](https://github.com/tedhinklater/finality)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/534d8fcb-0bc9-4b9a-b8a4-e00e139a837a" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/cbf6b18e-670e-4f2b-bf79-341a09122aa8" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/8ca90174-a903-4352-ab8c-913ce7db20dd" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/984a75d5-1706-48da-9f75-b3cf6ccd45b7" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/cfb8a0df-1864-4388-b009-d31dbfc3b29c" />
-    </td>
-  </tr>
-</table>
-
----
-
 ## [finimalism](https://github.com/tedhinklater/finimalism) by tedhinklater
 
 [` 🔵 Get this Theme `](https://github.com/tedhinklater/finimalism)
