@@ -106,6 +106,7 @@
 ## 👾 Other
 
 <!-- sort list:other -->
+- [Anchorr](https://github.com/nairdahh/Anchorr) - Discord bot for Jellyfin media requests and new content notifications.
 - [aphrodite](https://github.com/jackkerouac/aphrodite) - Enhances media library posters with quality indicators like resolution, audio codec, and review ratings. `🔸 Stale`
 - [AudioBookRequest](https://github.com/markbeep/AudioBookRequest) - A request management tool for audiobooks on Plex, Jellyfin, and Audiobookshelf.
 - [AudioMuse-AI](https://github.com/NeptuneHub/AudioMuse-AI) - Sonic analysis and AI-powered clustering to create smart, tempo and mood-based playlists using the Jellyfin API.
