@@ -64,39 +64,6 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
-## [finality](https://github.com/tedhinklater/finality) by tedhinklater
-
-[` 🔵 Get this Theme `](https://github.com/tedhinklater/finality)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/534d8fcb-0bc9-4b9a-b8a4-e00e139a837a" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/cbf6b18e-670e-4f2b-bf79-341a09122aa8" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/8ca90174-a903-4352-ab8c-913ce7db20dd" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/984a75d5-1706-48da-9f75-b3cf6ccd45b7" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/cfb8a0df-1864-4388-b009-d31dbfc3b29c" />
-    </td>
-  </tr>
-</table>
-
----
-
 ## [finimalism](https://github.com/tedhinklater/finimalism) by tedhinklater
 
 [` 🔵 Get this Theme `](https://github.com/tedhinklater/finimalism)
@@ -174,6 +141,39 @@ If an image is no longer available or out of date, please create an [issue](http
     </td>
     <td>
       <img src="https://github.com/prism2001/finity/raw/main/screenshots/movie.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [infinitv](https://github.com/buesche87/infinitv) by buesche87
+
+[` 🔵 Get this Theme `](https://github.com/buesche87/infinitv)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/8e61244a-38e7-49f2-b6c6-5cbdd2dc03a8" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/0bc4337c-ce95-45d1-985a-081cfdd15388" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/dbaff509-a708-4e26-9a0b-52cc804288d0" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/2d548971-aa17-4f6a-9f2c-3e327a203f3a" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/bd4afc57-9031-4226-b650-8626dfafcdcd" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/78d2378b-17e1-4a13-895c-9352a6d293b8" />
     </td>
   </tr>
 </table>
