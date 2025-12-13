@@ -768,6 +768,29 @@ clients:
         repo: gelly
       - type: flathub
         package: io.m51.Gelly 
+  - name: "Moonfin for Android TV / Fire TV"
+    targets: [AndroidTV]
+    oss: https://github.com/Moonfin-Client/AndroidTV-FireTV
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Moonfin-Client
+        repo: AndroidTV-FireTV
+
+  - name: "Moonfin for Roku"
+    targets: [Roku]
+    oss: https://github.com/Moonfin-Client/Roku
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Moonfin-Client
+        repo: Roku
 
 targets:
   - key: Browser
