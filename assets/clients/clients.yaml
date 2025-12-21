@@ -769,6 +769,20 @@ clients:
       - type: flathub
         package: io.m51.Gelly 
 
+  - name: ampcast
+    targets: [Browser, Windows, Linux, macOS]
+    types: [Music]
+    oss: https://github.com/rekkyrosso/ampcast
+    official: false
+    beta: true
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: rekkyrosso
+        repo: ampcast
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
