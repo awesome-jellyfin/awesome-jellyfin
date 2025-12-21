@@ -18,6 +18,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
 | [Finetic](https://github.com/AyaanZaveri/finetic) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/AyaanZaveri/finetic/total?logo=github&label=GitHub)](https://github.com/AyaanZaveri/finetic/releases) |
 | [Fladder](https://github.com/DonutWare/Fladder) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/DonutWare/Fladder/total?logo=github&label=GitHub)](https://github.com/DonutWare/Fladder/releases) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) |
@@ -35,6 +36,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
 | [Bloodin ` ⚒️ `](https://github.com/pathetic/bloodin) | ✅ | ✅ | ❎ |  |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
@@ -61,6 +63,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
 | [Bloodin ` ⚒️ `](https://github.com/pathetic/bloodin) | ✅ | ✅ | ❎ |  |
 | [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
@@ -87,6 +90,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
 | [Bloodin ` ⚒️ `](https://github.com/pathetic/bloodin) | ✅ | ✅ | ❎ |  |
 | [Delfin ` ⚒️ `](https://codeberg.org/avery42/delfin) | ✅ | ✅ | ❎ | [![flathub](https://img.shields.io/flathub/downloads/cafe.avery.Delfin?logo=Flathub&label=Flathub)](https://flathub.org/apps/cafe.avery.Delfin) |
@@ -247,6 +251,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
 | [Finamp ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
