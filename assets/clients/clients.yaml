@@ -791,6 +791,30 @@ clients:
       - type: github
         owner: Moonfin-Client
         repo: Roku
+        
+  - name: "Moonfin for webOS"
+    targets: [webOs]
+    oss: https://github.com/Moonfin-Client/webOs
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Moonfin-Client
+        repo: webOS
+        
+  - name: "Moonfin for Tizen"
+    targets: [Tizen]
+    oss: https://github.com/Moonfin-Client/Tizen
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Moonfin-Client
+        repo: Tizen
 
 targets:
   - key: Browser
