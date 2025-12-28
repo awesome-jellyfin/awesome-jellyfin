@@ -133,6 +133,7 @@
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
 - [jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A collection of seasonal themes/animations.
 - [Jellyfin Segment Editor](https://github.com/intro-skipper/segment-editor) - Manage Jellyfin Media Segment positions.
+- [jellyfin-theme-music-manager](https://github.com/akhilmulpurii/jellyfin-theme-music-manager) - A simple tool to manage theme.mp3 and theme.mp4 files for Jellyfin themes and video backdrops using YouTube URLs.
 - [jellyfin-tools](https://github.com/eebette/jellyfin-tools) - This library is to generate images with Jellyfin-like styling (shadow overlay and library title text) from source images.
 - [Jellyfin Update Poster](https://github.com/Iceshadow1404/JellyfinUpdatePoster) - Handles ZIP files containing multiple cover images from [ThePosterDB](https://theposterdb.com/) and [MediUX](https://mediux.pro). Set Downloader for [MediUX](https://mediux.pro).
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - A web app that indexes media from multiple Jellyfin servers into a single searchable hub, letting you see which server hosts the content you're looking for.
