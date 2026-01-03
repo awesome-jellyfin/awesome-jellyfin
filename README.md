@@ -52,6 +52,7 @@
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
 - [jellyfin-plugin-letterboxd-sync](https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync) - Automatically syncs your watched movie history with Letterboxd.
 - [jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz) - Automatically syncs your music activity with ListenBrainz.
+- [jellyfin-plugin-localrecs](https://github.com/rdpharr/jellyfin-plugin-localrecs) - Generates personalized movie and TV recommendations based entirely on local watch history—no external services required. Works on all Jellyfin clients.
 - [jellyfin-plugin-media-bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar) - A Featured Content Bar to show off your media collection.
 - [jellyfin-plugin-media-cleaner](https://github.com/shemanaev/jellyfin-plugin-media-cleaner) - Automatically removes played media after a specified time period.
 - [jellyfin-plugin-meilisearch](https://github.com/arnesacnussem/jellyfin-plugin-meilisearch) - Enhances Jellyfin search speed and accuracy by offloading queries to a Meilisearch instance.
