@@ -19,6 +19,15 @@ clients:
       - type: app-store
         id: "1604098728"
 
+  - name: "Sunkfin"
+    targets: [iOS]
+    oss: https://github.com/jackcrane/sunkfin
+    official: false
+    beta: false
+    downloads:
+      - type: app-store
+        id: "6743207349"
+
   - name: "Jellyfin Vue"
     targets: [Browser]
     oss: https://github.com/jellyfin/jellyfin-vue
