@@ -158,6 +158,7 @@
 - [pixelfin](https://github.com/nothing2obvi/pixelfin) - Lets you quickly see which image types are present, missing, or low resolution in your Jellyfin libraries. You can also save images in embedded HTML files or ZIP archives.
 - [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts YouTube Music playlists to Jellyfin playlists.
 - [Posterizarr](https://github.com/fscorrupt/Posterizarr) - Automates the creation of high-quality posters, backgrounds, and title cards for Plex, Jellyfin, and Emby with customizable overlays and direct uploads.
+- [PPJF](https://github.com/Damocles-fr/PPJF) - PotPlayer Media Player launcher for Jellyfin Web.
 - [reiverr](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr. `🔹 Beta`
 - [scenepeek-android](https://github.com/Divinelink/scenepeek-android) - An Android app that provides detailed movie and TV show information with TMDB and Jellyseerr integration.
 - [speedrr](https://github.com/itschasa/speedrr) - Change your torrent client's upload speed dynamically, on certain events such as when a Plex/Jellyfin stream starts.
