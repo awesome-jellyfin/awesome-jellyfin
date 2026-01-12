@@ -781,18 +781,22 @@ clients:
         type: github
         owner: Moonfin-Client
         repo: AndroidTV-FireTV
+        label: AndroidTV
       - 
         type: github
         owner: Moonfin-Client
         repo: Roku
+        label: Roku
       - 
         type: github
         owner: Moonfin-Client
         repo: webOS
+        label: webOS
       - 
         type: github
         owner: Moonfin-Client
         repo: Tizen
+        label: Tizen
 
   - name: ampcast
     targets: [Browser, Windows, Linux, macOS]
