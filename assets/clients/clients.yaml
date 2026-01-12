@@ -753,6 +753,8 @@ clients:
     official: false
     beta: false
     downloads:
+      - type: google-play
+        id: com.github.damontecres.wholphin
       - type: github
         owner: damontecres
         repo: Wholphin
