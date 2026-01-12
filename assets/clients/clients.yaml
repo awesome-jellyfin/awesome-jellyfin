@@ -792,6 +792,17 @@ clients:
         owner: rekkyrosso
         repo: ampcast
 
+  - name: "Mediora"
+    targets: [AppleTV]
+    website: https://github.com/ghobs91/mediora
+    oss: https://github.com/ghobs91/mediora
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757345487"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
