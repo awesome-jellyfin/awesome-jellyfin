@@ -730,7 +730,7 @@ clients:
       - type: shield
         label: Microsoft Store
         url: https://apps.microsoft.com/detail/9nb0h051m4v4
-        
+
   - name: "JellyRock"
     targets: [Roku]
     oss: https://github.com/cewert/jellyrock
@@ -756,7 +756,7 @@ clients:
       - type: github
         owner: damontecres
         repo: Wholphin
-        
+
   - name: Void
     targets: [Android, AndroidTV]
     oss: https://github.com/hritwikjohri/Void-for-jellyfin
@@ -786,7 +786,7 @@ clients:
         owner: Fingel
         repo: gelly
       - type: flathub
-        package: io.m51.Gelly 
+        package: io.m51.Gelly
 
   - name: ampcast
     targets: [Browser, Windows, Linux, macOS]
@@ -801,6 +801,18 @@ clients:
       - type: github
         owner: rekkyrosso
         repo: ampcast
+
+  - name: "Aperture"
+    targets: [Browser]
+    oss: https://github.com/akhilmulpurii/aperture
+    official: false
+    beta: true
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: akhilmulpurii
+        repo: aperture
 
   - name: "Mediora"
     targets: [AppleTV]
