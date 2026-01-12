@@ -71,26 +71,10 @@ If an image is no longer available or out of date, please create an [issue](http
 <table>
   <tr>
     <td>
-      <img src="https://i.imgur.com/hRUk1VN.png" />
+        <img src="https://github.com/user-attachments/assets/caaa8d3a-c3f1-46d7-8a51-4ba6f08c047f" />
     </td>
     <td>
-      <img src="https://i.imgur.com/MYBUHEH.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://i.imgur.com/ts13B1n.png" />
-    </td>
-    <td>
-      <img src="https://i.imgur.com/xPTC9s0.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://i.imgur.com/261AqYj.png" />
-    </td>
-    <td>
-      <img src="https://i.imgur.com/IXTxQEO.png" />
+        <img src="https://github.com/user-attachments/assets/b2c1e0ca-0304-47d6-b4cc-3f77ac83f806" />
     </td>
   </tr>
 </table>
