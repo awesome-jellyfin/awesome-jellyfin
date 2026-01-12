@@ -783,7 +783,7 @@ clients:
         owner: rekkyrosso
         repo: ampcast
 
-    - name: "Mediora"
+  - name: "Mediora"
     targets: [AppleTV]
     website: https://github.com/ghobs91/mediora
     oss: https://github.com/ghobs91/mediora
