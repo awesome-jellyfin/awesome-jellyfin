@@ -19,6 +19,15 @@ clients:
       - type: app-store
         id: "1604098728"
 
+  - name: "Sunkfin"
+    targets: [iOS]
+    oss: https://github.com/jackcrane/sunkfin
+    official: false
+    beta: false
+    downloads:
+      - type: app-store
+        id: "6743207349"
+
   - name: "Jellyfin Vue"
     targets: [Browser]
     oss: https://github.com/jellyfin/jellyfin-vue
@@ -317,6 +326,16 @@ clients:
       - type: github
         owner: prayag17
         repo: Blink
+
+  - name: "AFinity"
+    targets: [Android]
+    oss: https://github.com/MakD/AFinity
+    official: false
+    beta: true
+    downloads:
+      - type: github
+        owner: MakD
+        repo: AFinity
 
   - name: "Gelli"
     targets: [Android]
@@ -794,6 +813,17 @@ clients:
       - type: github
         owner: akhilmulpurii
         repo: aperture
+
+  - name: "Mediora"
+    targets: [AppleTV]
+    website: https://github.com/ghobs91/mediora
+    oss: https://github.com/ghobs91/mediora
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757345487"
 
 targets:
   - key: Browser

@@ -133,6 +133,7 @@
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
 - [jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A collection of seasonal themes/animations.
 - [Jellyfin Segment Editor](https://github.com/intro-skipper/segment-editor) - Manage Jellyfin Media Segment positions.
+- [jellyfin-theme-music-manager](https://github.com/akhilmulpurii/jellyfin-theme-music-manager) - A web application for managing theme songs and backdrop videos for your Jellyfin media library.
 - [jellyfin-tools](https://github.com/eebette/jellyfin-tools) - This library is to generate images with Jellyfin-like styling (shadow overlay and library title text) from source images.
 - [Jellyfin Update Poster](https://github.com/Iceshadow1404/JellyfinUpdatePoster) - Handles ZIP files containing multiple cover images from [ThePosterDB](https://theposterdb.com/) and [MediUX](https://mediux.pro). Set Downloader for [MediUX](https://mediux.pro).
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - A web app that indexes media from multiple Jellyfin servers into a single searchable hub, letting you see which server hosts the content you're looking for.
@@ -158,6 +159,7 @@
 - [pixelfin](https://github.com/nothing2obvi/pixelfin) - Lets you quickly see which image types are present, missing, or low resolution in your Jellyfin libraries. You can also save images in embedded HTML files or ZIP archives.
 - [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts YouTube Music playlists to Jellyfin playlists.
 - [Posterizarr](https://github.com/fscorrupt/Posterizarr) - Automates the creation of high-quality posters, backgrounds, and title cards for Plex, Jellyfin, and Emby with customizable overlays and direct uploads.
+- [PPJF](https://github.com/Damocles-fr/PPJF) - Allows launching PotPlayer from Jellyfin Web.
 - [reiverr](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr. `🔹 Beta`
 - [scenepeek-android](https://github.com/Divinelink/scenepeek-android) - An Android app that provides detailed movie and TV show information with TMDB and Jellyseerr integration.
 - [speedrr](https://github.com/itschasa/speedrr) - Change your torrent client's upload speed dynamically, on certain events such as when a Plex/Jellyfin stream starts.
