@@ -67,6 +67,7 @@
 - [Jellyfin-Roulette](https://github.com/ztffn/Jellyfin-Roulette) - Adds a roulette feature that plays a random entry from a playlist.
 - [jellyfin-rpc by *kennethsible*](https://github.com/kennethsible/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
 - [jellyfin-rpc by *Radiicall*](https://github.com/Radiicall/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
+- [Jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A jellyfin plugin with collections of seasonal themes/animations.
 - [jellyfin-smartlists-plugin](https://github.com/jyourstone/jellyfin-smartlists-plugin) - Creates dynamic playlists in Jellyfin that automatically update based on customizable rules as the library changes.
 - [JellyfinTweaks](https://github.com/n00bcodr/JellyfinTweaks) - Override Jellyfin settings such as *Enable Backdrops* and *Enable Theme Music* across all devices.
 - [jellynext](https://github.com/luall0/jellynext) - Creates per-user virtual libraries for personalized Trakt recommendations and new seasons.
@@ -132,7 +133,6 @@
 - [jellyfin-poster-hrd-logo](https://github.com/Druidblack/jellyfin-poster-hrd-logo/tree/main) - Automatically downloads covers for HDR movies from TMDb and applies an HDR logo in the top-right corner.
 - [jellyfin_ratings](https://github.com/Druidblack/jellyfin_ratings) - Replaces Jellyfin ratings with ratings from various sources (IMDb, Trakt, Imdb, Letterboxd, etc.).
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
-- [jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A collection of seasonal themes/animations.
 - [Jellyfin Segment Editor](https://github.com/intro-skipper/segment-editor) - Manage Jellyfin Media Segment positions.
 - [jellyfin-theme-music-manager](https://github.com/akhilmulpurii/jellyfin-theme-music-manager) - A web application for managing theme songs and backdrop videos for your Jellyfin media library.
 - [jellyfin-tools](https://github.com/eebette/jellyfin-tools) - This library is to generate images with Jellyfin-like styling (shadow overlay and library title text) from source images.
