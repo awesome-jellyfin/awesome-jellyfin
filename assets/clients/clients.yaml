@@ -327,6 +327,16 @@ clients:
         owner: prayag17
         repo: Blink
 
+  - name: "AFinity"
+    targets: [Android]
+    oss: https://github.com/MakD/AFinity
+    official: false
+    beta: true
+    downloads:
+      - type: github
+        owner: MakD
+        repo: AFinity
+
   - name: "Gelli"
     targets: [Android]
     types: [Music]
