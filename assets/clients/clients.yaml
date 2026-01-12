@@ -14,7 +14,7 @@ clients:
     targets: [iOS, Android, Linux, macOS]
     types: [Music]
     oss: https://github.com/j6k4m8/coppelia
-    official: true
+    official: false
     beta: true
     price:
       free: true
