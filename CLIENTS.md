@@ -19,6 +19,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
+| [Aperture ` ⚒️ `](https://github.com/akhilmulpurii/aperture) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/akhilmulpurii/aperture/total?logo=github&label=GitHub)](https://github.com/akhilmulpurii/aperture/releases) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
 | [Finetic](https://github.com/AyaanZaveri/finetic) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/AyaanZaveri/finetic/total?logo=github&label=GitHub)](https://github.com/AyaanZaveri/finetic/releases) |
 | [Fladder](https://github.com/DonutWare/Fladder) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/DonutWare/Fladder/total?logo=github&label=GitHub)](https://github.com/DonutWare/Fladder/releases) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) |
