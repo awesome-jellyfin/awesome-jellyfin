@@ -46,6 +46,7 @@
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Create and sort collections by importing from external sources like *mdblist*.
 - [jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections) - Adds additional sections to `jellyfin-plugin-home-sections` for collections and playlists.
 - [jellyfin-plugin-custom-tabs](https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs) - Add personalized tabs in jellyfin-web for quick access to custom content.
+- [jellyfin-plugin-DiscordNotifier](https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier) - Send notifications of Jellyfin server events to Discord.
 - [jellyfin-plugin-enigma2](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers. `🔸 Stale`
 - [jellyfin-plugin-home-sections](https://github.com/IAmParadox27/jellyfin-plugin-home-sections) - Allows users to customize the jellyfin-web home screen with dynamic sections like "Because You Watched" and "Latest Movies".
 - [jellyfin-plugin-languageTags](https://github.com/TheXaman/jellyfin-plugin-languageTags) - Adds language tags to media based on audio tracks using FFmpeg.
