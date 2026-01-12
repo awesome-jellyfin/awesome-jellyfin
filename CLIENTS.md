@@ -144,6 +144,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [AFinity ` ⚒️ `](https://github.com/MakD/AFinity) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/MakD/AFinity/total?logo=github&label=GitHub)](https://github.com/MakD/AFinity/releases) |
 | [AfuseKt](https://github.com/AttemptD/AfuseKt-release) | ❌ | ✅ | ☑️ | [![github](https://img.shields.io/github/downloads/AttemptD/AfuseKt-release/total?logo=github&label=GitHub)](https://github.com/AttemptD/AfuseKt-release/releases) |
 | [Finamp ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
 | [Findroid ` ⚒️ `](https://github.com/jarnedemeulemeester/findroid) | ✅ | ✅ | ❎ | [![Izzysoft](https://img.shields.io/badge/-grey?logo=&label=Izzysoft)](https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin) |
