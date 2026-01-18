@@ -41,6 +41,17 @@ clients:
       - type: demo
         url: https://jf-vue.pages.dev/
 
+  - name: "Pelagica"
+    targets: [Browser]
+    oss: https://github.com/KartoffelChipss/pelagica
+    official: false
+    downloads:
+      - type: github
+        owner: KartoffelChipss
+        repo: pelagica
+      - type: demo
+        url: https://pelagica.jan.run
+
   - name: "JellyCon"
     targets: [Kodi]
     oss: https://github.com/jellyfin/jellycon
