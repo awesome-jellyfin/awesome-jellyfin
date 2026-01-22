@@ -467,7 +467,7 @@ clients:
         id: "6738301953"
 
   - name: "Fladder"
-    targets: [Android, iOS, macOS, Windows, Linux, Browser]
+    targets: [Android, AndroidTV, iOS, macOS, Windows, Linux, Browser]
     oss: https://github.com/DonutWare/Fladder
     official: false
     beta: false
