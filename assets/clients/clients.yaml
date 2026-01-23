@@ -10,6 +10,20 @@ clients:
       - type: flathub
         package: com.github.iwalton3.jellyfin-media-player
 
+  - name: Coppelia
+    targets: [iOS, Android, Linux, macOS]
+    types: [Music]
+    oss: https://github.com/j6k4m8/coppelia
+    official: false
+    beta: true
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: j6k4m8
+        repo: coppelia
+
   - name: "Swiftfin"
     targets: [iOS, AppleTV]
     oss: https://github.com/jellyfin/swiftfin
