@@ -175,6 +175,7 @@
 - [trailerfin](https://github.com/Pukabyte/trailerfin) - Automatically retrieves and creates STRM links to IMDb trailers and places them in the backdrops folder to view trailers on the details page.
 - [tunarr](https://github.com/chrisbenincasa/tunarr) - Create custom live TV channels from your Plex or Jellyfin library with a web UI and IPTV support.
 - [Universal Plugin Repo](https://github.com/0belous/universal-plugin-repo) - Consolidates many plugin repositories to create a universal catalogue.
+- [whatseerr](https://github.com/sufxgit/whatseerr) - WhatsApp bot for Seerr that allows users to search and request media via WhatsApp messages.
 - [wizarr](https://github.com/Wizarrrr/wizarr) - Advanced user invitation and management system.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
