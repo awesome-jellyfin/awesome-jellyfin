@@ -49,6 +49,7 @@
 - [jellyfin-plugin-DiscordNotifier](https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier) - Send notifications of Jellyfin server events to Discord.
 - [jellyfin-plugin-enigma2](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers. `🔸 Stale`
 - [jellyfin-plugin-home-sections](https://github.com/IAmParadox27/jellyfin-plugin-home-sections) - Allows users to customize the jellyfin-web home screen with dynamic sections like "Because You Watched" and "Latest Movies".
+- [jellyfin-plugin-jellysleep](https://github.com/jon4hz/jellyfin-plugin-jellysleep) - Adds sleep timer functionality to Jellyfin.
 - [jellyfin-plugin-languageTags](https://github.com/TheXaman/jellyfin-plugin-languageTags) - Adds language tags to media based on audio tracks using FFmpeg.
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
 - [jellyfin-plugin-letterboxd-sync](https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync) - Automatically syncs your watched movie history with Letterboxd.
