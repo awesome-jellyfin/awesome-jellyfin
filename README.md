@@ -36,6 +36,7 @@
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans. `🔹 Beta` `🔸 Stale`
 - [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - Inject custom JavaScript into the Jellyfin UI without modifying index.html.
+- [JellySTRMprobe](https://github.com/firestaerter3/JellySTRMprobe) - Probes STRM files to extract media information (codec, resolution, duration, audio) that Jellyfin skips during library scans.
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
 - [jellyfin-musictags-plugin](https://github.com/jyourstone/jellyfin-musictags-plugin) - Automatically extracts audio file metadata and converts it into standard Jellyfin tags.
 - [Jellyfin-Newsletter-Plugin](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media. `🔹 Beta` `🔸 Stale`
