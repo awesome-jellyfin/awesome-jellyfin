@@ -221,9 +221,9 @@ This section contains links to communities which focus on Jellyfin or related to
 - [Jellyfin Discord](https://discord.gg/zHBxVSXdBV) - The official Jellyfin Discord server. `🔰 Official`
 - [Jellyfin Forum](https://forum.jellyfin.org/) - The official Jellyfin forum. `🔰 Official`
 - [Jellyfin Matrix](https://matrix.to/#/#jellyfinorg:matrix.org) - The official Jellyfin Matrix server. `🔰 Official`
-- [MTM8dkjr93](https://discord.gg/MTM8dkjr93) - An independent, community-run Discord server.
 - [r/Jellyfin](https://www.reddit.com/r/jellyfin/) - The official Jellyfin subreddit. `🔰 Official`
 - [r/JellyfinCommunity](https://www.reddit.com/r/JellyfinCommunity/) - An independent, community-run subreddit.
+- [JellyfinCommunity Discord](https://discord.gg/MTM8dkjr93) - An independent, community-run Discord server.
 
 
 
