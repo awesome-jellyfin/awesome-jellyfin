@@ -225,7 +225,7 @@ This section contains links to communities which focus on Jellyfin or related to
 - [r/JellyfinCommunity](https://www.reddit.com/r/JellyfinCommunity/) - An independent, community-run subreddit.
 - [JellyfinCommunity Discord](https://discord.gg/MTM8dkjr93) - An independent, community-run Discord server.
 
-
+## Contribute
 
 Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.
 You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
