@@ -881,6 +881,17 @@ clients:
       - type: app-store
         id: "6757345487"
 
+  - name: JellySee
+    targets: [AppleTV]
+    official: false
+    beta: false
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6748783768"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
