@@ -881,6 +881,15 @@ clients:
       - type: app-store
         id: "6757345487"
 
+  - name: Yamby
+    targets: [Android, AndroidTV]
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: com.hush.yamby
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
