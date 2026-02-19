@@ -1,21 +1,54 @@
 # Contribution Guidelines
 
-Please note that this project is released with a
-[Contributor Code of Conduct](CODE-OF-CONDUCT.md). By participating in this
-project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](CODE-OF-CONDUCT.md). 
+By participating in this project you agree to abide by its terms.
 
 ## Pull Requests
 
 Ensure your pull request adheres to the following guidelines:
 
-- Use the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) (`<type>[optional scope]: <description>`)
+- Use the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) (`<type>[optional scope]: <description>`).
 - **Alphabetical Sorting**: Items in `README.md` must be sorted alphabetically. See [Sorting Rules](#sorting-rules).
-- **Generated Content**: Some files, like `CLIENTS.md` are automatically generated from files. You should only edit the original source files from which they're generated from. See [Generated Content](#generated-content).
-- Search previous suggestions before making a new one, as yours may be a duplicate
-- New categories, or improvements to the existing categorization are welcome
-- Keep descriptions short and simple, but descriptive and non-promotional
+- **Templated Content**: Some files, like `CLIENTS.md` are automatically generated from files. You should only edit the original source files from which they're generated from. See [Templated Content](#templated-content).
+- Search previous suggestions before making a new one, as yours may be a duplicate.
+- New categories, or improvements to the existing categorization are welcome.
+- Keep descriptions short and simple, but descriptive and non-promotional.
 
 Thank you for your suggestions!
+
+---
+
+## Project Criteria
+
+To help maintain a useful and sustainable list, submitted projects are generally expected to meet the following guidelines. 
+These are not strict requirements but serve as a guideline for new projects.
+
+### Activity
+
+* The project should be at least **4 weeks old**.
+* The repository should show **recent and ongoing activity**.
+* If automated checks are configured, they should be **passing on the default branch**.
+* The project should show signs of **continued maintenance**.
+
+### Quality & Documentation
+
+Projects should meet baseline quality standards:
+
+* A **clear and descriptive README** and/or documentation should be available.
+* The commit history should reflect meaningful development activity.
+* Contributors adding a project are encouraged to consider whether it is likely to remain maintained.
+* **Small utilities or scripts should:**
+
+  * Be broadly useful beyond a single use case.
+  * Preferably be part of a larger project or collection if highly specific.
+  * Avoid fragmenting the list into numerous minimal standalone scripts.
+
+### Conduct
+
+* Projects should not be associated with malicious, deceptive, or spam-related activity.
+* Repositories should follow generally accepted open-source practices.
+
+---
 
 ## Sorting Rules
 
@@ -37,7 +70,7 @@ If two items end up with the same canonical text, their **original order** is pr
 > A bot will automatically check your PR for correct order.  
 >  - You can manually fix sorting or ask a maintainer to run `/sort-check -fix` (if needed).
 
-## Generated Content
+## Templated Content
 
 Some files in this repository are automatically generated from other source files. For example, `CLIENTS.md` is generated from `assets/clients/clients.yaml`.  
 - **Do not edit these generated files directly.** Instead, edit the original source files from which they’re generated.  
