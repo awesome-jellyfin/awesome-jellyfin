@@ -168,6 +168,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Symfonium ` ⚒️ ` ` 🎵 `](https://symfonium.app) | ❌ | ❌ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=app.symfonik.music.player) |
 | [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1659622164) |
 | [Void ` ⚒️ `](https://github.com/hritwikjohri/Void-for-jellyfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/hritwikjohri/Void-for-jellyfin/total?logo=github&label=GitHub)](https://github.com/hritwikjohri/Void-for-jellyfin/releases) [![github](https://img.shields.io/github/downloads/hritwikjohri/VoidTV-for-jellyfin/total?logo=github&label=GitHub)](https://github.com/hritwikjohri/VoidTV-for-jellyfin/releases) |
+| Yamby | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.hush.yamby) |
 
 
 ### Sailfish OS
@@ -223,6 +224,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [VidHub](https://okaapps.com/product/1659622164) | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1659622164) |
 | [Void ` ⚒️ `](https://github.com/hritwikjohri/Void-for-jellyfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/hritwikjohri/Void-for-jellyfin/total?logo=github&label=GitHub)](https://github.com/hritwikjohri/Void-for-jellyfin/releases) [![github](https://img.shields.io/github/downloads/hritwikjohri/VoidTV-for-jellyfin/total?logo=github&label=GitHub)](https://github.com/hritwikjohri/VoidTV-for-jellyfin/releases) |
 | [Wholphin](https://github.com/damontecres/Wholphin) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.github.damontecres.wholphin) [![github](https://img.shields.io/github/downloads/damontecres/Wholphin/total?logo=github&label=GitHub)](https://github.com/damontecres/Wholphin/releases) |
+| Yamby | ❌ | ✅ | ☑️ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.hush.yamby) |
 
 
 ### Kodi
