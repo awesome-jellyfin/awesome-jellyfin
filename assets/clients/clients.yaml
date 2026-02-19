@@ -901,6 +901,19 @@ clients:
       - type: app-store
         id: "6748783768"
 
+  - name: "Breezyfin"
+    targets: [WebOS]
+    oss: https://github.com/botagas/Breezyfin
+    official: false
+    beta: true
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: botagas
+        repo: Breezyfin
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
