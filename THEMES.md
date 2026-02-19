@@ -6,6 +6,36 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
+## [better-jellyfin-ui](https://github.com/tromoSM/better-jellyfin-ui) by tromoSM
+
+A refined and modern UI enhancement for Jellyfin focused on improved layout, animations, and iOS design. [` 🔵 Get this Theme `](https://github.com/tromoSM/better-jellyfin-ui)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-main.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-library-i.png?raw=true" />
+    </td>
+  </tr>
+    <tr>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-or.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-player.png?raw=true" />
+    </td>
+  </tr>
+    <tr>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-admin.png?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [catppuccin](https://github.com/catppuccin/jellyfin) by catppuccin
 
 [` 🔵 Get this Theme `](https://github.com/catppuccin/jellyfin)
