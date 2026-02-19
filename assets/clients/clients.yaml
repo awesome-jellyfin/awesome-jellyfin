@@ -889,6 +889,17 @@ clients:
     downloads:
       - type: google-play
         id: com.hush.yamby
+  
+  - name: JellySee
+    targets: [AppleTV]
+    official: false
+    beta: false
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6748783768"
 
 targets:
   - key: Browser
