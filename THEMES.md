@@ -266,6 +266,31 @@ Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this 
 
 ---
 
+## [NeutralFin](https://github.com/KartoffelChipss/NeutralFin) by KartoffelChipss
+
+NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look. [` 🔵 Get this Theme `](https://github.com/KartoffelChipss/NeutralFin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie2.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-home.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movies.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie.webp" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Ultrachromic](https://github.com/CTalvio/Ultrachromic) by CTalvio
 
 The final form, the true evolution of the chromic theme saga [` 🔵 Get this Theme `](https://github.com/CTalvio/Ultrachromic)
