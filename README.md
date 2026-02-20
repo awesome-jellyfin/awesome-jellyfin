@@ -66,6 +66,7 @@
 - [Jellyfin.Plugin.StreamLimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows limiting the number of simultaneous streams per user.
 - [jellyfin-plugin-streamyfin](https://github.com/streamyfin/jellyfin-plugin-streamyfin) - Companion plugin for Streamyfin which allows for a centralized configuration of the Streamyfin application.
 - [jellyfin-plugin-TelegramNotifier](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier) - Receive notifications of Jellyfin server events via Telegram.
+- [jellyfin-powertoys](https://github.com/lennykean/jellyfin-powertoys) - Quality-of-life plugin collection, including thumbnail previews, actor/studio collections, "Continue Watching" cleanup, and privacy mode.
 - [Jellyfin-Roulette](https://github.com/ztffn/Jellyfin-Roulette) - Adds a roulette feature that plays a random entry from a playlist.
 - [jellyfin-rpc by *kennethsible*](https://github.com/kennethsible/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
 - [jellyfin-rpc by *Radiicall*](https://github.com/Radiicall/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
