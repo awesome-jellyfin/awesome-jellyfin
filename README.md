@@ -23,6 +23,7 @@
 
 
 ## 🧩 Plugins
+
 <!-- sort list:plugins -->
 - [Gelato](https://github.com/lostb1t/Gelato) - Replaces Jellyfin's default search with Stremio-powered results and can automatically import entire catalogs into your library through scheduled tasks.
 - [HoverTrailer](https://github.com/Fovty/HoverTrailer) - Displays movie trailers on hover.
