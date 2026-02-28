@@ -900,6 +900,19 @@ clients:
     downloads:
       - type: app-store
         id: "6748783768"
+          
+  - name: Dee Jellie
+    targets: [iOS, AppleTV, macOS]
+    types: [Music]
+    website: https://www.deejellie.com
+    official: false
+    beta: false
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6755585736"
 
 targets:
   - key: Browser
