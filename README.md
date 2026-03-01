@@ -110,6 +110,7 @@
 ## 👾 Other
 
 <!-- sort list:other -->
+- [ADRG](https://github.com/jaldertech/adrg) - Aldertech Dynamic Resource Governor. Monitors and dynamically enforces cgroups v2 limits to pause or throttle Docker containers based on Jellyfin media streaming activity.
 - [Anchorr](https://github.com/nairdahh/Anchorr) - Discord bot for Jellyfin media requests and new content notifications.
 - [aphrodite](https://github.com/jackkerouac/aphrodite) - Enhances media library posters with quality indicators like resolution, audio codec, and review ratings. `🔸 Stale`
 - [AudioBookRequest](https://github.com/markbeep/AudioBookRequest) - A request management tool for audiobooks on Plex, Jellyfin, and Audiobookshelf.
