@@ -69,6 +69,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
 | [Bloodin ` ⚒️ `](https://github.com/pathetic/bloodin) | ✅ | ✅ | ❎ |  |
 | [Coppelia ` ⚒️ ` ` 🎵 `](https://github.com/j6k4m8/coppelia) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/j6k4m8/coppelia/total?logo=github&label=GitHub)](https://github.com/j6k4m8/coppelia/releases) |
+| [Dee Jellie ` 🎵 `](https://www.deejellie.com) | ❌ | ❌ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6755585736) |
 | [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
 | [Finer ` 🎵 `](https://monk-studio.com/finer) | ❌ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6738301953) |
@@ -122,6 +123,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [Coppelia ` ⚒️ ` ` 🎵 `](https://github.com/j6k4m8/coppelia) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/j6k4m8/coppelia/total?logo=github&label=GitHub)](https://github.com/j6k4m8/coppelia/releases) |
+| [Dee Jellie ` 🎵 `](https://www.deejellie.com) | ❌ | ❌ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6755585736) |
 | [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
 | [Filebar](https://fileball.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1558391784) |
 | [Finamp ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
@@ -199,6 +201,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [Dee Jellie ` 🎵 `](https://www.deejellie.com) | ❌ | ❌ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6755585736) |
 | [Filebar](https://fileball.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1558391784) |
 | [HamHub](https://www.hamhub.app/) | ❌ | ✅ | ❎ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6458691598) |
 | [Infuse](https://firecore.com/infuse) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1136220934) |
@@ -270,6 +273,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | ---- | --- | ---- | ---- | --------- |
 | [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Coppelia ` ⚒️ ` ` 🎵 `](https://github.com/j6k4m8/coppelia) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/j6k4m8/coppelia/total?logo=github&label=GitHub)](https://github.com/j6k4m8/coppelia/releases) |
+| [Dee Jellie ` 🎵 `](https://www.deejellie.com) | ❌ | ❌ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6755585736) |
 | [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
 | [Feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
 | [Finamp ` 🎵 `](https://github.com/jmshrv/finamp) | ✅ | ✅ | ❎ | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id1574922594) |
