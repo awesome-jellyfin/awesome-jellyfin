@@ -259,6 +259,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
+| [Breezyfin ` ⚒️ `](https://github.com/botagas/Breezyfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/botagas/Breezyfin/total?logo=github&label=GitHub)](https://github.com/botagas/Breezyfin/releases) |
 | [Jellyfin for WebOS ` 🔹 `](https://github.com/jellyfin/jellyfin-webos) | ✅ | ✅ | ❎ | [![LG](https://img.shields.io/badge/LG-grey?logo=LG&label=)](https://us.lgappstv.com/main/tvapp/detail?appId=1030579) |
 | [Moonfin](https://github.com/Moonfin-Client) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/Moonfin-Client/AndroidTV-FireTV/total?logo=github&label=AndroidTV)](https://github.com/Moonfin-Client/AndroidTV-FireTV/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Roku/total?logo=github&label=Roku)](https://github.com/Moonfin-Client/Roku/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/webOS/total?logo=github&label=webOS)](https://github.com/Moonfin-Client/webOS/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Tizen/total?logo=github&label=Tizen)](https://github.com/Moonfin-Client/Tizen/releases) |
 
