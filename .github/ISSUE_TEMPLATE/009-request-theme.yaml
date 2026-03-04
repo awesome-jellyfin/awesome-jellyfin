@@ -10,7 +10,11 @@ labels:
 body:      
   - type: markdown
     attributes:
-      value: "> Thank you so much for your help to make this list even better! 💖"
+      value: |
+        > [!NOTE]
+        > If you are familiar with GitHub and know [how to create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), **please consider submitting your suggestion directly as a PR** instead of opening an issue. Pull Requests are usually reviewed and processed faster. Issues are mainly intended for users who are unsure how to contribute via PR.
+        
+        **Thank you so much for your help to make this list even better! 💖**
 
   - type: input
     id: theme-name
