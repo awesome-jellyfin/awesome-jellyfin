@@ -73,6 +73,7 @@
 - [Jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A jellyfin plugin with collections of seasonal themes/animations.
 - [jellyfin-smartlists-plugin](https://github.com/jyourstone/jellyfin-smartlists-plugin) - Creates dynamic collections and playlists in Jellyfin that automatically update based on customizable rules as the library changes.
 - [JellyfinTweaks](https://github.com/n00bcodr/JellyfinTweaks) - Override Jellyfin settings such as *Enable Backdrops* and *Enable Theme Music* across all devices.
+- [Jellyfin-Xtream-Library](https://github.com/firestaerter3/Jellyfin-Xtream-Library) - Syncs Xtream VOD and Series content to native Jellyfin libraries via STRM files, with automatic metadata lookup and Live TV support.
 - [jellynext](https://github.com/luall0/jellynext) - Creates per-user virtual libraries for personalized Trakt recommendations and new seasons.
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews. `🔸 Stale`
   <!--lint ignore list-item-indent awesome-list-item-->
