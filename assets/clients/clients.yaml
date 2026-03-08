@@ -722,15 +722,15 @@ clients:
         repo: finetic
 
   - name: "Reefin"
-    targets: [Android]
-    website: https://play.google.com/store/apps/details?id=com.shady.reefin
-    official: false
-    beta: false
-    price:
-      free: true
+    targets: [Android, AndroidTV]
+    website: https://reefin.dev/
+    oss: https://github.com/SKULSHADY/reefin
     downloads:
       - type: google-play
         id: com.shady.reefin
+      - type: github
+        owner: SKULSHADY
+        repo: reefin
 
   - name: "Hills"
     targets: [Windows, Android]
