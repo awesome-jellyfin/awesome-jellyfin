@@ -722,15 +722,15 @@ clients:
         repo: finetic
 
   - name: "Reefin"
-    targets: [Android]
-    website: https://play.google.com/store/apps/details?id=com.shady.reefin
-    official: false
-    beta: false
-    price:
-      free: true
+    targets: [Android, AndroidTV]
+    website: https://reefin.dev/
+    oss: https://github.com/SKULSHADY/reefin
     downloads:
       - type: google-play
         id: com.shady.reefin
+      - type: github
+        owner: SKULSHADY
+        repo: reefin
 
   - name: "Hills"
     targets: [Windows, Android]
@@ -929,6 +929,53 @@ clients:
       - type: github
         owner: botagas
         repo: Breezyfin
+
+  - name: JellyCine
+    targets: [Android]
+    oss: https://github.com/sureshfizzy/JellyCine
+    downloads:
+      - type: github
+        owner: sureshfizzy
+        repo: JellyCine
+
+  - name: Playtorrio
+    targets: [Windows, macOS, Linux, Android]
+    oss: https://github.com/ayman708-UX/PlayTorrio
+    downloads:
+      - type: github
+        owner: ayman708-UX
+        repo: PlayTorrio
+
+  - name: JellyTV
+    targets: [iOS]
+    website: https://jellytv.app/en
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6752357290"
+
+  - name: Elefin
+    targets: [AndroidTV]
+    oss: https://github.com/flex36ty/elefin
+    downloads:
+      - type: github
+        owner: flex36ty
+        repo: elefin
+
+  - name: Jellify
+    targets: [iOS, Android]
+    types: [Music]
+    oss: https://github.com/Jellify-Music/App
+    downloads:
+      - type: github
+        owner: Jellify-Music
+        repo: App
+      - type: shield
+        icon: App Store
+        label: TestFlight
+        url: https://testflight.apple.com/join/etVSc7ZQ
 
 targets:
   - key: Browser
