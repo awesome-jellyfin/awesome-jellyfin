@@ -946,6 +946,16 @@ clients:
         owner: ayman708-UX
         repo: PlayTorrio
 
+  - name: JellyTV
+    targets: [iOS]
+    website: https://jellytv.app/en
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6752357290"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
