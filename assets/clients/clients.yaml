@@ -938,6 +938,14 @@ clients:
         owner: sureshfizzy
         repo: JellyCine
 
+  - name: Playtorrio
+    targets: [Windows, macOS, Linux, Android]
+    oss: https://github.com/ayman708-UX/PlayTorrio
+    downloads:
+      - type: github
+        owner: ayman708-UX
+        repo: PlayTorrio
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
