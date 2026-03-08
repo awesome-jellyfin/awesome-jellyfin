@@ -964,6 +964,19 @@ clients:
         owner: flex36ty
         repo: elefin
 
+  - name: Jellify
+    targets: [iOS, Android]
+    types: [Music]
+    oss: https://github.com/Jellify-Music/App
+    downloads:
+      - type: github
+        owner: Jellify-Music
+        repo: App
+      - type: shield
+        icon: App Store
+        label: TestFlight
+        url: https://testflight.apple.com/join/etVSc7ZQ
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
