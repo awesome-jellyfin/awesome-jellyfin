@@ -930,6 +930,14 @@ clients:
         owner: botagas
         repo: Breezyfin
 
+  - name: JellyCine
+    targets: [Android]
+    oss: https://github.com/sureshfizzy/JellyCine
+    downloads:
+      - type: github
+        owner: sureshfizzy
+        repo: JellyCine
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
