@@ -956,6 +956,14 @@ clients:
       - type: app-store
         id: "6752357290"
 
+  - name: Elefin
+    targets: [AndroidTV]
+    oss: https://github.com/flex36ty/elefin
+    downloads:
+      - type: github
+        owner: flex36ty
+        repo: elefin
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
