@@ -846,6 +846,9 @@ clients:
         owner: Moonfin-Client
         repo: Tizen
         label: Tizen
+      - 
+        type: google-play
+        id: org.moonfin.androidtv
 
   - name: ampcast
     targets: [Browser, Windows, Linux, macOS]
