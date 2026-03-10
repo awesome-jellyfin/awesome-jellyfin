@@ -11,7 +11,7 @@ body:
     attributes:
       value: |
         > [!IMPORTANT]
-        > Before submitting, please read the **[Contribution Guidelines](CONTRIBUTING.md)**.
+        > Before submitting, please read the **[Contribution Guidelines](https://github.com/awesome-jellyfin/awesome-jellyfin/blob/main/CONTRIBUTING.md)**.
         >  
         > If you are familiar with GitHub and know how to create a Pull Request, please consider submitting your suggestion **directly as a PR** instead of opening an issue:
         > https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
