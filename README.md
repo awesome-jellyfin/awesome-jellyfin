@@ -36,6 +36,7 @@
 - [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans. `🔹 Beta` `🔸 Stale`
 - [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - Inject custom JavaScript into the Jellyfin UI without modifying index.html.
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
+- [Jellyfin-MonWUI-Plugin](https://github.com/G-grbz/Jellyfin-MonWUI-Plugin) - UI enhancement toolkit for Jellyfin providing customizable sliders, hover trailers, a music player, notifications, and other interface modules.
 - [jellyfin-musictags-plugin](https://github.com/jyourstone/jellyfin-musictags-plugin) - Automatically extracts audio file metadata and converts it into standard Jellyfin tags.
 - [Jellyfin-Newsletter-Plugin](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media. `🔹 Beta` `🔸 Stale`
 - [jellyfin-plugin-air-times](https://github.com/apteryxxyz/jellyfin-plugin-air-times) - Provides localized series air times based on server location.
