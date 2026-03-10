@@ -157,6 +157,7 @@
 - [Jellyswarrm](https://github.com/LLukas22/Jellyswarrm) - Reverse proxy that lets you combine multiple Jellyfin servers into one virtual instance.
 - [jellysweep](https://github.com/jon4hz/jellysweep) - A smart cleanup tool for your Jellyfin media server. It automatically removes old, unwatched movies and TV shows by analyzing your viewing history and user requests.
 - [jellytools](https://github.com/cleverdevil/jellytools) - A CLI tool for synchronizing artwork and collections to Jellyfin from Plex and to generate and embed customizable animated library card videos in the Jellyfin UI.
+- [Jellywatched](https://github.com/jbakalarski/Jellywatched) - Command-line tool that compares watched movies and episodes between users to identify content everyone has watched and may be safe to remove from the library.
 - [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - A standalone app that monitors and enforces Jellyfin watch time limits per user, with API integration and a simple GUI.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
 - [jf-avatars](https://github.com/kalibrado/jf-avatars) - Allows users to select avatars from an image gallery.
