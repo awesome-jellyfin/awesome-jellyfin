@@ -82,6 +82,7 @@
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
 - [media-upload-plugin](https://github.com/grandguyjs/media-upload-plugin) - Media-manager that provides uploads, bulk downloads from URLs, and directory browsing within Jellyfin.
 - [MyAnimeSync](https://github.com/iankiller77/MyAnimeSync) - Automatically synchronizes anime watching progress between Jellyfin and MyAnimeList.
+- [NotifySync](https://github.com/peterdu1109/NotifySync) - Adds a notification bell to Jellyfin that displays recent additions.
 - [playlist-generator](https://github.com/Eeeeelias/playlist-generator) - Create personal playlists based on your listening history.
 - [Plexyfin](https://github.com/cleverdevil/plexyfin) - Automatically synchronize artwork and collections from your Plex Media Server to Jellyfin. Useful for users of Kometa.
 - [Shokofin](https://github.com/ShokoAnime/Shokofin) - A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).
