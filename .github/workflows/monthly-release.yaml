@@ -32,7 +32,7 @@ jobs:
           set -euo pipefail
 
           TAG="monthly/$(date -u +'%Y-%m')"
-          TITLE="Monthly Update - $(date -u +'%B %Y')"
+          TITLE="Monthly - $(date -u +'%B %Y')"
 
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
           echo "title=$TITLE" >> "$GITHUB_OUTPUT"
@@ -78,8 +78,6 @@ jobs:
 
           {
             echo "file=release-intro.md" >> "$GITHUB_OUTPUT"
-            echo "# $TITLE"
-            echo
             echo "- Commits since last release: **$COUNT**"
             echo "- Previous release tag: \`$PREV\`"
             echo "- Full list: [README](./README.md)"
