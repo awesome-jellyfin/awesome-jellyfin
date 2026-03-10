@@ -147,6 +147,7 @@
 - [jellyfin-tools](https://github.com/eebette/jellyfin-tools) - This library is to generate images with Jellyfin-like styling (shadow overlay and library title text) from source images.
 - [Jellyfin Update Poster](https://github.com/Iceshadow1404/JellyfinUpdatePoster) - Handles ZIP files containing multiple cover images from [ThePosterDB](https://theposterdb.com/) and [MediUX](https://mediux.pro). Set Downloader for [MediUX](https://mediux.pro).
 - [jellyfin-updoot](https://github.com/BobHasNoSoul/jellyfin-updoot) - Adds thumbs-up recommendations, per-item comments, and a "recommended by users" page.
+- [jellyfin-watch-updater](https://github.com/Simon-Eklundh/jellyfin-watch-updater) - Updates `lastPlayedDate` for watched items when clients fail to set it, enabling tools such as media cleanup plugins to correctly detect watched media.
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - A web app that indexes media from multiple Jellyfin servers into a single searchable hub, letting you see which server hosts the content you're looking for.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - A CLI Program for installing and managing Jellyfin.
 - [JellyPlex-Watched](https://github.com/luigi311/JellyPlex-Watched) - Syncs watch history between Jellyfin, Plex, and Emby Servers.
