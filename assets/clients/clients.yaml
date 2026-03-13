@@ -980,6 +980,16 @@ clients:
         label: TestFlight
         url: https://testflight.apple.com/join/etVSc7ZQ
 
+  - name: "ChordCut"
+    targets: [Windows]
+    types: [Music]
+    oss: https://github.com/Futyn-Maker/ChordCut
+    official: false
+    downloads:
+      - type: github
+        owner: Futyn-Maker
+        repo: ChordCut
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
