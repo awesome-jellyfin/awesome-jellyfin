@@ -141,6 +141,7 @@
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and letterboxd.
 - [Jellyfin-Cover-Maker](https://github.com/KartoffelChipss/Jellyfin-Cover-Maker) - A website to easily create consistent covers and posters for your Jellyfin libraries.
 - [JellyfinEasyMetadataManager](https://github.com/CesarBianchi/JellyfinEasyMetadataManager) - A desktop tool for managing and editing metadata in Jellyfin libraries.
+- [Jellyfin Episodes Ratings Grid](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid) - Show IMDb episode ratings in a heatmap-style grid on Jellyfin series pages.
 - [Jellyfin-Image-Exporter](https://github.com/Kurotaku-sama/Jellyfin-Image-Exporter) - A script to export images (posters, banners, thumbnails) from your Jellyfin media server's metadata library.
 - [jellyfinmanager](https://github.com/Forceu/jellyfinmanager) - A command-line tool for managing Jellyfin watched status, featuring backup/restore capabilities and missing episode detection using TVDB.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
