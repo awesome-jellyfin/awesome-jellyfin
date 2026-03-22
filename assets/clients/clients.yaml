@@ -991,7 +991,6 @@ clients:
       - type: github
         owner: MoazSalem
         repo: litefin
-        label: Litefin
 
 targets:
   - key: Browser
