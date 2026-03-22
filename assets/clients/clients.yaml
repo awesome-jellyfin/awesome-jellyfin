@@ -980,6 +980,19 @@ clients:
         label: TestFlight
         url: https://testflight.apple.com/join/etVSc7ZQ
 
+  - name: Litefin
+    targets: [Tizen]
+    oss: https://github.com/MoazSalem/litefin
+    official: false    
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: MoazSalem
+        repo: litefin
+        label: Litefin
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
