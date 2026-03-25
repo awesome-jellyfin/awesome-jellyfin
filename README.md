@@ -35,6 +35,7 @@
 - [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - Adds keyboard shortcuts, subtitle styling, TMDB reviews, Jellyseerr search and request integration, and other improvements to Jellyfin.
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans. `🔹 Beta` `🔸 Stale`
+- [jellyfin-imdb-rating-updater](https://github.com/voc0der/jellyfin-imdb-rating-updater) - Downloads the IMDb ratings dataset daily and updates the CommunityRating field for library items with an IMDb ID without modifying other metadata.
 - [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - Inject custom JavaScript into the Jellyfin UI without modifying index.html.
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
 - [Jellyfin-MonWUI-Plugin](https://github.com/G-grbz/Jellyfin-MonWUI-Plugin) - UI enhancement toolkit for Jellyfin providing customizable sliders, hover trailers, a music player, notifications, and other interface modules.
