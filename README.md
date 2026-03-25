@@ -29,6 +29,7 @@
 - [HoverTrailer](https://github.com/Fovty/HoverTrailer) - Displays movie trailers on hover.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
+- [jelly-covers](https://github.com/GeiserX/jelly-covers) - Cover extraction for books, audiobooks, comics, magazines, and music libraries with online fallback via Open Library & Google Books.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
 - [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a Netflix-style, full-width content slider to the home page to feature selected content.
 - [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - Adds keyboard shortcuts, subtitle styling, TMDB reviews, Jellyseerr search and request integration, and other improvements to Jellyfin.
