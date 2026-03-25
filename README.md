@@ -29,6 +29,7 @@
 - [HoverTrailer](https://github.com/Fovty/HoverTrailer) - Displays movie trailers on hover.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
+- [jelly-covers](https://github.com/GeiserX/jelly-covers) - Cover extraction for books, audiobooks, comics, magazines, and music libraries with online fallback via Open Library & Google Books.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
 - [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a Netflix-style, full-width content slider to the home page to feature selected content.
 - [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - Adds keyboard shortcuts, subtitle styling, TMDB reviews, Jellyseerr search and request integration, and other improvements to Jellyfin.
@@ -44,7 +45,6 @@
 - [jellyfin-plugin-AnimeMultiSource](https://github.com/webbster64/jellyfin-plugin-AnimeMultiSource) - Aggregates anime metadata, tags, artwork, and people from multiple sources (AniList, AniDB, MAL/Jikan, TVDB, Fanart.tv) with rate limiting and persistent caching for large libraries.
 - [jellyfin-plugin-animethemes](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes) - Fetches anime opening and ending themes from [AnimeThemes.moe](https://animethemes.moe/), supporting both audio and video.
 - [jellyfin-plugin-auto-collections](https://github.com/KeksBombe/jellyfin-plugin-auto-collections) - Automatically creates and maintains dynamic collections based on flexible criteria.
-- [jelly-covers](https://github.com/GeiserX/jelly-covers) - Cover extraction for books, audiobooks, comics, magazines, and music libraries with online fallback via Open Library & Google Books.
 - [jellyfin-plugin-cinemamode](https://github.com/CherryFloors/jellyfin-plugin-cinemamode) - A plugin that allows users to enable Jellyfin's Cinema Mode functionality with local trailers and pre-rolls.
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Create and sort collections by importing from external sources like *mdblist*.
 - [jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections) - Adds additional sections to `jellyfin-plugin-home-sections` for collections and playlists.
