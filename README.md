@@ -163,6 +163,7 @@
 - [jellyfin-watch-updater](https://github.com/Simon-Eklundh/jellyfin-watch-updater) - Updates `lastPlayedDate` for watched items when clients fail to set it, enabling tools such as media cleanup plugins to correctly detect watched media.
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - A web app that indexes media from multiple Jellyfin servers into a single searchable hub, letting you see which server hosts the content you're looking for.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - A CLI Program for installing and managing Jellyfin.
+- [JellyOcean](https://jellyocean.com) - A free service that lets you create Jellyfin servers in the cloud.
 - [JellyPlex-Watched](https://github.com/luigi311/JellyPlex-Watched) - Syncs watch history between Jellyfin, Plex, and Emby Servers.
 - [jellyplist](https://github.com/kamilkosek/jellyplist) - Utility for syncing Spotify playlists to Jellyfin. `🔹 Beta`
 - [JellyRoller](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller. `🔹 Beta`
