@@ -262,6 +262,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [Jellyfin for Tizen ` 🔹 `](https://github.com/jellyfin/jellyfin-tizen) | ✅ | ✅ | ❎ | [Build It Yourself](https://github.com/jellyfin/jellyfin-tizen) |
+| [Litefin](https://github.com/MoazSalem/litefin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/MoazSalem/litefin/total?logo=github&label=GitHub)](https://github.com/MoazSalem/litefin/releases) |
 | [Moonfin](https://github.com/Moonfin-Client) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/Moonfin-Client/AndroidTV-FireTV/total?logo=github&label=AndroidTV)](https://github.com/Moonfin-Client/AndroidTV-FireTV/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Roku/total?logo=github&label=Roku)](https://github.com/Moonfin-Client/Roku/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/webOS/total?logo=github&label=webOS)](https://github.com/Moonfin-Client/webOS/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Tizen/total?logo=github&label=Tizen)](https://github.com/Moonfin-Client/Tizen/releases) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) |
 
 
