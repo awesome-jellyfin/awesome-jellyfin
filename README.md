@@ -25,6 +25,7 @@
 ## 🧩 Plugins
 
 <!-- sort list:plugins -->
+- [AniLiberty STRM Plugin](https://github.com/queukat/AniLibriaStrmPlugin) - Generates AniLiberty STRM libraries for Jellyfin with metadata, intro markers, and watch-progress sync.
 - [Gelato](https://github.com/lostb1t/Gelato) - Replaces Jellyfin's default search with Stremio-powered results and can automatically import entire catalogs into your library through scheduled tasks.
 - [HoverTrailer](https://github.com/Fovty/HoverTrailer) - Displays movie trailers on hover.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
@@ -32,29 +33,39 @@
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
 - [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a Netflix-style, full-width content slider to the home page to feature selected content.
 - [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - Adds keyboard shortcuts, subtitle styling, TMDB reviews, Jellyseerr search and request integration, and other improvements to Jellyfin.
+- [jellyfin-favorited-songs-playlist](https://github.com/Saturn745/jellyfin-favorited-songs-playlist) - Automatically creates and updates a “Favorited Songs” playlist containing all your favorited music tracks.
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) - Ignore filename patterns on library scans. `🔹 Beta` `🔸 Stale`
+- [jellyfin-imdb-rating-updater](https://github.com/voc0der/jellyfin-imdb-rating-updater) - Downloads the IMDb ratings dataset daily and updates the CommunityRating field for library items with an IMDb ID without modifying other metadata.
 - [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - Inject custom JavaScript into the Jellyfin UI without modifying index.html.
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
+- [Jellyfin-MonWUI-Plugin](https://github.com/G-grbz/Jellyfin-MonWUI-Plugin) - UI enhancement toolkit for Jellyfin providing customizable sliders, hover trailers, a music player, notifications, and other interface modules.
 - [jellyfin-musictags-plugin](https://github.com/jyourstone/jellyfin-musictags-plugin) - Automatically extracts audio file metadata and converts it into standard Jellyfin tags.
+- [Jellyfin-Newsletter](https://github.com/Sanidhya30/Jellyfin-Newsletter) - Sends newsletters and notifications about library changes (additions, updates, deletions) via email, Discord, or Telegram.
 - [Jellyfin-Newsletter-Plugin](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media. `🔹 Beta` `🔸 Stale`
+- [Jellyfin.Plugin.ActorPlus](https://github.com/Druidblack/Jellyfin.Plugin.ActorPlus) - Adds additional details and hoverable filmography to actor portraits and displays actor lists when hovering over movie or series posters.
 - [jellyfin-plugin-air-times](https://github.com/apteryxxyz/jellyfin-plugin-air-times) - Provides localized series air times based on server location.
+- [jellyfin-plugin-AnimeMultiSource](https://github.com/webbster64/jellyfin-plugin-AnimeMultiSource) - Aggregates anime metadata, tags, artwork, and people from multiple sources (AniList, AniDB, MAL/Jikan, TVDB, Fanart.tv) with rate limiting and persistent caching for large libraries.
 - [jellyfin-plugin-animethemes](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes) - Fetches anime opening and ending themes from [AnimeThemes.moe](https://animethemes.moe/), supporting both audio and video.
+- [Jellyfin.Plugin.ArtworkMultiSource](https://github.com/Druidblack/Jellyfin.Plugin.ArtworkMultiSource) - Combines posters and logos from TMDb and TVDB with language-aware priority and configurable sorting.
 - [jellyfin-plugin-auto-collections](https://github.com/KeksBombe/jellyfin-plugin-auto-collections) - Automatically creates and maintains dynamic collections based on flexible criteria.
 - [jellyfin-plugin-cinemamode](https://github.com/CherryFloors/jellyfin-plugin-cinemamode) - A plugin that allows users to enable Jellyfin's Cinema Mode functionality with local trailers and pre-rolls.
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Create and sort collections by importing from external sources like *mdblist*.
 - [jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections) - Adds additional sections to `jellyfin-plugin-home-sections` for collections and playlists.
 - [jellyfin-plugin-custom-tabs](https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs) - Add personalized tabs in jellyfin-web for quick access to custom content.
+- [jellyfin-plugin-discontinue-watching](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching) - Lets you remove items from the Continue Watching list without resetting watch progress, with optional auto-hide after inactivity.
 - [jellyfin-plugin-DiscordNotifier](https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier) - Send notifications of Jellyfin server events to Discord.
 - [jellyfin-plugin-enigma2](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers. `🔸 Stale`
 - [jellyfin-plugin-GetAvatar](https://github.com/cedev-1/jellyfin-plugin-GetAvatar) - Allows users to choose an avatar from a collection of images.
 - [jellyfin-plugin-home-sections](https://github.com/IAmParadox27/jellyfin-plugin-home-sections) - Allows users to customize the jellyfin-web home screen with dynamic sections like "Because You Watched" and "Latest Movies".
 - [jellyfin-plugin-jellysleep](https://github.com/jon4hz/jellyfin-plugin-jellysleep) - Adds sleep timer functionality to Jellyfin.
+- [Jellyfin.Plugin.JF_To_Stash_Sync](https://github.com/Druidblack/Jellyfin.Plugin.JF_To_Stash_Sync) - Synchronizes viewing activity with Stash.
 - [jellyfin-plugin-languageTags](https://github.com/TheXaman/jellyfin-plugin-languageTags) - Adds language tags to media based on audio tracks using FFmpeg.
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
 - [jellyfin-plugin-letterboxd-sync](https://github.com/Gizmo091/jellyfin-plugin-letterboxd-sync) - Automatically syncs your watched movie history with Letterboxd.
 - [jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz) - Automatically syncs your music activity with ListenBrainz.
 - [jellyfin-plugin-localrecs](https://github.com/rdpharr/jellyfin-plugin-localrecs) - Generates personalized movie and TV recommendations based on local watch history without external services required.
+- [Jellyfin.Plugin.MDBList_Ratings](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings) - Retrieves ratings from MDBList using TMDb IDs and integrates them into Jellyfin's rating fields, with optional UI enhancements to display ratings from multiple sources.
 - [jellyfin-plugin-media-bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar) - A Featured Content Bar to show off your media collection.
 - [jellyfin-plugin-media-cleaner](https://github.com/shemanaev/jellyfin-plugin-media-cleaner) - Automatically removes played media after a specified time period.
 - [jellyfin-plugin-MediathekViewDL](https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL) - Integrates MediathekViewDL into Jellyfin and allows users to search, download, and manage content.
@@ -74,20 +85,25 @@
 - [jellyfin-rpc by *Radiicall*](https://github.com/Radiicall/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
 - [Jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - A jellyfin plugin with collections of seasonal themes/animations.
 - [jellyfin-smartlists-plugin](https://github.com/jyourstone/jellyfin-smartlists-plugin) - Creates dynamic collections and playlists in Jellyfin that automatically update based on customizable rules as the library changes.
+- [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
 - [JellyfinTweaks](https://github.com/n00bcodr/JellyfinTweaks) - Override Jellyfin settings such as *Enable Backdrops* and *Enable Theme Music* across all devices.
 - [Jellyfin-Xtream-Library](https://github.com/firestaerter3/Jellyfin-Xtream-Library) - Syncs Xtream VOD and Series content to native Jellyfin libraries via STRM files, with automatic metadata lookup and Live TV support.
 - [jellynext](https://github.com/luall0/jellynext) - Creates per-user virtual libraries for personalized Trakt recommendations and new seasons.
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews. `🔸 Stale`
   <!--lint ignore list-item-indent awesome-list-item-->
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
+- [JellySTRMprobe](https://github.com/firestaerter3/JellySTRMprobe) - Probes STRM files to extract media information (codec, resolution, duration, audio) that Jellyfin skips during library scans.
 - [media-upload-plugin](https://github.com/grandguyjs/media-upload-plugin) - Media-manager that provides uploads, bulk downloads from URLs, and directory browsing within Jellyfin.
 - [MyAnimeSync](https://github.com/iankiller77/MyAnimeSync) - Automatically synchronizes anime watching progress between Jellyfin and MyAnimeList.
+- [NotifySync](https://github.com/peterdu1109/NotifySync) - Adds a notification bell to Jellyfin that displays recent additions.
 - [playlist-generator](https://github.com/Eeeeelias/playlist-generator) - Create personal playlists based on your listening history.
 - [Plexyfin](https://github.com/cleverdevil/plexyfin) - Automatically synchronize artwork and collections from your Plex Media Server to Jellyfin. Useful for users of Kometa.
 - [Shokofin](https://github.com/ShokoAnime/Shokofin) - A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).
+- [smart-covers](https://github.com/GeiserX/smart-covers) - Cover extraction for books, audiobooks, comics, magazines, and music libraries with online fallback via Open Library & Google Books.
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin.
 - [TeleJelly](https://github.com/hexxone/TeleJelly) - Allows users to sign in through the [Telegram Login Widget](https://core.telegram.org/widgets/login).
 - [TheDwarfsHammer](https://github.com/Kamoba/jellyfin-plugin-thedwarfshammer) - Enhanced collection management and content discovery for Jellyfin.
+- [whisper-subs](https://github.com/GeiserX/whisper-subs) - Automatically generates subtitles using local AI models powered by Whisper, with all processing on your server.
 
 
 #### 🏷️ Metadata Providers
@@ -115,7 +131,8 @@
 ## 👾 Other
 
 <!-- sort list:other -->
-- [Anchorr](https://github.com/nairdahh/Anchorr) - Discord bot for Jellyfin media requests and new content notifications.
+- [ADRG](https://github.com/jaldertech/adrg) - Dynamic Docker resource governor using cgroups v2 to throttle background tasks during media activity.
+- [Anchorr](https://github.com/openVESSL/Anchorr) - Discord bot for Jellyfin media requests and new content notifications.
 - [aphrodite](https://github.com/jackkerouac/aphrodite) - Enhances media library posters with quality indicators like resolution, audio codec, and review ratings. `🔸 Stale`
 - [AudioBookRequest](https://github.com/markbeep/AudioBookRequest) - A request management tool for audiobooks on Plex, Jellyfin, and Audiobookshelf.
 - [AudioMuse-AI](https://github.com/NeptuneHub/AudioMuse-AI) - Sonic analysis and AI-powered clustering to create smart, tempo and mood-based playlists using the Jellyfin API.
@@ -131,11 +148,12 @@
 - [jelly-clipper](https://github.com/arnolicious/jelly-clipper) - A web application for creating, sharing, and managing video clips from your Jellyfin media library. `🔹 Beta`
 - [Jellycord](https://github.com/SiddheshDongare/Jellycord) - A Discord companion bot for managing your JFA-GO instance.
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and letterboxd.
-- [jellyfin-cover-art-generator](https://github.com/Tetrax-10/jellyfin-cover-art-generator) - CLI tool to generate Jellyfin styled library coverart from a backdrop.
 - [Jellyfin-Cover-Maker](https://github.com/KartoffelChipss/Jellyfin-Cover-Maker) - A website to easily create consistent covers and posters for your Jellyfin libraries.
 - [JellyfinEasyMetadataManager](https://github.com/CesarBianchi/JellyfinEasyMetadataManager) - A desktop tool for managing and editing metadata in Jellyfin libraries.
 - [jellyfin-encoder](https://github.com/GeiserX/jellyfin-encoder) - Docker-based automatic 720p HEVC/AV1 transcoding service for Jellyfin libraries with NVIDIA and Intel hardware acceleration.
+- [Jellyfin Episodes Ratings Grid](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid) - Show IMDb episode ratings in a heatmap-style grid on Jellyfin series pages.
 - [Jellyfin-Image-Exporter](https://github.com/Kurotaku-sama/Jellyfin-Image-Exporter) - A script to export images (posters, banners, thumbnails) from your Jellyfin media server's metadata library.
+- [jellyfinmanager](https://github.com/Forceu/jellyfinmanager) - A command-line tool for managing Jellyfin watched status, featuring backup/restore capabilities and missing episode detection using TVDB.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - A collection of things you can do to personalize Jellyfin.
 - [Jellyfin Notification System](https://github.com/Fahmula/jellyfin-telegram-notifier) - Sends Telegram notifications with media images whenever a new movie, series, season, or episode is added to Jellyfin. `🔸 Stale`
 - [jellyfin-on-macos](https://github.com/Digital-Shane/jellyfin-on-macos) - Guide for hosting Jellyfin on macOS with dynamic DNS, geo-filtering, and monitoring dashboards.
@@ -143,10 +161,12 @@
 - [jellyfin_ratings](https://github.com/Druidblack/jellyfin_ratings) - Replaces Jellyfin ratings with ratings from various sources (IMDb, Trakt, Imdb, Letterboxd, etc.).
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like app made for people who use Jellyfin for listening to music.
 - [Jellyfin Segment Editor](https://github.com/intro-skipper/segment-editor) - Manage Jellyfin Media Segment positions.
+- [jellyfin-telegram-channel-sync](https://github.com/GeiserX/jellyfin-telegram-channel-sync) - Syncs Jellyfin user access with Telegram channel membership, automatically disabling accounts when members leave.
 - [jellyfin-theme-music-manager](https://github.com/akhilmulpurii/jellyfin-theme-music-manager) - A web application for managing theme songs and backdrop videos for your Jellyfin media library.
 - [jellyfin-tools](https://github.com/eebette/jellyfin-tools) - This library is to generate images with Jellyfin-like styling (shadow overlay and library title text) from source images.
 - [Jellyfin Update Poster](https://github.com/Iceshadow1404/JellyfinUpdatePoster) - Handles ZIP files containing multiple cover images from [ThePosterDB](https://theposterdb.com/) and [MediUX](https://mediux.pro). Set Downloader for [MediUX](https://mediux.pro).
 - [jellyfin-updoot](https://github.com/BobHasNoSoul/jellyfin-updoot) - Adds thumbs-up recommendations, per-item comments, and a "recommended by users" page.
+- [jellyfin-watch-updater](https://github.com/Simon-Eklundh/jellyfin-watch-updater) - Updates `lastPlayedDate` for watched items when clients fail to set it, enabling tools such as media cleanup plugins to correctly detect watched media.
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - A web app that indexes media from multiple Jellyfin servers into a single searchable hub, letting you see which server hosts the content you're looking for.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - A CLI Program for installing and managing Jellyfin.
 - [JellyPlex-Watched](https://github.com/luigi311/JellyPlex-Watched) - Syncs watch history between Jellyfin, Plex, and Emby Servers.
@@ -158,6 +178,7 @@
 - [Jellyswarrm](https://github.com/LLukas22/Jellyswarrm) - Reverse proxy that lets you combine multiple Jellyfin servers into one virtual instance.
 - [jellysweep](https://github.com/jon4hz/jellysweep) - A smart cleanup tool for your Jellyfin media server. It automatically removes old, unwatched movies and TV shows by analyzing your viewing history and user requests.
 - [jellytools](https://github.com/cleverdevil/jellytools) - A CLI tool for synchronizing artwork and collections to Jellyfin from Plex and to generate and embed customizable animated library card videos in the Jellyfin UI.
+- [JellyTunes](https://github.com/oriaflow-labs/jellytunes) - Sync your Jellyfin music library to any USB drive or SD card — with optional FLAC to MP3 conversion.
 - [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - A standalone app that monitors and enforces Jellyfin watch time limits per user, with API integration and a simple GUI.
 - [jfa-go](https://github.com/hrfee/jfa-go) - User- / Invite-Management system for Jellyfin.
 - [jf-avatars](https://github.com/kalibrado/jf-avatars) - Allows users to select avatars from an image gallery.
@@ -174,6 +195,7 @@
 - [reiverr](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr. `🔹 Beta`
 - [Samsung-Jellyfin-Installer](https://github.com/Jellyfin2Samsung/Samsung-Jellyfin-Installer) - Cross-platform tool that helps you install Jellyfin on Samsung Smart TVs running Tizen OS.
 - [scenepeek-android](https://github.com/Divinelink/scenepeek-android) - An Android app that provides detailed movie and TV show information with TMDB and Jellyseerr integration.
+- [Scyphomote](https://github.com/eiffelbeef/scyphomote) - A dedicated remote control for Jellyfin with support for playback transparency, trickplay previews, and more.
 - [speedrr](https://github.com/itschasa/speedrr) - Change your torrent client's upload speed dynamically, on certain events such as when a Plex/Jellyfin stream starts.
 - [Squishy](https://github.com/cleverdevil/squishy) - Transcode and download your Jellyfin media with fully customizable presets and hardware acceleration.
 - [streamystats](https://github.com/fredrikburmester/streamystats) - Statistics service for Jellyfin, providing analytics and data visualization.

@@ -10,8 +10,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        > [!NOTE]
-        > If you are familiar with GitHub and know [how to create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), **please consider submitting your suggestion directly as a PR** instead of opening an issue. Pull Requests are usually reviewed and processed faster. Issues are mainly intended for users who are unsure how to contribute via PR.
+        > [!IMPORTANT]
+        > Before submitting, please read the **[Contribution Guidelines](https://github.com/awesome-jellyfin/awesome-jellyfin/blob/main/CONTRIBUTING.md)**.
+        >  
+        > If you are familiar with GitHub and know how to create a Pull Request, please consider submitting your suggestion **directly as a PR** instead of opening an issue:
+        > https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+        >
+        > Pull Requests are usually reviewed faster. Issues are mainly intended for users who are unsure how to contribute via PR.
         
         **Thank you so much for your help to make this list even better! 💖**
       
@@ -19,8 +24,8 @@ body:
     id: project-website
     attributes:
       label: Project Website
-      description: Link to the project (e.g. GitHub)
-      placeholder: ex. https://github.com/awesome-jellyfin/awesome-jellyfin
+      description: Link to the project (usually a GitHub repository)
+      placeholder: https://github.com/awesome-jellyfin/awesome-jellyfin
     validations:
       required: true
       
@@ -28,7 +33,7 @@ body:
     id: project-description
     attributes:
       label: Project Description
-      description: Description of the project
+      description: A general description of the project.
     validations:
       required: true
 
@@ -37,14 +42,36 @@ body:
     attributes:
       label: Short Description
       description: |
-        This description will be shown in the list. 
-        It should be:
-        * neutral
-        * 1 (max 2) sentence(s) long
-        * shouldn't contain technologies (e.g. `Built with Python`)
-        * use proper capitalization (e.g. `Jellyfin` instead of `jellyfin`)
-        * start with a capital letter and end with a `.`
-    
+        This description will appear in the awesome list.
+
+        Requirements:
+          - **1 sentence** (max 2)  
+          - **Neutral tone** (no promotion)  
+          - **Do not mention implementation technologies** (e.g. "built with Python")  
+          - **Start with a capital letter and end with a period**  
+          - **Use proper names** (e.g. `Jellyfin`, `TMDb`)
+
+        Example:
+        ```
+        Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
+        ```
+
+        It may contain links or tags (such as `🔹 Beta`).
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have read the Contribution Guidelines
+          required: true
+        - label: The project appears to be actively maintained
+          required: true
+        - label: I searched the list to make sure this project is not already included
+          required: true
+  
   - type: textarea
     id: other
     attributes:
