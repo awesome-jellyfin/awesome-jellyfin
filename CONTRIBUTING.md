@@ -38,7 +38,6 @@ Projects should meet baseline quality standards:
 * The commit history should reflect meaningful development activity.
 * Contributors adding a project are encouraged to consider whether it is likely to remain maintained.
 * **Small utilities or scripts should:**
-
   * Be broadly useful beyond a single use case.
   * Preferably be part of a larger project or collection if highly specific.
   * Avoid fragmenting the list into numerous minimal standalone scripts.
@@ -68,7 +67,7 @@ If two items end up with the same canonical text, their **original order** is pr
 
 > [!NOTE]
 > A bot will automatically check your PR for correct order.  
->  - You can manually fix sorting or ask a maintainer to run `/sort-check -fix` (if needed).
+> > You can manually fix sorting or ask a maintainer to run `/sort-check -fix` (if needed), however, this may not work if the bot has no access to the _head_ repository.
 
 ## Templated Content
 
