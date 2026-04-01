@@ -131,6 +131,7 @@
 ## 👾 Other
 
 <!-- sort list:other -->
+- [ADRG](https://github.com/jaldertech/adrg) - Dynamic Docker resource governor using cgroups v2 to throttle background tasks during media activity.
 - [Anchorr](https://github.com/openVESSL/Anchorr) - Discord bot for Jellyfin media requests and new content notifications.
 - [aphrodite](https://github.com/jackkerouac/aphrodite) - Enhances media library posters with quality indicators like resolution, audio codec, and review ratings. `🔸 Stale`
 - [AudioBookRequest](https://github.com/markbeep/AudioBookRequest) - A request management tool for audiobooks on Plex, Jellyfin, and Audiobookshelf.
