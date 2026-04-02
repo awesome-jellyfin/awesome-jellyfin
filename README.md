@@ -137,9 +137,9 @@
 ### 🏷️ Metadata Providers
 
 <!-- sort list:metadata-providers -->
-- [Jellyfin.Plugin.ArtworkMultiSource](https://github.com/Druidblack/Jellyfin.Plugin.ArtworkMultiSource) - Combines posters and logos from TMDb and TVDB with language-aware priority and configurable sorting.
 - [jellyfin-imdb-rating-updater](https://github.com/voc0der/jellyfin-imdb-rating-updater) - Downloads the IMDb ratings dataset daily and updates the CommunityRating field for library items with an IMDb ID without modifying other metadata.
 - [jellyfin-plugin-AnimeMultiSource](https://github.com/webbster64/jellyfin-plugin-AnimeMultiSource) - Aggregates anime metadata, tags, artwork, and people from multiple sources (AniList, AniDB, MAL/Jikan, TVDB, Fanart.tv) with rate limiting and persistent caching for large libraries.
+- [Jellyfin.Plugin.ArtworkMultiSource](https://github.com/Druidblack/Jellyfin.Plugin.ArtworkMultiSource) - Combines posters and logos from TMDb and TVDB with language-aware priority and configurable sorting.
 - [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Metadata and images for anime and manga from the Hikka website.
 - [jellyfin-plugin-itunes](https://github.com/lyarenei/jellyfin-plugin-itunes) - A Jellyfin plugin that fetches album and artist metadata from Apple Music.
 - [jellyfin-plugin-kinopoisk](https://github.com/LinFor/jellyfin-plugin-kinopoisk) - Metadata provider for [Kinopoisk](https://www.kinopoisk.ru/).
@@ -345,3 +345,4 @@ This section contains links to communities which focus on Jellyfin or related to
 
 Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.
 You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
+
