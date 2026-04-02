@@ -6,6 +6,21 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
+
+## [Abyss](https://aumgupta.github.io/abyss-jellyfin/) by [AumGupta](https://github.com/AumGupta/)
+
+A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on. [` 🔵 Get this Theme `](https://github.com/AumGupta/abyss-jellyfin)
+
+<a href="https://youtu.be/wgiHWH2oj3M">
+    <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/preview.png" style="width:100%;"/>
+</a>
+<details>
+<summary>See full preview</summary>
+<a href="https://youtu.be/wgiHWH2oj3M"><img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/preview-full.png" style="width:100%;"/></a>
+</details>
+
+---
+
 ## [better-jellyfin-ui](https://github.com/tromoSM/better-jellyfin-ui) by tromoSM
 
 A refined and modern UI enhancement for Jellyfin focused on improved layout, animations, and iOS design. [` 🔵 Get this Theme `](https://github.com/tromoSM/better-jellyfin-ui)
