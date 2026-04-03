@@ -19,17 +19,19 @@
 ]
 </p>
 
-<table width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <h3><a href="THEMES.md">🖌️ Themes</a></h3>
-      <p>Browse the collection of community themes</p>
-    </td>
-    <td align="center" width="50%">
-      <h3><a href="CLIENTS.md">📺 Clients</a></h3>
-      <p>Browse available clients for all platforms</p>
-    </td>
-  </tr>
+<table>
+<tr>
+<td align="center">
+<img width="500" height="1">
+<h3><a href="THEMES.md">🖌️ Themes</a></h3>
+<p>Browse the collection of community themes</p>
+</td>
+<td align="center">
+<img width="500" height="1">
+<h3><a href="CLIENTS.md">📺 Clients</a></h3>
+<p>Browse available clients for all platforms</p>
+</td>
+</tr>
 </table>
 
 ## 🧩 Plugins
