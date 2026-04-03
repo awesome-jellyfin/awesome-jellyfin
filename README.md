@@ -1,11 +1,6 @@
 <!--lint disable awesome-heading awesome-toc double-link-->
 
-<p align="center">
-  <img src="/assets/banner.png" />
-  <h1 align="center">Awesome Jellyfin</h1>
-</p>
-
-
+<img src="/assets/banner.png" />
 <blockquote align="center"> A List of Awesome Jellyfin Themes and Plugins</blockquote>
 
 <p align="center">
@@ -20,16 +15,18 @@
 </p>
 
 <table>
-<tr>
-<th width="500px" align="center">
-<b><a href="THEMES.md">🖌️ Themes</a></b><br>
-Browse the collection of community themes
-</th>
-<th width="500px" align="center">
-<b><a href="CLIENTS.md">📺 Clients</a></b><br>
-Browse available clients for all platforms
-</th>
-</tr>
+  <tr>
+    <th width="500px" align="center">
+      <h3><a href="THEMES.md">🖌️ Themes</a></h3>
+      Browse the collection of community themes<br />
+      <img width="1" height="10" />
+    </th>
+    <th width="500px" align="center">
+      <h3><a href="CLIENTS.md">📺 Clients</a></h3>
+      Browse available clients for all platforms<br />
+      <img width="1" height="10" />
+    </th>
+  </tr>
 </table>
 
 ## 🧩 Plugins
