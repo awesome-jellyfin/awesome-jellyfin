@@ -21,16 +21,14 @@
 
 <table>
 <tr>
-<td align="center">
-<img width="500" height="1">
-<h3><a href="THEMES.md">🖌️ Themes</a></h3>
-<p>Browse the collection of community themes</p>
-</td>
-<td align="center">
-<img width="500" height="1">
-<h3><a href="CLIENTS.md">📺 Clients</a></h3>
-<p>Browse available clients for all platforms</p>
-</td>
+<th width="500px" align="center">
+<b><a href="THEMES.md">🖌️ Themes</a></b><br>
+Browse the collection of community themes
+</th>
+<th width="500px" align="center">
+<b><a href="CLIENTS.md">📺 Clients</a></b><br>
+Browse available clients for all platforms
+</th>
 </tr>
 </table>
 
