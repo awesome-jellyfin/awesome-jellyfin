@@ -11,7 +11,7 @@
 <p align="center">
 [
   <a href="#-plugins">Plugins</a> •
-  <a href="#%EF%B8%8F-companion-apps--tools">Companion Apps & Tools</a> •
+  <a href="#-companion-apps--tools">Companion Apps & Tools</a> •
   <a href="#-guides">Guides</a> •
   <a href="#-snippets">Snippets</a> •
   <a href="#-related">Related</a> •
@@ -163,7 +163,7 @@
 - [jellyfin-youtube-metadata-plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
 
 
-## 🛠️ Companion Apps & Tools
+## 👾 Companion Apps & Tools
 
 
 ### 🖼️ Artwork & Posters
