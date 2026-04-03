@@ -19,7 +19,7 @@
 ]
 </p>
 
-<table>
+<table width="100%">
   <tr>
     <td align="center" width="50%">
       <h3><a href="THEMES.md">🖌️ Themes</a></h3>
@@ -27,7 +27,7 @@
     </td>
     <td align="center" width="50%">
       <h3><a href="CLIENTS.md">📺 Clients</a></h3>
-      <p>Find a client for every device and platform</p>
+      <p>Browse available clients for all platforms</p>
     </td>
   </tr>
 </table>
