@@ -11,8 +11,6 @@
 <p align="center">
 [
   <a href="#-plugins">Plugins</a> •
-  <a href="THEMES.md">Themes</a> •
-  <a href="CLIENTS.md">Clients</a> •
   <a href="#%EF%B8%8F-companion-apps--tools">Companion Apps & Tools</a> •
   <a href="#-guides">Guides</a> •
   <a href="#-snippets">Snippets</a> •
@@ -21,6 +19,18 @@
 ]
 </p>
 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3><a href="THEMES.md">🖌️ Themes</a></h3>
+      <p>Browse the collection of community themes</p>
+    </td>
+    <td align="center" width="50%">
+      <h3><a href="CLIENTS.md">📺 Clients</a></h3>
+      <p>Find a client for every device and platform</p>
+    </td>
+  </tr>
+</table>
 
 ## 🧩 Plugins
 
@@ -153,14 +163,6 @@
 - [jellyfin-youtube-metadata-plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
 
 
-## 🖌️ Themes
-
-👉 Moved themes to [THEMES.md](THEMES.md)
-
-## 📺 Clients
-
-👉 Moved clients to [CLIENTS.md](CLIENTS.md)
-
 ## 🛠️ Companion Apps & Tools
 
 
@@ -262,7 +264,7 @@
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 
 
-### ⚙️ Server Administration
+### 🔧 Server Administration
 
 <!-- sort list:tools-admin -->
 - [ADRG](https://github.com/jaldertech/adrg) - Dynamic Docker resource governor using cgroups v2 to throttle background tasks during media activity.
