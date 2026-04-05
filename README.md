@@ -295,7 +295,7 @@
 - [tunarr](https://github.com/chrisbenincasa/tunarr) - Create custom live TV channels from your Plex or Jellyfin library with a web UI and IPTV support.
 
 
-#### 📜 Snippets
+### 📜 Snippets
 
 <!--lint ignore awesome-list-item-->
 - [snippets/language-overlay](snippets/language-overlay) - A script to add flags to movie posters.
