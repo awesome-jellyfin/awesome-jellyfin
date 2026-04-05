@@ -69,6 +69,7 @@
 - [jellyfin-smartlists-plugin](https://github.com/jyourstone/jellyfin-smartlists-plugin) - Creates dynamic collections and playlists in Jellyfin that automatically update based on customizable rules as the library changes.
 - [playlist-generator](https://github.com/Eeeeelias/playlist-generator) - Create personal playlists based on your listening history.
 - [TheDwarfsHammer](https://github.com/Kamoba/jellyfin-plugin-thedwarfshammer) - Enhanced collection management and content discovery for Jellyfin.
+- [TvGuide](https://github.com/mattboardman/TvGuide) - Turn your library into a Live TV backend with custom channel management.
 
 
 ### ▶️ Playback
