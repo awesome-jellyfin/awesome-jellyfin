@@ -137,6 +137,7 @@
 - [Jellyfin-Xtream-Library](https://github.com/firestaerter3/Jellyfin-Xtream-Library) - Syncs Xtream VOD and Series content to native Jellyfin libraries via STRM files, with automatic metadata lookup and Live TV support.
 - [JellySTRMprobe](https://github.com/firestaerter3/JellySTRMprobe) - Probes STRM files to extract media information (codec, resolution, duration, audio) that Jellyfin skips during library scans.
 - [media-upload-plugin](https://github.com/GrandguyJS/media-upload-plugin) - Media-manager that provides uploads, bulk downloads from URLs, and directory browsing within Jellyfin. `🔸 Stale`
+- [quality-gate](https://github.com/GeiserX/quality-gate) - Restrict users to specific media versions based on configurable path-based policies, useful for bandwidth management or tiered access.
 - [smart-covers](https://github.com/GeiserX/smart-covers) - Cover extraction for books, audiobooks, comics, magazines, and music libraries with online fallback via Open Library & Google Books.
 - [whisper-subs](https://github.com/GeiserX/whisper-subs) - Automatically generates subtitles using local AI models powered by Whisper, with all processing on your server.
 
