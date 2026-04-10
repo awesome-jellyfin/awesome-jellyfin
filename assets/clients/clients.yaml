@@ -839,12 +839,12 @@ clients:
       - 
         type: github
         owner: Moonfin-Client
-        repo: webOS
+        repo: Smart-TV
         label: webOS
       - 
         type: github
         owner: Moonfin-Client
-        repo: Tizen
+        repo: Smart-TV
         label: Tizen
       - 
         type: google-play
