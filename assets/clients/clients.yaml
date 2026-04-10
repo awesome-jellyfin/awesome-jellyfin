@@ -992,7 +992,7 @@ clients:
         owner: MoazSalem
         repo: litefin
 
-  - name: "Jellyfin web"
+  - name: "Jellyfin Web"
     targets: [Browser]
     oss: https://github.com/jellyfin/jellyfin-web
     price:
