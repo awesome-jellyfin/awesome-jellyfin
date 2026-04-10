@@ -981,7 +981,7 @@ clients:
         url: https://testflight.apple.com/join/etVSc7ZQ
 
   - name: Litefin
-    targets: [Tizen]
+    targets: [Tizen, WebOS]
     oss: https://github.com/MoazSalem/litefin
     official: false    
     price:
