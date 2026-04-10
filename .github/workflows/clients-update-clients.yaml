@@ -1,12 +1,12 @@
 name: '[Clients] Update CLIENTS.md'
 
 on:
-  push:
-    branches:
-      - 'main'
-    paths:
-      - 'assets/clients/clients.yaml'
-      - 'assets/clients/CLIENTS.template.md'
+  # push:
+  #   branches:
+  #     - 'main'
+  #   paths:
+  #     - 'assets/clients/clients.yaml'
+  #     - 'assets/clients/CLIENTS.template.md'
   workflow_dispatch:
 
 jobs:
