@@ -163,6 +163,7 @@
 ## 👾 Companion Apps & Tools
 
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=awesome-jellyfin_awesome-jellyfin) - Follow developers on GitHub and get a feed of what they star and build.
 ### 🖼️ Artwork & Posters
 
 <!-- sort list:tools-artwork -->
