@@ -35,6 +35,7 @@
 ### 🎨 UI & Customization
 
 <!-- sort list:plugins-ui -->
+- [Achievement Badges](https://github.com/ZL154/AchievementBadges_for_Jellyfin) - Unlockable viewing achievement badges that gamify Jellyfin with milestones like first watch, binge sessions, and late-night viewing.
 - [HoverTrailer](https://github.com/Fovty/HoverTrailer) - Displays movie trailers on hover.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a Netflix-style, full-width content slider to the home page to feature selected content.
