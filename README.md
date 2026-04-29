@@ -56,6 +56,7 @@
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews. `🔸 Stale`
   <!--lint ignore list-item-indent awesome-list-item-->
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
+- [StarTrack](https://github.com/ZL154/jellyfin-plugin-startrack) - Per-user star ratings for movies and TV shows with poster overlays, media details integration, and a post-playback rating prompt.
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin. `🔸 Stale`
 
 
