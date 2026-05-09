@@ -11,13 +11,32 @@ If an image is no longer available or out of date, please create an [issue](http
 
 A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on. [` 🔵 Get this Theme `](https://github.com/AumGupta/abyss-jellyfin)
 
-<a href="https://youtu.be/wgiHWH2oj3M">
-    <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/preview.png" style="width:100%;"/>
-</a>
-<details>
-<summary>See full preview</summary>
-<a href="https://youtu.be/wgiHWH2oj3M"><img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/preview-full.png" style="width:100%;"/></a>
-</details>
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_1.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_2.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_3.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_4.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_5.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_6.png?raw=true" />
+    </td>
+  </tr>
+</table>
 
 ---
 
