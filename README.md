@@ -115,6 +115,7 @@
 <!-- sort list:plugins-auth -->
 - [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of LDAP as an auth provider.
 - [jellyfin-plugin-sso](https://github.com/9p4/jellyfin-plugin-sso) - Allows users to sign in through an SSO provider. `🔹 Beta`
+- [Jellyfin Security](https://github.com/ZL154/JellyfinSecurity) - Natively adds TOTP and email 2FA, passkeys, OIDC/SSO sign-in, brute-force protection, IP allowlists, device pairing, trusted browsers, and audit logging to Jellyfin.
 - [TeleJelly](https://github.com/hexxone/TeleJelly) - Allows users to sign in through the [Telegram Login Widget](https://core.telegram.org/widgets/login).
 
 
