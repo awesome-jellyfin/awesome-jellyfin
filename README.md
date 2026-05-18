@@ -121,6 +121,7 @@
 ### 📚 Library Management
 
 <!-- sort list:plugins-library -->
+- [GhostLibrary](https://github.com/upchui/Jellyfin-GhostLibrary) - Hides selected media libraries from the client home screen and library list without blocking server-side plugin or filesystem access.
 - [AniLiberty STRM Plugin](https://github.com/queukat/AniLibriaStrmPlugin) - Generates AniLiberty STRM libraries for Jellyfin with metadata, intro markers, and watch-progress sync.
 - [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) - Ignores filename patterns on library scans. `🔹 Beta` `🔸 Stale`
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
