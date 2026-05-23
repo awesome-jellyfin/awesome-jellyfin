@@ -992,6 +992,16 @@ clients:
         owner: MoazSalem
         repo: litefin
 
+  - name: "Jellyfin Web"
+    targets: [Browser]
+    oss: https://github.com/jellyfin/jellyfin-web
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: jellyfin
+        repo: jellyfin-web
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
