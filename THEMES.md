@@ -6,6 +6,40 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
+
+## [Abyss](https://aumgupta.github.io/abyss-jellyfin/) by [AumGupta](https://github.com/AumGupta/)
+
+A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on. [` 🔵 Get this Theme `](https://github.com/AumGupta/abyss-jellyfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_1.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_2.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_3.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_4.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_5.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_6.png?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [better-jellyfin-ui](https://github.com/tromoSM/better-jellyfin-ui) by tromoSM
 
 A refined and modern UI enhancement for Jellyfin focused on improved layout, animations, and iOS design. [` 🔵 Get this Theme `](https://github.com/tromoSM/better-jellyfin-ui)
