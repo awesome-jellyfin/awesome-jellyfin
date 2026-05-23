@@ -224,6 +224,7 @@
 <!-- sort list:tools-organization -->
 - [CineSync](https://github.com/sureshfizzy/CineSync) - Python-based library management tool for organizing debrid and local libraries without Sonarr or Radarr.
 - [Fixarr](https://github.com/sachinsenal0x64/fixarr) - Cross-platform media renaming and backup tool. `🔹 Beta`
+- [JellyCC](https://github.com/parkejunior/jellycc-cli) - Command-line tool that audits, repairs and optimizes media to ensure Direct Play on Jellyfin. 
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and Letterboxd.
 - [JellyfinEasyMetadataManager](https://github.com/CesarBianchi/JellyfinEasyMetadataManager) - Desktop tool for managing and editing metadata in Jellyfin libraries.
 - [jellyfinmanager](https://github.com/Forceu/jellyfinmanager) - Command-line tool for managing Jellyfin watched status with backup/restore capabilities and missing episode detection using TVDB.
