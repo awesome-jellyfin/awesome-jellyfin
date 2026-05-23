@@ -62,6 +62,7 @@
 
 <!-- sort list:plugins-collections -->
 - [jellyfin-favorited-songs-playlist](https://github.com/Saturn745/jellyfin-favorited-songs-playlist) - Automatically creates and updates a "Favorited Songs" playlist containing all your favorited music tracks.
+- [jellyfin-harmonie](https://github.com/mxschll/jellyfin-harmonie) - Generates smart playlists and replaces Instant Mix using audio embeddings.
 - [jellyfin-plugin-auto-collections](https://github.com/KeksBombe/jellyfin-plugin-auto-collections) - Automatically creates and maintains dynamic collections based on flexible criteria.
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Creates and sorts collections by importing from external sources like *mdblist*.
 - [jellyfin-plugin-provider-stuff](https://github.com/kamilkosek/jellyfin-plugin-provider-stuff) - Automates tagging library items with streaming provider tags, creates collections per provider. `🔸 Stale`
