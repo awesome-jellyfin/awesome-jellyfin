@@ -286,6 +286,7 @@
 ### 🧰 Miscellaneous
 
 <!-- sort list:tools-misc -->
+- [Cliparr](https://github.com/TechSquidTV/Cliparr) - Create clips from media on your personal media server.
 - [embyToLocalPlayer](https://github.com/kjtsune/embyToLocalPlayer) - Lets you watch videos from Jellyfin using a local video player (like VLC and MPV) and syncs watch progress back.
 - [jelly-clipper](https://github.com/arnolicious/jelly-clipper) - Web application for creating, sharing, and managing video clips from Jellyfin libraries. `🔹 Beta`
 - [Jellyfin Episodes Ratings Grid](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid) - Show IMDb episode ratings in a heatmap-style grid on Jellyfin series pages.
