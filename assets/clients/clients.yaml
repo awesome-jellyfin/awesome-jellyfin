@@ -724,7 +724,6 @@ clients:
   - name: "Reefin"
     targets: [Android, AndroidTV]
     website: https://reefin.dev/
-    oss: https://github.com/SKULSHADY/reefin
     downloads:
       - type: google-play
         id: com.shady.reefin
