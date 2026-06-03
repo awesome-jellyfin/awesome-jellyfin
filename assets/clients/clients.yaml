@@ -819,7 +819,7 @@ clients:
         package: io.m51.Gelly
 
   - name: "Moonfin"
-    targets: [AndroidTV, Roku, webOS, Tizen]
+    targets: [AndroidTV, Roku, webOS, Tizen, AppleTV, Browser, Windows, Linux, macOS, iOS, Android]
     oss: https://github.com/Moonfin-Client
     official: false    
     price:
@@ -829,8 +829,8 @@ clients:
       - 
         type: github
         owner: Moonfin-Client
-        repo: AndroidTV-FireTV
-        label: AndroidTV
+        repo: Moonfin-Core
+        label: Core
       - 
         type: github
         owner: Moonfin-Client
@@ -840,15 +840,13 @@ clients:
         type: github
         owner: Moonfin-Client
         repo: Smart-TV
-        label: webOS
-      - 
-        type: github
-        owner: Moonfin-Client
-        repo: Smart-TV
-        label: Tizen
+        label: webOS and Tizen
       - 
         type: google-play
         id: org.moonfin.androidtv
+      - 
+        type: app-store
+        id: "6761283970"
 
   - name: ampcast
     targets: [Browser, Windows, Linux, macOS]
