@@ -830,7 +830,7 @@ clients:
         type: github
         owner: Moonfin-Client
         repo: Moonfin-Core
-        label: Core Github
+        label: Core
       - 
         type: github
         owner: Moonfin-Client
