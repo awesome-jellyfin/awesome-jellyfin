@@ -836,11 +836,6 @@ clients:
         owner: Moonfin-Client
         repo: tvOS
         label: AppleTV
-      -
-        type: github
-        owner: Moonfin-Client
-        repo: Plugin
-        label: Web
       - 
         type: github
         owner: Moonfin-Client
@@ -850,12 +845,7 @@ clients:
         type: github
         owner: Moonfin-Client
         repo: Smart-TV
-        label: webOS
-      - 
-        type: github
-        owner: Moonfin-Client
-        repo: Smart-TV
-        label: Tizen
+        label: webOS and Tizen
       - 
         type: google-play
         id: org.moonfin.androidtv
