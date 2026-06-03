@@ -831,11 +831,6 @@ clients:
         owner: Moonfin-Client
         repo: Moonfin-Core
         label: Core Github
-      -
-        type: github
-        owner: Moonfin-Client
-        repo: tvOS
-        label: AppleTV
       - 
         type: github
         owner: Moonfin-Client
