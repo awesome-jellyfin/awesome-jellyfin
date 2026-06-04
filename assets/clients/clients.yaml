@@ -448,10 +448,6 @@ clients:
     downloads:
       - type: app-store
         id: "6593660679"
-      - type: shield
-        icon: App Store
-        label: TestFlight
-        url: https://testflight.apple.com/join/CWBaAAK2
       - type: google-play
         id: com.fredrikburmester.streamyfin
       - type: github
