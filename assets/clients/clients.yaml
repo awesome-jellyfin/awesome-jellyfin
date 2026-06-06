@@ -503,6 +503,8 @@ clients:
         repo: Fladder
       - type: google-play
         id: nl.jknaapen.fladder
+      - type: flathub
+        package: nl.jknaapen.fladder
 
   - name: AfuseKt
     targets: [Android]
