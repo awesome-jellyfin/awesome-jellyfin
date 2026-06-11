@@ -997,6 +997,21 @@ clients:
         owner: jellyfin
         repo: jellyfin-web
 
+  - name: "Arnage"
+    targets: [Android, AndroidTV, iOS]
+    website: https://community.tfdn.app
+    beta: true
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: app.arnage.arnage
+      - type: shield
+        icon: App Store
+        label: TestFlight
+        url: "https://testflight.apple.com/join/GhurC6uX"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
