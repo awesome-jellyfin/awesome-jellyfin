@@ -44,10 +44,21 @@
 - [Jellyfin-MonWUI-Plugin](https://github.com/G-grbz/Jellyfin-MonWUI-Plugin) - UI enhancement toolkit for Jellyfin providing customizable sliders, hover trailers, a music player, notifications, and other interface modules.
 - [Jellyfin.Plugin.ActorPlus](https://github.com/Druidblack/Jellyfin.Plugin.ActorPlus) - Adds additional details and hoverable filmography to actor portraits and displays actor lists when hovering over movie or series posters.
 - [jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections) - Adds additional sections to `jellyfin-plugin-home-sections` for collections and playlists.
-- [jellyfin-plugin-custom-tabs](https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs) - Adds personalized tabs in jellyfin-web for quick access to custom content.
-- [jellyfin-plugin-GetAvatar](https://github.com/cedev-1/jellyfin-plugin-GetAvatar) - Allows users to choose an avatar from a collection of images.
+- [jellyfin-plugin-custom-tabs](https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs) - Add personalized tabs in jellyfin-web for quick access to custom content.
+- [jellyfin-plugin-DiscordNotifier](https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier) - Send notifications of Jellyfin server events to Discord.
+- [jellyfin-plugin-donate](https://github.com/lyaschuchenko/jellyfin-plugin-donate) - Seamlessly integrate a smart, localized 'Donate' button directly into your Jellyfin Web UI.
+- [jellyfin-plugin-enigma2](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers. `🔸 Stale`
 - [jellyfin-plugin-home-sections](https://github.com/IAmParadox27/jellyfin-plugin-home-sections) - Allows users to customize the jellyfin-web home screen with dynamic sections like "Because You Watched" and "Latest Movies".
-- [jellyfin-plugin-media-bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar) - A Featured Content Bar to showcase your media collection.
+- [jellyfin-plugin-languageTags](https://github.com/TheXaman/jellyfin-plugin-languageTags) - Adds language tags to media based on audio tracks using FFmpeg.
+- [jellyfin-plugin-ldapauth](https://github.com/jellyfin/jellyfin-plugin-ldapauth) - Allows the use of ldap as an auth provider.
+- [jellyfin-plugin-letterboxd-sync](https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync) - Automatically syncs your watched movie history with Letterboxd.
+- [jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz) - Automatically syncs your music activity with ListenBrainz.
+- [jellyfin-plugin-localrecs](https://github.com/rdpharr/jellyfin-plugin-localrecs) - Generates personalized movie and TV recommendations based on local watch history without external services required.
+- [jellyfin-plugin-media-bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar) - A Featured Content Bar to show off your media collection.
+- [jellyfin-plugin-media-cleaner](https://github.com/shemanaev/jellyfin-plugin-media-cleaner) - Automatically removes played media after a specified time period.
+- [jellyfin-plugin-MediathekViewDL](https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL) - Integrates MediathekViewDL into Jellyfin and allows users to search, download, and manage content.
+- [jellyfin-plugin-meilisearch](https://github.com/arnesacnussem/jellyfin-plugin-meilisearch) - Enhances Jellyfin search speed and accuracy by offloading queries to a Meilisearch instance.
+- [jellyfin-plugin-onepace](https://github.com/jwueller/jellyfin-plugin-onepace) - Plugin for the [One Pace](https://onepace.net) project.
 - [jellyfin-plugin-pages](https://github.com/IAmParadox27/jellyfin-plugin-pages) - Enables other plugins to create custom Jellyfin pages that match the native UI.
 - [jellyfin-plugin-ratings](https://github.com/K3ntas/jellyfin-plugin-ratings) - Adds user ratings, card overlays, media requests, deletion workflows, chat, and new media notifications to Jellyfin.
 - [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
