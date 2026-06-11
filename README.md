@@ -25,6 +25,7 @@
 ## 🧩 Plugins
 
 <!-- sort list:plugins -->
+- [JellyfinDonatePlugin](https://github.com/lyaschuchenko/jellyfin-plugin-donate) - Seamlessly integrate a smart, localized 'Donate' button directly into your Jellyfin Web UI.
 - [Gelato](https://github.com/lostb1t/Gelato) - Replaces Jellyfin's default search with Stremio-powered results and can automatically import entire catalogs into your library through scheduled tasks.
 - [HoverTrailer](https://github.com/Fovty/HoverTrailer) - Displays movie trailers on hover.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
