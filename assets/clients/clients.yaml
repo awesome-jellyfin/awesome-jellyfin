@@ -10,6 +10,20 @@ clients:
       - type: flathub
         package: com.github.iwalton3.jellyfin-media-player
 
+  - name: Coppelia
+    targets: [iOS, Android, Linux, macOS]
+    types: [Music]
+    oss: https://github.com/j6k4m8/coppelia
+    official: false
+    beta: true
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: j6k4m8
+        repo: coppelia
+
   - name: "Swiftfin"
     targets: [iOS, AppleTV]
     oss: https://github.com/jellyfin/swiftfin
@@ -18,6 +32,15 @@ clients:
     downloads:
       - type: app-store
         id: "1604098728"
+
+  - name: "Sunkfin"
+    targets: [iOS]
+    oss: https://github.com/jackcrane/sunkfin
+    official: false
+    beta: false
+    downloads:
+      - type: app-store
+        id: "6743207349"
 
   - name: "Jellyfin Vue"
     targets: [Browser]
@@ -31,6 +54,17 @@ clients:
         url: https://github.com/jellyfin/jellyfin-vue/actions/workflows/release.yml
       - type: demo
         url: https://jf-vue.pages.dev/
+
+  - name: "Pelagica"
+    targets: [Browser]
+    oss: https://github.com/KartoffelChipss/pelagica
+    official: false
+    downloads:
+      - type: github
+        owner: KartoffelChipss
+        repo: pelagica
+      - type: demo
+        url: https://pelagica.jan.run
 
   - name: "JellyCon"
     targets: [Kodi]
@@ -111,6 +145,9 @@ clients:
         url: https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin
       - type: google-play
         id: dev.jdtech.jellyfin
+      - type: shield
+        icon: F-Droid
+        url: https://f-droid.org/en/packages/dev.jdtech.jellyfin/
 
   - name: "Sailfin"
     targets: [SailfishOS]
@@ -411,10 +448,6 @@ clients:
     downloads:
       - type: app-store
         id: "6593660679"
-      - type: shield
-        icon: App Store
-        label: TestFlight
-        url: https://testflight.apple.com/join/CWBaAAK2
       - type: google-play
         id: com.fredrikburmester.streamyfin
       - type: github
@@ -458,7 +491,7 @@ clients:
         id: "6738301953"
 
   - name: "Fladder"
-    targets: [Android, iOS, macOS, Windows, Linux, Browser]
+    targets: [Android, AndroidTV, iOS, macOS, Windows, Linux, Browser]
     oss: https://github.com/DonutWare/Fladder
     official: false
     beta: false
@@ -470,6 +503,8 @@ clients:
         repo: Fladder
       - type: google-play
         id: nl.jknaapen.fladder
+      - type: flathub
+        package: nl.jknaapen.fladder
 
   - name: AfuseKt
     targets: [Android]
@@ -685,15 +720,14 @@ clients:
         repo: finetic
 
   - name: "Reefin"
-    targets: [Android]
-    website: https://play.google.com/store/apps/details?id=com.shady.reefin
-    official: false
-    beta: false
-    price:
-      free: true
+    targets: [Android, AndroidTV]
+    website: https://reefin.dev/
     downloads:
       - type: google-play
         id: com.shady.reefin
+      - type: github
+        owner: SKULSHADY
+        repo: reefin
 
   - name: "Hills"
     targets: [Windows, Android]
@@ -721,7 +755,7 @@ clients:
       - type: shield
         label: Microsoft Store
         url: https://apps.microsoft.com/detail/9nb0h051m4v4
-        
+
   - name: "JellyRock"
     targets: [Roku]
     oss: https://github.com/cewert/jellyrock
@@ -744,10 +778,12 @@ clients:
     official: false
     beta: false
     downloads:
+      - type: google-play
+        id: com.github.damontecres.wholphin
       - type: github
         owner: damontecres
         repo: Wholphin
-        
+
   - name: Void
     targets: [Android, AndroidTV]
     oss: https://github.com/hritwikjohri/Void-for-jellyfin
@@ -777,7 +813,37 @@ clients:
         owner: Fingel
         repo: gelly
       - type: flathub
-        package: io.m51.Gelly 
+        package: io.m51.Gelly
+
+  - name: "Moonfin"
+    targets: [AndroidTV, Roku, webOS, Tizen, AppleTV, Browser, Windows, Linux, macOS, iOS, Android]
+    oss: https://github.com/Moonfin-Client
+    official: false    
+    price:
+      free: true
+      paid: false
+    downloads:
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: Moonfin-Core
+        label: Core
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: Roku
+        label: Roku
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: Smart-TV
+        label: webOS and Tizen
+      - 
+        type: google-play
+        id: org.moonfin.androidtv
+      - 
+        type: app-store
+        id: "6761283970"
 
   - name: ampcast
     targets: [Browser, Windows, Linux, macOS]
@@ -792,6 +858,144 @@ clients:
       - type: github
         owner: rekkyrosso
         repo: ampcast
+
+  - name: "Aperture"
+    targets: [Browser]
+    oss: https://github.com/akhilmulpurii/aperture
+    official: false
+    beta: true
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: akhilmulpurii
+        repo: aperture
+
+  - name: "Mediora"
+    targets: [AppleTV]
+    website: https://github.com/ghobs91/mediora
+    oss: https://github.com/ghobs91/mediora
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757345487"
+
+  - name: Yamby
+    targets: [Android, AndroidTV]
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: com.hush.yamby
+  
+  - name: JellySee
+    targets: [AppleTV]
+    official: false
+    beta: false
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6748783768"
+          
+  - name: Dee Jellie
+    targets: [iOS, AppleTV, macOS]
+    types: [Music]
+    website: https://www.deejellie.com
+    official: false
+    beta: false
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6755585736"
+
+  - name: "Breezyfin"
+    targets: [WebOS]
+    oss: https://github.com/botagas/Breezyfin
+    official: false
+    beta: true
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: botagas
+        repo: Breezyfin
+
+  - name: JellyCine
+    targets: [Android]
+    oss: https://github.com/sureshfizzy/JellyCine
+    downloads:
+      - type: github
+        owner: sureshfizzy
+        repo: JellyCine
+
+  - name: Playtorrio
+    targets: [Windows, macOS, Linux, Android]
+    oss: https://github.com/ayman708-UX/PlayTorrio
+    downloads:
+      - type: github
+        owner: ayman708-UX
+        repo: PlayTorrio
+
+  - name: JellyTV
+    targets: [iOS]
+    website: https://jellytv.app/en
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6752357290"
+
+  - name: Elefin
+    targets: [AndroidTV]
+    oss: https://github.com/flex36ty/elefin
+    downloads:
+      - type: github
+        owner: flex36ty
+        repo: elefin
+
+  - name: Jellify
+    targets: [iOS, Android]
+    types: [Music]
+    oss: https://github.com/Jellify-Music/App
+    downloads:
+      - type: github
+        owner: Jellify-Music
+        repo: App
+      - type: shield
+        icon: App Store
+        label: TestFlight
+        url: https://testflight.apple.com/join/etVSc7ZQ
+
+  - name: Litefin
+    targets: [Tizen, WebOS]
+    oss: https://github.com/MoazSalem/litefin
+    official: false    
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: MoazSalem
+        repo: litefin
+
+  - name: "Jellyfin Web"
+    targets: [Browser]
+    oss: https://github.com/jellyfin/jellyfin-web
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: jellyfin
+        repo: jellyfin-web
 
 targets:
   - key: Browser

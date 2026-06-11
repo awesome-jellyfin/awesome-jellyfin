@@ -1,0 +1,106 @@
+name: Monthly Release
+
+on:
+  schedule:
+    - cron: "42 9 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Fetch tags
+        run: git fetch --tags --force
+
+      - name: Decide whether a release is needed
+        id: check
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          TAG="monthly/$(date -u +'%Y-%m')"
+          TITLE="Monthly - $(date -u +'%B %Y')"
+
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "title=$TITLE" >> "$GITHUB_OUTPUT"
+
+          # skip tag already exists
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "should_release=false" >> "$GITHUB_OUTPUT"
+            echo "reason=tag_exists" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          LAST_TAG="$(git tag --sort=-creatordate | head -n 1 || true)"
+
+          if [ -z "$LAST_TAG" ]; then
+            echo "should_release=false" >> "$GITHUB_OUTPUT"
+            echo "reason=no_tag_found" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          
+          COMMIT_COUNT="$(git rev-list --count "${LAST_TAG}..HEAD")"
+          echo "previous_tag=$LAST_TAG" >> "$GITHUB_OUTPUT"
+          echo "commit_count=$COMMIT_COUNT" >> "$GITHUB_OUTPUT"
+
+          # require at least 10 commits for a monthly update
+          if [ "$COMMIT_COUNT" -lt 10 ]; then
+            echo "should_release=false" >> "$GITHUB_OUTPUT"
+            echo "reason=not_enough_commits" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_release=true" >> "$GITHUB_OUTPUT"
+            echo "reason=threshold_met" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build release intro
+        if: steps.check.outputs.should_release == 'true'
+        id: notes
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          TITLE="${{ steps.check.outputs.title }}"
+          COUNT="${{ steps.check.outputs.commit_count }}"
+          PREV="${{ steps.check.outputs.previous_tag }}"
+
+          {
+            echo "file=release-intro.md" >> "$GITHUB_OUTPUT"
+            echo "- Commits since last release: **$COUNT**"
+            echo "- Previous release tag: \`$PREV\`"
+            echo "- Full list: [README](./README.md)"
+            echo
+            echo "---"
+            echo
+          } > release-intro.md
+
+      - name: Create GitHub release with generated notes
+        if: steps.check.outputs.should_release == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.check.outputs.tag }}" \
+            --target "${{ github.sha }}" \
+            --title "${{ steps.check.outputs.title }}" \
+            --notes-file "${{ steps.notes.outputs.file }}" \
+            --generate-notes \
+            --latest
+
+      - name: Log skip reason
+        if: steps.check.outputs.should_release != 'true'
+        run: |
+          echo "Skipping release."
+          echo "Reason: ${{ steps.check.outputs.reason }}"
+          echo "Commits since previous release: ${{ steps.check.outputs.commit_count }}"

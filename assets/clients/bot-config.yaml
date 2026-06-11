@@ -1,0 +1,87 @@
+issue_headings:
+  name: "Client Name"
+  website: "Client Website"
+  targets: "Targets"
+  price: "Price"
+  downloads: "Download Links"
+
+oss_domains:
+  - github.com
+  - gitlab.com
+  - codeberg.org
+
+download_rules:
+  - name: GitHub
+    pattern: "github\\.com/(?P<owner>[^/]+)/(?P<repo>[^/]+)"
+    type: github
+
+  - name: App Store
+    pattern: "apps\\.apple\\.com/.*?/id(?P<id>\\d+)"
+    type: app-store
+
+  - name: Google Play
+    pattern: "play\\.google\\.com/store/apps/details\\?id=(?P<id>[\\w.]+)"
+    type: google-play
+
+  - name: Flathub
+    pattern: "flathub\\.org/apps/(?P<package>[\\w.]+)"
+    type: flathub
+
+  - name: F-Droid
+    pattern: "f-droid\\.org/.*/packages/"
+    type: shield
+    defaults:
+      icon: F-Droid
+
+  - name: IzzyOnDroid
+    pattern: "apt\\.izzysoft\\.de/fdroid/index/apk/"
+    type: shield
+    defaults:
+      label: Izzysoft
+
+  - name: TestFlight
+    pattern: "testflight\\.apple\\.com/join/"
+    type: shield
+    defaults:
+      icon: App Store
+      label: TestFlight
+
+  - name: Amazon Appstore
+    pattern: "amazon\\.com/gp/(aw/d|product)/"
+    type: shield
+    defaults:
+      icon: Amazon
+
+  - name: Microsoft Store
+    pattern: "apps\\.microsoft\\.com/detail/"
+    type: shield
+    defaults:
+      label: Microsoft Store
+
+  - name: Roku Channel Store
+    pattern: "channelstore\\.roku\\.com/details/"
+    type: shield
+    defaults:
+      icon: Roku
+
+  - name: Huawei AppGallery
+    pattern: "appgallery\\.huawei\\.com/app/detail"
+    type: shield
+    defaults:
+      icon: AppGallery
+
+  - name: LG Content Store
+    pattern: "lgappstv\\.com/main/tvapp/detail"
+    type: shield
+    defaults:
+      icon: LG
+
+  - name: GitLab
+    pattern: "gitlab\\.com/(?P<owner>[^/]+)/(?P<repo>[^/]+)"
+    type: gitlab
+
+  - name: OpenRepos
+    pattern: "openrepos\\.net/content/"
+    type: shield
+    defaults:
+      label: OpenRepos
