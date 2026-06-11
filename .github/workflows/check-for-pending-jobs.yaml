@@ -16,6 +16,6 @@ jobs:
     steps:
       - name: Run checks
         env:
-          TARGET_URL: "${{ secrets.PENDING_JOBS_CHECK_URL }}&owner=awesome-jellyfin&repo=awesome-jellyfin&ping=darmiel%2CTomRomeo"
+          TARGET_URL: "${{ secrets.PENDING_JOBS_CHECK_URL }}&owner=awesome-jellyfin&repo=awesome-jellyfin&ping=awesome-jellyfin%2Freview"
         run: |
           curl -fL --retry 3 --max-time 30 "$TARGET_URL"

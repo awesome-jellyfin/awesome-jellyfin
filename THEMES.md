@@ -6,6 +6,70 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
+
+## [Abyss](https://aumgupta.github.io/abyss-jellyfin/) by [AumGupta](https://github.com/AumGupta/)
+
+A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on. [` 🔵 Get this Theme `](https://github.com/AumGupta/abyss-jellyfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_1.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_2.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_3.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_4.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_5.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_6.png?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [better-jellyfin-ui](https://github.com/tromoSM/better-jellyfin-ui) by tromoSM
+
+A refined and modern UI enhancement for Jellyfin focused on improved layout, animations, and iOS design. [` 🔵 Get this Theme `](https://github.com/tromoSM/better-jellyfin-ui)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-main.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-library-i.png?raw=true" />
+    </td>
+  </tr>
+    <tr>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-or.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-player.png?raw=true" />
+    </td>
+  </tr>
+    <tr>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-admin.png?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [catppuccin](https://github.com/catppuccin/jellyfin) by catppuccin
 
 [` 🔵 Get this Theme `](https://github.com/catppuccin/jellyfin)
@@ -163,26 +227,26 @@ If an image is no longer available or out of date, please create an [issue](http
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/8e61244a-38e7-49f2-b6c6-5cbdd2dc03a8" />
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-home.png" />
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/0bc4337c-ce95-45d1-985a-081cfdd15388" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/dbaff509-a708-4e26-9a0b-52cc804288d0" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/2d548971-aa17-4f6a-9f2c-3e327a203f3a" />
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-library.png" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/bd4afc57-9031-4226-b650-8626dfafcdcd" />
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-series.png" />
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/78d2378b-17e1-4a13-895c-9352a6d293b8" />
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-episodes.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-movie.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-player.png" />
     </td>
   </tr>
 </table>
@@ -260,6 +324,31 @@ Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this 
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/cards.gif" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [NeutralFin](https://github.com/KartoffelChipss/NeutralFin) by KartoffelChipss
+
+NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look. [` 🔵 Get this Theme `](https://github.com/KartoffelChipss/NeutralFin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie2.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-home.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movies.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie.webp" />
     </td>
   </tr>
 </table>
