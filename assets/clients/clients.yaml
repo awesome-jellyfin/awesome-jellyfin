@@ -1002,7 +1002,7 @@ clients:
         owner: jellyfin
         repo: jellyfin-web
 
-  - name: "LiveFin
+  - name: "LiveFin"
     targets: [iOS, macOS]
     web: https://livefin.github.io/web/
     price:
