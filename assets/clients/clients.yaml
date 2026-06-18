@@ -1005,6 +1005,7 @@ clients:
   - name: "LiveFin"
     targets: [iOS, macOS]
     website: https://livefin.github.io/web/
+    oss: https://github.com/LiveFin/LiveFin
     price:
       free: true
       paid: false
