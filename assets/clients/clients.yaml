@@ -57,14 +57,16 @@ clients:
 
   - name: "Pelagica"
     targets: [Browser]
-    oss: https://github.com/KartoffelChipss/pelagica
+    oss: https://github.com/PelagicaApp/pelagica
     official: false
+    website: https://pelagica.app/
+    beta: false
     downloads:
-      - type: github
-        owner: KartoffelChipss
+      - type: docker
+        owner: kartoffelchipss
         repo: pelagica
       - type: demo
-        url: https://pelagica.jan.run
+        url: https://demo.pelagica.app/
 
   - name: "JellyCon"
     targets: [Kodi]
