@@ -999,6 +999,18 @@ clients:
         owner: jellyfin
         repo: jellyfin-web
 
+  - name: "Kofin PVR for Jellyfin"
+    targets: [Kodi]
+    oss: https://github.com/kontell/pvr.kofin
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: kontell
+        repo: pvr.kofin
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
