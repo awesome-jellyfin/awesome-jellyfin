@@ -63,7 +63,7 @@ clients:
     beta: false
     downloads:
       - type: docker
-        owner: kartoffelchipss
+        user: kartoffelchipss
         repo: pelagica
       - type: demo
         url: https://demo.pelagica.app/
