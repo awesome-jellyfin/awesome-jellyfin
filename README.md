@@ -109,6 +109,7 @@
 - [jellyfin-plugin-DiscordNotifier](https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier) - Sends notifications of Jellyfin server events to Discord.
 - [jellyfin-plugin-TelegramNotifier](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier) - Receive notifications of Jellyfin server events via Telegram.
 - [NotifySync](https://github.com/peterdu1109/NotifySync) - Adds a notification bell to Jellyfin that displays recent additions.
+- [Telefin](https://github.com/LoloZarro/Telefin) - Jellyfin plugin that enables Telegram notifications for Jellyfin events with many additional features.
 
 
 ### 🔐 Authentication
