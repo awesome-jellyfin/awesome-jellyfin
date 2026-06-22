@@ -78,6 +78,7 @@
 - [jellyfin-plugin-cinemamode](https://github.com/CherryFloors/jellyfin-plugin-cinemamode) - Enables Jellyfin's Cinema Mode with local trailers and pre-rolls.
 - [jellyfin-plugin-discontinue-watching](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching) - Lets you remove items from the Continue Watching list without resetting watch progress, with optional auto-hide after inactivity.
 - [jellyfin-plugin-jellysleep](https://github.com/jon4hz/jellyfin-plugin-jellysleep) - Adds sleep timer functionality to Jellyfin.
+- [jellyfin-smart-shuffle](https://github.com/shalebridge/jellyfin-smart-shuffle) - Adds persistent, weighted smart shuffle playback for TV series, seasons, playlists, and collections.
 - [Jellyfin.Plugin.StreamLimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows limiting the number of simultaneous streams per user.
 - [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
 
