@@ -362,6 +362,7 @@ clients:
     oss: https://github.com/MakD/AFinity
     official: false
     beta: true
+    website: https://afinity.vercel.app
     downloads:
       - type: github
         owner: MakD
