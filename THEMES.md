@@ -330,6 +330,31 @@ Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this 
 
 ---
 
+## [NetFin](https://github.com/ya0903/NetFin) by ya0903
+
+A cinematic Netflix-inspired theme with deep dark visuals, refined hover effects, and a focus on poster artwork. [` 🔵 Get this Theme `](https://github.com/ya0903/NetFin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/5eee060a-0c1d-4ab3-8b64-027251973997" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/adc6ae25-6687-43b9-aa19-3319794c297b" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/192bd752-be1a-462d-a9f2-088f61940f4a" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/69d1e032-e99e-4fdf-af4e-428d7e81252b" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [NeutralFin](https://github.com/KartoffelChipss/NeutralFin) by KartoffelChipss
 
 NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look. [` 🔵 Get this Theme `](https://github.com/KartoffelChipss/NeutralFin)
