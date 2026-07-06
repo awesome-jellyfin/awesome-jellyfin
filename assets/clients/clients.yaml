@@ -57,14 +57,16 @@ clients:
 
   - name: "Pelagica"
     targets: [Browser]
-    oss: https://github.com/KartoffelChipss/pelagica
+    oss: https://github.com/PelagicaApp/pelagica
     official: false
+    website: https://pelagica.app/
+    beta: false
     downloads:
-      - type: github
-        owner: KartoffelChipss
+      - type: docker
+        user: kartoffelchipss
         repo: pelagica
       - type: demo
-        url: https://pelagica.jan.run
+        url: https://demo.pelagica.app/
 
   - name: "JellyCon"
     targets: [Kodi]
@@ -360,6 +362,7 @@ clients:
     oss: https://github.com/MakD/AFinity
     official: false
     beta: true
+    website: https://afinity.vercel.app
     downloads:
       - type: github
         owner: MakD
@@ -996,6 +999,17 @@ clients:
       - type: github
         owner: jellyfin
         repo: jellyfin-web
+
+  - name: "LiveFin"
+    targets: [iOS, macOS]
+    website: https://livefin.github.io/web/
+    oss: https://github.com/LiveFin/LiveFin
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6748318433"
 
   - name: "Kofin PVR for Jellyfin"
     targets: [Kodi]
