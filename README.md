@@ -279,6 +279,7 @@
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder) - One-click installer and maintainer for Jellyfin on Windows, macOS, and Linux.
 - [declarative-jellyfin](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS. `🔹 Beta`
 - [jellyfin-encoder](https://github.com/GeiserX/jellyfin-encoder) - Docker-based automatic 720p HEVC/AV1 transcoding service for Jellyfin libraries with NVIDIA and Intel hardware acceleration.
+- [jellyfin-helper](https://github.com/JellyPlugins/jellyfin-helper) - Adds a comprehensive analytics dashboard, automated library maintenance, Radarr/Sonarr/Seerr integration, and ML-powered personalized recommendations to Jellyfin.
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - Indexes media from multiple Jellyfin servers into a single searchable hub.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - CLI tool for installing, managing, and updating Jellyfin on Linux.
 - [JellyRoller](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller. `🔹 Beta`
