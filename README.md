@@ -175,7 +175,6 @@
 ### 🖼️ Artwork & Posters
 
 <!-- sort list:tools-artwork -->
-- [aphrodite](https://github.com/jackkerouac/aphrodite) - Enhances media library posters with quality indicators like resolution, audio codec, and review ratings. `🔸 Stale`
 - [CoverMaker](https://github.com/jeffersoncgo/CoverMaker) - Allows designing and generating custom cover images for your media collections.
 - [Jellyfin-Cover-Maker](https://github.com/KartoffelChipss/Jellyfin-Cover-Maker) - Website for creating consistent covers and posters for Jellyfin libraries.
 - [Jellyfin-Image-Exporter](https://github.com/Kurotaku-sama/Jellyfin-Image-Exporter) - Exports images (posters, banners, thumbnails) from Jellyfin metadata.
@@ -357,4 +356,3 @@ This section contains links to communities which focus on Jellyfin or related to
 
 Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.
 You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
-
