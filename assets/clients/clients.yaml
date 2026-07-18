@@ -1,16 +1,4 @@
 clients:
-  - name: "Jellyfin Desktop"
-    targets: [Windows, Linux, macOS]
-    oss: https://github.com/jellyfin/jellyfin-desktop
-    official: true
-    beta: true
-    downloads:
-      - type: github
-        owner: jellyfin
-        repo: jellyfin-desktop
-      - type: flathub
-        package: org.jellyfin.JellyfinDesktop
-        
   - name: "Jellyfin Media Player"
     targets: [Windows, Linux, macOS]
     oss: https://github.com/jellyfin/jellyfin-media-player
@@ -1010,6 +998,16 @@ clients:
       - type: github
         owner: jellyfin
         repo: jellyfin-web
+  
+  - name: "Jellium Desktop"
+    targets: [Windows, Linux, macOS]
+    oss: https://github.com/andrewrabert/jellium-desktop
+    official: false
+    beta: true
+    downloads:
+      - type: github
+        owner: andrewrabert
+        repo: jellium-desktop
 
 targets:
   - key: Browser
