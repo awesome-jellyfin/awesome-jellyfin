@@ -56,7 +56,7 @@
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews. `🔸 Stale`
   <!--lint ignore list-item-indent awesome-list-item-->
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
-- [SeerrFin](https://github.com/varunaditya-plus/SeerrFin) - Discover and request movies and TV shows through Seerr directly from Jellyfin
+- [SeerrFin](https://github.com/varunaditya-plus/SeerrFin) - Discover and request movies and TV shows through Seerr directly from Jellyfin.
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin. `🔸 Stale`
 
 
