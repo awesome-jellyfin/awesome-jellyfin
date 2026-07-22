@@ -33,15 +33,6 @@ clients:
       - type: app-store
         id: "1604098728"
 
-  - name: "Sunkfin"
-    targets: [iOS]
-    oss: https://github.com/jackcrane/sunkfin
-    official: false
-    beta: false
-    downloads:
-      - type: app-store
-        id: "6743207349"
-
   - name: "Jellyfin Vue"
     targets: [Browser]
     oss: https://github.com/jellyfin/jellyfin-vue
@@ -181,16 +172,16 @@ clients:
       - type: app-store
         id: "1659622164"
 
-  - name: "sonixd"
+  - name: "feishin"
     targets: [Browser]
     types: [Music]
-    oss: https://github.com/jeffvli/sonixd
+    oss: https://github.com/jeffvli/feishin
     official: false
     beta: true
     downloads:
       - type: github
         owner: jeffvli
-        repo: sonixd
+        repo: feishin
 
   - name: "Finamp"
     targets: [Android, iOS]
@@ -221,9 +212,6 @@ clients:
       free: true
       paid: true
     downloads:
-      - type: shield
-        icon: Amazon
-        url: https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc
       - type: app-store
         id: "1059536415"
       - type: google-play
@@ -277,36 +265,23 @@ clients:
   - name: "Jellyamp"
     targets: [Windows, Linux]
     types: [Music]
-    oss: https://github.com/m0ngr31/jellyamp
+    oss: https://github.com/jellyfin-labs/jellyamp
     official: false
     downloads:
       - type: github
-        owner: m0ngr31
+        owner: jellyfin-labs
         repo: jellyamp
 
-  - name: "Preserve"
-    targets: [Browser, Windows, Linux]
-    types: [Music]
-    oss: https://gitlab.com/preserve/preserve
-    official: false
-    beta: true
-    downloads:
-      - type: gitlab
-        owner: preserve
-        repo: preserve
-      - type: demo
-        url: https://preserveplayer.com/
-
-  - name: "Sonixd"
+  - name: "feishin"
     targets: [Windows, Linux, macOS]
     types: [Music]
-    oss: https://github.com/jeffvli/sonixd
+    oss: https://github.com/jeffvli/feishin
     official: false
     beta: true
     downloads:
       - type: github
         owner: jeffvli
-        repo: sonixd
+        repo: feishin
 
   - name: "Feishin"
     targets: [Browser, Windows, Linux, macOS]
@@ -368,26 +343,12 @@ clients:
         owner: MakD
         repo: AFinity
 
-  - name: "Gelli"
-    targets: [Android]
-    types: [Music]
-    oss: https://github.com/dkanada/gelli
-    official: false
-    beta: false
-    downloads:
-      - type: github
-        owner: dkanada
-        repo: gelli
-      - type: shield
-        icon: F-Droid
-        url: https://f-droid.org/packages/com.dkanada.gramophone
-
   - name: "JellyBook"
     targets: [Android, iOS]
     types: [Reader]
     oss: https://github.com/JellyBookOrg/JellyBook
     official: false
-    beta: false
+    beta: false 
     downloads:
       - type: github
         owner: JellyBookOrg
@@ -399,18 +360,6 @@ clients:
         icon: App Store
         label: TestFlight
         url: "https://testflight.apple.com/join/lEXKY4Dl"
-
-  - name: "Shadfin"
-    targets: [Browser]
-    oss: https://github.com/Shadfin/app
-    official: false
-    beta: true
-    downloads:
-      - type: github
-        owner: Shadfin
-        repo: app
-      - type: demo
-        url: https://main.shadfin-standalone.pages.dev
 
   - name: "Symfonium"
     targets: [Android]
@@ -572,16 +521,6 @@ clients:
       - type: github
         owner: Sam42a
         repo: DUNE
-
-  - name: "yybx"
-    targets: [iOS, AppleTV]
-    website: https://yybpro.com
-    price:
-      free: false
-      paid: true
-    downloads:
-      - type: app-store
-        id: "1519723194"
 
   - name: "HamHub"
     targets: [iOS, AppleTV, macOS]
@@ -939,13 +878,13 @@ clients:
         owner: sureshfizzy
         repo: JellyCine
 
-  - name: Playtorrio
+  - name: PlayTorrioV2
     targets: [Windows, macOS, Linux, Android]
-    oss: https://github.com/ayman708-UX/PlayTorrio
+    oss: https://github.com/ayman708-UX/PlayTorrioV2
     downloads:
       - type: github
         owner: ayman708-UX
-        repo: PlayTorrio
+        repo: PlayTorrioV2
 
   - name: JellyTV
     targets: [iOS]
@@ -999,6 +938,16 @@ clients:
       - type: github
         owner: jellyfin
         repo: jellyfin-web
+  
+  - name: "Jellium Desktop"
+    targets: [Windows, Linux, macOS]
+    oss: https://github.com/andrewrabert/jellium-desktop
+    official: false
+    beta: true
+    downloads:
+      - type: github
+        owner: andrewrabert
+        repo: jellium-desktop
 
   - name: "LiveFin"
     targets: [iOS, macOS]

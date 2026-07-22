@@ -41,6 +41,7 @@
 - [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - Adds keyboard shortcuts, subtitle styling, TMDB reviews, Jellyseerr search and request integration, and other improvements to Jellyfin.
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - Injects custom JavaScript into the Jellyfin UI without modifying index.html.
+- [jellyfin-media-preview-plugin](https://github.com/spkesDE/jellyfin-media-preview-plugin) - Adds hover previews to Jellyfin Web using Trickplay thumbnails, local trailers, or YouTube trailers.
 - [Jellyfin-MonWUI-Plugin](https://github.com/G-grbz/Jellyfin-MonWUI-Plugin) - UI enhancement toolkit for Jellyfin providing customizable sliders, hover trailers, a music player, notifications, and other interface modules.
 - [Jellyfin.Plugin.ActorPlus](https://github.com/Druidblack/Jellyfin.Plugin.ActorPlus) - Adds additional details and hoverable filmography to actor portraits and displays actor lists when hovering over movie or series posters.
 - [jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections) - Adds additional sections to `jellyfin-plugin-home-sections` for collections and playlists.
@@ -56,6 +57,7 @@
   <!--lint ignore list-item-indent awesome-list-item-->
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
 - [StarTrack](https://github.com/ZL154/jellyfin-plugin-startrack) - Per-user star ratings for movies and TV shows with poster overlays, media details integration, and a post-playback rating prompt with the ability to integrate letterboxd, trakt and simkl and its features.
+- [SeerrFin](https://github.com/varunaditya-plus/SeerrFin) - Discover and request movies and TV shows through Seerr directly from Jellyfin.
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin. `🔸 Stale`
 
 
@@ -66,10 +68,12 @@
 - [jellyfin-harmonie](https://github.com/mxschll/jellyfin-harmonie) - Generates smart playlists and replaces Instant Mix using audio embeddings.
 - [jellyfin-plugin-auto-collections](https://github.com/KeksBombe/jellyfin-plugin-auto-collections) - Automatically creates and maintains dynamic collections based on flexible criteria.
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Creates and sorts collections by importing from external sources like *mdblist*.
+- [jellyfin-plugin-mindthegaps](https://github.com/IDisposable/jellyfin-plugin-mindthegaps) - Finds missing entries across your library (collections, series episodes, cast and crew filmographies) and organizes them into a fillable report.
 - [jellyfin-plugin-provider-stuff](https://github.com/kamilkosek/jellyfin-plugin-provider-stuff) - Automates tagging library items with streaming provider tags, creates collections per provider. `🔸 Stale`
 - [jellyfin-smartlists-plugin](https://github.com/jyourstone/jellyfin-smartlists-plugin) - Creates dynamic collections and playlists in Jellyfin that automatically update based on customizable rules as the library changes.
 - [playlist-generator](https://github.com/Eeeeelias/playlist-generator) - Creates personal playlists based on your listening history.
 - [TheDwarfsHammer](https://github.com/Kamoba/jellyfin-plugin-thedwarfshammer) - Enhanced collection management and content discovery for Jellyfin.
+- [WikiEpisodeOrder](https://github.com/neilmanfredit/wikiepisodeorder-jellyfin-plugin) - Uses Wiki Episode Order data to improve episode ordering and metadata matching for TV series.
 
 
 ### ▶️ Playback
@@ -157,6 +161,7 @@
 - [jellyfin-plugin-applemusic](https://github.com/lyarenei/jellyfin-plugin-applemusic) - Fetches album and artist metadata from Apple Music.
 - [Jellyfin.Plugin.ArtworkMultiSource](https://github.com/Druidblack/Jellyfin.Plugin.ArtworkMultiSource) - Combines posters and logos from TMDb and TVDB with language-aware priority and configurable sorting.
 - [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Metadata and images for anime and manga from the Hikka website.
+- [jellyfin-plugin-justwatch](https://github.com/IDisposable/jellyfin-plugin-justwatch) - Adds JustWatch external IDs and streaming-provider deep-links to movies, series, seasons, and episodes.
 - [jellyfin-plugin-kinopoisk](https://github.com/LinFor/jellyfin-plugin-kinopoisk) - Metadata provider for [Kinopoisk](https://www.kinopoisk.ru/).
 - [Jellyfin.Plugin.MDBList_Ratings](https://github.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings) - Retrieves ratings from MDBList using TMDb IDs and integrates them into Jellyfin's rating fields, with optional UI enhancements to display ratings from multiple sources.
 - [jellyfin-plugin-myanimelist](https://github.com/ryandash/jellyfin-plugin-myanimelist) - Provides MyAnimeList metadata for anime.
@@ -279,6 +284,7 @@
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder) - One-click installer and maintainer for Jellyfin on Windows, macOS, and Linux.
 - [declarative-jellyfin](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS. `🔹 Beta`
 - [jellyfin-encoder](https://github.com/GeiserX/jellyfin-encoder) - Docker-based automatic 720p HEVC/AV1 transcoding service for Jellyfin libraries with NVIDIA and Intel hardware acceleration.
+- [jellyfin-helper](https://github.com/JellyPlugins/jellyfin-helper) - Server administration dashboard with cleanup tasks, library statistics, health checks, Arr/Seerr integration, backups, user insights, and on-device neural recommendations.
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - Indexes media from multiple Jellyfin servers into a single searchable hub.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - CLI tool for installing, managing, and updating Jellyfin on Linux.
 - [JellyRoller](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller. `🔹 Beta`
