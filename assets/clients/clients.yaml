@@ -949,6 +949,20 @@ clients:
       - type: github
         owner: kontell
         repo: pvr.kofin
+  
+  - name: "Linthra"
+    targets: [Android]
+    types: [Music]
+    oss: https://github.com/TheZupZup/Linthra
+    official: false
+    beta: false
+    downloads:
+      - type: github
+        owner: TheZupZup
+        repo: Linthra
+      - type: shield
+        icon: F-Droid
+        url: https://f-droid.org/packages/io.github.thezupzup.linthra/
 
 targets:
   - key: Browser
