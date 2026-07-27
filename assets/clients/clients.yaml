@@ -272,28 +272,6 @@ clients:
         owner: jellyfin-labs
         repo: jellyamp
 
-  - name: "feishin"
-    targets: [Windows, Linux, macOS]
-    types: [Music]
-    oss: https://github.com/jeffvli/feishin
-    official: false
-    beta: true
-    downloads:
-      - type: github
-        owner: jeffvli
-        repo: feishin
-
-  - name: "Feishin"
-    targets: [Browser, Windows, Linux, macOS]
-    types: [Music]
-    oss: https://github.com/jeffvli/feishin
-    official: false
-    beta: true
-    downloads:
-      - type: github
-        owner: jeffvli
-        repo: feishin
-
   - name: "Manet"
     targets: [iOS]
     types: [Music]
