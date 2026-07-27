@@ -173,7 +173,7 @@ clients:
         id: "1659622164"
 
   - name: "feishin"
-    targets: [Browser]
+    targets: [Browser, Windows, Linux, macOS]
     types: [Music]
     oss: https://github.com/jeffvli/feishin
     official: false
