@@ -160,6 +160,16 @@ clients:
       - type: app-store
         id: "1136220934"
 
+  - name: "Neptune"
+    targets: [AppleTV]
+    website: https://neptuneplayer.com/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6756797773"
+
   - name: "VidHub"
     targets: [Android, AndroidTV, iOS, AppleTV, macOS]
     website: https://okaapps.com/product/1659622164
