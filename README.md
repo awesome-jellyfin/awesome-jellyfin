@@ -219,6 +219,7 @@
 - [JellyPlex-Watched](https://github.com/luigi311/JellyPlex-Watched) - Syncs watch history between Jellyfin, Plex, and Emby Servers.
 - [Jellystat](https://github.com/CyferShepard/Jellystat) - Statistics and analytics dashboard for Jellyfin.
 - [jelly-watch-wise](https://github.com/Joker-KP/jelly-watch-wise) - Monitors and enforces Jellyfin watch time limits per user, with API integration and a simple GUI. `🔸 Stale`
+- [Seenr](https://seenr.app/en/integrations/jellyfin) - Tracks the shows, films and anime you watch; syncs from Jellyfin through the Webhook plugin, with imports from Trakt, Simkl and Letterboxd.
 - [streamystats](https://github.com/fredrikburmester/streamystats) - Statistics service for Jellyfin, providing analytics and data visualization.
 - [watchstate](https://github.com/arabcoders/watchstate) - Syncs play state between different media servers.
 
