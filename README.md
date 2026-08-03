@@ -39,7 +39,7 @@
 - [HoverTrailer](https://github.com/Fovty/HoverTrailer) - Displays movie trailers on hover.
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a Netflix-style, full-width content slider to the home page to feature selected content.
-- [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - Adds keyboard shortcuts, subtitle styling, TMDB reviews, Jellyseerr search and request integration, and other improvements to Jellyfin.
+- [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - Adds keyboard shortcuts, subtitle styling, TMDB reviews, Seerr search and request integration, and other improvements to Jellyfin.
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - Injects custom JavaScript into the Jellyfin UI without modifying index.html.
 - [jellyfin-media-preview-plugin](https://github.com/spkesDE/jellyfin-media-preview-plugin) - Adds hover previews to Jellyfin Web using Trickplay thumbnails, local trailers, or YouTube trailers.
@@ -202,11 +202,11 @@
 - [AudioBookRequest](https://github.com/markbeep/AudioBookRequest) - Request management tool for audiobooks on Plex, Jellyfin, and Audiobookshelf.
 - [content-recommender](https://github.com/jeffersoncgo/content-recommender) - Suggests movies or TV shows from your library based on watch history.
 - [jellyfin-updoot](https://github.com/BobHasNoSoul/jellyfin-updoot) - Adds thumbs-up recommendations, per-item comments, and a "recommended by users" page.
-- [jellyseerr](https://github.com/seerr-team/seerr) - Request management and media discovery tool for Jellyfin, Plex, and Emby.
-- [List-Sync](https://github.com/Woahai321/list-sync) - Automatically import movies and TV shows from IMDB or Trakt lists into [Jellyseerr](https://github.com/seerr-team/seerr). `🔹 Beta`
+- [List-Sync](https://github.com/Woahai321/list-sync) - Automatically import movies and TV shows from IMDB or Trakt lists into [Seerr](https://github.com/seerr-team/seerr). `🔹 Beta`
 - [reiverr](https://github.com/aleksilassila/reiverr) - Combined interface for Jellyfin, TMDB, Radarr, and Sonarr. `🔹 Beta`
-- [scenepeek-android](https://github.com/Divinelink/scenepeek-android) - An Android app that provides detailed movie and TV show information with TMDB and Jellyseerr integration.
-- [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) - Automatically request suggested movies and TV shows to [Jellyseerr](https://github.com/seerr-team/seerr) based on recently watched.
+- [scenepeek-android](https://github.com/Divinelink/scenepeek-android) - An Android app that provides detailed movie and TV show information with TMDB and Seerr integration.
+- [seerr](https://github.com/seerr-team/seerr) - Request management and media discovery tool for Jellyfin, Plex, and Emby.
+- [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) - Automatically request suggested movies and TV shows to [Seerr](https://github.com/seerr-team/seerr) based on recently watched.
 - [swiparr](https://github.com/m3sserstudi0s/swiparr) - Swipe through your library, match with friends in a session, and find something everyone wants to watch.
 - [whatseerr](https://github.com/SuFxGIT/whatseerr) - WhatsApp bot for Seerr that allows users to search and request media via WhatsApp messages.
 
