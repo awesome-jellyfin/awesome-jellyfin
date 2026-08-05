@@ -245,6 +245,7 @@
 - [jellysweep](https://github.com/jon4hz/jellysweep) - Automatically removes old, unwatched movies and TV shows by analyzing viewing history and user requests.
 - [mnamer](https://github.com/jkwill87/mnamer) - Customizable tool to automatically rename and organize media files.
 - [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
+- [Ondine](https://github.com/luishidalgoa/ondine) - Renames episodes against a catalogue, splits files holding several episodes, reports missing ones and compresses with a size forecast.
 - [Squishy](https://github.com/cleverdevil/squishy) - Transcode and download your Jellyfin media with fully customizable presets and hardware acceleration.
 
 
