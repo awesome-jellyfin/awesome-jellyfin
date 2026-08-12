@@ -338,7 +338,7 @@ This section includes software, guides and tools that are not *specifically* des
     - [sonarr](https://github.com/Sonarr/Sonarr) - Automates downloading & management of TV series.
     - [tdarr](https://github.com/HaveAGitGat/Tdarr) - Distributed transcode automation + Library analytics + Video health checking. `🔺 Paid`
     - [recyclarr](https://github.com/recyclarr/recyclarr) - Automatically sync TRaSH guides to Sonarr and Radarr instances.
-- [MediaTracker](https://github.com/bonukai/MediaTracker) - Media tracker and user rating platform with [Jellyfin integration](https://github.com/bonukai/jellyfin-plugin-mediatracker).
+- [MediaTracker](https://github.com/bonukai/MediaTracker) - Media tracker and user rating platform with [Jellyfin integration](https://github.com/bonukai/jellyfin-plugin-mediatracker). `🔸 Stale`
 - [Movary](https://github.com/leepeuker/movary) - Media tracker and user rating platform. `🔹 Beta`
 - [Multi Scrobbler](https://github.com/FoxxMD/multi-scrobbler) - Scrobbles music from many sources to many clients. `🔹 Beta`
 - [Quasarr](https://github.com/rix1337/Quasarr) - Emulates a usenet indexer and download client to allow direct downloads with sonarr/radarr.
