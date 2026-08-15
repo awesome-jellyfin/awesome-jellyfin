@@ -38,7 +38,6 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | ---- | --- | ---- | ---- | --------- |
 | [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
-| [Bloodin ` ⚒️ `](https://github.com/pathetic/bloodin) | ✅ | ✅ | ❎ |  |
 | [feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
 | [Fladder](https://github.com/DonutWare/Fladder) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/DonutWare/Fladder/total?logo=github&label=GitHub)](https://github.com/DonutWare/Fladder/releases) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play&label=)](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) [![flathub](https://img.shields.io/flathub/downloads/nl.jknaapen.fladder?logo=Flathub&label=Flathub)](https://flathub.org/apps/nl.jknaapen.fladder) |
 | [FluentFin ` ⚒️ `](https://github.com/insomniachi/FluentFin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/insomniachi/FluentFin/total?logo=github&label=GitHub)](https://github.com/insomniachi/FluentFin/releases) |
@@ -66,7 +65,6 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | ---- | --- | ---- | ---- | --------- |
 | [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
-| [Bloodin ` ⚒️ `](https://github.com/pathetic/bloodin) | ✅ | ✅ | ❎ |  |
 | [Coppelia ` ⚒️ ` ` 🎵 `](https://github.com/j6k4m8/coppelia) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/j6k4m8/coppelia/total?logo=github&label=GitHub)](https://github.com/j6k4m8/coppelia/releases) |
 | [Dee Jellie ` 🎵 `](https://www.deejellie.com) | ❌ | ❌ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6755585736) |
 | [Discrete ` 🎵 `](https://discrete.app/) | ❌ | ✅ | ☑️ | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=App+Store&label=)](https://apps.apple.com/app/id6746067740) |
@@ -98,7 +96,6 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | ---- | --- | ---- | ---- | --------- |
 | [ampcast ` ⚒️ ` ` 🎵 `](https://github.com/rekkyrosso/ampcast) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/rekkyrosso/ampcast/total?logo=github&label=GitHub)](https://github.com/rekkyrosso/ampcast/releases) |
 | [Blink ` ⚒️ `](https://github.com/prayag17/Blink) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/prayag17/Blink/total?logo=github&label=GitHub)](https://github.com/prayag17/Blink/releases) |
-| [Bloodin ` ⚒️ `](https://github.com/pathetic/bloodin) | ✅ | ✅ | ❎ |  |
 | [Coppelia ` ⚒️ ` ` 🎵 `](https://github.com/j6k4m8/coppelia) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/j6k4m8/coppelia/total?logo=github&label=GitHub)](https://github.com/j6k4m8/coppelia/releases) |
 | [Delfin ` ⚒️ `](https://codeberg.org/avery42/delfin) | ✅ | ✅ | ❎ | [![flathub](https://img.shields.io/flathub/downloads/cafe.avery.Delfin?logo=Flathub&label=Flathub)](https://flathub.org/apps/cafe.avery.Delfin) |
 | [feishin ` ⚒️ ` ` 🎵 `](https://github.com/jeffvli/feishin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jeffvli/feishin/total?logo=github&label=GitHub)](https://github.com/jeffvli/feishin/releases) |
