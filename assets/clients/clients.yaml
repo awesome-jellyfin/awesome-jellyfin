@@ -974,6 +974,18 @@ clients:
         icon: F-Droid
         url: https://f-droid.org/packages/io.github.thezupzup.linthra/
 
+  - name: "Mellow"
+    targets: [Android]
+    oss: https://github.com/Malinskiy/mellow
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Malinskiy
+        repo: mellow
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
