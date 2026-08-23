@@ -47,7 +47,7 @@ clients:
         url: https://jf-vue.pages.dev/
 
   - name: "Pelagica"
-    targets: [Browser]
+    targets: [Browser, Windows, Linux, macOS, Tizen]
     oss: https://github.com/PelagicaApp/pelagica
     official: false
     website: https://pelagica.app/
@@ -55,6 +55,9 @@ clients:
     downloads:
       - type: docker
         user: kartoffelchipss
+        repo: pelagica
+      - type: github
+        owner: PelagicaApp
         repo: pelagica
       - type: demo
         url: https://demo.pelagica.app/
