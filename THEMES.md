@@ -330,6 +330,28 @@ Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this 
 
 ---
 
+## [LiquidFin](https://github.com/dxmoc/jellyfin-liquidfin-theme) by dxmoc
+
+A dark theme built around the Liquid Glass material: translucent panes with refracted edges, specular rim light and capsule controls. Deliberately colourless, so the artwork behind the glass supplies the colour. One CSS file, no JavaScript and no external requests. [` 🔵 Get this Theme `](https://github.com/dxmoc/jellyfin-liquidfin-theme)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/dxmoc/jellyfin-liquidfin-theme/blob/main/assets/home.webp?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/dxmoc/jellyfin-liquidfin-theme/blob/main/assets/detail.webp?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/dxmoc/jellyfin-liquidfin-theme/blob/main/assets/player.webp?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [NetFin](https://github.com/ya0903/NetFin) by ya0903
 
 A cinematic Netflix-inspired theme with deep dark visuals, refined hover effects, and a focus on poster artwork. [` 🔵 Get this Theme `](https://github.com/ya0903/NetFin)
