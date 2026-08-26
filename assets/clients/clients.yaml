@@ -984,6 +984,16 @@ clients:
         owner: Malinskiy
         repo: mellow
 
+  - name: "Spectati"
+    targets: [iOS, AppleTV, macOS]
+    website: https://spectati.com
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6767241047"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
