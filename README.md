@@ -214,6 +214,7 @@
 ### 📊 Statistics & Watch History
 
 <!-- sort list:tools-stats -->
+- [Jellydash](https://github.com/themartz90/jellydash) - Self-hosted dashboard for Jellyfin with live sessions, play history, statistics and notifications.
 - [jellyfin-rewind](https://github.com/Chaphasilor/jellyfin-rewind) - A *Spotify Wrapped*-like experience for Jellyfin music listeners.
 - [jellyfin-watch-updater](https://github.com/Simon-Eklundh/jellyfin-watch-updater) - Updates `lastPlayedDate` for watched items when clients fail to set it, enabling tools such as media cleanup plugins to correctly detect watched media.
 - [JellyPlex-Watched](https://github.com/luigi311/JellyPlex-Watched) - Syncs watch history between Jellyfin, Plex, and Emby Servers.
