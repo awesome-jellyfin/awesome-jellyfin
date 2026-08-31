@@ -57,7 +57,6 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [Supersonic ` ⚒️ ` ` 🎵 `](https://github.com/dweymouth/supersonic) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dweymouth/supersonic/total?logo=github&label=GitHub)](https://github.com/dweymouth/supersonic/releases) [![flathub](https://img.shields.io/flathub/downloads/io.github.dweymouth.supersonic?logo=Flathub&label=Flathub)](https://flathub.org/apps/io.github.dweymouth.supersonic) |
 | [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dragonflylee/switchfin/total?logo=github&label=GitHub)](https://github.com/dragonflylee/switchfin/releases) |
 | [Tauon Music Box ` 🎵 `](https://github.com/Taiko2k/TauonMusicBox) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/Taiko2k/TauonMusicBox/total?logo=github&label=GitHub)](https://github.com/Taiko2k/TauonMusicBox/releases) [![flathub](https://img.shields.io/flathub/downloads/com.github.taiko2k.tauonmb?logo=Flathub&label=Flathub)](https://flathub.org/apps/com.github.taiko2k.tauonmb) |
-| [tsukimi ` ⚒️ `](https://github.com/tsukinaha/tsukimi) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/tsukinaha/tsukimi/total?logo=github&label=GitHub)](https://github.com/tsukinaha/tsukimi/releases) |
 
 
 ### macOS
