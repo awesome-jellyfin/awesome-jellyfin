@@ -410,7 +410,7 @@ clients:
         repo: switchfin
 
   - name: "tsukimi"
-    targets: [Linux, Windows]
+    targets: [Linux]
     oss: https://github.com/tsukinaha/tsukimi
     official: false
     beta: true
