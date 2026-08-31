@@ -759,19 +759,22 @@ clients:
       - 
         type: github
         owner: Moonfin-Client
-        repo: Roku
-        label: Roku
-      - 
-        type: github
-        owner: Moonfin-Client
         repo: Smart-TV
         label: webOS and Tizen
+      - 
+        type: shield
+        icon: Roku
+        url: https://channelstore.roku.com/details/92a83c9f4112b76a7bcee3dc076254ca:3251a91bf7af7339652d5409ccfdcb39/moonfin
       - 
         type: google-play
         id: org.moonfin.androidtv
       - 
         type: app-store
         id: "6761283970"
+      - 
+        type: shield
+        icon: Amazon
+        url: https://www.amazon.com/Moonfin/dp/B0H76BG3DW
 
   - name: ampcast
     targets: [Browser, Windows, Linux, macOS]
