@@ -47,7 +47,7 @@ clients:
         url: https://jf-vue.pages.dev/
 
   - name: "Pelagica"
-    targets: [Browser, Windows, Linux, macOS, Tizen]
+    targets: [Browser, Windows, Linux, macOS, Tizen, WebOS]
     oss: https://github.com/PelagicaApp/pelagica
     official: false
     website: https://pelagica.app/
