@@ -984,6 +984,18 @@ clients:
         owner: Malinskiy
         repo: mellow
 
+  - name: "Kofin for Jellyfin"
+    targets: [Kodi]
+    oss: https://github.com/kontell/plugin.video.kofin
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: kontell
+        repo: plugin.video.kofin
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
