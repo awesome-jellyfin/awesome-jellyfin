@@ -275,16 +275,6 @@ clients:
       - type: flathub
         package: com.github.iwalton3.jellyfin-mpv-shim
 
-  - name: "Jellyamp"
-    targets: [Windows, Linux]
-    types: [Music]
-    oss: https://github.com/jellyfin-labs/jellyamp
-    official: false
-    downloads:
-      - type: github
-        owner: jellyfin-labs
-        repo: jellyamp
-
   - name: "Manet"
     targets: [iOS]
     types: [Music]
@@ -498,16 +488,6 @@ clients:
         icon: AppGallery
         url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video
 
-  - name: DUNE
-    targets: [AndroidTV]
-    oss: https://github.com/Sam42a/DUNE
-    official: false
-    beta: true
-    downloads:
-      - type: github
-        owner: Sam42a
-        repo: DUNE
-
   - name: "HamHub"
     targets: [iOS, AppleTV, macOS]
     website: https://www.hamhub.app/
@@ -572,18 +552,6 @@ clients:
         text: Build It Yourself
         url: https://github.com/jellyfin/jellyfin-tizen
 
-  - name: FinMusic
-    targets: [HarmonyOS]
-    types: [Music]
-    oss: https://github.com/OHPG/FinMusic
-    downloads:
-      - type: shield
-        icon: AppGallery
-        url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.music
-      - type: github
-        owner: OHPG
-        repo: FinMusic
-
   - name: "Discrete"
     targets: [iOS, macOS]
     types: [Music]
@@ -646,16 +614,6 @@ clients:
       - type: github
         owner: AyaanZaveri
         repo: finetic
-
-  - name: "Reefin"
-    targets: [Android, AndroidTV]
-    website: https://reefin.dev/
-    downloads:
-      - type: google-play
-        id: com.shady.reefin
-      - type: github
-        owner: SKULSHADY
-        repo: reefin
 
   - name: "Hills"
     targets: [Windows, Android]
@@ -863,14 +821,6 @@ clients:
       - type: github
         owner: sureshfizzy
         repo: JellyCine
-
-  - name: PlayTorrioV2
-    targets: [Windows, macOS, Linux, Android]
-    oss: https://github.com/ayman708-UX/PlayTorrioV2
-    downloads:
-      - type: github
-        owner: ayman708-UX
-        repo: PlayTorrioV2
 
   - name: JellyTV
     targets: [iOS]
