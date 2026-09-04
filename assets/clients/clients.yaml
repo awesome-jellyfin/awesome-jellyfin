@@ -388,7 +388,7 @@ clients:
         repo: streamyfin
 
   - name: "Switchfin"
-    targets: [NintendoSwitch, macOS, Linux, Windows]
+    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows]
     official: false
     beta: true
     oss: https://github.com/dragonflylee/switchfin
@@ -947,6 +947,26 @@ clients:
       - type: app-store
         id: "6767241047"
 
+  - name: "Jellyfin for Xbox"
+    targets: [Xbox]
+    oss: https://github.com/jellyfin/jellyfin-xbox
+    official: true
+    beta: true
+    downloads:
+      - type: github
+        owner: jellyfin
+        repo: jellyfin-xbox
+
+  - name: "Movian Jellyfin"
+    targets: [PlayStation]
+    oss: https://github.com/LouisMarotta/m7-jellyfin
+    official: true
+    beta: true
+    downloads:
+      - type: github
+        owner: LouisMarotta
+        repo: m7-jellyfin
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
@@ -975,8 +995,16 @@ targets:
         mapped: "Sailfish OS"
       - name: HarmonyOS
         mapped: "HarmonyOS"
+
+  - key: Console
+    display: "🎮 Console"
+    has:
       - name: NintendoSwitch
         mapped: "Nintendo Switch"
+      - name: Xbox
+        mapped: "Xbox"
+      - name: PlayStation
+        mapped: "PlayStation"
 
   - key: TV
     display: "📺 TV"
