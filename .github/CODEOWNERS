@@ -1,7 +1,5 @@
 * @awesome-jellyfin/review
 
-# Client entries split into clients.d are owned by their maintainers.
-# The bot applies the `bot/codeowner` label when the PR author owns every changed file.
 /assets/clients/clients.d/feishin.yaml @jeffvli
 /assets/clients/clients.d/streamyfin.yaml @fredrikburmester @retardgerman
 /assets/clients/clients.d/findroid.yaml @jarnedemeulemeester
