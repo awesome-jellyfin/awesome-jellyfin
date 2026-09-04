@@ -191,11 +191,28 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | [FinVideo](https://github.com/OHPG/FinVideo) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/OHPG/FinVideo/total?logo=github&label=GitHub)](https://github.com/OHPG/FinVideo/releases) [![AppGallery](https://img.shields.io/badge/AppGallery-grey?logo=AppGallery&label=)](https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video) |
 
 
+## 🎮 Console
+
 ### Nintendo Switch
 
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dragonflylee/switchfin/total?logo=github&label=GitHub)](https://github.com/dragonflylee/switchfin/releases) |
+
+
+### Xbox
+
+| Name | OSS | Free | Paid | Downloads |
+| ---- | --- | ---- | ---- | --------- |
+| [Jellyfin for Xbox ` 🔹 ` ` ⚒️ `](https://github.com/jellyfin/jellyfin-xbox) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-xbox/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-xbox/releases) |
+| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dragonflylee/switchfin/total?logo=github&label=GitHub)](https://github.com/dragonflylee/switchfin/releases) |
+
+
+### PlayStation
+
+| Name | OSS | Free | Paid | Downloads |
+| ---- | --- | ---- | ---- | --------- |
+| [Movian Jellyfin ` 🔹 ` ` ⚒️ `](https://github.com/LouisMarotta/m7-jellyfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/LouisMarotta/m7-jellyfin/total?logo=github&label=GitHub)](https://github.com/LouisMarotta/m7-jellyfin/releases) |
 
 
 ## 📺 TV
