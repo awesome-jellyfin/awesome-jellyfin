@@ -1,0 +1,12 @@
+clients:
+  - name: "Finamp"
+    targets: [Android, iOS]
+    types: [Music]
+    oss: https://github.com/jmshrv/finamp
+    official: false
+    beta: false
+    downloads:
+      - type: google-play
+        id: com.unicornsonlsd.finamp
+      - type: app-store
+        id: "1574922594"

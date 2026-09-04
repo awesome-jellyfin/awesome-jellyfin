@@ -130,21 +130,6 @@ clients:
         icon: LG
         url: https://us.lgappstv.com/main/tvapp/detail?appId=1030579
 
-  - name: "Findroid"
-    targets: [Android]
-    oss: https://github.com/jarnedemeulemeester/findroid
-    official: false
-    beta: true
-    downloads:
-      - type: shield
-        label: Izzysoft
-        url: https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin
-      - type: google-play
-        id: dev.jdtech.jellyfin
-      - type: shield
-        icon: F-Droid
-        url: https://f-droid.org/en/packages/dev.jdtech.jellyfin/
-
   - name: "Sailfin"
     targets: [SailfishOS]
     oss: https://github.com/heartfin/harbour-sailfin
@@ -184,29 +169,6 @@ clients:
         id: com.oumi.utility.media.hub
       - type: app-store
         id: "1659622164"
-
-  - name: "feishin"
-    targets: [Browser, Windows, Linux, macOS]
-    types: [Music]
-    oss: https://github.com/jeffvli/feishin
-    official: false
-    beta: true
-    downloads:
-      - type: github
-        owner: jeffvli
-        repo: feishin
-
-  - name: "Finamp"
-    targets: [Android, iOS]
-    types: [Music]
-    oss: https://github.com/jmshrv/finamp
-    official: false
-    beta: false
-    downloads:
-      - type: google-play
-        id: com.unicornsonlsd.finamp
-      - type: app-store
-        id: "1574922594"
 
   - name: "Plappa"
     targets: [iOS]
@@ -369,23 +331,6 @@ clients:
       - type: github
         owner: jellyflix-app
         repo: jellyflix
-
-  - name: "Streamyfin"
-    targets: [Android, iOS]
-    official: false
-    beta: false
-    website: https://streamyfin.app
-    oss: https://github.com/fredrikburmester/streamyfin
-    price:
-      free: true
-    downloads:
-      - type: app-store
-        id: "6593660679"
-      - type: google-play
-        id: com.fredrikburmester.streamyfin
-      - type: github
-        owner: fredrikburmester
-        repo: streamyfin
 
   - name: "Switchfin"
     targets: [NintendoSwitch, Xbox, macOS, Linux, Windows]
@@ -658,18 +603,6 @@ clients:
         owner: cewert
         repo: jellyrock
 
-  - name: Wholphin
-    targets: [AndroidTV]
-    oss: https://github.com/damontecres/Wholphin
-    official: false
-    beta: false
-    downloads:
-      - type: google-play
-        id: com.github.damontecres.wholphin
-      - type: github
-        owner: damontecres
-        repo: Wholphin
-
   - name: Void
     targets: [Android, AndroidTV]
     oss: https://github.com/hritwikjohri/Void-for-jellyfin
@@ -700,39 +633,6 @@ clients:
         repo: gelly
       - type: flathub
         package: io.m51.Gelly
-
-  - name: "Moonfin"
-    targets: [AndroidTV, Roku, webOS, Tizen, AppleTV, Browser, Windows, Linux, macOS, iOS, Android]
-    oss: https://github.com/Moonfin-Client
-    official: false    
-    price:
-      free: true
-      paid: false
-    downloads:
-      - 
-        type: github
-        owner: Moonfin-Client
-        repo: Moonfin-Core
-        label: Core
-      - 
-        type: github
-        owner: Moonfin-Client
-        repo: Smart-TV
-        label: webOS and Tizen
-      - 
-        type: shield
-        icon: Roku
-        url: https://channelstore.roku.com/details/92a83c9f4112b76a7bcee3dc076254ca:3251a91bf7af7339652d5409ccfdcb39/moonfin
-      - 
-        type: google-play
-        id: org.moonfin.androidtv
-      - 
-        type: app-store
-        id: "6761283970"
-      - 
-        type: shield
-        icon: Amazon
-        url: https://www.amazon.com/Moonfin/dp/B0H76BG3DW
 
   - name: ampcast
     targets: [Browser, Windows, Linux, macOS]
