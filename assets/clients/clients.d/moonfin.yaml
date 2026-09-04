@@ -1,0 +1,30 @@
+clients:
+  - name: "Moonfin"
+    targets: [AndroidTV, Roku, webOS, Tizen, AppleTV, Browser, Windows, Linux, macOS, iOS, Android]
+    oss: https://github.com/Moonfin-Client
+    official: false    
+    price:
+      free: true
+      paid: false
+    downloads:
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: Moonfin-Core
+        label: Core
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: Roku
+        label: Roku
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: Smart-TV
+        label: webOS and Tizen
+      - 
+        type: google-play
+        id: org.moonfin.androidtv
+      - 
+        type: app-store
+        id: "6761283970"
