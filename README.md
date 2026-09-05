@@ -313,6 +313,7 @@
 - [macos-random-jellyfin-screensaver](https://github.com/ndom91/macos-random-jellyfin-screensaver) - Screensaver for macOS that plays a random Jellyfin item.
 - [MPC-JF](https://github.com/Damocles-fr/MPC-JF) - Launch external media players (MPC-HC, MPC-BE, PotPlayer) from Jellyfin Web or Jellyfin Media Player.
 - [Scyphomote](https://github.com/eiffelbeef/scyphomote) - A dedicated remote control for Jellyfin with support for playback transparency, trickplay previews, and more.
+- [temporal-jellyfin-workflows](https://github.com/jpds/temporal-jellyfin-workflows) - [Temporal](https://temporal.io) workflows that connect your Jellyfin library to an OpenAI-compatible LLM.
 - [tunarr](https://github.com/chrisbenincasa/tunarr) - Create custom live TV channels from your Plex or Jellyfin library with a web UI and IPTV support.
 
 
