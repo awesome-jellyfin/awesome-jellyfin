@@ -867,6 +867,18 @@ clients:
         owner: LouisMarotta
         repo: m7-jellyfin
 
+  - name: Meringo
+    targets: [Android]
+    types: [Music]
+    official: false
+    website: https://meringo.app
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: google-play
+        id: app.meringo
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
