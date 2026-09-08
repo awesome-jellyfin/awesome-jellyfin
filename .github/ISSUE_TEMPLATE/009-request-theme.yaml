@@ -7,18 +7,18 @@ labels:
   - request
   - theme
 
-body:      
+body:
   - type: markdown
     attributes:
       value: |
         > [!IMPORTANT]
         > Before submitting, please read the **[Contribution Guidelines](https://github.com/awesome-jellyfin/awesome-jellyfin/blob/main/CONTRIBUTING.md)**.
-        >  
+        >
         > If you are familiar with GitHub and know how to create a Pull Request, please consider submitting your suggestion **directly as a PR** instead of opening an issue:
         > https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
         >
         > Pull Requests are usually reviewed faster. Issues are mainly intended for users who are unsure how to contribute via PR.
-        
+
         **Thank you so much for your help to make this list even better! 💖**
 
   - type: input
@@ -36,7 +36,7 @@ body:
       placeholder: ex. https://github.com/awesome-jellyfin/awesome-jellyfin
     validations:
       required: true
-  
+
   - type: checkboxes
     id: type
     attributes:
@@ -69,8 +69,8 @@ body:
       label: Additional Screenshots (optional)
       description: Here you can add more screenshots
     validations:
-      required: false  
-    
+      required: false
+
   - type: checkboxes
     id: checklist
     attributes:
@@ -79,6 +79,8 @@ body:
         - label: I have read the Contribution Guidelines
           required: true
         - label: I searched the list to make sure this theme is not already included
+          required: true
+        - label: I confirm this theme works with the newest version of Jellyfin
           required: true
 
   - type: textarea

@@ -7,6 +7,15 @@ The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
 
+## Themes hidden pending Jellyfin v12 compatibility
+
+In an effort to make sure the themes in this list work with the newest version, the previously listed themes are hidden for now.
+
+**Missing a theme?** If you know one works with v12, open an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new/choose) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md) and we'll add it back.
+
+<details>
+<summary>Previously listed themes (may not work with v12)</summary>
+
 ## [Abyss](https://aumgupta.github.io/abyss-jellyfin/) by [AumGupta](https://github.com/AumGupta/)
 
 A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on. [` 🔵 Get this Theme `](https://github.com/AumGupta/abyss-jellyfin)
@@ -433,6 +442,8 @@ A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://githu
 </table>
 
 ---
+
+</details>
 
 <!--lint ignore unordered-list-marker-style-->
 * Stale / Inactive / May not work anymore ` 📅 `
