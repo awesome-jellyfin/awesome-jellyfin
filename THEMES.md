@@ -6,6 +6,65 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
+---
+
+## [ElegantFin](https://github.com/lscambo13/ElegantFin) by lscambo13
+
+[` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/4.%20Movie%20Page.webp?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/1.%20Homepage.webp?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/3.%20Sidebar.webp?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/9.%20Web%20Player.webp?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/20.%20Live%20TV%20Guide.webp?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/12.%20Movie%20Details.webp?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Jellyfish](https://github.com/n00bcodr/Jellyfish) by n00bcodr
+
+[` 🔵 Get this Theme `](https://github.com/n00bcodr/Jellyfish)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/home.png" />
+    </td>
+    <td>
+      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/item-details.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login1.png" />
+    </td>
+    <td>
+      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login2.png" />
+    </td>
+  </tr>
+</table>
+
+---
 
 ## Themes hidden pending Jellyfin v12 compatibility
 
@@ -98,39 +157,6 @@ A refined and modern UI enhancement for Jellyfin focused on improved layout, ani
     </td>
     <td>
       <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/mocha.webp" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [ElegantFin](https://github.com/lscambo13/ElegantFin) by lscambo13
-
-[` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/4.%20Movie%20Page.webp?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/1.%20Homepage.webp?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/3.%20Sidebar.webp?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/9.%20Web%20Player.webp?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/20.%20Live%20TV%20Guide.webp?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/12.%20Movie%20Details.webp?raw=true" />
     </td>
   </tr>
 </table>
