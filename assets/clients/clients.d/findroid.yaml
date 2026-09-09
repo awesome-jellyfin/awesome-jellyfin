@@ -1,0 +1,15 @@
+clients:
+  - name: "Findroid"
+    targets: [Android]
+    oss: https://github.com/jarnedemeulemeester/findroid
+    official: false
+    beta: true
+    downloads:
+      - type: shield
+        label: Izzysoft
+        url: https://apt.izzysoft.de/fdroid/index/apk/dev.jdtech.jellyfin
+      - type: google-play
+        id: dev.jdtech.jellyfin
+      - type: shield
+        icon: F-Droid
+        url: https://f-droid.org/en/packages/dev.jdtech.jellyfin/

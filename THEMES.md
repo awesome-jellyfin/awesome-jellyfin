@@ -6,6 +6,74 @@
 The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md).
 
+---
+
+## [ElegantFin](https://github.com/lscambo13/ElegantFin) by lscambo13
+
+[` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/4.%20Movie%20Page.webp?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/1.%20Homepage.webp?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/3.%20Sidebar.webp?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/9.%20Web%20Player.webp?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/20.%20Live%20TV%20Guide.webp?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/12.%20Movie%20Details.webp?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Jellyfish](https://github.com/n00bcodr/Jellyfish) by n00bcodr
+
+[` 🔵 Get this Theme `](https://github.com/n00bcodr/Jellyfish)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/home.png" />
+    </td>
+    <td>
+      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/item-details.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login1.png" />
+    </td>
+    <td>
+      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login2.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## Themes hidden pending Jellyfin v12 compatibility
+
+In an effort to make sure the themes in this list work with the newest version, the previously listed themes are hidden for now.
+
+**Missing a theme?** If you know one works with v12, open an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new/choose) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/edit/main/THEMES.md) and we'll add it back.
+
+<details>
+<summary>Previously listed themes (may not work with v12)</summary>
 
 ## [Abyss](https://aumgupta.github.io/abyss-jellyfin/) by [AumGupta](https://github.com/AumGupta/)
 
@@ -95,58 +163,25 @@ A refined and modern UI enhancement for Jellyfin focused on improved layout, ani
 
 ---
 
-## [ElegantFin](https://github.com/lscambo13/ElegantFin) by lscambo13
+## [evergarden](https://github.com/evergardentheme/jellyfin) by evergardentheme
 
-[` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/4.%20Movie%20Page.webp?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/1.%20Homepage.webp?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/3.%20Sidebar.webp?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/9.%20Web%20Player.webp?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/20.%20Live%20TV%20Guide.webp?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/12.%20Movie%20Details.webp?raw=true" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [evergarden](https://github.com/everviolet/jellyfin) by everviolet
-
-[` 🔵 Get this Theme `](https://github.com/everviolet/jellyfin)
+[` 🔵 Get this Theme `](https://github.com/evergardentheme/jellyfin)
 
 <table>
   <tr>
     <td>
-      <img src="https://github.com/everviolet/jellyfin/raw/main/assets/summer.webp" />
+      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/summer.webp" />
     </td>
     <td>
-      <img src="https://github.com/everviolet/jellyfin/raw/main/assets/spring.webp" />
+      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/spring.webp" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/everviolet/jellyfin/raw/main/assets/fall.webp" />
+      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/fall.webp" />
     </td>
     <td>
-      <img src="https://github.com/everviolet/jellyfin/raw/main/assets/winter.webp" />
+      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/winter.webp" />
     </td>
   </tr>
 </table>
@@ -272,58 +307,6 @@ Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media 
     </td>
     <td>
       <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/admin.jpg" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [JellySkin](https://github.com/prayag17/JellySkin) by prayag17
-
-Vibrante & Minimal theme using custom icons and more [` 🔵 Get this Theme `](https://github.com/prayag17/JellySkin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://user-images.githubusercontent.com/55829513/200134094-9bafba9d-4cfa-48c3-bbf4-e01bc21ecdd1.png" />
-    </td>
-    <td>
-      <img src="https://user-images.githubusercontent.com/55829513/200134098-6463a6e7-95bb-4af6-a451-b6ac5ef7abad.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://user-images.githubusercontent.com/55829513/200133209-413d6e6c-3569-4aaf-9db7-f576c141f519.png" />
-    </td>
-    <td>
-      <img src="https://user-images.githubusercontent.com/55829513/200133240-075f604d-ae7f-48cb-9a42-445d8f3ef427.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://user-images.githubusercontent.com/55829513/200133258-4eabfc3d-475f-4b42-a496-bc2de60c11a5.png" />
-    </td>
-    <td>
-      <img src="https://user-images.githubusercontent.com/55829513/200133302-5d7e7ac1-201b-4cb4-a839-ee53c5c6a6f2.png" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [Jellyfin Better Styles](https://github.com/Tetrax-10/jellyfin-better-styles) by Tetrax-10
-
-This theme preserves the original aesthetics while upgrading layout and animations for a more polished look and feel.
-
-Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this Theme `](https://github.com/Tetrax-10/jellyfin-better-styles)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/movie-tv-page.png" />
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/cards.gif" />
     </td>
   </tr>
 </table>
@@ -486,38 +469,7 @@ A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://githu
 
 ---
 
-## [zombie-release](https://github.com/MakD/zombie-release) by MakD
-
-A theme for Jellyfin 10.9.x combining the best from the Public Themes [` 🔵 Get this Theme `](https://github.com/MakD/zombie-release)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/login.png" />
-    </td>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/homepage.png?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/detail.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/sidebar.png?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/tv-series.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/MakD/zombie-release/blob/main/img/desktop/seasonpage.png?raw=true" />
-    </td>
-  </tr>
-</table>
-
----
+</details>
 
 <!--lint ignore unordered-list-marker-style-->
 * Stale / Inactive / May not work anymore ` 📅 `
