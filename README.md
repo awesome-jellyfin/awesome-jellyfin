@@ -89,6 +89,8 @@
 - [jellyfin-plugin-jellysleep](https://github.com/jon4hz/jellyfin-plugin-jellysleep) - Adds sleep timer functionality to Jellyfin.
 - [Jellyfin.Plugin.StreamLimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows limiting the number of simultaneous streams per user.
 - [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
+- [Replay Gain](https://github.com/SKProCH/JellyfinReplayGain) - Normalizes audio volume across your media on the fly to maintain a consistent loudness level.
+- [Stream Generator](https://github.com/SKProCH/JellyfinStreamGenerator) - Generates customizable, secure HLS stream URLs with isolated tokens and selectable audio or subtitle tracks for external players (e.g. in games).
 - [TheIntroDB](https://github.com/TheIntroDB/jellyfin-plugin) - Community powered database of intro, recap, credits, and preview segments for movies and TV shows.
 
 
