@@ -46,7 +46,7 @@ A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and
 [` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
 
 > [!NOTE]
-> For Jellyfin v12 see https://github.com/mihaif7/elegantfin-jf12
+> For Jellyfin v12, see https://github.com/mihaif7/elegantfin-jf12
 
 <table>
   <tr>
