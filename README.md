@@ -136,7 +136,7 @@
 <!-- sort list:plugins-library -->
 - [AniLiberty STRM Plugin](https://github.com/queukat/AniLibriaStrmPlugin) - Generates AniLiberty STRM libraries for Jellyfin with metadata, intro markers, and watch-progress sync.
 - [GhostLibrary](https://github.com/upchui/Jellyfin-GhostLibrary) - Hides selected media libraries from the client home screen and library list without blocking server-side plugin or filesystem access.
-- [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) - Ignores filename patterns on library scans. `🔹 Beta` `🔸 Stale`
+- [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) - Ignores filename patterns on library scans. Useful to prevent album playlists from showing up in the library. `🔹 Beta` `✅ JF12`
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
 - [jellyfin-musictags-plugin](https://github.com/jyourstone/jellyfin-musictags-plugin) - Automatically extracts audio file metadata and converts it into standard Jellyfin tags.
 - [jellyfin-plugin-air-times](https://github.com/k0d13/jellyfin-air-times) - Provides localized series air times based on server location. `🔸 Stale`
