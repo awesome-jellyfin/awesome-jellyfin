@@ -8,6 +8,39 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
+## [Abyss](https://aumgupta.github.io/abyss-jellyfin/) by [AumGupta](https://github.com/AumGupta/)
+
+A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on. [` 🔵 Get this Theme `](https://github.com/AumGupta/abyss-jellyfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_1.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_2.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_3.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_4.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_5.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_6.png?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [ElegantFin](https://github.com/lscambo13/ElegantFin) by lscambo13
 
 [` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
@@ -74,39 +107,6 @@ In an effort to make sure the themes in this list work with the newest version, 
 
 <details>
 <summary>Previously listed themes (may not work with v12)</summary>
-
-## [Abyss](https://aumgupta.github.io/abyss-jellyfin/) by [AumGupta](https://github.com/AumGupta/)
-
-A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on. [` 🔵 Get this Theme `](https://github.com/AumGupta/abyss-jellyfin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_1.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_2.png?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_3.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_4.png?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_5.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_6.png?raw=true" />
-    </td>
-  </tr>
-</table>
-
----
 
 ## [better-jellyfin-ui](https://github.com/tromoSM/better-jellyfin-ui) by tromoSM
 
