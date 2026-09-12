@@ -140,6 +140,7 @@
 - [jellyfin-local-posters](https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/) - Automatically matches and imports local posters using TPDb and MediUX filename formats. Also supports syncing posters from Google Drive.
 - [jellyfin-musictags-plugin](https://github.com/jyourstone/jellyfin-musictags-plugin) - Automatically extracts audio file metadata and converts it into standard Jellyfin tags.
 - [jellyfin-plugin-air-times](https://github.com/k0d13/jellyfin-air-times) - Provides localized series air times based on server location. `🔸 Stale`
+- [Jellyfin.Plugin.BulsatcomChannel](https://github.com/HA-HUB-I/Jellyfin-bsc) - Generates M3U playlists and XMLTV EPG from Bulsatcom IPTV API with channel logos and live category enrichment. `✅ JF12`
 - [jellyfin-plugin-enigma2](https://github.com/knackebrot/jellyfin-plugin-enigma2) - Supports Vu+ & Enigma2 live TV streamers. `🔸 Stale`
 - [jellyfin-plugin-languageTags](https://github.com/TheXaman/jellyfin-plugin-languageTags) - Adds language tags to media based on audio tracks using FFmpeg.
 - [jellyfin-plugin-localrecs](https://github.com/rdpharr/jellyfin-plugin-localrecs) - Generates personalized movie and TV recommendations based on local watch history without external services required.
