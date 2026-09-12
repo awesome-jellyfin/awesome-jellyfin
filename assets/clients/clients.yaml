@@ -867,6 +867,18 @@ clients:
         owner: LouisMarotta
         repo: m7-jellyfin
 
+  - name: NaviFin
+    targets: [iOS, AppleTV, macOS]
+    website: https://navifin.app
+    official: false
+    beta: false
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6778781788"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
