@@ -66,6 +66,7 @@
 ### 📂 Collections & Playlists
 
 <!-- sort list:plugins-collections -->
+- [jellyfin-enricherr](https://kino.sen-labs.org/) - A Jellyfin plugin that finds and downloads missing local trailers and theme songs for movies and TV series
 - [jellyfin-favorited-songs-playlist](https://github.com/Saturn745/jellyfin-favorited-songs-playlist) - Automatically creates and updates a "Favorited Songs" playlist containing all your favorited music tracks.
 - [jellyfin-harmonie](https://github.com/mxschll/jellyfin-harmonie) - Generates smart playlists and replaces Instant Mix using audio embeddings. `✅ JF12`
 - [Jellyfin.Plugin.ACdb](https://github.com/jonjonsson/Jellyfin.Plugin.ACdb) - Syncs auto-updating collections, posters, and backgrounds from [ACdb.tv](https://acdb.tv). `🔺 Paid`
