@@ -867,6 +867,17 @@ clients:
         owner: LouisMarotta
         repo: m7-jellyfin
 
+  - name: "MuseVu"
+    targets: [Android, AndroidTV]
+    official: false
+    website: https://musevu.com
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: com.thefuturecoderx.musevu
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
