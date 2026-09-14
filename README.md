@@ -90,6 +90,7 @@
 - [Jellyfin.Plugin.StreamLimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows limiting the number of simultaneous streams per user.
 - [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
 - [TheIntroDB](https://github.com/TheIntroDB/jellyfin-plugin) - Community powered database of intro, recap, credits, and preview segments for movies and TV shows.
+- [VFQ Auto Selector](https://github.com/samuelloranger/jellyfin-vfq) - Automatically selects Québécois/French Canadian (VFQ) audio tracks on playback, choosing the highest-quality matching track. `✅ JF12`
 
 
 ### 🔗 Integration & Sync
