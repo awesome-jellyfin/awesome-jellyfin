@@ -95,6 +95,7 @@
 ### 🔗 Integration & Sync
 
 <!-- sort list:plugins-integration -->
+- [CinePersona](https://github.com/Gawain12/cinepersona-media-server-plugins) - Syncs watched movies and personal ratings between Jellyfin and CinePersona.
 - [Gelato](https://github.com/lostb1t/Gelato) - Replaces Jellyfin's default search with Stremio-powered results and can automatically import entire catalogs into your library through scheduled tasks.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
 - [jellyfin-plugin-animethemes](https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes) - Fetches anime opening and ending themes from [AnimeThemes.moe](https://animethemes.moe/), supporting both audio and video.
