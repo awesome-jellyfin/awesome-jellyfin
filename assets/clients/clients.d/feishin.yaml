@@ -1,0 +1,11 @@
+clients:
+  - name: "feishin"
+    targets: [Browser, Windows, Linux, macOS]
+    types: [Music]
+    oss: https://github.com/jeffvli/feishin
+    official: false
+    beta: true
+    downloads:
+      - type: github
+        owner: jeffvli
+        repo: feishin

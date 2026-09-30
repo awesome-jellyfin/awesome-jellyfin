@@ -1,0 +1,12 @@
+clients:
+  - name: Wholphin
+    targets: [AndroidTV]
+    oss: https://github.com/damontecres/Wholphin
+    official: false
+    beta: false
+    downloads:
+      - type: google-play
+        id: com.github.damontecres.wholphin
+      - type: github
+        owner: damontecres
+        repo: Wholphin

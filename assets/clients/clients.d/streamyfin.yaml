@@ -1,0 +1,17 @@
+clients:
+  - name: "Streamyfin"
+    targets: [Android, iOS]
+    official: false
+    beta: false
+    website: https://streamyfin.app
+    oss: https://github.com/fredrikburmester/streamyfin
+    price:
+      free: true
+    downloads:
+      - type: app-store
+        id: "6593660679"
+      - type: google-play
+        id: com.fredrikburmester.streamyfin
+      - type: github
+        owner: fredrikburmester
+        repo: streamyfin
