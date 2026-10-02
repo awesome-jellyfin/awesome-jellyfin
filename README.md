@@ -108,6 +108,7 @@
 - [Moonbase](https://github.com/Moonfin-Client/Plugin) - Companion plugin for Moonfin clients, providing server-side settings sync, integrations, and a hosted Moonfin Web interface.
 - [MyAnimeSync](https://github.com/iankiller77/MyAnimeSync) - Automatically synchronizes anime watching progress between Jellyfin and MyAnimeList.
 - [Plexyfin](https://github.com/cleverdevil/plexyfin) - Automatically synchronizes artwork and collections from Plex to Jellyfin.
+- [RK Simkl Scrobbler](https://github.com/romskidd/jellyfin-plugin-simkl-scrobbler) - Scrobbles what each Jellyfin user watches to Simkl in real time, with self-service account linking and an optional two-way history sync. `✅ JF12`
 - [Shokofin](https://github.com/ShokoAnime/Shokofin) - Integrates [Shoko Server](https://shokoanime.com/downloads/shoko-server) with Jellyfin for anime library management. `✅ JF12`
 
 
