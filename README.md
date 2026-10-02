@@ -66,6 +66,7 @@
 ### 📂 Collections & Playlists
 
 <!-- sort list:plugins-collections -->
+- [AudioMuse-AI-Plugin](https://github.com/NeptuneHub/audiomuse-ai-plugin) - Generates smart playlists and replaces Instant Mix using the AudioMuse-AI backend. `✅ JF12`
 - [jellyfin-favorited-songs-playlist](https://github.com/Saturn745/jellyfin-favorited-songs-playlist) - Automatically creates and updates a "Favorited Songs" playlist containing all your favorited music tracks.
 - [jellyfin-harmonie](https://github.com/mxschll/jellyfin-harmonie) - Generates smart playlists and replaces Instant Mix using audio embeddings. `✅ JF12`
 - [Jellyfin.Plugin.ACdb](https://github.com/jonjonsson/Jellyfin.Plugin.ACdb) - Syncs auto-updating collections, posters, and backgrounds from [ACdb.tv](https://acdb.tv). `🔺 Paid`
