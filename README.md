@@ -265,7 +265,7 @@
 - [LAPSE](https://github.com/Schwponaco-org/lapse-jellyfin-plugin) - Fixes subtitles that are out of sync, with built-in conversion, translation, embedded extraction, and readable styling. `✅ JF12`
 - [OpenSubtitlesDownload](https://github.com/emericg/OpenSubtitlesDownload) - Automatically or manually downloads subtitles using CLI/Gnome/KDE.
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
-
+- [vlsub-jellyfin](https://github.com/joanbono/vlsub-jellyfin) - Downloads subtitles using VLC's subtitle engine. No API key needed.
 
 ### 🎵 Music
 
