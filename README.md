@@ -290,7 +290,6 @@
 - [autoscan](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system. `🔸 Stale`
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder) - One-click installer and maintainer for Jellyfin on Windows, macOS, and Linux.
 - [declarative-jellyfin](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS. `🔹 Beta`
-- [jellyfin-encoder](https://github.com/GeiserX/jellyfin-encoder) - Docker-based automatic 720p HEVC/AV1 transcoding service for Jellyfin libraries with NVIDIA and Intel hardware acceleration.
 - [jellyfin-helper](https://github.com/JellyPlugins/jellyfin-helper) - Server administration dashboard with cleanup tasks, library statistics, health checks, Arr/Seerr integration, backups, user insights, and on-device neural recommendations.
 - [JellyGlance](https://github.com/Nerdy-Technician/JellyGlance) - Dashboard for monitoring live sessions, user watch stats, libraries, requests, download queues, calendars, webhooks, and backups.
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - Indexes media from multiple Jellyfin servers into a single searchable hub.
@@ -298,6 +297,7 @@
 - [JellyRoller](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller. `🔹 Beta`
 - [JellySearch](https://gitlab.com/DomiStyle/jellysearch) - A fast full-text search proxy for Jellyfin using Meilisearch.
 - [Jellyswarrm](https://github.com/LLukas22/Jellyswarrm) - Reverse proxy that lets you combine multiple Jellyfin servers into one virtual instance.
+- [quality-gate-encoder](https://github.com/GeiserX/quality-gate-encoder) - Docker-based automatic 720p HEVC/AV1 transcoding service for Jellyfin libraries with NVIDIA and Intel hardware acceleration. Formerly jellyfin-encoder.
 - [Samsung-Jellyfin-Installer](https://github.com/Jellyfin2Samsung/Samsung-Jellyfin-Installer) - Cross-platform tool that helps you install Jellyfin on Samsung Smart TVs running Tizen OS.
 - [Tracearr](https://github.com/connorgallopo/Tracearr) - Real-time Jellyfin monitoring dashboard for tracking streams and detecting account sharing.
 - [Universal Plugin Repo](https://github.com/0belous/universal-plugin-repo) - Consolidates many plugin repositories to create a universal catalogue.
