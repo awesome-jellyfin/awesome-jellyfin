@@ -869,6 +869,21 @@ clients:
         owner: LouisMarotta
         repo: m7-jellyfin
 
+  - name: "Swiftly Player"
+    targets: [iOS, AppleTV, macOS, Windows, Linux]
+    oss: https://github.com/paulherter/swiftly-player
+    website: https://swiftlyplayer.com
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6806824067"
+      - type: github
+        owner: paulherter
+        repo: swiftly-player
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
