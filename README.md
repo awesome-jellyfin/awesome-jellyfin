@@ -297,6 +297,7 @@
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder) - One-click installer and maintainer for Jellyfin on Windows, macOS, and Linux.
 - [declarative-jellyfin](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS. `🔹 Beta`
 - [jellyfin-helper](https://github.com/JellyPlugins/jellyfin-helper) - Server administration dashboard with cleanup tasks, library statistics, health checks, Arr/Seerr integration, backups, user insights, and on-device neural recommendations.
+- [Jellyfin Medic](https://github.com/p1zzm1ssile/Jellyfin-Medic) - Health checks, performance tests and usage-aware task scheduling for busy Jellyfin servers, with a dashboard, timeline scheduler and safe clean-up tools.
 - [JellyGlance](https://github.com/Nerdy-Technician/JellyGlance) - Dashboard for monitoring live sessions, user watch stats, libraries, requests, download queues, calendars, webhooks, and backups.
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - Indexes media from multiple Jellyfin servers into a single searchable hub.
 - [Jellyman](https://github.com/Smiley-McSmiles/jellyman) - CLI tool for installing, managing, and updating Jellyfin on Linux.
