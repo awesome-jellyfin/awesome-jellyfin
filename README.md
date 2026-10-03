@@ -41,6 +41,7 @@
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player. `✅ JF12`
 - [jellyfin-editors-choice-plugin](https://github.com/lachlandcp/jellyfin-editors-choice-plugin) - Adds a Netflix-style, full-width content slider to the home page to feature selected content.
 - [Jellyfin-Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced) - Adds keyboard shortcuts, subtitle styling, TMDB reviews, Seerr search and request integration, and other improvements to Jellyfin. `✅ JF12`
+- [jellyfin-featured-plugin](https://github.com/spkesDE/jellyfin-featured-plugin) - Adds a configurable featured-content carousel to Jellyfin Web with multiple content sources, filters, layouts, and optional background trailers. `✅ JF12`
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - Injects custom JavaScript into the Jellyfin UI without modifying index.html. `✅ JF12`
 - [jellyfin-media-preview-plugin](https://github.com/spkesDE/jellyfin-media-preview-plugin) - Adds hover previews to Jellyfin Web using Trickplay thumbnails, local trailers, or YouTube trailers. `✅ JF12`
