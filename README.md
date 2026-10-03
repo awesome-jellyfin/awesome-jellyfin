@@ -252,6 +252,7 @@
 - [JellyfinEasyMetadataManager](https://github.com/CesarBianchi/JellyfinEasyMetadataManager) - Desktop tool for managing and editing metadata in Jellyfin libraries.
 - [jellyfinmanager](https://github.com/Forceu/jellyfinmanager) - Command-line tool for managing Jellyfin watched status with backup/restore capabilities and missing episode detection using TVDB.
 - [jellysweep](https://github.com/jon4hz/jellysweep) - Automatically removes old, unwatched movies and TV shows by analyzing viewing history and user requests.
+- [Librarian](https://github.com/Get-Coral/librarian) - Imports finished downloads by hardlink and flags missing metadata, weak posters and duplicates, keeping Jellyfin as the source of truth. `🔹 Beta`
 - [mnamer](https://github.com/jkwill87/mnamer) - Customizable tool to automatically rename and organize media files.
 - [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
 - [Squishy](https://github.com/cleverdevil/squishy) - Transcode and download your Jellyfin media with fully customizable presets and hardware acceleration.
@@ -282,6 +283,7 @@
 
 <!-- sort list:tools-import -->
 - [calibre2jellyfin](https://github.com/shawn61cp/calibre2jellyfin) - Python script to construct a Jellyfin ebook library from a Calibre library.
+- [Tide](https://github.com/Get-Coral/tide) - Torrent client with a queue-first web UI, per-file piece priorities and optional Jellyfin sign-in.
 - [trailarr](https://github.com/nandyalu/trailarr) - Manages trailer downloads for your Radarr and Sonarr libraries.
 - [trailerfin](https://github.com/Pukabyte/trailerfin) - Automatically retrieves and creates STRM links to IMDb trailers and places them in the backdrops folder to view trailers on the details page.
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
