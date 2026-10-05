@@ -102,6 +102,32 @@ A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and
 
 ---
 
+## [SleekFin](https://github.com/varunaditya-plus/SleekFin) by varunaditya-plus
+
+A full reskin of every part of Jellyfin, with a modern black interface and precise customisation through a live UI Builder. [` 🔵 Get this Theme `](https://github.com/varunaditya-plus/SleekFin)
+
+Requires Jellyfin 12.0 and [File Transformation](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation).
+
+<table>
+  <tr>
+    <td>
+      <img src="assets/themes/sleekfin/01-home.png" alt="SleekFin home hero" />
+    </td>
+    <td>
+      <img src="assets/themes/sleekfin/02-playback.jpg" alt="Oppenheimer Trinity explosion in Jellyfin video playback" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/themes/sleekfin/03-series.png" alt="SleekFin series detail page for The Mosquito Coast" />
+    </td>
+    <td>
+      <img src="assets/themes/sleekfin/04-library.png" alt="SleekFin home page library rows" />
+    </td>
+  </tr>
+</table>
+
+---
 ## Themes hidden pending Jellyfin v12 compatibility
 
 In an effort to make sure the themes in this list work with the newest version, the previously listed themes are hidden for now.
