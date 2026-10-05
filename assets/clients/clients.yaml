@@ -869,6 +869,20 @@ clients:
         owner: LouisMarotta
         repo: m7-jellyfin
 
+  - name: "Cadence"
+    targets: [Android]
+    types: [Music]
+    oss: https://github.com/MDaV05/cadence
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: MDaV05
+        repo: cadence
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
