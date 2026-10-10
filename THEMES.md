@@ -77,6 +77,39 @@ A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and
 
 ---
 
+## [ijelly](https://github.com/safiyu/ijelly) by [safiyu](https://github.com/safiyu)
+
+A collection of six themes for Jellyfin Web (Apple TV, Cinematheque Noir, Editorial, Gallery, Blueprint, and Poster-Tinted). [` 🔵 Get this Theme `](https://github.com/safiyu/ijelly)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/apple-library.jpg?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/noir-library.jpg?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/editorial-library.jpg?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/gallery-library.jpg?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/blueprint-library.jpg?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/tinted-library.jpg?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Jellyfish](https://github.com/n00bcodr/Jellyfish) by n00bcodr
 
 [` 🔵 Get this Theme `](https://github.com/n00bcodr/Jellyfish)
