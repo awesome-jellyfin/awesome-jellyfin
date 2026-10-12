@@ -1,0 +1,13 @@
+clients:
+  - name: "RoadSonic"
+    targets: [iOS]
+    types: [Music]
+    official: false
+    beta: false
+    website: https://www.roadsonic.com/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6811639958"
