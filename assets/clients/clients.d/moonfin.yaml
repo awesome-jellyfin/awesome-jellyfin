@@ -1,6 +1,6 @@
 clients:
   - name: "Moonfin"
-    targets: [AndroidTV, Roku, webOS, Tizen, Vega, AppleTV, Browser, Windows, Linux, macOS, iOS, Android]
+    targets: [AndroidTV, Roku, webOS, Tizen, Vega, AppleTV, Xbox, Browser, Windows, Linux, macOS, iOS, Android]
     oss: https://github.com/Moonfin-Client
     official: false    
     price:
@@ -31,3 +31,7 @@ clients:
         type: shield
         icon: Amazon
         url: https://www.amazon.com/Moonfin/dp/B0H76BG3DW
+      - 
+        type: shield
+        label: Microsoft Store
+        url: https://apps.microsoft.com/detail/9plb327dd51d
