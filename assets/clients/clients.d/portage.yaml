@@ -1,0 +1,12 @@
+clients:
+  - name: Portage
+    targets: [iOS, macOS]
+    official: false
+    beta: false
+    website: https://portage.rikard.dev/
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: 6816252844
