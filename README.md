@@ -56,6 +56,7 @@
 - [jellyfin-plugin-ratings](https://github.com/K3ntas/jellyfin-plugin-ratings) - Adds user ratings, card overlays, media requests, deletion workflows, chat, and new media notifications to Jellyfin.
 - [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [Jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - Collections of seasonal themes and animations for Jellyfin.
+- [JellyRoulette](https://github.com/ysflamine/JellyRoulette) - Adds a 3D poster roulette to the web UI header to randomly pick media with advanced filters (genre, unwatched, library). `✅ JF12`
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews. `🔸 Stale`
   <!--lint ignore list-item-indent awesome-list-item-->
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
