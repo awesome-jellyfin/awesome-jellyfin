@@ -51,12 +51,12 @@
 - [jellyfin-plugin-custom-tabs](https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs) - Adds personalized tabs in jellyfin-web for quick access to custom content.
 - [jellyfin-plugin-GetAvatar](https://github.com/cedev-1/jellyfin-plugin-GetAvatar) - Allows users to choose an avatar from a collection of images.
 - [jellyfin-plugin-home-sections](https://github.com/IAmParadox27/jellyfin-plugin-home-sections) - Allows users to customize the jellyfin-web home screen with dynamic sections like "Because You Watched" and "Latest Movies".
-- [JellyRoulette](https://github.com/ysflamine/JellyRoulette) - Adds a 3D poster roulette to the web UI header to randomly pick media with advanced filters (genre, unwatched, library). ✅ JF12
 - [jellyfin-plugin-media-bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar) - A Featured Content Bar to showcase your media collection.
 - [jellyfin-plugin-pages](https://github.com/IAmParadox27/jellyfin-plugin-pages) - Enables other plugins to create custom Jellyfin pages that match the native UI.
 - [jellyfin-plugin-ratings](https://github.com/K3ntas/jellyfin-plugin-ratings) - Adds user ratings, card overlays, media requests, deletion workflows, chat, and new media notifications to Jellyfin.
 - [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [Jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - Collections of seasonal themes and animations for Jellyfin.
+- [JellyRoulette](https://github.com/ysflamine/JellyRoulette) - Adds a 3D poster roulette to the web UI header to randomly pick media with advanced filters (genre, unwatched, library). `✅ JF12`
 - [jellyscrub](https://github.com/nicknsy/jellyscrub) - Smooth mouse-over video scrubbing previews. `🔸 Stale`
   <!--lint ignore list-item-indent awesome-list-item-->
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
