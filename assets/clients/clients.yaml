@@ -335,7 +335,7 @@ clients:
         repo: jellyflix
 
   - name: "Switchfin"
-    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows]
+    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows, PlayStation]
     official: false
     beta: true
     oss: https://github.com/dragonflylee/switchfin
