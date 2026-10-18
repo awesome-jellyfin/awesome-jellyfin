@@ -869,6 +869,20 @@ clients:
         owner: LouisMarotta
         repo: m7-jellyfin
 
+  - name: "Sanctumd"
+    targets: [Android, AndroidTV]
+    oss: https://github.com/Phioster/sanctum_daemon
+    website: https://sanctumd.dpdns.org
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Phioster
+        repo: sanctum_daemon
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
