@@ -223,6 +223,7 @@ To make changes, please edit the `assets/clients/clients.yaml` file and regenera
 | Name | OSS | Free | Paid | Downloads |
 | ---- | --- | ---- | ---- | --------- |
 | [Movian Jellyfin ` 🔹 ` ` ⚒️ `](https://github.com/LouisMarotta/m7-jellyfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/LouisMarotta/m7-jellyfin/total?logo=github&label=GitHub)](https://github.com/LouisMarotta/m7-jellyfin/releases) |
+| [Switchfin ` ⚒️ `](https://github.com/dragonflylee/switchfin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/dragonflylee/switchfin/total?logo=github&label=GitHub)](https://github.com/dragonflylee/switchfin/releases) |
 
 
 ## 📺 TV
