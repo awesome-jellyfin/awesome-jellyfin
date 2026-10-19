@@ -44,7 +44,7 @@
 - [jellyfin-icon-metadata](https://github.com/Druidblack/jellyfin-icon-metadata) - Adds metadata provider icons to Jellyfin.
 - [Jellyfin-JavaScript-Injector](https://github.com/n00bcodr/Jellyfin-JavaScript-Injector) - Injects custom JavaScript into the Jellyfin UI without modifying index.html. `✅ JF12`
 - [jellyfin-media-preview-plugin](https://github.com/spkesDE/jellyfin-media-preview-plugin) - Adds hover previews to Jellyfin Web using Trickplay thumbnails, local trailers, or YouTube trailers. `✅ JF12`
-- [Jellyfin-MonWUI-Plugin](https://github.com/G-grbz/Jellyfin-MonWUI-Plugin) - UI enhancement toolkit for Jellyfin providing customizable sliders, hover trailers, a music player, notifications, and other interface modules.
+- [Jellyfin-MonWUI-Plugin](https://github.com/G-grbz/Jellyfin-MonWUI-Plugin) - UI enhancement toolkit for Jellyfin providing customizable sliders, hover trailers, a music player, notifications, and other interface modules. `🔸 Stale`
 - [Jellyfin.Plugin.ActorPlus](https://github.com/Druidblack/Jellyfin.Plugin.ActorPlus) - Adds additional details and hoverable filmography to actor portraits and displays actor lists when hovering over movie or series posters.
 - [jellyfin-plugin-collection-sections](https://github.com/IAmParadox27/jellyfin-plugin-collection-sections) - Adds additional sections to `jellyfin-plugin-home-sections` for collections and playlists.
 - [jellyfin-plugin-custom-logo](https://github.com/WimWamWom/jellyfin-plugin-custom-logo) - Replaces the splash, header, admin drawer logo and favicon with your own logo and header text, configured from the dashboard. `✅ JF12`
@@ -85,6 +85,7 @@
 
 <!-- sort list:plugins-playback -->
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin. `✅ JF12`
+- [jellyfin-alexa-plugin](https://github.com/paoloantinori/jellyfin-alexa-plugin) - Alexa skill for voice-controlled playback across 17 locales, including live TV, audiobooks with resume, and photo slideshows on Echo Show.
 - [jellyfin-plugin-cinemamode](https://github.com/CherryFloors/jellyfin-plugin-cinemamode) - Enables Jellyfin's Cinema Mode with local trailers and pre-rolls.
 - [jellyfin-plugin-dedupe-continue-watching](https://github.com/SloMR/jellyfin-plugin-dedupe-continue-watching) - Deduplicates the Continue Watching row so each series appears only once, using the most recently played episode.
 - [jellyfin-plugin-discontinue-watching](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching) - Lets you remove items from the Continue Watching list without resetting watch progress, with optional auto-hide after inactivity.
@@ -156,7 +157,7 @@
 - [Jellyfin-Xtream-Library](https://github.com/firestaerter3/Jellyfin-Xtream-Library) - Syncs Xtream VOD and Series content to native Jellyfin libraries via STRM files, with automatic metadata lookup and Live TV support.
 - [JellySTRMprobe](https://github.com/firestaerter3/JellySTRMprobe) - Probes STRM files to extract media information (codec, resolution, duration, audio) that Jellyfin skips during library scans.
 - [media-upload-plugin](https://github.com/GrandguyJS/media-upload-plugin) - Media-manager that provides uploads, bulk downloads from URLs, and directory browsing within Jellyfin. `🔸 Stale`
-- [quality-gate](https://github.com/GeiserX/quality-gate) - Restrict users to specific media versions based on configurable path-based policies, useful for bandwidth management or tiered access. `✅ JF12`
+- [quality-gate](https://github.com/GeiserX/quality-gate) - Restricts each user to a resolution limit between 480p and 4K, checked against the file's actual video stream rather than its filename. `✅ JF12`
 - [smart-covers](https://github.com/GeiserX/smart-covers) - Cover extraction for books, audiobooks, comics, magazines, and music libraries with online fallback via Open Library & Google Books.
 - [whisper-subs](https://github.com/GeiserX/whisper-subs) - Automatically generates subtitles using local AI models powered by Whisper, with all processing on your server.
 
@@ -303,7 +304,7 @@
 - [JellyRoller](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller. `🔹 Beta`
 - [JellySearch](https://gitlab.com/DomiStyle/jellysearch) - A fast full-text search proxy for Jellyfin using Meilisearch.
 - [Jellyswarrm](https://github.com/LLukas22/Jellyswarrm) - Reverse proxy that lets you combine multiple Jellyfin servers into one virtual instance.
-- [quality-gate-encoder](https://github.com/GeiserX/quality-gate-encoder) - Docker-based automatic 720p HEVC/AV1 transcoding service for Jellyfin libraries with NVIDIA and Intel hardware acceleration. Formerly jellyfin-encoder.
+- [quality-gate-encoder](https://github.com/GeiserX/quality-gate-encoder) - Runs alongside your library and makes a 720p HEVC, H.264, or AV1 copy of each file using Intel or NVIDIA GPU, so remote viewers can direct play instead of transcoding live.
 - [Samsung-Jellyfin-Installer](https://github.com/Jellyfin2Samsung/Samsung-Jellyfin-Installer) - Cross-platform tool that helps you install Jellyfin on Samsung Smart TVs running Tizen OS.
 - [Tracearr](https://github.com/connorgallopo/Tracearr) - Real-time Jellyfin monitoring dashboard for tracking streams and detecting account sharing.
 - [Universal Plugin Repo](https://github.com/0belous/universal-plugin-repo) - Consolidates many plugin repositories to create a universal catalogue.
