@@ -47,7 +47,7 @@ clients:
         url: https://jf-vue.pages.dev/
 
   - name: "Pelagica"
-    targets: [Browser, Windows, Linux, macOS, Tizen, WebOS]
+    targets: [Browser, Windows, Linux, macOS, AppleTV, Tizen, WebOS]
     oss: https://github.com/PelagicaApp/pelagica
     official: false
     website: https://pelagica.app/
@@ -56,6 +56,8 @@ clients:
       - type: docker
         user: kartoffelchipss
         repo: pelagica
+      - type: app-store
+        id: "6811079730"
       - type: github
         owner: PelagicaApp
         repo: pelagica
@@ -291,7 +293,7 @@ clients:
     types: [Reader]
     oss: https://github.com/JellyBookOrg/JellyBook
     official: false
-    beta: false 
+    beta: false
     downloads:
       - type: github
         owner: JellyBookOrg
@@ -333,7 +335,7 @@ clients:
         repo: jellyflix
 
   - name: "Switchfin"
-    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows]
+    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows, PlayStation]
     official: false
     beta: true
     oss: https://github.com/dragonflylee/switchfin
@@ -679,7 +681,7 @@ clients:
     downloads:
       - type: google-play
         id: com.hush.yamby
-  
+
   - name: JellySee
     targets: [AppleTV]
     official: false
@@ -690,7 +692,7 @@ clients:
     downloads:
       - type: app-store
         id: "6748783768"
-          
+
   - name: Dee Jellie
     targets: [iOS, AppleTV, macOS]
     types: [Music]
@@ -759,7 +761,7 @@ clients:
   - name: Litefin
     targets: [Tizen, WebOS]
     oss: https://github.com/MoazSalem/litefin
-    official: false    
+    official: false
     price:
       free: true
       paid: false
@@ -777,7 +779,7 @@ clients:
       - type: github
         owner: jellyfin
         repo: jellyfin-web
-  
+
   - name: "Jellium Desktop"
     targets: [Windows, Linux, macOS]
     oss: https://github.com/andrewrabert/jellium-desktop
@@ -810,7 +812,7 @@ clients:
       - type: github
         owner: kontell
         repo: pvr.kofin
-  
+
   - name: "Linthra"
     targets: [Android]
     types: [Music]
@@ -866,6 +868,41 @@ clients:
       - type: github
         owner: LouisMarotta
         repo: m7-jellyfin
+
+  - name: "RoadSonic"
+    targets: [iOS]
+    types: [Music]
+    official: false
+    beta: false
+    website: https://www.roadsonic.com/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6811639958"
+
+  - name: "Strimr"
+    targets: [iOS, macOS, AppleTV]
+    oss: https://github.com/wunax/strimr
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757491271"
+
+  - name: "ReelFin"
+    targets: [iOS, AppleTV]
+    website: https://flovflo.github.io/reelfin-site/
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6762079357"
 
   - name: Meringo
     targets: [Android]

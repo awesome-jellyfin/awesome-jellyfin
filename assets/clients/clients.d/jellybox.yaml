@@ -1,0 +1,19 @@
+clients:
+  - name: "JellyBox"
+    targets: [Windows, macOS, Linux, iOS, Android]
+    types: [Music]
+    oss: https://github.com/avdept/JellyBoxPlayer
+    official: false
+    beta: false
+    website: https://jellybox.app
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6469732117"
+      - type: google-play
+        id: com.prodigytech.jellybox
+      - type: github
+        owner: avdept
+        repo: JellyBoxPlayer

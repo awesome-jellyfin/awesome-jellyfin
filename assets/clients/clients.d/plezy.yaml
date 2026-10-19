@@ -1,0 +1,18 @@
+clients:
+  - name: Plezy
+    targets: [Android, AndroidTV, AppleTV, Linux, Windows, iOS, macOS]
+    official: false
+    beta: false
+    website: https://plezy.app/
+    oss: https://github.com/edde746/plezy
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: github
+        owner: edde746
+        repo: plezy
+      - type: app-store
+        id: 6754315964
+      - type: google-play
+        id: com.edde746.plezy
