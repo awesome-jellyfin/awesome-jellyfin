@@ -85,7 +85,7 @@
 
 <!-- sort list:plugins-playback -->
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin. `✅ JF12`
-- [jellyfin-alexa-plugin](https://github.com/paoloantinori/jellyfin-alexa-plugin) - Full Alexa skill for voice-controlled media playback, search, and library browsing across 17 locales, with audiobook resume, live TV channels, and photo slideshows on Echo Show.
+- [jellyfin-alexa-plugin](https://github.com/paoloantinori/jellyfin-alexa-plugin) - Alexa skill for voice-controlled playback across 17 locales, including live TV, audiobooks with resume, and photo slideshows on Echo Show.
 - [jellyfin-plugin-cinemamode](https://github.com/CherryFloors/jellyfin-plugin-cinemamode) - Enables Jellyfin's Cinema Mode with local trailers and pre-rolls.
 - [jellyfin-plugin-dedupe-continue-watching](https://github.com/SloMR/jellyfin-plugin-dedupe-continue-watching) - Deduplicates the Continue Watching row so each series appears only once, using the most recently played episode.
 - [jellyfin-plugin-discontinue-watching](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching) - Lets you remove items from the Continue Watching list without resetting watch progress, with optional auto-hide after inactivity.
