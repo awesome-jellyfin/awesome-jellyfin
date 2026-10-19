@@ -156,7 +156,7 @@
 - [Jellyfin-Xtream-Library](https://github.com/firestaerter3/Jellyfin-Xtream-Library) - Syncs Xtream VOD and Series content to native Jellyfin libraries via STRM files, with automatic metadata lookup and Live TV support.
 - [JellySTRMprobe](https://github.com/firestaerter3/JellySTRMprobe) - Probes STRM files to extract media information (codec, resolution, duration, audio) that Jellyfin skips during library scans.
 - [media-upload-plugin](https://github.com/GrandguyJS/media-upload-plugin) - Media-manager that provides uploads, bulk downloads from URLs, and directory browsing within Jellyfin. `🔸 Stale`
-- [quality-gate](https://github.com/GeiserX/quality-gate) - Caps the video resolution each user can be served, from 480p to 4K, measured on the file's real video stream, never its filename. `✅ JF12`
+- [quality-gate](https://github.com/GeiserX/quality-gate) - Restricts each user to a resolution limit between 480p and 4K, checked against the file's actual video stream rather than its filename. `✅ JF12`
 - [smart-covers](https://github.com/GeiserX/smart-covers) - Cover extraction for books, audiobooks, comics, magazines, and music libraries with online fallback via Open Library & Google Books.
 - [whisper-subs](https://github.com/GeiserX/whisper-subs) - Automatically generates subtitles using local AI models powered by Whisper, with all processing on your server.
 
@@ -303,7 +303,7 @@
 - [JellyRoller](https://github.com/LSchallot/JellyRoller) - A CLI Jellyfin Controller. `🔹 Beta`
 - [JellySearch](https://gitlab.com/DomiStyle/jellysearch) - A fast full-text search proxy for Jellyfin using Meilisearch.
 - [Jellyswarrm](https://github.com/LLukas22/Jellyswarrm) - Reverse proxy that lets you combine multiple Jellyfin servers into one virtual instance.
-- [quality-gate-encoder](https://github.com/GeiserX/quality-gate-encoder) - Docker-based automatic 720p HEVC/H.264/AV1 transcoding service for Jellyfin libraries with NVIDIA and Intel hardware acceleration. Formerly jellyfin-encoder.
+- [quality-gate-encoder](https://github.com/GeiserX/quality-gate-encoder) - Runs alongside your library and makes a 720p HEVC, H.264, or AV1 copy of each file using Intel or NVIDIA GPU, so remote viewers can direct play instead of transcoding live.
 - [Samsung-Jellyfin-Installer](https://github.com/Jellyfin2Samsung/Samsung-Jellyfin-Installer) - Cross-platform tool that helps you install Jellyfin on Samsung Smart TVs running Tizen OS.
 - [Tracearr](https://github.com/connorgallopo/Tracearr) - Real-time Jellyfin monitoring dashboard for tracking streams and detecting account sharing.
 - [Universal Plugin Repo](https://github.com/0belous/universal-plugin-repo) - Consolidates many plugin repositories to create a universal catalogue.
