@@ -16,6 +16,6 @@ jobs:
     steps:
       - name: Run stale checks
         env:
-          TARGET_URL: "${{ secrets.STALE_CHECK_URL }}&owner=awesome-jellyfin&repo=awesome-jellyfin"
+          TARGET_URL: "${{ secrets.STALE_CHECK_URL }}&owner=awesome-jellyfin&repo=awesome-jellyfin&ping=awesome-jellyfin%2Freview"
         run: |
           curl -fL --retry 3 --max-time 180 "$TARGET_URL"
