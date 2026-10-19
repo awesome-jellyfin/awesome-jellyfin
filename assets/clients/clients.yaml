@@ -293,7 +293,7 @@ clients:
     types: [Reader]
     oss: https://github.com/JellyBookOrg/JellyBook
     official: false
-    beta: false 
+    beta: false
     downloads:
       - type: github
         owner: JellyBookOrg
@@ -681,7 +681,7 @@ clients:
     downloads:
       - type: google-play
         id: com.hush.yamby
-  
+
   - name: JellySee
     targets: [AppleTV]
     official: false
@@ -692,7 +692,7 @@ clients:
     downloads:
       - type: app-store
         id: "6748783768"
-          
+
   - name: Dee Jellie
     targets: [iOS, AppleTV, macOS]
     types: [Music]
@@ -761,7 +761,7 @@ clients:
   - name: Litefin
     targets: [Tizen, WebOS]
     oss: https://github.com/MoazSalem/litefin
-    official: false    
+    official: false
     price:
       free: true
       paid: false
@@ -779,7 +779,7 @@ clients:
       - type: github
         owner: jellyfin
         repo: jellyfin-web
-  
+
   - name: "Jellium Desktop"
     targets: [Windows, Linux, macOS]
     oss: https://github.com/andrewrabert/jellium-desktop
@@ -812,7 +812,7 @@ clients:
       - type: github
         owner: kontell
         repo: pvr.kofin
-  
+
   - name: "Linthra"
     targets: [Android]
     types: [Music]
@@ -868,6 +868,19 @@ clients:
       - type: github
         owner: LouisMarotta
         repo: m7-jellyfin
+
+  - name: "RoadSonic"
+    targets: [iOS]
+    types: [Music]
+    official: false
+    beta: false
+    website: https://www.roadsonic.com/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6811639958"
 
   - name: "Strimr"
     targets: [iOS, macOS, AppleTV]
