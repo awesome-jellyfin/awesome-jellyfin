@@ -894,6 +894,16 @@ clients:
       - type: app-store
         id: "6757491271"
 
+  - name: "ReelFin"
+    targets: [iOS, AppleTV]
+    website: https://flovflo.github.io/reelfin-site/
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6762079357"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
