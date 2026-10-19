@@ -869,6 +869,18 @@ clients:
         owner: LouisMarotta
         repo: m7-jellyfin
 
+  - name: "Strimr"
+    targets: [iOS, macOS, AppleTV]
+    oss: https://github.com/wunax/strimr
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757491271"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
