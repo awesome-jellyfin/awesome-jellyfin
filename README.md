@@ -277,6 +277,7 @@
 - [JellyTunes](https://github.com/oriaflow-labs/jellytunes) - Sync your Jellyfin music library to any USB drive or SD card — with optional FLAC to MP3 conversion.
 - [MusicBrainz-UserScripts](https://github.com/Druidblack/MusicBrainz-UserScripts) - One-click importing of album from Jellyfin into MusicBrainz.
 - [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts YouTube Music playlists to Jellyfin playlists.
+- [Themerr](https://github.com/LizardByte/Themerr) - Theme song manager for Plex and Jellyfin using ThemerrDB.
 
 
 ### 📥 Content Import
