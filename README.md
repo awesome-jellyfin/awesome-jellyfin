@@ -109,7 +109,7 @@
 - [jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz) - Automatically syncs your music activity with ListenBrainz.
 - [jellyfin-plugin-streamyfin](https://github.com/streamyfin/jellyfin-plugin-streamyfin) - Companion plugin for Streamyfin which allows for a centralized configuration of the Streamyfin application.
 - [jellyfin-rpc by *kennethsible*](https://github.com/kennethsible/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
-- [jellyfin-rpc by *Radiicall*](https://github.com/JustRadical/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
+- [jellyfin-rpc by *Radiicall*](https://github.com/JustRadical/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord. `🔸 Stale`
 - [jellynext](https://github.com/luall0/jellynext) - Creates per-user virtual libraries for personalized Trakt recommendations and new seasons.
 - [Moonbase](https://github.com/Moonfin-Client/Plugin) - Companion plugin for Moonfin clients, providing server-side settings sync, integrations, and a hosted Moonfin Web interface.
 - [MyAnimeSync](https://github.com/iankiller77/MyAnimeSync) - Automatically synchronizes anime watching progress between Jellyfin and MyAnimeList.
