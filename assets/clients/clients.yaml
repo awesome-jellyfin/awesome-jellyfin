@@ -293,7 +293,7 @@ clients:
     types: [Reader]
     oss: https://github.com/JellyBookOrg/JellyBook
     official: false
-    beta: false 
+    beta: false
     downloads:
       - type: github
         owner: JellyBookOrg
@@ -335,7 +335,7 @@ clients:
         repo: jellyflix
 
   - name: "Switchfin"
-    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows]
+    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows, PlayStation]
     official: false
     beta: true
     oss: https://github.com/dragonflylee/switchfin
@@ -681,7 +681,7 @@ clients:
     downloads:
       - type: google-play
         id: com.hush.yamby
-  
+
   - name: JellySee
     targets: [AppleTV]
     official: false
@@ -692,7 +692,7 @@ clients:
     downloads:
       - type: app-store
         id: "6748783768"
-          
+
   - name: Dee Jellie
     targets: [iOS, AppleTV, macOS]
     types: [Music]
@@ -761,7 +761,7 @@ clients:
   - name: Litefin
     targets: [Tizen, WebOS]
     oss: https://github.com/MoazSalem/litefin
-    official: false    
+    official: false
     price:
       free: true
       paid: false
@@ -779,7 +779,7 @@ clients:
       - type: github
         owner: jellyfin
         repo: jellyfin-web
-  
+
   - name: "Jellium Desktop"
     targets: [Windows, Linux, macOS]
     oss: https://github.com/andrewrabert/jellium-desktop
@@ -812,7 +812,7 @@ clients:
       - type: github
         owner: kontell
         repo: pvr.kofin
-  
+
   - name: "Linthra"
     targets: [Android]
     types: [Music]
@@ -868,6 +868,53 @@ clients:
       - type: github
         owner: LouisMarotta
         repo: m7-jellyfin
+
+  - name: "RoadSonic"
+    targets: [iOS]
+    types: [Music]
+    official: false
+    beta: false
+    website: https://www.roadsonic.com/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6811639958"
+
+  - name: "Strimr"
+    targets: [iOS, macOS, AppleTV]
+    oss: https://github.com/wunax/strimr
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757491271"
+
+  - name: "ReelFin"
+    targets: [iOS, AppleTV]
+    website: https://flovflo.github.io/reelfin-site/
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6762079357"
+
+  - name: Meringo
+    targets: [Android]
+    types: [Music]
+    official: false
+    website: https://meringo.app
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: google-play
+        id: app.meringo
 
   - name: "Sanctumd"
     targets: [Android, AndroidTV]
