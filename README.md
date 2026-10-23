@@ -93,7 +93,9 @@
 - [jellyfin-plugin-dedupe-continue-watching](https://github.com/SloMR/jellyfin-plugin-dedupe-continue-watching) - Deduplicates the Continue Watching row so each series appears only once, using the most recently played episode.
 - [jellyfin-plugin-discontinue-watching](https://github.com/jon4hz/jellyfin-plugin-discontinue-watching) - Lets you remove items from the Continue Watching list without resetting watch progress, with optional auto-hide after inactivity.
 - [jellyfin-plugin-jellysleep](https://github.com/jon4hz/jellyfin-plugin-jellysleep) - Adds sleep timer functionality to Jellyfin.
+- [jellyfin-plugin-nextup-rewatch](https://github.com/Soviann/jellyfin-plugin-nextup-rewatch) - Intelligently cleans the Next Up carousel by filtering out completed rewatched TV series while preserving active rewatches.
 - [Jellyfin.Plugin.StreamLimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows limiting the number of simultaneous streams per user.
+- [jellyfin-plugin-track-memory](https://github.com/Soviann/jellyfin-plugin-track-memory) - Remembers and restores user audio and subtitle track selections per title and TV series across sessions and Smart TV clients.
 - [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
 - [TheIntroDB](https://github.com/TheIntroDB/jellyfin-plugin) - Community powered database of intro, recap, credits, and preview segments for movies and TV shows.
 
