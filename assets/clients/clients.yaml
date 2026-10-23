@@ -306,6 +306,17 @@ clients:
         label: TestFlight
         url: "https://testflight.apple.com/join/lEXKY4Dl"
 
+  - name: "Nebula Reader"
+    targets: [Windows, Linux, macOS]
+    types: [Reader]
+    oss: https://github.com/NotTimm/NebulaReader
+    official: false
+    beta: false
+    downloads:
+      - type: github
+        owner: NotTimm
+        repo: NebulaReader
+
   - name: "Symfonium"
     targets: [Android]
     types: [Music]
