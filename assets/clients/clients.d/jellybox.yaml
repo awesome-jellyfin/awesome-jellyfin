@@ -1,3 +1,6 @@
+owners:
+  - avdept
+
 clients:
   - name: "JellyBox"
     targets: [Windows, macOS, Linux, iOS, Android]

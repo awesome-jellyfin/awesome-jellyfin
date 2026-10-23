@@ -1,3 +1,7 @@
+owners:
+  - fredrikburmester
+  - retardgerman
+
 clients:
   - name: "Streamyfin"
     targets: [Android, iOS]

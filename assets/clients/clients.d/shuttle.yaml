@@ -1,3 +1,6 @@
+owners:
+  - timusus
+
 clients:
   - name: "Shuttle Music"
     targets: [Android]
