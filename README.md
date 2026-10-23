@@ -326,6 +326,7 @@
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - Collection of modifications and customizations for personalizing Jellyfin.
 - [Jellyfin Notification System](https://github.com/Fahmula/jellyfin-telegram-notifier) - Sends Telegram notifications with media images whenever a new movie, series, season, or episode is added to Jellyfin. `🔸 Stale`
 - [Jellyfin Segment Editor](https://github.com/intro-skipper/segment-editor) - Manage Jellyfin Media Segment positions.
+- [JellyRemote](https://github.com/TeeWare2026/JellyRemote) - Android remote control for Jellyfin with library browsing, resume playback, and artwork-based interface colours.
 - [KefinTweaks](https://github.com/ranaldsgift/KefinTweaks) - Collection of UI enhancements and customization tweaks for Jellyfin.
 - [macos-random-jellyfin-screensaver](https://github.com/ndom91/macos-random-jellyfin-screensaver) - Screensaver for macOS that plays a random Jellyfin item.
 - [MPC-JF](https://github.com/Damocles-fr/MPC-JF) - Launch external media players (MPC-HC, MPC-BE, PotPlayer) from Jellyfin Web or Jellyfin Media Player.
