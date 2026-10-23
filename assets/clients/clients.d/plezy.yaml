@@ -1,3 +1,6 @@
+owners:
+  - edde746
+
 clients:
   - name: Plezy
     targets: [Android, AndroidTV, AppleTV, Linux, Windows, iOS, macOS]

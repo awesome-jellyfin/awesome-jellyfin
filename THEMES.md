@@ -77,6 +77,39 @@ A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and
 
 ---
 
+## [ijelly](https://github.com/safiyu/ijelly) by [safiyu](https://github.com/safiyu)
+
+A collection of six themes for Jellyfin Web (Apple TV, Cinematheque Noir, Editorial, Gallery, Blueprint, and Poster-Tinted). [` 🔵 Get this Theme `](https://github.com/safiyu/ijelly)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/apple-library.jpg?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/noir-library.jpg?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/editorial-library.jpg?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/gallery-library.jpg?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/blueprint-library.jpg?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/safiyu/ijelly/blob/main/screenshots/web/tinted-library.jpg?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Jellyfish](https://github.com/n00bcodr/Jellyfish) by n00bcodr
 
 [` 🔵 Get this Theme `](https://github.com/n00bcodr/Jellyfish)
@@ -102,6 +135,32 @@ A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and
 
 ---
 
+## [SleekFin](https://github.com/varunaditya-plus/SleekFin) by varunaditya-plus
+
+A full reskin of every part of Jellyfin, with a modern black interface and precise customisation through a live UI Builder. [` 🔵 Get this Theme `](https://github.com/varunaditya-plus/SleekFin)
+
+Requires Jellyfin 12.0 and [File Transformation](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation).
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/c1c73946-4b85-452a-af94-3d3b7d4e28e2" alt="SleekFin home hero" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/e4bdc58d-4c62-4633-9d0a-c8b80d9a727b" alt="Oppenheimer Trinity explosion in Jellyfin video playback" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/bd8fef2d-5a17-4349-913f-eca73003d446" alt="SleekFin series detail page for The Mosquito Coast" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/fad95eac-7c83-4140-946e-6668136bea62" alt="SleekFin home page library rows" />
+    </td>
+  </tr>
+</table>
+
+---
 ## Themes hidden pending Jellyfin v12 compatibility
 
 In an effort to make sure the themes in this list work with the newest version, the previously listed themes are hidden for now.
