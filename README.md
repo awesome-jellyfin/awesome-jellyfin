@@ -59,8 +59,6 @@
 - [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [Jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - Collections of seasonal themes and animations for Jellyfin.
 - [JellyFrame](https://github.com/Jellyfin-PG/JellyFrame) - A complete customization and extension framework for Jellyfin. Install community mods and themes from the dashboard, or build your own with a full server-side JavaScript API.
-  <!--lint ignore list-item-indent awesome-list-item-->
-    -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
 - [SeerrFin](https://github.com/varunaditya-plus/SeerrFin) - Discover and request movies and TV shows through Seerr directly from Jellyfin.
 - [StarTrack](https://github.com/ZL154/jellyfin-plugin-startrack) - Adds per-user ratings, watchlists, diaries, lists, and member profiles to Jellyfin, with optional Letterboxd/Trakt/Simkl sync.
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin. `🔸 Stale`
