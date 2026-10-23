@@ -91,6 +91,7 @@
 - [jellyfin-plugin-jellysleep](https://github.com/jon4hz/jellyfin-plugin-jellysleep) - Adds sleep timer functionality to Jellyfin.
 - [Jellyfin.Plugin.StreamLimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows limiting the number of simultaneous streams per user.
 - [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
+- [Tentacle](https://github.com/crisidev/tentacle) - Distributes ffmpeg jobs (transcodes, trickplay, subtitle extraction) from a single Jellyfin server to a fleet of worker machines, with a dashboard and Prometheus metrics. Ships as a plugin plus LinuxServer docker mods.
 - [TheIntroDB](https://github.com/TheIntroDB/jellyfin-plugin) - Community powered database of intro, recap, credits, and preview segments for movies and TV shows.
 
 
