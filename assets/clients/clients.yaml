@@ -512,17 +512,6 @@ clients:
       - type: app-store
         id: "6746067740"
 
-  - name: "Foxy"
-    targets: [Windows, Linux, macOS]
-    types: [Music]
-    oss: https://github.com/Devioxic/Foxy-Desktop
-    official: false
-    beta: false
-    downloads:
-      - type: github
-        owner: Devioxic
-        repo: Foxy-Desktop
-
   - name: "Jelly Music App"
     targets: [Browser, Windows, macOS, Linux]
     types: [Music]
@@ -549,18 +538,6 @@ clients:
         id: com.appsynergyts.phyn
       - type: app-store
         id: "6457674815"
-
-  - name: "Finetic"
-    targets: [Browser]
-    oss: https://github.com/AyaanZaveri/finetic
-    official: false
-    beta: false
-    price:
-      free: true
-    downloads:
-      - type: github
-        owner: AyaanZaveri
-        repo: finetic
 
   - name: "Hills"
     targets: [Windows, Android]
