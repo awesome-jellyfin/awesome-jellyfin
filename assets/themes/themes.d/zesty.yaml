@@ -16,10 +16,12 @@ screenshots:
 variants:
   - id: default
     name: Zesty
-    css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css");
   - id: legacy-10.10
     name: Legacy (Jellyfin 10.10)
-    css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@legacy/v10.10/theme.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@legacy/v10.10/theme.css");
 settings:
   - id: color
     label: Colour scheme
@@ -30,22 +32,29 @@ settings:
         label: Default
       - value: blue
         label: Blue
-        css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css");
       - value: coral
         label: Coral
-        css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css");
       - value: gray
         label: Gray
-        css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css");
       - value: green
         label: Green
-        css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css");
       - value: purple
         label: Purple
-        css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css");
       - value: red
         label: Red
-        css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css");
       - value: yellow
         label: Yellow
-        css: '@import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css");

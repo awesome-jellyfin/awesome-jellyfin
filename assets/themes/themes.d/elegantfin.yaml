@@ -17,7 +17,8 @@ screenshots:
 variants:
   - id: default
     name: ElegantFin
-    css: '@import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
   - id: jf12
     name: ElegantFin for Jellyfin 12 (mihaif7)
     css: |-
@@ -28,4 +29,5 @@ settings:
     label: Media Bar plugin support
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/assets/add-ons/media-bar-plugin-support-latest-min.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/assets/add-ons/media-bar-plugin-support-latest-min.css");

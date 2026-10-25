@@ -14,13 +14,17 @@ screenshots:
 variants:
   - id: winter
     name: Winter
-    css: '@import url("https://evergardentheme.github.io/jellyfin/evergarden-winter.css");'
+    css: |-
+      @import url("https://evergardentheme.github.io/jellyfin/evergarden-winter.css");
   - id: spring
     name: Spring
-    css: '@import url("https://evergardentheme.github.io/jellyfin/evergarden-spring.css");'
+    css: |-
+      @import url("https://evergardentheme.github.io/jellyfin/evergarden-spring.css");
   - id: summer
     name: Summer
-    css: '@import url("https://evergardentheme.github.io/jellyfin/evergarden-summer.css");'
+    css: |-
+      @import url("https://evergardentheme.github.io/jellyfin/evergarden-summer.css");
   - id: fall
     name: Fall
-    css: '@import url("https://evergardentheme.github.io/jellyfin/evergarden-fall.css");'
+    css: |-
+      @import url("https://evergardentheme.github.io/jellyfin/evergarden-fall.css");

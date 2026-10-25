@@ -14,7 +14,9 @@ screenshots:
 variants:
   - id: complete
     name: Complete
-    css: '@import url("https://cdn.jsdelivr.net/gh/prism2001/finity@main/complete/finity-complete.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/prism2001/finity@main/complete/finity-complete.css");
   - id: minimal
     name: Minimal
-    css: '@import url("https://cdn.jsdelivr.net/gh/prism2001/finity@main/minimal/finity-minimal.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/prism2001/finity@main/minimal/finity-minimal.css");

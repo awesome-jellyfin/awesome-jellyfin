@@ -15,40 +15,48 @@ screenshots:
 variants:
   - id: default
     name: Better Jellyfin UI
-    css: '@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/theme.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/theme.css");
 settings:
   - id: floating-header
     label: Floating header
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Floating-header.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Floating-header.css");
   - id: high-contrast
     label: High contrast interface
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/High-contrast-interface.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/High-contrast-interface.css");
   - id: hover-scale
     label: Scale up cards on hover
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Scale-up-animation-on-hover-card.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Scale-up-animation-on-hover-card.css");
   - id: no-glass-borders
     label: No liquid glass borders
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/no-liquid-glass-borders.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/no-liquid-glass-borders.css");
   - id: alt-nav
     label: Alternative navigation bar
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/alternative-navigation-bar.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/alternative-navigation-bar.css");
   - id: no-logo
     label: Remove Jellyfin logo from header
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Remove-jellyfin-logo-from-header.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Remove-jellyfin-logo-from-header.css");
   - id: alt-detail-logo
     label: Alternative detail page logo
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/alternative-detail-logo.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/alternative-detail-logo.css");

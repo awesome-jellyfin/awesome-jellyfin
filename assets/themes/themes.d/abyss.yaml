@@ -18,7 +18,8 @@ screenshots:
 variants:
   - id: default
     name: Abyss
-    css: '@import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/abyss.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/abyss.css");
   - id: lite
     name: Abyss Lite
     css: |-

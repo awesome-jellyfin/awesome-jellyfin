@@ -17,19 +17,25 @@ screenshots:
 variants:
   - id: default
     name: Apple TV
-    css: '@import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly.css");
   - id: noir
     name: Cinematheque Noir
-    css: '@import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_noir.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_noir.css");
   - id: editorial
     name: Editorial
-    css: '@import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_editorial.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_editorial.css");
   - id: gallery
     name: Gallery
-    css: '@import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_gallery.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_gallery.css");
   - id: blueprint
     name: Blueprint
-    css: '@import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_blueprint.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_blueprint.css");
   - id: tinted
     name: Poster-Tinted
-    css: '@import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_tinted.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_tinted.css");

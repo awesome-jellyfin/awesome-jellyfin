@@ -16,7 +16,9 @@ screenshots:
 variants:
   - id: default
     name: infinitv
-    css: '@import url("https://buesche87.github.io/infinitv/infinitv.css");'
+    css: |-
+      @import url("https://buesche87.github.io/infinitv/infinitv.css");
   - id: v12-dev
     name: Jellyfin 12 preview build
-    css: '@import url("https://buesche87.github.io/infinitv/infinitv-dev-v12.css");'
+    css: |-
+      @import url("https://buesche87.github.io/infinitv/infinitv-dev-v12.css");

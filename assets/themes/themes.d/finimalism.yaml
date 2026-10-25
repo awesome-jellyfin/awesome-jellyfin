@@ -12,7 +12,9 @@ screenshots:
 variants:
   - id: v12
     name: For Jellyfin 12
-    css: '@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism12.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism12.css");
   - id: v11
     name: For Jellyfin 10.11
-    css: '@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism11.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism11.css");

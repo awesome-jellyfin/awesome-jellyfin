@@ -15,10 +15,13 @@ screenshots:
 variants:
   - id: monochromic
     name: Monochromic
-    css: '@import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/monochromic_preset.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/monochromic_preset.css");
   - id: kaleidochromic
     name: Kaleidochromic
-    css: '@import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/kaleidochromic_preset.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/kaleidochromic_preset.css");
   - id: novachromic
     name: Novachromic
-    css: '@import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/novachromic_preset.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/novachromic_preset.css");

@@ -19,7 +19,8 @@ screenshots:
 variants:
   - id: default
     name: Scyfin
-    css: '@import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/scyfin-theme.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/scyfin-theme.css");
 settings:
   - id: color
     label: Colour theme
@@ -30,23 +31,29 @@ settings:
         label: Default
       - value: seafoam
         label: Seafoam
-        css: '@import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-seafoam.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-seafoam.css");
       - value: coral
         label: Coral
-        css: '@import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-coral.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-coral.css");
       - value: snow
         label: Snow
-        css: '@import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-snow.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-snow.css");
       - value: oled
         label: OLED
-        css: '@import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-oled.css");'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-oled.css");
   - id: no-static-drawer
     label: Disable static left drawer
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/disable-static-drawer.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/disable-static-drawer.css");
   - id: no-backdrops
     label: Disable backdrops on navigation pages
     type: toggle
     default: false
-    css: '@import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/disable-backdrops-navigation.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/disable-backdrops-navigation.css");

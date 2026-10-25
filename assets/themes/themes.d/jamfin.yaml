@@ -14,7 +14,9 @@ screenshots:
 variants:
   - id: complete
     name: Complete
-    css: '@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/complete.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/complete.css");
   - id: base
     name: Base
-    css: '@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/base.css");'
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/base.css");
