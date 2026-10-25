@@ -95,6 +95,7 @@
 - [Replay Gain](https://github.com/SKProCH/JellyfinReplayGain) - Normalizes audio volume across your media on the fly to maintain a consistent loudness level. `✅ JF12`
 - [Stream Generator](https://github.com/SKProCH/JellyfinStreamGenerator) - Generates customizable, secure HLS stream URLs with isolated tokens and selectable audio or subtitle tracks for external players (e.g. in games). `✅ JF12`
 - [TheIntroDB](https://github.com/TheIntroDB/jellyfin-plugin) - Community powered database of intro, recap, credits, and preview segments for movies and TV shows.
+- [VFQ Auto Selector](https://github.com/samuelloranger/jellyfin-vfq) - Automatically selects Québécois/French Canadian (VFQ) audio tracks on playback, choosing the highest-quality matching track. `✅ JF12`
 
 
 ### 🔗 Integration & Sync
