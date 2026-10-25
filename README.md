@@ -36,6 +36,7 @@
 
 <!-- sort list:plugins-ui -->
 - [Achievement Badges](https://github.com/ZL154/AchievementBadges_for_Jellyfin) - Unlockable viewing achievement badges that gamify Jellyfin with milestones like first watch, binge sessions, and late-night viewing with social features such as group chats and messaging.
+- [Animated Covers](https://github.com/pa-philos/jellyfin-plugin-animated-covers) - Generates lightweight animated WebP movie covers and thumbnails with per-library scoping and static cover overwrite support.
 - [Bonfire](https://github.com/AHouseOfBards/Bonfire-JellyProfiles) - Adds per-user profiles with PINs and a "Who's watching?" screen, including profile sign-in from Android TV and other apps. `✅ JF12`
 - [Custom Cover Art](https://github.com/Bardesss/customcoverart) - A Jellyfin plugin for designing and applying custom cover art to your media libraries. `✅ JF12`
 - [HoverTrailer](https://github.com/Fovty/HoverTrailer) - Displays movie trailers on hover.
