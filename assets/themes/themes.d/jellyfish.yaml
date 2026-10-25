@@ -1,0 +1,110 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - n00bcodr
+name: Jellyfish
+author: n00bcodr
+repo: https://github.com/n00bcodr/Jellyfish
+description: Inspired by Flow, Zesty and Ultrachromic, with a large set of colour schemes.
+status: listed
+screenshots:
+  - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/home.png
+  - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/item-details.png
+  - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login1.png
+  - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login2.png
+variants:
+  - id: default
+    name: Jellyfish
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/jellyfish@main/theme.css");
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/jellyfish@main/indicators.css");
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/jellyfish@main/progress_bar.css");
+settings:
+  - id: color
+    label: Colour scheme
+    type: select
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: aurora
+        label: Aurora
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/aurora.css");
+      - value: banana
+        label: Banana
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/banana.css");
+      - value: coal
+        label: Coal
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/coal.css");
+      - value: coral
+        label: Coral
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/coral.css");
+      - value: forest
+        label: Forest
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/forest.css");
+      - value: grass
+        label: Grass
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/grass.css");
+      - value: jellyblue
+        label: Jellyblue
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/jellyblue.css");
+      - value: jellyflix
+        label: Jellyflix
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/jellyflix.css");
+      - value: jellypurple
+        label: Jellypurple
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/jellypurple.css");
+      - value: lavender
+        label: Lavender
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/lavender.css");
+      - value: liquidglass
+        label: Liquidglass
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/liquidglass.css");
+      - value: midnight
+        label: Midnight
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/midnight.css");
+      - value: mint
+        label: Mint
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/mint.css");
+      - value: ocean
+        label: Ocean
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/ocean.css");
+      - value: peach
+        label: Peach
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/peach.css");
+      - value: watermelon
+        label: Watermelon
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/watermelon.css");
+  - id: lite
+    label: Lite mode (fewer effects)
+    type: toggle
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/lite.css");
+  - id: card-buttons
+    label: Card buttons
+    type: toggle
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/card_buttons.css");
+  - id: scrollbar
+    label: Styled scrollbar
+    type: toggle
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/scrollbar.css");

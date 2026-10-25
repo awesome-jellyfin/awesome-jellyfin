@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - stpnwf
+name: Zesty
+author: stpnwf
+repo: https://github.com/stpnwf/ZestyTheme
+description: A minimal and elegant theme for Jellyfin
+status: hidden
+screenshots:
+  - https://github.com/stpnwf/ZestyTheme/blob/main/images/home.jpg
+  - https://github.com/stpnwf/ZestyTheme/raw/main/images/nice-guys.jpg
+  - https://github.com/stpnwf/ZestyTheme/blob/main/images/avatar.jpg
+  - https://github.com/stpnwf/ZestyTheme/blob/main/images/player.jpg
+  - https://github.com/stpnwf/ZestyTheme/blob/main/images/login.jpg
+  - https://github.com/stpnwf/ZestyTheme/blob/main/images/phone.jpg
+variants:
+  - id: default
+    name: Zesty
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css");
+  - id: legacy-10.10
+    name: Legacy (Jellyfin 10.10)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@legacy/v10.10/theme.css");
+settings:
+  - id: color
+    label: Colour scheme
+    type: select
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: blue
+        label: Blue
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css");
+      - value: coral
+        label: Coral
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css");
+      - value: gray
+        label: Gray
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css");
+      - value: green
+        label: Green
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css");
+      - value: purple
+        label: Purple
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css");
+      - value: red
+        label: Red
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css");
+      - value: yellow
+        label: Yellow
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css");

@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/awesome-jellyfin/awesome-jellyfin/blob/main/assets/themes/schema.json",
+  "title": "awesome-jellyfin theme",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["owners", "name", "author", "repo", "status", "variants"],
+  "properties": {
+    "owners": {
+      "description": "GitHub handles that maintain this file.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^[A-Za-z0-9-]+$" }
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "author": { "type": "string", "minLength": 1 },
+    "author_url": { "type": "string", "pattern": "^https?://" },
+    "repo": { "type": "string", "pattern": "^https?://" },
+    "website": { "type": "string", "pattern": "^https?://" },
+    "description": { "type": "string" },
+    "status": {
+      "description": "listed: shown in THEMES.md. hidden: shown in the collapsed section for themes not yet updated for the current Jellyfin version.",
+      "enum": ["listed", "hidden"]
+    },
+    "note": { "type": "string" },
+    "requires_js": {
+      "description": "The theme needs JavaScript or a plugin, so a CSS-only preview is impossible or partial.",
+      "type": "boolean"
+    },
+    "stale": {
+      "description": "Set by the stale scan. Rendered as the stale tag in THEMES.md.",
+      "type": "boolean"
+    },
+    "screenshots": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^https?://" }
+    },
+    "variants": {
+      "description": "Mutually exclusive versions of the theme. The first one is the default. May be empty only when requires_js is true.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "css"],
+        "properties": {
+          "id": { "$ref": "#/definitions/id" },
+          "name": { "type": "string", "minLength": 1 },
+          "css": { "type": "string", "minLength": 1 },
+          "settings": {
+            "description": "Overrides of setting defaults for this variant: { settingId: value }.",
+            "type": "object",
+            "additionalProperties": { "type": ["string", "number", "boolean"] }
+          }
+        }
+      }
+    },
+    "settings": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          { "$ref": "#/definitions/toggle" },
+          { "$ref": "#/definitions/select" },
+          { "$ref": "#/definitions/color" },
+          { "$ref": "#/definitions/number" }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
+    "toggle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "type", "default", "css"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "type": { "const": "toggle" },
+        "default": { "type": "boolean" },
+        "css": {
+          "description": "Added when the toggle is on.",
+          "type": "string"
+        }
+      }
+    },
+    "select": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "type", "default", "options"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "type": { "const": "select" },
+        "default": { "type": "string" },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["value", "label"],
+            "properties": {
+              "value": { "type": "string" },
+              "label": { "type": "string" },
+              "css": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "color": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "type", "default", "var"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "type": { "const": "color" },
+        "default": { "type": "string" },
+        "var": { "type": "string", "pattern": "^--" }
+      }
+    },
+    "number": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "type", "default", "var"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "type": { "const": "number" },
+        "default": { "type": "number" },
+        "min": { "type": "number" },
+        "max": { "type": "number" },
+        "step": { "type": "number" },
+        "unit": { "type": "string" },
+        "var": { "type": "string", "pattern": "^--" }
+      }
+    }
+  }
+}

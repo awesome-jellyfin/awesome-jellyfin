@@ -37,6 +37,23 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two plain sentences about what the theme looks like or changes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: install-css
+    attributes:
+      label: Install CSS
+      description: The CSS users paste into Jellyfin's Custom CSS, usually one @import line.
+      render: css
+    validations:
+      required: true
+
   - type: checkboxes
     id: type
     attributes:

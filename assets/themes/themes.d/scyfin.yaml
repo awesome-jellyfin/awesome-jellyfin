@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - loof2736
+name: Scyfin
+author: loof2736
+repo: https://github.com/loof2736/scyfin
+description: Custom CSS theme for Jellyfin with support for backdrops and themes
+status: hidden
+screenshots:
+  - https://github.com/loof2736/scyfin/raw/main/images/homepage.png
+  - https://github.com/loof2736/scyfin/raw/main/images/homepage-backdrops.png
+  - https://github.com/loof2736/scyfin/raw/main/images/details.png
+  - https://github.com/loof2736/scyfin/raw/main/images/details-backdrops.png
+  - https://github.com/loof2736/scyfin/raw/main/images/dashboard.png
+  - https://github.com/loof2736/scyfin/raw/main/images/login.png
+  - https://github.com/loof2736/scyfin/raw/main/images/seafoam.png
+  - https://github.com/loof2736/scyfin/raw/main/images/coral.png
+  - https://github.com/loof2736/scyfin/raw/main/images/snow.png
+variants:
+  - id: default
+    name: Scyfin
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/scyfin-theme.css");
+settings:
+  - id: color
+    label: Colour theme
+    type: select
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: seafoam
+        label: Seafoam
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-seafoam.css");
+      - value: coral
+        label: Coral
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-coral.css");
+      - value: snow
+        label: Snow
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-snow.css");
+      - value: oled
+        label: OLED
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-oled.css");
+  - id: no-static-drawer
+    label: Disable static left drawer
+    type: toggle
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/disable-static-drawer.css");
+  - id: no-backdrops
+    label: Disable backdrops on navigation pages
+    type: toggle
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/disable-backdrops-navigation.css");

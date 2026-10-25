@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - lscambo13
+name: ElegantFin
+author: lscambo13
+repo: https://github.com/lscambo13/ElegantFin
+description: Inspired by Jellyseerr, with many small fixes to the UI and UX.
+status: listed
+note: For Jellyfin v12, see https://github.com/mihaif7/elegantfin-jf12
+screenshots:
+  - https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/4.%20Movie%20Page.webp?raw=true
+  - https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/1.%20Homepage.webp?raw=true
+  - https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/3.%20Sidebar.webp?raw=true
+  - https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/9.%20Web%20Player.webp?raw=true
+  - https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/20.%20Live%20TV%20Guide.webp?raw=true
+  - https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/12.%20Movie%20Details.webp?raw=true
+variants:
+  - id: default
+    name: ElegantFin
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
+  - id: jf12
+    name: ElegantFin for Jellyfin 12 (mihaif7)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
+      @import url("https://cdn.jsdelivr.net/gh/mihaif7/elegantfin-jf12@main/Theme/ElegantFin-jf12-modern-latest.css");
+settings:
+  - id: media-bar
+    label: Media Bar plugin support
+    type: toggle
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/assets/add-ons/media-bar-plugin-support-latest-min.css");

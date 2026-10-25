@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - KartoffelChipss
+name: NeutralFin
+author: KartoffelChipss
+repo: https://github.com/KartoffelChipss/NeutralFin
+description: NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look.
+status: hidden
+screenshots:
+  - https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie2.webp
+  - https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-home.webp
+  - https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movies.webp
+  - https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie.webp
+variants:
+  - id: default
+    name: NeutralFin
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/KartoffelChipss/NeutralFin@latest/theme/neutralfin-minified.css");

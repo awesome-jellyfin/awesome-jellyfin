@@ -1,0 +1,70 @@
+# yaml-language-server: $schema=../schema.json
+#
+# Starter file for a new theme. Copy it to themes.d/<name>.yaml (lowercase,
+# hyphenated), replace the placeholders and delete the comments you don't need.
+# Files starting with an underscore are ignored.
+
+# --- Required ---
+
+# GitHub handles of the people who maintain this file (at least one).
+owners:
+  - your-github-handle
+# The theme's display name.
+name: My Theme
+# The author's name.
+author: your-github-handle
+# Link to the theme's repository.
+repo: https://github.com/your-github-handle/my-theme
+# "listed" puts the theme in the normal section of THEMES.md. "hidden" puts it in the
+# collapsed section at the end, for themes not yet updated for the current Jellyfin version.
+status: listed
+# Mutually exclusive versions of the theme. The first one is the default.
+variants:
+  # A short lowercase id (letters, digits, dots, hyphens).
+  - id: default
+    # The name shown for this variant.
+    name: My Theme
+    # The CSS users paste into Jellyfin's Custom CSS, usually @import lines.
+    css: |
+      @import url("https://cdn.jsdelivr.net/gh/your-github-handle/my-theme@main/theme.css");
+
+# --- Optional ---
+
+# Link to the author's profile.
+author_url: https://github.com/your-github-handle
+# Link to the theme's website or demo page.
+website: https://your-github-handle.github.io/my-theme/
+# One or two plain sentences about what the theme looks like.
+description: A dark theme with rounded cards and a compact header.
+# Anything users should know first, for example a required plugin.
+note: Needs the Custom CSS option in the Jellyfin dashboard.
+# Set to true if the theme needs JavaScript or a plugin, so a CSS-only preview is not possible.
+requires_js: false
+# Links to screenshots of the theme.
+screenshots:
+  - https://raw.githubusercontent.com/your-github-handle/my-theme/main/screenshots/home.png
+  - https://raw.githubusercontent.com/your-github-handle/my-theme/main/screenshots/library.png
+
+# Optional add-ons a visitor can switch on in the preview site.
+# Remove the leading "# " to use them.
+# settings:
+#   # A toggle adds its CSS when switched on.
+#   - id: rounded-corners
+#     label: Rounded corners
+#     description: Rounds the corners of posters and cards.
+#     type: toggle
+#     default: false
+#     css: |
+#       .cardImageContainer { border-radius: 12px; }
+#   # A select lets the visitor pick one option. Each option may add CSS.
+#   - id: accent
+#     label: Accent color
+#     type: select
+#     default: blue
+#     options:
+#       - value: blue
+#         label: Blue
+#       - value: green
+#         label: Green
+#         css: |
+#           :root { --accent: #2e8b57; }

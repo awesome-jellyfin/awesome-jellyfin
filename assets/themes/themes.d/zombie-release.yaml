@@ -1,0 +1,70 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - MakD
+name: Zombie
+author: MakD
+author_url: https://github.com/MakD
+repo: https://github.com/MakD/zombie-release
+description: An AMOLED black theme for Jellyfin 12, made for desktop, phones and tablets.
+status: listed
+note: The featured hero on the home page needs the separate Jellyfin Media Bar.
+screenshots:
+  - https://raw.githubusercontent.com/MakD/zombie-release/main/img/desktop/v12-home.jpg
+  - https://raw.githubusercontent.com/MakD/zombie-release/main/img/desktop/v12-movie.jpg
+  - https://raw.githubusercontent.com/MakD/zombie-release/main/img/desktop/v12-home-rows.jpg
+  - https://raw.githubusercontent.com/MakD/zombie-release/main/img/desktop/v12-series.jpg
+variants:
+  - id: default
+    name: Zombie
+    css: |-
+      @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/zombie_revived.css);
+settings:
+  - id: color
+    label: Colour scheme
+    type: select
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: netflix
+        label: Netflix
+        css: |-
+          @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/netflix.css);
+      - value: amazon-prime
+        label: Amazon Prime
+        css: |-
+          @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/amazon-prime.css);
+      - value: apple-tv
+        label: Apple TV
+        css: |-
+          @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/apple-tv.css);
+      - value: disney
+        label: Disney
+        css: |-
+          @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/disney.css);
+      - value: hbo-max
+        label: HBO Max
+        css: |-
+          @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/hbo-max.css);
+      - value: hulu
+        label: Hulu
+        css: |-
+          @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/hulu.css);
+      - value: youtube
+        label: YouTube
+        css: |-
+          @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/color-schemes/youtube.css);
+  - id: card-buttons
+    label: Card buttons on hover
+    description: Brings back the mark played and favourite buttons on cards. Desktop only.
+    type: toggle
+    default: false
+    css: |-
+      @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/modules/card-buttons.css);
+  - id: detail-buttons
+    label: Outlined detail buttons
+    description: Adds an outline to the buttons on movie and show pages.
+    type: toggle
+    default: false
+    css: |-
+      @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/modules/detail-buttons.css);
