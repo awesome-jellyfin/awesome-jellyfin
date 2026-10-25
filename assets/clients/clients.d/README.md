@@ -18,6 +18,7 @@ Each file starts with an `owners` field listing the GitHub handles of the client
 followed by a `clients` list with the same shape as the `clients` section of `clients.yaml` (see the [format documentation](../README.md)):
 
 ```yaml
+# yaml-language-server: $schema=../schema.json
 owners:
   - my-github-handle
   - co-maintainer

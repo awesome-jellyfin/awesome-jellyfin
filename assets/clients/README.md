@@ -1,6 +1,8 @@
 # Jellyfin Client YAML Configuration Format
 
-This configuration file is used by the [Markdown generator](https://github.com/awesome-jellyfin/clients-md-generator) to produce the Clients list.
+The [bot](https://github.com/awesome-jellyfin/bot) generates `CLIENTS.md` from `clients.yaml`, the files in [`clients.d`](clients.d/README.md) and the template [`CLIENTS.md.tmpl`](CLIENTS.md.tmpl).
+
+[`schema.json`](schema.json) describes the format of `clients.yaml` and the `clients.d` files. Editors that support the `yaml-language-server` comment at the top of each file use it to check fields and suggest values as you type.
 
 ---
 
