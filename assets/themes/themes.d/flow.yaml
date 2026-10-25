@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - LitCastVlog
+name: Flow
+author: LitCastVlog
+repo: https://github.com/LitCastVlog/Flow
+description: Inspired by Plex and built on Scyfin and Ultrachromic.
+status: hidden
+screenshots:
+  - https://github.com/LitCastVlog/Flow/raw/main/images/screen.jpg
+  - https://github.com/LitCastVlog/Flow/raw/main/images/details.png
+  - https://github.com/LitCastVlog/Flow/raw/main/images/episodegrid-outline.gif
+  - https://github.com/LitCastVlog/Flow/raw/main/images/blue.png
+variants:
+  - id: default
+    name: Flow
+    css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-main.css");'
+settings:
+  - id: color
+    label: Colour
+    type: select
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: orange
+        label: Orange
+        css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-Orange.css");'
+      - value: pink
+        label: Pink
+        css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-Pink.css");'
+      - value: rainbow
+        label: Rainbow
+        css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-Rainbow.css");'
+      - value: red
+        label: Red
+        css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-Red.css");'
+      - value: white
+        label: White
+        css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-White.css");'
+      - value: blue
+        label: Blue
+        css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-Blue.css");'
+      - value: dark
+        label: Dark
+        css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-Dark.css");'
+  - id: extras
+    label: Extras (smaller cast and crew)
+    type: toggle
+    default: false
+    css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Extras.css");'
+  - id: round-cast
+    label: Round cast and crew
+    type: toggle
+    default: false
+    css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFLow-RoundCastCrew.css");'
+  - id: episode-grid
+    label: Episode grid
+    type: toggle
+    default: false
+    css: '@import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-EpisodeGrid.css");'

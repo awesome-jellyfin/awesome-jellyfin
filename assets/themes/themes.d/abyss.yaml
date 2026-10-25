@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - AumGupta
+name: Abyss
+author: AumGupta
+author_url: https://github.com/AumGupta
+repo: https://github.com/AumGupta/abyss-jellyfin
+website: https://aumgupta.github.io/abyss-jellyfin/
+description: A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on.
+status: listed
+screenshots:
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_1.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_2.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_3.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_4.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_5.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_6.png?raw=true
+variants:
+  - id: default
+    name: Abyss
+    css: '@import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/abyss.css");'
+  - id: lite
+    name: Abyss Lite
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/abyss.css");
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/styles/abyss-lite.css");

@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - buesche87
+name: infinitv
+author: buesche87
+repo: https://github.com/buesche87/infinitv
+description: A theme for Jellyfin, with a work-in-progress build for Jellyfin 12.
+status: hidden
+screenshots:
+  - https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-home.png
+  - https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-library.png
+  - https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-series.png
+  - https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-episodes.png
+  - https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-movie.png
+  - https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-player.png
+variants:
+  - id: default
+    name: infinitv
+    css: '@import url("https://buesche87.github.io/infinitv/infinitv.css");'
+  - id: v12-dev
+    name: Jellyfin 12 preview build
+    css: '@import url("https://buesche87.github.io/infinitv/infinitv-dev-v12.css");'

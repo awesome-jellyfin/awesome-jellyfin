@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - CTalvio
+name: Ultrachromic
+author: CTalvio
+repo: https://github.com/CTalvio/Ultrachromic
+description: The final form, the true evolution of the chromic theme saga
+status: hidden
+note: "There are several variations of the theme, for a more detailed overview, see the Ultrachromic README: https://github.com/CTalvio/Ultrachromic#readme"
+screenshots:
+  - https://user-images.githubusercontent.com/4365015/127774204-03957527-7178-4ea2-8674-d83fe6a97d1c.png
+  - https://user-images.githubusercontent.com/4365015/127768733-c86aee2c-3bff-4b78-be54-003823d60276.png
+  - https://user-images.githubusercontent.com/4365015/127768970-e827c7e4-f4ce-4229-a68a-b2e87a723ef0.png
+  - https://user-images.githubusercontent.com/4365015/127778994-ddee8235-6bb2-42ae-a8b1-f9023dc69398.png
+variants:
+  - id: monochromic
+    name: Monochromic
+    css: '@import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/monochromic_preset.css");'
+  - id: kaleidochromic
+    name: Kaleidochromic
+    css: '@import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/kaleidochromic_preset.css");'
+  - id: novachromic
+    name: Novachromic
+    css: '@import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/novachromic_preset.css");'

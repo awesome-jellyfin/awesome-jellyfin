@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - tedhinklater
+name: Finimalism
+author: tedhinklater
+repo: https://github.com/tedhinklater/finimalism
+description: A minimal theme with separate builds for Jellyfin 10.11 and 12.
+status: hidden
+screenshots:
+  - https://github.com/user-attachments/assets/caaa8d3a-c3f1-46d7-8a51-4ba6f08c047f
+  - https://github.com/user-attachments/assets/b2c1e0ca-0304-47d6-b4cc-3f77ac83f806
+variants:
+  - id: v12
+    name: For Jellyfin 12
+    css: '@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism12.css");'
+  - id: v11
+    name: For Jellyfin 10.11
+    css: '@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism11.css");'

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - ya0903
+name: NetFin
+author: ya0903
+repo: https://github.com/ya0903/NetFin
+description: A cinematic Netflix-inspired theme with deep dark visuals, refined hover effects, and a focus on poster artwork.
+status: hidden
+screenshots:
+  - https://github.com/user-attachments/assets/5eee060a-0c1d-4ab3-8b64-027251973997
+  - https://github.com/user-attachments/assets/adc6ae25-6687-43b9-aa19-3319794c297b
+  - https://github.com/user-attachments/assets/192bd752-be1a-462d-a9f2-088f61940f4a
+  - https://github.com/user-attachments/assets/69d1e032-e99e-4fdf-af4e-428d7e81252b
+variants:
+  - id: default
+    name: NetFin
+    css: '@import url("https://cdn.jsdelivr.net/gh/ya0903/NetFin@main/netfin.css");'

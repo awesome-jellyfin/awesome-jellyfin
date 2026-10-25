@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - prism2001
+name: Finity
+author: prism2001
+repo: https://github.com/prism2001/finity
+description: A modern dark theme in two editions, complete and minimal.
+status: hidden
+screenshots:
+  - https://github.com/prism2001/finity/raw/main/screenshots/home_featured.png
+  - https://github.com/prism2001/finity/raw/main/screenshots/home_drawers.png
+  - https://github.com/prism2001/finity/raw/main/screenshots/show_season.png
+  - https://github.com/prism2001/finity/raw/main/screenshots/movie.png
+variants:
+  - id: complete
+    name: Complete
+    css: '@import url("https://cdn.jsdelivr.net/gh/prism2001/finity@main/complete/finity-complete.css");'
+  - id: minimal
+    name: Minimal
+    css: '@import url("https://cdn.jsdelivr.net/gh/prism2001/finity@main/minimal/finity-minimal.css");'

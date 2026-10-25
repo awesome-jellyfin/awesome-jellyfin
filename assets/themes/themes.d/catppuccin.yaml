@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - catppuccin
+name: Catppuccin
+author: catppuccin
+repo: https://github.com/catppuccin/jellyfin
+description: The pastel Catppuccin palette, in all four flavours.
+status: hidden
+screenshots:
+  - https://github.com/catppuccin/jellyfin/raw/main/assets/latte.webp
+  - https://github.com/catppuccin/jellyfin/raw/main/assets/frappe.webp
+  - https://github.com/catppuccin/jellyfin/raw/main/assets/macchiato.webp
+  - https://github.com/catppuccin/jellyfin/raw/main/assets/mocha.webp
+variants:
+  - id: mocha
+    name: Mocha
+    css: |-
+      @import url("https://jellyfin.catppuccin.com/theme.css");
+      @import url("https://jellyfin.catppuccin.com/catppuccin-mocha.css");
+  - id: macchiato
+    name: Macchiato
+    css: |-
+      @import url("https://jellyfin.catppuccin.com/theme.css");
+      @import url("https://jellyfin.catppuccin.com/catppuccin-macchiato.css");
+  - id: frappe
+    name: Frappé
+    css: |-
+      @import url("https://jellyfin.catppuccin.com/theme.css");
+      @import url("https://jellyfin.catppuccin.com/catppuccin-frappe.css");
+  - id: latte
+    name: Latte
+    css: |-
+      @import url("https://jellyfin.catppuccin.com/theme.css");
+      @import url("https://jellyfin.catppuccin.com/catppuccin-latte.css");

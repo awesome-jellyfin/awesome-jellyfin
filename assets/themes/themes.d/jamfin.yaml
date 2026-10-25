@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - JamsRepos
+name: Jamfin
+author: JamsRepos
+repo: https://github.com/JamsRepos/Jamfin
+description: Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics.
+status: hidden
+screenshots:
+  - https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/home.jpg
+  - https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/details.jpg
+  - https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/library.jpg
+  - https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/admin.jpg
+variants:
+  - id: complete
+    name: Complete
+    css: '@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/complete.css");'
+  - id: base
+    name: Base
+    css: '@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/base.css");'

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - evergardentheme
+name: Evergarden
+author: evergardentheme
+repo: https://github.com/evergardentheme/jellyfin
+description: A cozy, muted palette with one variant for each season.
+status: hidden
+screenshots:
+  - https://github.com/evergardentheme/jellyfin/raw/main/assets/summer.webp
+  - https://github.com/evergardentheme/jellyfin/raw/main/assets/spring.webp
+  - https://github.com/evergardentheme/jellyfin/raw/main/assets/fall.webp
+  - https://github.com/evergardentheme/jellyfin/raw/main/assets/winter.webp
+variants:
+  - id: winter
+    name: Winter
+    css: '@import url("https://evergardentheme.github.io/jellyfin/evergarden-winter.css");'
+  - id: spring
+    name: Spring
+    css: '@import url("https://evergardentheme.github.io/jellyfin/evergarden-spring.css");'
+  - id: summer
+    name: Summer
+    css: '@import url("https://evergardentheme.github.io/jellyfin/evergarden-summer.css");'
+  - id: fall
+    name: Fall
+    css: '@import url("https://evergardentheme.github.io/jellyfin/evergarden-fall.css");'
