@@ -1,0 +1,234 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/awesome-jellyfin/awesome-jellyfin/blob/main/assets/clients/schema.json",
+  "title": "awesome-jellyfin clients",
+  "description": "clients.yaml (clients, targets and types) or a file in clients.d (owners and clients).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["clients"],
+  "properties": {
+    "owners": {
+      "description": "clients.d only: GitHub handles of the people who maintain this file.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "clients": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/client" }
+    },
+    "targets": {
+      "description": "clients.yaml only: the environments CLIENTS.md is grouped by.",
+      "type": "array",
+      "items": { "$ref": "#/definitions/targetGroup" }
+    },
+    "types": {
+      "description": "clients.yaml only: client types such as Music, with their badge.",
+      "type": "array",
+      "items": { "$ref": "#/definitions/type" }
+    }
+  },
+  "anyOf": [
+    { "required": ["owners"], "not": { "anyOf": [{ "required": ["targets"] }, { "required": ["types"] }] } },
+    { "required": ["targets", "types"], "not": { "required": ["owners"] } }
+  ],
+  "definitions": {
+    "url": { "type": "string", "pattern": "^https?://" },
+    "client": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "targets", "downloads"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "targets": {
+          "description": "Target names from the targets section of clients.yaml, e.g. Windows, Android, AppleTV.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "types": {
+          "description": "Type keys from the types section of clients.yaml, e.g. Music or Reader.",
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "official": {
+          "description": "Shows the official badge. Defaults to true when oss is in the jellyfin GitHub organization.",
+          "type": "boolean"
+        },
+        "beta": { "description": "Shows the beta badge.", "type": "boolean" },
+        "website": {
+          "description": "Where the name links to. Defaults to oss.",
+          "$ref": "#/definitions/url"
+        },
+        "oss": { "description": "Source code repository, if the client is open source.", "$ref": "#/definitions/url" },
+        "price": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "free": { "description": "Defaults to true when oss is set.", "type": "boolean" },
+            "paid": { "description": "There is a paid version or purchase.", "type": "boolean" }
+          }
+        },
+        "downloads": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/download" }
+        }
+      }
+    },
+    "download": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "enum": ["github", "gitlab", "flathub", "docker", "app-store", "google-play", "shield", "demo", "icon", "text"]
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "github" } } },
+          "then": {
+            "additionalProperties": false,
+            "required": ["owner", "repo"],
+            "properties": {
+              "type": true,
+              "owner": { "type": "string" },
+              "repo": { "type": "string" },
+              "url": { "description": "Defaults to the releases page.", "$ref": "#/definitions/url" },
+              "label": { "description": "Overrides the label on the badge.", "type": "string" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "gitlab" } } },
+          "then": {
+            "additionalProperties": false,
+            "anyOf": [{ "required": ["owner", "repo"] }, { "required": ["url"] }],
+            "properties": {
+              "type": true,
+              "owner": { "type": "string" },
+              "repo": { "type": "string" },
+              "url": { "$ref": "#/definitions/url" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "flathub" } } },
+          "then": {
+            "additionalProperties": false,
+            "required": ["package"],
+            "properties": {
+              "type": true,
+              "package": { "description": "Flatpak app ID, e.g. org.jellyfin.JellyfinDesktop.", "type": "string" },
+              "url": { "$ref": "#/definitions/url" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "docker" } } },
+          "then": {
+            "additionalProperties": false,
+            "required": ["user", "repo"],
+            "properties": {
+              "type": true,
+              "user": { "type": "string" },
+              "repo": { "type": "string" },
+              "url": { "$ref": "#/definitions/url" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "enum": ["app-store", "google-play"] } } },
+          "then": {
+            "additionalProperties": false,
+            "anyOf": [{ "required": ["id"] }, { "required": ["url"] }],
+            "properties": {
+              "type": true,
+              "id": {
+                "description": "App Store ID (digits, in quotes) or Google Play package name.",
+                "type": "string"
+              },
+              "url": { "$ref": "#/definitions/url" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "shield" } } },
+          "then": {
+            "additionalProperties": false,
+            "required": ["url"],
+            "properties": {
+              "type": true,
+              "url": { "$ref": "#/definitions/url" },
+              "label": { "type": "string" },
+              "content": { "type": "string" },
+              "icon": { "description": "A Simple Icons name, e.g. F-Droid.", "type": "string" },
+              "color": { "type": "string" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "demo" } } },
+          "then": {
+            "additionalProperties": false,
+            "required": ["url"],
+            "properties": { "type": true, "url": { "$ref": "#/definitions/url" } }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "icon" } } },
+          "then": {
+            "additionalProperties": false,
+            "required": ["icon", "url"],
+            "properties": {
+              "type": true,
+              "icon": { "description": "File name in assets/clients/icons, without .png.", "type": "string" },
+              "url": { "$ref": "#/definitions/url" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "text" } } },
+          "then": {
+            "additionalProperties": false,
+            "required": ["text", "url"],
+            "properties": { "type": true, "text": { "type": "string" }, "url": { "$ref": "#/definitions/url" } }
+          }
+        }
+      ]
+    },
+    "targetGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "display", "has"],
+      "properties": {
+        "key": { "type": "string" },
+        "display": { "description": "Heading in CLIENTS.md.", "type": "string" },
+        "has": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "mapped"],
+            "properties": {
+              "name": { "description": "What clients list in targets (case-insensitive).", "type": "string" },
+              "mapped": { "description": "Heading in CLIENTS.md.", "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "type": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key"],
+      "properties": {
+        "key": { "type": "string" },
+        "badge": { "type": "string" },
+        "display": { "description": "Defaults to key.", "type": "string" },
+        "section": { "description": "Gives the type its own section in CLIENTS.md.", "type": "boolean" }
+      }
+    }
+  }
+}
