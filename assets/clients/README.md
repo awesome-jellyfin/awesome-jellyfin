@@ -95,6 +95,10 @@ Here:
 - It supports `iOS` and `AppleTV`.
 - There’s a single download link, an App Store badge, referencing the app ID `1604098728`.
 
+### Clients in `clients.d`
+
+Some clients live in their own file in [`clients.d`](clients.d/README.md) instead of `clients.yaml`, so their developers can maintain them directly. Those files have a top-level `owners` list with the GitHub handles of the client's maintainers, plus a `clients` list that gets merged with `clients.yaml` when the list is generated. **Please do not add new clients there unless we ask you to.** The details are in [`clients.d/README.md`](clients.d/README.md).
+
 ---
 
 ## 2. `targets` Section
