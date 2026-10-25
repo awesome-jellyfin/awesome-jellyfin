@@ -1,0 +1,17 @@
+owners:
+  - timusus
+
+clients:
+  - name: "Shuttle Music"
+    targets: [Android]
+    types: [Music]
+    official: false
+    beta: false
+    website: https://shuttlemusicplayer.com
+    oss: https://github.com/timusus/Shuttle2
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: com.simplecityapps.shuttle
