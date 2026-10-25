@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=../schema.json
 owners:
   - fredrikburmester
   - retardgerman

@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=./schema.json
 clients:
   - name: "Jellyfin Media Player"
     targets: [Windows, Linux, macOS]
@@ -329,7 +330,7 @@ clients:
       - type: demo
         url: https://jellyflix.kiejon.com/
       - type: app-store
-        id: 6476043683
+        id: "6476043683"
       - type: github
         owner: jellyflix-app
         repo: jellyflix
