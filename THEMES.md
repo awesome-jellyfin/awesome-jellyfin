@@ -153,18 +153,18 @@ A full reskin of every part of Jellyfin, with a modern black interface and preci
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/c1c73946-4b85-452a-af94-3d3b7d4e28e2" />
+      <img src="https://raw.githubusercontent.com/varunaditya-plus/awesome-jellyfin/473c8c43dc13f59f91a790d13d96882d296312e2/screenshots/sleekfin/01-home-the-gentlemen.webp" />
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/e4bdc58d-4c62-4633-9d0a-c8b80d9a727b" />
+      <img src="https://raw.githubusercontent.com/varunaditya-plus/awesome-jellyfin/473c8c43dc13f59f91a790d13d96882d296312e2/screenshots/sleekfin/02-inception.webp" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/bd8fef2d-5a17-4349-913f-eca73003d446" />
+      <img src="https://raw.githubusercontent.com/varunaditya-plus/awesome-jellyfin/473c8c43dc13f59f91a790d13d96882d296312e2/screenshots/sleekfin/03-mr-robot.webp" />
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/fad95eac-7c83-4140-946e-6668136bea62" />
+      <img src="https://raw.githubusercontent.com/varunaditya-plus/awesome-jellyfin/473c8c43dc13f59f91a790d13d96882d296312e2/screenshots/sleekfin/04-movies.webp" />
     </td>
   </tr>
 </table>
