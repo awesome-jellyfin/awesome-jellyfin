@@ -232,6 +232,7 @@ settings:
     group: other
     default: ""
     placeholder: Sign In
+    page: login
     css: |-
       :root {
         --loginPageText: "{{ value }}";

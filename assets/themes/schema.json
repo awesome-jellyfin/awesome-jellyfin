@@ -105,7 +105,7 @@
         "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide"]
+          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -137,7 +137,7 @@
         "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide"]
+          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -184,7 +184,7 @@
         "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide"]
+          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -225,7 +225,7 @@
         "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide"]
+          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -300,7 +300,7 @@
         "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide"]
+          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -337,7 +337,7 @@
         "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide"]
+          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -372,7 +372,7 @@
         "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide"]
+          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",

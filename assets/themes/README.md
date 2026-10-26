@@ -42,16 +42,16 @@ Settings are what a visitor can change on top of the chosen variant in the [prev
 
 Every setting has an `id` (lowercase letters, digits, dots and hyphens), a `label` and a `type`. All but presets have a `default`. Optional on every setting:
 
-| Field         | What it does                                                                                                                                                                     |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `description` | A line under the label.                                                                                                                                                          |
-| `group`       | The `id` of a group in `groups`. Groups are shown as sections, in the order of `groups`. Settings without a group come first.                                                    |
-| `variants`    | Variant ids the setting is for, e.g. options that only make sense with a "Custom" variant. It is hidden on the other variants.                                                   |
-| `when`        | Show the setting only while another one has (`is`) or doesn't have (`not`) a value, e.g. `setting: palette` with `is: custom`. Takes a value or a list.                          |
-| `tags`        | Small labels: `needs-plugin`, `not-in-preview`, `opinionated`, `experimental`.                                                                                                   |
-| `page`        | The preview page that shows the setting best (`home`, `movies`, `movie`, `shows`, `series`, `season`, `playlists`, `playlist`, `guide`). Changing it switches the preview there. |
-| `last`        | `true` puts the setting's `@import` lines after all others, for files that must load last.                                                                                       |
-| `display`     | How the control looks, see the table below.                                                                                                                                      |
+| Field         | What it does                                                                                                                                                                              |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `description` | A line under the label.                                                                                                                                                                   |
+| `group`       | The `id` of a group in `groups`. Groups are shown as sections, in the order of `groups`. Settings without a group come first.                                                             |
+| `variants`    | Variant ids the setting is for, e.g. options that only make sense with a "Custom" variant. It is hidden on the other variants.                                                            |
+| `when`        | Show the setting only while another one has (`is`) or doesn't have (`not`) a value, e.g. `setting: palette` with `is: custom`. Takes a value or a list.                                   |
+| `tags`        | Small labels: `needs-plugin`, `not-in-preview`, `opinionated`, `experimental`.                                                                                                            |
+| `page`        | The preview page that shows the setting best (`home`, `movies`, `movie`, `shows`, `series`, `season`, `playlists`, `playlist`, `guide`, `login`). Changing it switches the preview there. |
+| `last`        | `true` puts the setting's `@import` lines after all others, for files that must load last.                                                                                                |
+| `display`     | How the control looks, see the table below.                                                                                                                                               |
 
 | Type     | Needs                                                                                                    | `default`                 | `display`                                              |
 | -------- | -------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------ |

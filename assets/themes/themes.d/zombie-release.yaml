@@ -177,6 +177,7 @@ settings:
     type: toggle
     group: login
     default: false
+    page: login
     css: |
 
   - id: login-image-url
@@ -187,6 +188,7 @@ settings:
       setting: login-image
       is: true
     default: https://raw.githubusercontent.com/MakD/zombie-release/main/img/desktop/v12-home.jpg
+    page: login
     css: |-
       :root {
         --zombieLoginImage: url("{{ value }}");

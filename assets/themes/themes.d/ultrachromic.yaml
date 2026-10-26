@@ -142,6 +142,7 @@ settings:
         label: Framed
         css: |-
           @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_frame.css");
+    page: login
   - id: fields
     label: Input fields
     type: select
