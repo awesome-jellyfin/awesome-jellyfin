@@ -28,3 +28,103 @@ variants:
     name: Fall
     css: |-
       @import url("https://evergardentheme.github.io/jellyfin/evergarden-fall.css");
+settings:
+  - id: accent
+    label: Accent
+    description: The swatches show Winter's shades.
+    type: select
+    display: swatches
+    default: green
+    options:
+      - value: red
+        label: Red
+        swatch:
+          - "#f57f82"
+        css: |-
+          :root {
+            --main-color: var(--red);
+          }
+      - value: orange
+        label: Orange
+        swatch:
+          - "#f7a182"
+        css: |-
+          :root {
+            --main-color: var(--orange);
+          }
+      - value: yellow
+        label: Yellow
+        swatch:
+          - "#f5d098"
+        css: |-
+          :root {
+            --main-color: var(--yellow);
+          }
+      - value: lime
+        label: Lime
+        swatch:
+          - "#dbe6af"
+        css: |-
+          :root {
+            --main-color: var(--lime);
+          }
+      - value: green
+        label: Green
+        swatch:
+          - "#cbe3b3"
+      - value: aqua
+        label: Aqua
+        swatch:
+          - "#b3e3ca"
+        css: |-
+          :root {
+            --main-color: var(--aqua);
+          }
+      - value: skye
+        label: Skye
+        swatch:
+          - "#b3e6db"
+        css: |-
+          :root {
+            --main-color: var(--skye);
+          }
+      - value: snow
+        label: Snow
+        swatch:
+          - "#afd9e6"
+        css: |-
+          :root {
+            --main-color: var(--snow);
+          }
+      - value: blue
+        label: Blue
+        swatch:
+          - "#b2caed"
+        css: |-
+          :root {
+            --main-color: var(--blue);
+          }
+      - value: purple
+        label: Purple
+        swatch:
+          - "#d2bdf3"
+        css: |-
+          :root {
+            --main-color: var(--purple);
+          }
+      - value: pink
+        label: Pink
+        swatch:
+          - "#f3c0e5"
+        css: |-
+          :root {
+            --main-color: var(--pink);
+          }
+      - value: cherry
+        label: Cherry
+        swatch:
+          - "#fae6ef"
+        css: |-
+          :root {
+            --main-color: var(--cherry);
+          }

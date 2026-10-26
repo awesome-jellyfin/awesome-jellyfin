@@ -20,3 +20,165 @@ variants:
     name: Base
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/base.css");
+groups:
+  - id: colours
+    label: Colours
+  - id: appearance
+    label: Appearance
+  - id: modules
+    label: Modules
+    description: Part of the complete edition already; add them to the base edition one by one.
+settings:
+  - id: background
+    label: Background
+    type: color
+    group: colours
+    default: "#101010"
+    var: --theme-background-colour
+  - id: sidebar
+    label: Sidebar
+    type: color
+    group: colours
+    default: "#222222"
+    var: --theme-sidebar-background-colour
+  - id: base
+    label: Base
+    type: color
+    group: colours
+    default: "#696969"
+    var: --theme-base-colour
+  - id: hover
+    label: Hover
+    type: color
+    group: colours
+    default: "#dbdbdb"
+    var: --theme--hover-colour
+  - id: progress
+    label: Progress bar
+    type: color
+    group: colours
+    default: "#cfcfcf"
+    var: --theme-progress-bar-colour
+  - id: progress-background
+    label: Progress bar background
+    type: color
+    group: colours
+    default: "#2c2c2c"
+    var: --theme-progress-bar-background-colour
+  - id: transcoding
+    label: Transcoding progress
+    type: color
+    group: colours
+    default: "#eb7e25"
+    var: --theme-progress-bar-transcoding-colour
+  - id: roundness
+    label: Corner radius
+    type: number
+    group: appearance
+    page: home
+    default: 0.75
+    min: 0
+    max: 2
+    step: 0.05
+    unit: rem
+    var: --theme-roundness
+  - id: blur
+    label: Blur
+    type: number
+    group: appearance
+    default: 16
+    min: 0
+    max: 40
+    step: 1
+    unit: px
+    var: --theme-blur
+  - id: central-libraries-small
+    label: Smaller centred library buttons
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/central-libraries-small.css");
+  - id: change-logo
+    label: Jamfin logo
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/change-logo.css");
+  - id: count-indicators
+    label: Count indicators
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/count-indicators.css");
+  - id: floating-progress
+    label: Floating progress bar
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/floating-progress.css");
+  - id: forgot-password
+    label: Hide "Forgot password"
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/forgot-password.css");
+  - id: hide-my-media
+    label: Hide "My Media"
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/hide-my-media.css");
+  - id: moving-cards
+    label: Moving cards on hover
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/moving-cards.css");
+  - id: smaller-cast
+    label: Smaller cast and crew
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/smaller-cast.css");
+  - id: static-sidebar
+    label: Static sidebar
+    type: toggle
+    group: modules
+    variants:
+      - base
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/static-sidebar.css");

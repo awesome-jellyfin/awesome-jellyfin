@@ -18,3 +18,75 @@ variants:
     name: For Jellyfin 10.11
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism11.css");
+    settings:
+      accent: "#8564ff"
+      tint: "#110e1e"
+      tint2: "#473391"
+groups:
+  - id: colours
+    label: Colours
+  - id: tweaks
+    label: Tweaks
+settings:
+  - id: accent
+    label: Accent
+    type: color
+    group: colours
+    default: "#5bc2ff"
+    css: |-
+      :root {
+        --accent: {{ value | rgb }};
+      }
+  - id: tint
+    label: Background tint
+    type: color
+    group: colours
+    default: "#031029"
+    css: |-
+      :root {
+        --tint: {{ value | rgb }};
+      }
+  - id: tint2
+    label: Second tint
+    type: color
+    group: colours
+    default: "#103c8f"
+    css: |-
+      :root {
+        --tint2: {{ value | rgb }};
+      }
+  - id: rounding
+    label: Corner radius
+    type: number
+    group: tweaks
+    page: home
+    default: 0.8
+    min: 0
+    max: 2
+    step: 0.05
+    unit: em
+    var: --rounding
+  - id: blur
+    label: Backdrop blur
+    type: number
+    group: tweaks
+    page: movie
+    default: 0
+    min: 0
+    max: 30
+    step: 1
+    unit: px
+    css: |-
+      :root {
+        --backdropBlur: blur({{ value | px }});
+      }
+  - id: scrollers
+    label: Horizontal scrollers on the home page
+    type: toggle
+    group: tweaks
+    variants:
+      - v11
+    default: false
+    page: home
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/scrollers-11.css");

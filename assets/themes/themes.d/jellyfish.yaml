@@ -4,107 +4,472 @@ owners:
 name: Jellyfish
 author: n00bcodr
 repo: https://github.com/n00bcodr/Jellyfish
-description: Inspired by Flow, Zesty and Ultrachromic, with a large set of colour schemes.
+description: Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes.
 status: listed
 screenshots:
   - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/home.png
   - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/item-details.png
   - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login1.png
   - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login2.png
+groups:
+  - id: palette
+    label: Palette
+    description: Pick one, or start from one and make it yours.
+  - id: logo
+    label: Logo
+    description: Shown in the top bar.
+  - id: modules
+    label: Optional modules
+  - id: slideshow
+    label: Home-page slideshow
+    description: For the Media Bar or Media Bar Enhanced plugin. Skip it if you don't use one.
+  - id: advanced
+    label: Advanced
 variants:
   - id: default
     name: Jellyfish
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/jellyfish@main/theme.css");
-      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/jellyfish@main/indicators.css");
-      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/jellyfish@main/progress_bar.css");
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/theme.css");
 settings:
+  # The palette files and the custom colors below write the same variables.
   - id: color
-    label: Colour scheme
+    label: Palette
     type: select
-    default: default
+    group: palette
+    display: swatches
+    default: jellyblue
     options:
-      - value: default
-        label: Default
+      - value: jellyblue
+        label: Jelly Blue
+        swatch:
+          - "#00a4dc"
+          - "#181818"
       - value: aurora
         label: Aurora
+        swatch:
+          - "#00d4aa"
+          - "#1a1a2e"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/aurora.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/aurora.css");
       - value: banana
         label: Banana
+        swatch:
+          - "#ffff99"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/banana.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/banana.css");
       - value: coal
         label: Coal
+        swatch:
+          - "#a9a9a9"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/coal.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/coal.css");
       - value: coral
         label: Coral
+        swatch:
+          - "#ffa07a"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/coral.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/coral.css");
       - value: forest
         label: Forest
+        swatch:
+          - "#228b22"
+          - "#1a2e1a"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/forest.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/forest.css");
       - value: grass
         label: Grass
+        swatch:
+          - "#adffc1"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/grass.css");
-      - value: jellyblue
-        label: Jellyblue
-        css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/jellyblue.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/grass.css");
       - value: jellyflix
         label: Jellyflix
+        swatch:
+          - "#dc143c"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/jellyflix.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/jellyflix.css");
       - value: jellypurple
-        label: Jellypurple
+        label: Jelly Purple
+        swatch:
+          - "#966eb4"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/jellypurple.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/jellypurple.css");
       - value: lavender
         label: Lavender
+        swatch:
+          - "#dda0dd"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/lavender.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/lavender.css");
       - value: liquidglass
-        label: Liquidglass
+        label: Liquid Glass
+        swatch:
+          - "#ecf1fa"
+          - "#14161b"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/liquidglass.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/liquidglass.css");
       - value: midnight
         label: Midnight
+        swatch:
+          - "#4169e1"
+          - "#1a1a2e"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/midnight.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/midnight.css");
       - value: mint
         label: Mint
+        swatch:
+          - "#98fb98"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/mint.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/mint.css");
       - value: ocean
         label: Ocean
+        swatch:
+          - "#87ceeb"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/ocean.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/ocean.css");
       - value: peach
         label: Peach
+        swatch:
+          - "#ffdab9"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/peach.css");
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/peach.css");
       - value: watermelon
         label: Watermelon
+        swatch:
+          - "#ff6961"
+          - "#181818"
         css: |-
-          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/colors/watermelon.css");
-  - id: lite
-    label: Lite mode (fewer effects)
-    type: toggle
-    default: false
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/colors/watermelon.css");
+      - value: custom
+        label: Custom
+        swatch:
+          - "#ff5555"
+          - "#55ee55"
+          - "#5555ff"
+        description: Your own colors.
+  - id: accent
+    label: Accent
+    type: color
+    group: palette
+    default: "#00a4dc"
+    when:
+      setting: color
+      is: custom
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/lite.css");
+      :root {
+        --primary-r: {{ value | r }};
+        --primary-g: {{ value | g }};
+        --primary-b: {{ value | b }};
+        --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
+        --secondary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.6);
+        --primary-background-transparent: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.1);
+        --secondary-background-transparent: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.2);
+        --alt-accent-color: #ffffff20;
+        --header-background-color: #ffffff6e;
+        --primary-alt1: {{ value | shade -30 | alpha 1 }};
+        --primary-alt2: {{ value | shade -30 | alpha 0.85 }};
+        --primary-alt3: {{ value | shade -30 | alpha 0.7 }};
+        --primary-alt4: {{ value | shade -30 | alpha 0.55 }};
+        --primary-alt5: {{ value | shade -30 | alpha 0.4 }};
+      }
+  - id: background
+    label: Page background
+    type: color
+    group: palette
+    default: "#000000"
+    when:
+      setting: color
+      is: custom
+    css: |-
+      :root { --primary-background-color: {{ value }}; }
+  - id: surface
+    label: Cards & drawer
+    type: color
+    group: palette
+    default: "#181818"
+    when:
+      setting: color
+      is: custom
+    css: |-
+      :root { --secondary-background-color: {{ value }}; --tertiary-background-color: {{ value | mix "#ffffff" 0.07 }}; }
+  - id: text
+    label: Text on the accent
+    type: select
+    group: palette
+    display: segmented
+    default: auto
+    when:
+      setting: color
+      is: custom
+    options:
+      - value: auto
+        label: Auto
+        css: |-
+          :root { --text-color: {{ accent | contrast }}; }
+      - value: black
+        label: Black
+        css: |-
+          :root { --text-color: #000000; }
+      - value: white
+        label: White
+        css: |-
+          :root { --text-color: #ffffff; }
+  - id: backgrounds
+    label: Background
+    type: preset
+    group: palette
+    when:
+      setting: color
+      is: custom
+    options:
+      - label: Black
+        swatch:
+          - "#000000"
+          - "#181818"
+        values:
+          background: "#000000"
+          surface: "#181818"
+      - label: Graphite
+        swatch:
+          - "#0a0a0a"
+          - "#1c1c1f"
+        values:
+          background: "#0a0a0a"
+          surface: "#1c1c1f"
+      - label: Navy
+        swatch:
+          - "#0a0a14"
+          - "#1a1a2e"
+        values:
+          background: "#0a0a14"
+          surface: "#1a1a2e"
+      - label: Forest
+        swatch:
+          - "#0d1b0d"
+          - "#1a2e1a"
+        values:
+          background: "#0d1b0d"
+          surface: "#1a2e1a"
+      - label: Wine
+        swatch:
+          - "#120a0e"
+          - "#26141c"
+        values:
+          background: "#120a0e"
+          surface: "#26141c"
+      - label: Slate
+        swatch:
+          - "#0b1014"
+          - "#18222b"
+        values:
+          background: "#0b1014"
+          surface: "#18222b"
+  - id: radius
+    label: Corner radius
+    type: number
+    group: palette
+    default: 15
+    min: 0
+    max: 30
+    step: 1
+    unit: px
+    var: --rounded-cards
+    page: home
+  - id: blur
+    label: Blur (frosted bar & menus)
+    type: number
+    group: palette
+    default: 15
+    min: 0
+    max: 30
+    step: 1
+    unit: px
+    var: --blur
+  - id: badge-size
+    label: Badge size
+    type: number
+    group: palette
+    default: 30
+    min: 18
+    max: 44
+    step: 1
+    unit: px
+    var: --indicator-size
+    page: home
+
+  - id: logo
+    label: Logo
+    type: select
+    group: logo
+    display: segmented
+    default: jellyfish
+    last: true
+    options:
+      - value: jellyfish
+        label: Jellyfish
+      - value: streamberry
+        label: Streamberry
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/streamberry_logo.css");
+      - value: custom
+        label: Your own
+  - id: logo-url
+    label: Image address
+    description: An https link straight to a PNG, SVG, WebP or JPEG.
+    type: image
+    group: logo
+    default: https://cdn.jsdelivr.net/gh/n00bcodr/jellyfish/logos/jellyfish.png
+    when:
+      setting: logo
+      is: custom
+    css: |-
+      :root { --logo: url("{{ value }}"); }
+
+  - id: slideshow
+    label: Slideshow
+    type: select
+    group: slideshow
+    display: cards
+    default: none
+    page: home
+    options:
+      - value: none
+        label: No slideshow styling
+        description: I don't use a Media Bar plugin.
+      - value: full
+        label: Full-height bar
+        description: The slideshow fills the top of the home page on every screen.
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/slideshow.css");
+      - value: compact
+        label: Compact card
+        description: A rounded card the width of the home rows, no synopsis, round Play button. On every screen.
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/slideshow-compact.css");
+      - value: mobile
+        label: Full on desktop, compact on phones
+        description: The full bar everywhere except a phone held upright, which gets the compact card.
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/slideshow-compact-mobile.css");
+
+  - id: indicators
+    label: Cornered card badges
+    description: "Watched and unwatched-count badges sit flush in the card's corner (tablets and up)."
+    type: toggle
+    group: modules
+    display: card
+    default: true
+    page: home
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/indicators.css");
+  - id: progress-bar
+    label: Floating progress bar
+    description: "A rounded progress bar floating over the bottom of the card."
+    type: toggle
+    group: modules
+    display: card
+    default: true
+    page: home
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/progress_bar.css");
   - id: card-buttons
-    label: Card buttons
+    label: Watched / favourite buttons on hover
+    description: "Shows the watched and favourite buttons when you hover a card."
     type: toggle
+    group: modules
+    display: card
     default: false
+    page: home
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/card_buttons.css");
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/card_buttons.css");
+  - id: icontext
+    label: Text instead of icons on item pages
+    description: "Labels on the item page buttons: Trailer, Watched, Favourite, More."
+    type: toggle
+    group: modules
+    display: card
+    default: false
+    page: movie
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/icontext.css");
   - id: scrollbar
-    label: Styled scrollbar
+    label: Show scrollbars
+    description: "The theme hides them by default."
     type: toggle
+    group: modules
+    display: card
     default: false
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@main/scrollbar.css");
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/scrollbar.css");
+  - id: bg-scroll
+    label: Slowly moving backdrops
+    description: "A gentle pan on item backdrops."
+    type: toggle
+    group: modules
+    display: card
+    default: false
+    page: movie
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/bg_scroll.css");
+  - id: lite
+    label: Lite mode
+    description: "Turns off the costly effects. For TVs, old tablets and Raspberry-Pi-class clients."
+    type: toggle
+    group: modules
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/lite.css");
+  - id: misc
+    label: Misc. tweaks
+    description: "Hides the Favourites tab, smaller loading spinner, award banners on collections, tidier mobile player controls."
+    type: toggle
+    group: modules
+    display: card
+    default: false
+    tags:
+      - opinionated
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/misc.css");
+  - id: enhanced
+    label: Jellyfin Enhanced add-on
+    description: 'Styles the plugin''s "More" menu, active-streams panel and variables.'
+    type: toggle
+    group: modules
+    display: card
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/jellyfin-enhanced.css");
+  - id: arr-links
+    label: Streaming-service logos on arr tags
+    description: "Shows each service's logo for the Jellyfin Enhanced arr tag links."
+    type: toggle
+    group: modules
+    display: card
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/n00bcodr/Jellyfish@{{ version }}/arr-tags-links.css");
+
+  - id: version
+    label: Version
+    description: A branch, tag or commit of the Jellyfish repository. Pin a tag to stop updates from changing your setup.
+    type: text
+    group: advanced
+    default: main
+    placeholder: main
+    pattern: "[A-Za-z0-9._/-]+"

@@ -24,10 +24,215 @@ variants:
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
       @import url("https://cdn.jsdelivr.net/gh/mihaif7/elegantfin-jf12@main/Theme/ElegantFin-jf12-modern-latest.css");
+groups:
+  - id: cards
+    label: Cards
+  - id: appbar
+    label: App bar
+  - id: details
+    label: Item pages
+    description: These change what shows on movie, show and artist pages.
+  - id: mobile
+    label: Phones
+  - id: other
+    label: Other
 settings:
   - id: media-bar
     label: Media Bar plugin support
     type: toggle
+    group: other
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/assets/add-ons/media-bar-plugin-support-latest-min.css");
+  - id: card-buttons
+    label: Watched and favourite buttons on hover
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --extraCardButtonsVisibility: block;
+      }
+  - id: hide-card-menu
+    label: Hide the three-dot button on cards
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --menuButtonVisibility: none;
+      }
+  - id: centre-play
+    label: Play button in the middle of cards
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --overlayPlayButtonPosition: 50%;
+      }
+  - id: no-shine
+    label: No shine on hover
+    type: toggle
+    group: cards
+    default: false
+    css: |-
+      :root {
+        --cardHoverEffect: none;
+      }
+  - id: library-labels
+    label: Labels under library cards
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --libraryLabelVisibility: block;
+      }
+  - id: resume-scale
+    label: Continue Watching card size
+    type: number
+    group: cards
+    page: home
+    default: 1
+    min: 1
+    max: 1.5
+    step: 0.05
+    var: --resumeCardScale
+  - id: appbar
+    label: Style
+    type: select
+    group: appbar
+    display: segmented
+    default: seamless
+    options:
+      - value: seamless
+        label: Seamless
+        description: Frosted blur.
+      - value: solid
+        label: Solid
+        css: |-
+          :root {
+            --appBarSeamlessBlur: none;
+            --appBarBlurStrength: var(--blurLargest);
+            --appBarColor: var(--headerColor);
+            --appBarBorder: var(--defaultBorder);
+            --appBarTabsPadding: 0;
+          }
+      - value: transparent
+        label: Transparent
+        css: |-
+          :root {
+            --appBarSeamlessBlur: none;
+            --appBarColor: transparent;
+          }
+  - id: hide-original-title
+    label: Hide the original title
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --itemOriginalTitleVisibility: none;
+      }
+  - id: hide-clear-logo
+    label: Hide the clear logo
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --clearLogoVisibility: none;
+      }
+  - id: show-title
+    label: Always show the title
+    description: Also when a logo is shown.
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --itemTitleVisibility: block;
+      }
+  - id: hide-artist-logo
+    label: Hide artist logos
+    type: toggle
+    group: details
+    default: false
+    css: |-
+      :root {
+        --artistClearLogoVisibility: none;
+      }
+  - id: show-artist-title
+    label: Show artist names
+    type: toggle
+    group: details
+    default: false
+    css: |-
+      :root {
+        --artistTitleVisibility: block;
+      }
+  - id: full-artist-background
+    label: Undimmed artist backgrounds
+    type: toggle
+    group: details
+    default: false
+    css: |-
+      :root {
+        --artistPageBackground: none;
+      }
+  - id: imdb-stars
+    label: IMDb star colours
+    description: Gold instead of the TMDB colours.
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      .starIcon {
+        --colors: var(--imdb);
+      }
+  - id: hide-mini-buttons
+    label: Hide the small buttons on cards
+    type: toggle
+    group: mobile
+    default: false
+    css: |-
+      :root {
+        --miniOverlayButtonVisibility: none;
+      }
+  - id: hide-ends-at
+    label: Hide "Ends at"
+    type: toggle
+    group: mobile
+    default: false
+    css: |-
+      :root {
+        --endsAtVisibility: none;
+      }
+  - id: show-critics
+    label: Show the critics rating
+    type: toggle
+    group: mobile
+    default: false
+    css: |-
+      :root {
+        --criticsRatingVisibility: block;
+      }
+  - id: login-text
+    label: Login button text
+    type: text
+    group: other
+    default: ""
+    placeholder: Sign In
+    css: |-
+      :root {
+        --loginPageText: "{{ value }}";
+      }

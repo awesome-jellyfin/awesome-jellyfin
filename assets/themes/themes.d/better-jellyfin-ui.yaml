@@ -17,46 +17,119 @@ variants:
     name: Better Jellyfin UI
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/theme.css");
+groups:
+  - id: addons
+    label: Add-ons
+  - id: colours
+    label: Colours and blur
 settings:
   - id: floating-header
     label: Floating header
     type: toggle
+    group: addons
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Floating-header.css");
   - id: high-contrast
     label: High contrast interface
     type: toggle
+    group: addons
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/High-contrast-interface.css");
   - id: hover-scale
     label: Scale up cards on hover
     type: toggle
+    group: addons
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Scale-up-animation-on-hover-card.css");
   - id: no-glass-borders
     label: No liquid glass borders
     type: toggle
+    group: addons
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/no-liquid-glass-borders.css");
   - id: alt-nav
     label: Alternative navigation bar
     type: toggle
+    group: addons
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/alternative-navigation-bar.css");
   - id: no-logo
     label: Remove Jellyfin logo from header
     type: toggle
+    group: addons
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Remove-jellyfin-logo-from-header.css");
   - id: alt-detail-logo
     label: Alternative detail page logo
     type: toggle
+    group: addons
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/alternative-detail-logo.css");
+  - id: trickplay
+    label: Trickplay support
+    description: Seek previews in the player.
+    type: toggle
+    group: addons
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/Trickplay-support.css");
+  - id: ios-toggles
+    label: iOS-style toggles
+    type: toggle
+    group: addons
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/options/iOS-toggle-styling.css");
+  - id: indicator
+    label: Watched indicator
+    type: color
+    group: colours
+    page: home
+    default: "#ffb0d9"
+    css: |-
+      :root {
+        --card-indicate-bg: {{ value | alpha 0.53 }};
+        --card-indicate-liquid-glass: {{ value | alpha 0.39 }};
+        --card-indicate-shadow: {{ value | alpha 0.33 }};
+        --card-indicate-icon-fill: {{ value }};
+      }
+  - id: glow
+    label: Background glow
+    type: color
+    group: colours
+    default: "#240000"
+    var: --background-glow-color
+  - id: backdrop
+    label: Backdrop overlay
+    type: color
+    group: colours
+    default: "#000000de"
+    var: --backdrop-bg-color
+    alpha: true
+  - id: panel-blur
+    label: Panel blur
+    type: number
+    group: colours
+    default: 50
+    min: 0
+    max: 80
+    step: 1
+    unit: px
+    var: --extra-frosted
+  - id: large-blur
+    label: Large element blur
+    type: number
+    group: colours
+    default: 15
+    min: 0
+    max: 40
+    step: 1
+    unit: px
+    var: --largeui-frosted

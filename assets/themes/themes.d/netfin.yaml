@@ -16,3 +16,191 @@ variants:
     name: NetFin
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/ya0903/NetFin@main/netfin.css");
+groups:
+  - id: logo
+    label: Logo
+  - id: addons
+    label: Add-ons
+    description: Experimental tweaks from the NetFin README.
+settings:
+  - id: custom-logo
+    label: Use my own logo
+    description: Replaces the Jellyfin logo in the header.
+    type: toggle
+    group: logo
+    default: false
+    css: |
+
+  - id: logo
+    label: Image address
+    type: image
+    group: logo
+    when:
+      setting: custom-logo
+      is: true
+    default: https://raw.githubusercontent.com/ya0903/NetFin/main/Assets/netfin-logo.png
+    css: |-
+      
+      /* Hide default header logo assets */
+      .headerLogo img,
+      .headerLogo-withBackground img,
+      .logoImage,
+      .headerLogo svg {
+        display: none !important;
+      }
+
+      /* Remove any existing pseudo-logo */
+      .headerLogo::after,
+      .headerLogo-withBackground::after {
+        display: none !important;
+      }
+
+      /* Prepare the title container — NOT during playback */
+      :not(.osdHeader) .pageTitle,
+      :not(.osdHeader) .pageTitleWithDefaultLogo,
+      :not(.osdHeader) .pageTitleWithLogo {
+        display: inline-flex !important;
+        visibility: visible !important;
+        align-items: center !important;
+        font-size: 0 !important;
+        line-height: 1 !important;
+        overflow: visible !important;
+        min-height: 1.8em !important;
+        margin-left: 8px !important;
+        margin-top: 0px !important;
+        min-width: max-content !important;
+        animation: none !important;
+        text-shadow: none !important;
+        box-shadow: none !important;
+        filter: none !important;
+      }
+
+      /* Hide the original title text — NOT during playback */
+      :not(.osdHeader) .pageTitle > *,
+      :not(.osdHeader) .pageTitleWithDefaultLogo > *,
+      :not(.osdHeader) .pageTitleWithLogo > * {
+        display: none !important;
+      }
+
+      /* Custom logo image — NOT during playback */
+      :not(.osdHeader) .pageTitle::before,
+      :not(.osdHeader) .pageTitleWithDefaultLogo::before,
+      :not(.osdHeader) .pageTitleWithLogo::before {
+        content: "" !important;
+        display: inline-block !important;
+        width: {{ logo-width | px }} !important;
+        height: {{ logo-height | px }} !important;
+        position: relative !important;
+        top: 0px !important;
+        left: 0px !important;
+        background: url("{{ value }}") center / contain no-repeat !important;
+        animation: none !important;
+        text-shadow: none !important;
+        box-shadow: none !important;
+        filter: none !important;
+      }
+
+      /* No extra text after logo — NOT during playback */
+      :not(.osdHeader) .pageTitle::after,
+      :not(.osdHeader) .pageTitleWithDefaultLogo::after,
+      :not(.osdHeader) .pageTitleWithLogo::after {
+        content: none !important;
+        display: none !important;
+      }
+
+      /* ── Restore OSD header title during playback ── */
+      .osdHeader .pageTitle,
+      .osdHeader .pageTitleWithDefaultLogo,
+      .osdHeader .pageTitleWithLogo {
+        display: flex !important;
+        font-size: unset !important;
+        visibility: visible !important;
+        min-width: unset !important;
+        animation: none !important;
+        filter: none !important;
+      }
+
+      .osdHeader .pageTitle > *,
+      .osdHeader .pageTitleWithDefaultLogo > *,
+      .osdHeader .pageTitleWithLogo > * {
+        display: unset !important;
+      }
+
+      .osdHeader .pageTitle::before,
+      .osdHeader .pageTitle::after,
+      .osdHeader .pageTitleWithDefaultLogo::before,
+      .osdHeader .pageTitleWithDefaultLogo::after,
+      .osdHeader .pageTitleWithLogo::before,
+      .osdHeader .pageTitleWithLogo::after {
+        content: none !important;
+        display: none !important;
+      }
+  - id: logo-width
+    label: Width
+    type: number
+    group: logo
+    when:
+      setting: custom-logo
+      is: true
+    default: 150
+    min: 40
+    max: 400
+    step: 1
+    unit: px
+  - id: logo-height
+    label: Height
+    type: number
+    group: logo
+    when:
+      setting: custom-logo
+      is: true
+    default: 40
+    min: 16
+    max: 120
+    step: 1
+    unit: px
+  - id: mobile-buttons
+    label: Bigger touch buttons on phones
+    type: toggle
+    group: addons
+    default: false
+    tags:
+      - experimental
+    css: |-
+      /* ================= MOBILE TOUCH FIX ================= */
+
+        /* Top left menu button */
+        .headerButton,
+        .headerButton.headerButtonLeft,
+        .headerButton.headerButtonRight {
+            width: 36px !important;
+            height: 36px !important;
+            min-width: 36px !important;
+            min-height: 36px !important;
+            margin: 0 6px !important;
+        }
+
+        /* Icons inside header buttons */
+        .headerButton i,
+        .headerButton .material-icons,
+        .headerButton .material-icons-round {
+            font-size: 26px !important;
+        }
+
+        /* Profile picture tap area */
+        .headerUserButton {
+            width: 36px !important;
+            height: 36px !important;
+        }
+
+        .headerUserButton img {
+            width: 36px !important;
+            height: 36px !important;
+        }
+
+        /* Cast & group watch buttons */
+        .headerCastButton,
+        .headerSyncButton {
+            width: 36px !important;
+            height: 36px !important;
+        }

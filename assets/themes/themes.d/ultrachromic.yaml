@@ -17,11 +17,317 @@ variants:
     name: Monochromic
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/monochromic_preset.css");
+    settings:
+      rounding: 5
   - id: kaleidochromic
     name: Kaleidochromic
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/kaleidochromic_preset.css");
+    settings:
+      rounding: 12
   - id: novachromic
     name: Novachromic
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/novachromic_preset.css");
+    settings:
+      rounding: 0
+  - id: custom
+    name: Build your own
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/base.css");
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/accentlist.css");
+    settings:
+      rounding: 12
+groups:
+  - id: parts
+    label: Parts
+    description: Pick the pieces for your own combination.
+  - id: look
+    label: Look
+settings:
+  - id: font
+    label: Jellyfin logo font everywhere
+    type: toggle
+    group: parts
+    variants:
+      - custom
+    default: true
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/jf_font.css");
+  - id: fixes
+    label: Small fixes
+    description: Alignment and size tweaks all over the interface.
+    type: toggle
+    group: parts
+    variants:
+      - custom
+    default: true
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fixes.css");
+  - id: rounding-style
+    label: Rounded corners
+    type: select
+    group: parts
+    variants:
+      - custom
+    display: segmented
+    default: rounding
+    options:
+      - value: none
+        label: Off
+      - value: rounding
+        label: Rounded
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/rounding.css");
+      - value: circlehover
+        label: Rounded, round hover
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/rounding_circlehover.css");
+  - id: smallercast
+    label: Smaller cast list
+    description: Square, smaller cast photos.
+    type: toggle
+    group: parts
+    variants:
+      - custom
+    default: false
+    page: movie
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/smallercast.css");
+  - id: episodes
+    label: Episode list
+    type: select
+    group: parts
+    variants:
+      - custom
+    page: season
+    display: segmented
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: compact
+        label: Compact list
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/episodelist/episodes_compactlist.css");
+      - value: grid
+        label: Grid
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/episodelist/episodes_grid.css");
+  - id: header
+    label: Transparent top bar
+    type: toggle
+    group: parts
+    variants:
+      - custom
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent.css");
+  - id: login
+    label: Login screen
+    type: select
+    group: parts
+    variants:
+      - custom
+    display: segmented
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: minimalistic
+        label: Minimalistic
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_minimalistic.css");
+      - value: frame
+        label: Framed
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_frame.css");
+  - id: fields
+    label: Input fields
+    type: select
+    group: parts
+    variants:
+      - custom
+    display: segmented
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: border
+        label: Border
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fields/fields_border.css");
+      - value: noborder
+        label: No border
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fields/fields_noborder.css");
+  - id: indicator
+    label: Watched indicators
+    type: select
+    group: parts
+    variants:
+      - custom
+    page: home
+    display: segmented
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: floating
+        label: Floating
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_floating.css");
+      - value: corner
+        label: In the corner
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_corner.css");
+  - id: type
+    label: Style
+    type: select
+    group: parts
+    variants:
+      - custom
+    display: segmented
+    default: dark
+    options:
+      - value: dark
+        label: Dark
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/dark.css");
+      - value: dark-accent
+        label: Dark with accent
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/dark_withaccent.css");
+      - value: light
+        label: Light
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/light.css");
+      - value: colorful
+        label: Colourful
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/colorful.css");
+  - id: title
+    label: Title page
+    type: select
+    group: parts
+    variants:
+      - custom
+    page: movie
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: simple
+        label: Simple
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_simple.css");
+      - value: simple-logo
+        label: Simple with logo
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_simple-logo.css");
+      - value: banner
+        label: Banner
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_banner.css");
+      - value: banner-logo
+        label: Banner with logo
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_banner-logo.css");
+  - id: progress
+    label: Progress bar
+    type: select
+    group: parts
+    variants:
+      - custom
+    page: home
+    display: segmented
+    default: default
+    options:
+      - value: default
+        label: Default
+      - value: overlay
+        label: Overlay
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/overlayprogress.css");
+      - value: bottombar
+        label: Bottom bar
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/bottombarprogress.css");
+      - value: floating
+        label: Floating
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/progress/floating.css");
+  - id: hoverglow
+    label: Glow on hover
+    type: toggle
+    group: parts
+    variants:
+      - custom
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/hoverglow.css");
+  - id: glassy
+    label: Glassy panels
+    type: toggle
+    group: parts
+    variants:
+      - custom
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/glassy.css");
+  - id: pan
+    label: Slowly panning backdrops
+    type: toggle
+    group: parts
+    variants:
+      - custom
+    default: false
+    page: movie
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/pan-animation.css");
+  - id: backdrop-hack
+    label: Cover art as backdrop on phones
+    type: toggle
+    group: parts
+    variants:
+      - custom
+    default: false
+    tags:
+      - experimental
+    css: |-
+      @import url("https://ctalvio.github.io/Monochromic/backdrop-hack_style.css");
+  - id: custom-accent
+    label: Own accent colour
+    description: Kaleidochromic, Novachromic and the dark-with-accent, light and colourful styles use it.
+    type: toggle
+    group: look
+    variants:
+      - kaleidochromic
+      - novachromic
+      - custom
+    default: false
+    css: |
+
+  - id: accent
+    label: Accent
+    type: color
+    group: look
+    when:
+      setting: custom-accent
+      is: true
+    default: "#6279cd"
+    css: |-
+      :root {
+        --accent: {{ value | rgb }};
+      }
+  - id: rounding
+    label: Corner radius
+    type: number
+    group: look
+    page: home
+    default: 12
+    min: 0
+    max: 30
+    step: 1
+    unit: px
+    var: --rounding

@@ -57,3 +57,9 @@ settings:
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/disable-backdrops-navigation.css");
+  - id: identify-list
+    label: List view in "Identify" search
+    type: toggle
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/identify-list-view.css");

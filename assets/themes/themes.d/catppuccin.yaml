@@ -32,3 +32,119 @@ variants:
     css: |-
       @import url("https://jellyfin.catppuccin.com/theme.css");
       @import url("https://jellyfin.catppuccin.com/catppuccin-latte.css");
+settings:
+  - id: accent
+    label: Accent
+    description: One of the flavour's colours. The swatches show Mocha's shades.
+    type: select
+    display: swatches
+    default: mauve
+    options:
+      - value: rosewater
+        label: Rosewater
+        swatch:
+          - "#f5e0dc"
+        css: |-
+          :root {
+            --main-color: var(--rosewater);
+          }
+      - value: flamingo
+        label: Flamingo
+        swatch:
+          - "#f2cdcd"
+        css: |-
+          :root {
+            --main-color: var(--flamingo);
+          }
+      - value: pink
+        label: Pink
+        swatch:
+          - "#f5c2e7"
+        css: |-
+          :root {
+            --main-color: var(--pink);
+          }
+      - value: mauve
+        label: Mauve
+        swatch:
+          - "#cba6f7"
+      - value: red
+        label: Red
+        swatch:
+          - "#f38ba8"
+        css: |-
+          :root {
+            --main-color: var(--red);
+          }
+      - value: maroon
+        label: Maroon
+        swatch:
+          - "#eba0ac"
+        css: |-
+          :root {
+            --main-color: var(--maroon);
+          }
+      - value: peach
+        label: Peach
+        swatch:
+          - "#fab387"
+        css: |-
+          :root {
+            --main-color: var(--peach);
+          }
+      - value: yellow
+        label: Yellow
+        swatch:
+          - "#f9e2af"
+        css: |-
+          :root {
+            --main-color: var(--yellow);
+          }
+      - value: green
+        label: Green
+        swatch:
+          - "#a6e3a1"
+        css: |-
+          :root {
+            --main-color: var(--green);
+          }
+      - value: teal
+        label: Teal
+        swatch:
+          - "#94e2d5"
+        css: |-
+          :root {
+            --main-color: var(--teal);
+          }
+      - value: sky
+        label: Sky
+        swatch:
+          - "#89dceb"
+        css: |-
+          :root {
+            --main-color: var(--sky);
+          }
+      - value: sapphire
+        label: Sapphire
+        swatch:
+          - "#74c7ec"
+        css: |-
+          :root {
+            --main-color: var(--sapphire);
+          }
+      - value: blue
+        label: Blue
+        swatch:
+          - "#89b4fa"
+        css: |-
+          :root {
+            --main-color: var(--blue);
+          }
+      - value: lavender
+        label: Lavender
+        swatch:
+          - "#b4befe"
+        css: |-
+          :root {
+            --main-color: var(--lavender);
+          }

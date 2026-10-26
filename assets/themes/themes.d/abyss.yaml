@@ -25,3 +25,95 @@ variants:
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/abyss.css");
       @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/styles/abyss-lite.css");
+groups:
+  - id: appearance
+    label: Appearance
+  - id: plugins
+    label: Plugin add-ons
+    description: For the Jellyfin Enhanced and Media Bar Enhanced plugins.
+settings:
+  - id: accent
+    label: Accent
+    type: color
+    group: appearance
+    default: "#f5f5f7"
+    css: |-
+      :root {
+        --abyss-accent: {{ value | rgb }};
+        --abyss-accent-channel: {{ value | r }} {{ value | g }} {{ value | b }};
+      }
+  - id: accents
+    label: Accent examples
+    type: preset
+    group: appearance
+    options:
+      - label: Default
+        swatch:
+          - "#f5f5f7"
+        values:
+          accent: "#f5f5f7"
+      - label: Warm
+        swatch:
+          - "#fffaf0"
+        values:
+          accent: "#fffaf0"
+      - label: Blue
+        swatch:
+          - "#64a0ff"
+        values:
+          accent: "#64a0ff"
+      - label: Teal
+        swatch:
+          - "#32c8b4"
+        values:
+          accent: "#32c8b4"
+      - label: Rose
+        swatch:
+          - "#ff6478"
+        values:
+          accent: "#ff6478"
+  - id: radius
+    label: Corner radius
+    type: number
+    group: appearance
+    page: home
+    default: 24
+    min: 0
+    max: 32
+    step: 1
+    unit: px
+    var: --abyss-radius
+  - id: indicator
+    label: Indicator background
+    description: Behind episode counts and other indicators.
+    type: color
+    group: appearance
+    default: "#373737"
+    css: |-
+      :root {
+        --abyss-indicator: {{ value | rgb }};
+      }
+  - id: jellyfin-enhanced
+    label: Jellyfin Enhanced
+    description: Styles for the Jellyfin Enhanced plugin (v11.3).
+    type: toggle
+    group: plugins
+    display: card
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/styles/abyss-je.css");
+  - id: media-bar
+    label: Media Bar Enhanced
+    description: Styles for the Media Bar Enhanced plugin (v1.9).
+    type: toggle
+    group: plugins
+    display: card
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/styles/abyss-mbe.css");

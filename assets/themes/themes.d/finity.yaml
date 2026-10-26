@@ -20,3 +20,54 @@ variants:
     name: Minimal
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/prism2001/finity@main/minimal/finity-minimal.css");
+groups:
+  - id: colours
+    label: Colours
+  - id: tweaks
+    label: Tweaks
+settings:
+  - id: accent
+    label: Accent
+    type: color
+    group: colours
+    default: "#00a5dc"
+    css: |-
+      :root {
+        --theme-accent-color: {{ value }};
+        --theme-accent-color-alpha-med: {{ value | alpha 0.16 }};
+        --theme-accent-color-alpha-high: {{ value | alpha 0.58 }};
+        --theme-accent-color-alpha-hover: {{ value | shade 26 }};
+      }
+  - id: background
+    label: Background
+    type: color
+    group: colours
+    default: "#181818"
+    var: --theme-background-color
+  - id: cards
+    label: Cards
+    type: color
+    group: colours
+    default: "#101010"
+    var: --card-bg
+  - id: roundness
+    label: Card corner radius
+    type: number
+    group: tweaks
+    page: home
+    default: 15
+    min: 0
+    max: 30
+    step: 1
+    unit: px
+    var: --theme-roundness-large
+  - id: blur
+    label: Blur
+    type: number
+    group: tweaks
+    default: 2
+    min: 0
+    max: 20
+    step: 1
+    unit: px
+    var: --blur-intensity
