@@ -46,6 +46,7 @@ Every setting has an `id` (lowercase letters, digits, dots and hyphens), a `labe
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `description` | A line under the label.                                                                                                                                                          |
 | `group`       | The `id` of a group in `groups`. Groups are shown as sections, in the order of `groups`. Settings without a group come first.                                                    |
+| `variants`    | Variant ids the setting is for, e.g. options that only make sense with a "Custom" variant. It is hidden on the other variants.                                                   |
 | `when`        | Show the setting only while another one has (`is`) or doesn't have (`not`) a value, e.g. `setting: palette` with `is: custom`. Takes a value or a list.                          |
 | `tags`        | Small labels: `needs-plugin`, `not-in-preview`, `opinionated`, `experimental`.                                                                                                   |
 | `page`        | The preview page that shows the setting best (`home`, `movies`, `movie`, `shows`, `series`, `season`, `playlists`, `playlist`, `guide`). Changing it switches the preview there. |
@@ -62,7 +63,7 @@ Every setting has an `id` (lowercase letters, digits, dots and hyphens), a `labe
 | `image`  | optional `css`                                                                                           | an `https://` link        | `field`                                                |
 | `preset` | `options`, each a `label`, optional `swatch` and the `values` it gives other settings                    | none                      |                                                        |
 
-A `color` or `number` with `var` writes `--your-var: <value>;` in one `:root` block, and only when the visitor changed it (`number` adds its `unit`). Use `css` instead when you need more than one variable or a derived value. Text can't contain `; { } ( ) [ ] < > " '`, backslashes or `/*`, and images must be plain `https://` links, so what a visitor types can't break out of your CSS. A text `pattern` may only use syntax JavaScript and Go read the same way: character classes, `(?:...)` groups and quantifiers, but no flags, lookarounds or `\p` classes.
+A `color` or `number` with `var` writes `--your-var: <value>;` in one `:root` block, and only when the visitor changed it (`number` adds its `unit`). Use `css` instead when you need more than one variable or a derived value. A `css` of a `color`, `number`, `text` or `image` setting is also left out while it gives the same CSS as at the default value, as long as the setting is shown by default; so write defaults that match your theme's own values. A setting that only shows after another choice (with `when`) always writes its `css`. Text can't contain `; { } ( ) [ ] < > " '`, backslashes or `/*`, and images must be plain `https://` links, so what a visitor types can't break out of your CSS. A text `pattern` may only use syntax JavaScript and Go read the same way: character classes, `(?:...)` groups and quantifiers, but no flags, lookarounds or `\p` classes.
 
 ### Templates
 
@@ -82,9 +83,10 @@ Any `css` (of variants, settings and options) can hold placeholders: `{{ value }
 
 Filters can be chained: `{{ value | shade -30 | alpha 0.4 }}`. A text setting is handy for a version that every `@import` uses: `@import url("https://cdn.jsdelivr.net/gh/you/theme@{{ version }}/theme.css");`.
 
-The visitor's CSS is put together in this order: the variant's `css`, then the `css` of every shown setting (in file order), then the `:root` block with the changed `var` settings. Every `@import` moves to the top, those of `last` settings after the others.
+The visitor's CSS is put together in this order: the variant's `css`, then the `css` of every shown setting (in file order), then the `:root` block with the changed `var` settings. Every `@import` moves to the top, those of `last` settings after the others. All top-level `:root { ... }` blocks are combined into one, a later value of the same variable winning.
 
-[jellyfish.yaml](themes.d/jellyfish.yaml) uses most of this. Its custom palette, for example, is a `swatches` select with a `custom` option, and color settings that only show for it:
+If you want to see a complex example, take a look at [jellyfish.yaml](themes.d/jellyfish.yaml) which uses most of this.
+Its custom palette, for example, is a `swatches` select with a `custom` option, and color settings that only show for it:
 
 ```yaml
 groups:
