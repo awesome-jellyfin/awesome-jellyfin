@@ -120,23 +120,23 @@ A collection of six themes for Jellyfin Web (Apple TV, Cinematheque Noir, Editor
 
 ## [Jellyfish](https://github.com/n00bcodr/Jellyfish) by n00bcodr
 
-Inspired by Flow, Zesty and Ultrachromic, with a large set of colour schemes. [` 🔵 Get this Theme `](https://github.com/n00bcodr/Jellyfish)
+Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes. [` 🔵 Get this Theme `](https://github.com/n00bcodr/Jellyfish)
 
 <table>
   <tr>
     <td>
-      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/home.png" />
+      <img src="https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/home.png" />
     </td>
     <td>
-      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/item-details.png" />
+      <img src="https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/item-details.png" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login1.png" />
+      <img src="https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/login1.png" />
     </td>
     <td>
-      <img src="https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login2.png" />
+      <img src="https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/login2.png" />
     </td>
   </tr>
 </table>
@@ -544,26 +544,26 @@ A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://githu
 <table>
   <tr>
     <td>
-      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/home.jpg" />
+      <img src="https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/home.jpg" />
     </td>
     <td>
-      <img src="https://github.com/stpnwf/ZestyTheme/raw/main/images/nice-guys.jpg" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/avatar.jpg" />
-    </td>
-    <td>
-      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/player.jpg" />
+      <img src="https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/nice-guys.jpg" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/login.jpg" />
+      <img src="https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/avatar.jpg" />
     </td>
     <td>
-      <img src="https://github.com/stpnwf/ZestyTheme/blob/main/images/phone.jpg" />
+      <img src="https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/player.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/login.jpg" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/phone.jpg" />
     </td>
   </tr>
 </table>
