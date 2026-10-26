@@ -18,10 +18,21 @@ variants:
     name: Zombie
     css: |-
       @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/zombie_revived.css);
+groups:
+  - id: colours
+    label: Colours
+  - id: modules
+    label: Modules
+  - id: mediabar
+    label: Media Bar
+    description: For the Jellyfin Media Bar, which is installed into jellyfin-web separately.
+  - id: login
+    label: Login
 settings:
   - id: color
     label: Colour scheme
     type: select
+    group: colours
     default: default
     options:
       - value: default
@@ -58,6 +69,7 @@ settings:
     label: Card buttons on hover
     description: Brings back the mark played and favourite buttons on cards. Desktop only.
     type: toggle
+    group: modules
     default: false
     css: |-
       @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/modules/card-buttons.css);
@@ -65,6 +77,119 @@ settings:
     label: Outlined detail buttons
     description: Adds an outline to the buttons on movie and show pages.
     type: toggle
+    group: modules
     default: false
     css: |-
       @import url(https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/modules/detail-buttons.css);
+  - id: palette
+    label: Tinted base
+    description: Swaps the black base for a tinted dark one.
+    type: select
+    group: colours
+    display: swatches
+    default: none
+    options:
+      - value: none
+        label: Black
+      - value: palette-1
+        label: Palette 1
+        swatch:
+          - "#addff4"
+          - "#2f363b"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/colorPalette/palette-1.css");
+      - value: palette-2
+        label: Palette 2
+        swatch:
+          - "#a2cdee"
+          - "#24292e"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/colorPalette/palette-2.css");
+      - value: palette-3
+        label: Palette 3
+        swatch:
+          - "#92c7e6"
+          - "#282f34"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/colorPalette/palette-3.css");
+      - value: palette-4
+        label: Palette 4
+        swatch:
+          - "#80cbc4"
+          - "#2d3436"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/colorPalette/palette-4.css");
+      - value: palette-5
+        label: Palette 5
+        swatch:
+          - "#78bed5"
+          - "#262e32"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/colorPalette/palette-5.css");
+      - value: palette-6
+        label: Palette 6
+        swatch:
+          - "#a3b1e0"
+          - "#2a2d38"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/colorPalette/palette-6.css");
+      - value: palette-7
+        label: Palette 7
+        swatch:
+          - "#6eb4c8"
+          - "#232b2f"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/colorPalette/palette-7.css");
+      - value: palette-8
+        label: Palette 8
+        swatch:
+          - "#aaaaaa"
+          - "#555555"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@main/colorPalette/palette-8.css");
+  - id: mediabar
+    label: Media Bar styling
+    description: Keep the bar's layout on Marquee.
+    type: toggle
+    group: mediabar
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    page: home
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/mediabar/zombie-mediabar.css");
+  - id: mediabar-backdrop
+    label: Backdrop instead of poster on phones
+    type: toggle
+    group: mediabar
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    when:
+      setting: mediabar
+      is: true
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/MakD/zombie-release@latest/mediabar/zombie-mediabar-backdrop.css");
+  - id: login-image
+    label: Own login background
+    type: toggle
+    group: login
+    default: false
+    page: login
+    css: |
+
+  - id: login-image-url
+    label: Image address
+    type: image
+    group: login
+    when:
+      setting: login-image
+      is: true
+    default: https://raw.githubusercontent.com/MakD/zombie-release/main/img/desktop/v12-home.jpg
+    page: login
+    css: |-
+      :root {
+        --zombieLoginImage: url("{{ value }}");
+      }

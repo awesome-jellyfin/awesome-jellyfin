@@ -22,3 +22,157 @@ variants:
     name: Jellyfin 12 preview build
     css: |-
       @import url("https://buesche87.github.io/infinitv/infinitv-dev-v12.css");
+groups:
+  - id: accent
+    label: Accent colour
+    description: Hue, saturation and lightness of the accent.
+  - id: background
+    label: Background
+  - id: shape
+    label: Shape
+  - id: effects
+    label: Effects
+    description: Turning effects off helps on slow devices.
+settings:
+  - id: hue
+    label: Hue
+    type: number
+    group: accent
+    default: 310
+    min: 0
+    max: 360
+    step: 1
+    var: --accent-h
+  - id: saturation
+    label: Saturation
+    type: number
+    group: accent
+    default: 100
+    min: 0
+    max: 100
+    step: 1
+    unit: "%"
+    var: --accent-s
+  - id: lightness
+    label: Lightness
+    type: number
+    group: accent
+    default: 50
+    min: 0
+    max: 100
+    step: 1
+    unit: "%"
+    var: --accent-l
+  - id: background-image
+    label: Wallpaper
+    type: image
+    group: background
+    default: https://wallpaperaccess.com/download/purple-galaxy-439751
+    css: |-
+      :root {
+        --bgImage: url("{{ value }}");
+      }
+  - id: darkness
+    label: Background darkness
+    type: number
+    group: background
+    default: 0.6
+    min: 0
+    max: 1
+    step: 0.05
+    var: --bgdarkness
+  - id: header-opacity
+    label: Header and drawer opacity
+    type: number
+    group: background
+    default: 0.7
+    min: 0
+    max: 1
+    step: 0.05
+    var: --headeropacity
+  - id: item-opacity
+    label: Card footer and detail ribbon opacity
+    type: number
+    group: background
+    default: 0.8
+    min: 0
+    max: 1
+    step: 0.05
+    var: --itemopacity
+  - id: osd-opacity
+    label: Player controls opacity
+    type: number
+    group: background
+    default: 0.5
+    min: 0
+    max: 1
+    step: 0.05
+    var: --osdopacity
+  - id: rounding-media
+    label: Card corner radius
+    type: number
+    group: shape
+    page: home
+    default: 12
+    min: 0
+    max: 30
+    step: 1
+    unit: px
+    var: --rounding-media
+  - id: rounding-system
+    label: Button and field corner radius
+    type: number
+    group: shape
+    default: 6
+    min: 0
+    max: 20
+    step: 1
+    unit: px
+    var: --rounding-system
+  - id: animation-speed
+    label: Animation speed
+    type: number
+    group: effects
+    default: 240
+    min: 0
+    max: 1000
+    step: 10
+    unit: ms
+    var: --anispeed
+  - id: no-card-glow
+    label: No card glow
+    type: toggle
+    group: effects
+    default: false
+    css: |-
+      :root {
+        --cardglow: none;
+      }
+  - id: no-button-glow
+    label: No button glow
+    type: toggle
+    group: effects
+    default: false
+    css: |-
+      :root {
+        --buttonglow: none;
+      }
+  - id: no-blur
+    label: No background blur
+    description: The blur costs the most performance.
+    type: toggle
+    group: effects
+    default: false
+    css: |-
+      :root {
+        --blur: none;
+      }
+  - id: no-card-shadow
+    label: No card shadows
+    type: toggle
+    group: effects
+    default: false
+    css: |-
+      :root {
+        --cardshadow: none;
+      }

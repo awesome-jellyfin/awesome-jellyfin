@@ -39,3 +39,79 @@ variants:
     name: Poster-Tinted
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/safiyu/ijelly@latest/ijelly_tinted.css");
+groups:
+  - id: appearance
+    label: Appearance
+settings:
+  - id: accent-apple
+    label: Accent
+    type: color
+    group: appearance
+    variants:
+      - default
+    default: "#007aff"
+    css: |-
+      :root {
+        --apple-accent: {{ value }};
+      }
+  - id: accent-noir
+    label: Accent
+    type: color
+    group: appearance
+    variants:
+      - noir
+    default: "#d4a24c"
+    css: |-
+      :root {
+        --noir-accent: {{ value }};
+        --noir-accent-dim: {{ value | alpha 0.5 }};
+      }
+  - id: accent-editorial
+    label: Accent
+    type: color
+    group: appearance
+    variants:
+      - editorial
+    default: "#c8102e"
+    css: |-
+      :root {
+        --ed-accent: {{ value }};
+        --ed-accent-dim: {{ value | alpha 0.4 }};
+      }
+  - id: accent-gallery
+    label: Accent
+    type: color
+    group: appearance
+    variants:
+      - gallery
+    default: "#c9a978"
+    css: |-
+      :root {
+        --gl-accent: {{ value }};
+      }
+  - id: accent-blueprint
+    label: Accent
+    type: color
+    group: appearance
+    variants:
+      - blueprint
+    default: "#e09030"
+    css: |-
+      :root {
+        --kxta-accent: {{ value }};
+        --kxta-accent-soft: {{ value | alpha 0.14 }};
+        --kxta-accent-hover: {{ value | shade 16 }};
+      }
+  - id: accent-tinted
+    label: Accent
+    type: color
+    group: appearance
+    variants:
+      - tinted
+    default: "#ffffff"
+    css: |-
+      :root {
+        --pt-accent: {{ value }};
+        --pt-accent-soft: {{ value | alpha 0.15 }};
+        --pt-accent-glow: {{ value | alpha 0.3 }};
+      }

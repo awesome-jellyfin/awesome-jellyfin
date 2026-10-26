@@ -7,12 +7,12 @@ repo: https://github.com/stpnwf/ZestyTheme
 description: A minimal and elegant theme for Jellyfin
 status: hidden
 screenshots:
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/home.jpg
-  - https://github.com/stpnwf/ZestyTheme/raw/main/images/nice-guys.jpg
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/avatar.jpg
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/player.jpg
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/login.jpg
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/phone.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/home.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/nice-guys.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/avatar.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/player.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/login.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/phone.jpg
 variants:
   - id: default
     name: Zesty
@@ -22,14 +22,21 @@ variants:
     name: Legacy (Jellyfin 10.10)
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@legacy/v10.10/theme.css");
+groups:
+  - id: colours
+    label: Colours
+  - id: other
+    label: Other
 settings:
   - id: color
     label: Colour scheme
     type: select
+    group: colours
+    display: segmented
     default: default
     options:
       - value: default
-        label: Default
+        label: Cyan
       - value: blue
         label: Blue
         css: |-
@@ -58,3 +65,88 @@ settings:
         label: Yellow
         css: |-
           @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css");
+      - value: custom
+        label: Custom
+        description: Your own colours.
+  - id: accent
+    label: Accent
+    description: Light pastel colours work best.
+    type: color
+    group: colours
+    when:
+      setting: color
+      is: custom
+    default: "#bbf1dd"
+    css: |-
+      :root {
+        --accent: {{ value | rgb }};
+      }
+  - id: accent-off
+    label: Accent, muted
+    type: color
+    group: colours
+    when:
+      setting: color
+      is: custom
+    default: "#6b8a7f"
+    css: |-
+      :root {
+        --accent-off: {{ value | rgb }};
+      }
+  - id: dark
+    label: Dark
+    type: color
+    group: colours
+    when:
+      setting: color
+      is: custom
+    default: "#1b2421"
+    css: |-
+      :root {
+        --dark: {{ value | rgb }};
+      }
+  - id: darkest
+    label: Darkest
+    type: color
+    group: colours
+    when:
+      setting: color
+      is: custom
+    default: "#151c19"
+    css: |-
+      :root {
+        --darkest: {{ value | rgb }};
+      }
+  - id: dark-highlight
+    label: Dark highlight
+    type: color
+    group: colours
+    when:
+      setting: color
+      is: custom
+    default: "#40534c"
+    css: |-
+      :root {
+        --dark-highlight: {{ value | rgb }};
+      }
+  - id: dark-apparent
+    label: Background on phones
+    description: The colour of the gradient over the backdrop in the phone layout.
+    type: color
+    group: colours
+    when:
+      setting: color
+      is: custom
+    default: "#202925"
+    css: |-
+      :root {
+        --dark-apparent: {{ value | rgb }};
+      }
+  - id: login-alt
+    label: Stylish login wallpaper
+    type: toggle
+    group: other
+    default: false
+    page: login
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/login-alt.css");

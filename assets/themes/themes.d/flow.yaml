@@ -16,10 +16,21 @@ variants:
     name: Flow
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-main.css");
+groups:
+  - id: colour
+    label: Colour
+  - id: options
+    label: Options
+  - id: experimental
+    label: Experimental
+    description: Works in progress from the Flow README.
+  - id: compat
+    label: Compatibility
 settings:
   - id: color
     label: Colour
     type: select
+    group: colour
     default: default
     options:
       - value: default
@@ -55,18 +66,138 @@ settings:
   - id: extras
     label: Extras (smaller cast and crew)
     type: toggle
+    group: options
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Extras.css");
   - id: round-cast
     label: Round cast and crew
     type: toggle
+    group: options
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFLow-RoundCastCrew.css");
   - id: episode-grid
     label: Episode grid
     type: toggle
+    group: options
     default: false
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-EpisodeGrid.css");
+  - id: drawer-toggle
+    label: Collapsible drawer
+    type: toggle
+    group: options
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Drawer-Toggle.css");
+  - id: high-dpi
+    label: Bigger logo
+    description: For high-DPI screens and Jellyfin Media Player.
+    type: toggle
+    group: options
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-HighDPIExtras.css");
+  - id: episode-grid-outline
+    label: Outline episodes on hover
+    type: toggle
+    group: experimental
+    default: false
+    tags:
+      - experimental
+    page: season
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-EpisodeGrid-outline.css");
+  - id: scroll-episodes
+    label: Horizontally scrolling episodes
+    type: select
+    group: experimental
+    tags:
+      - experimental
+    page: season
+    display: segmented
+    default: off
+    options:
+      - value: off
+        label: Off
+      - value: on
+        label: On
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Scrollable-Episodes-WIP.css");
+      - value: alt
+        label: Controls on top
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Scrollable-Episodes-ALT.css");
+  - id: animated-overlay
+    label: Animated overlay
+    description: On backdrops and the Live TV section.
+    type: toggle
+    group: experimental
+    default: false
+    tags:
+      - experimental
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-AnimatedOverlay.css");
+  - id: nyan
+    label: Nyan progress bar
+    type: toggle
+    group: experimental
+    default: false
+    tags:
+      - experimental
+    page: home
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/NyanProgress.css");
+  - id: font-tweaks
+    label: Left-aligned text, poster spacing, corner indicators
+    type: toggle
+    group: experimental
+    default: false
+    tags:
+      - experimental
+    page: home
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-FontTweaks.css");
+  - id: music
+    label: Music bar
+    type: toggle
+    group: experimental
+    default: false
+    tags:
+      - experimental
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Music.css");
+  - id: compatibility
+    label: Jellyfin 12 layout
+    description: For Jellyfin 12; pick the layout chosen in Settings > Display.
+    type: select
+    group: compat
+    last: true
+    display: segmented
+    default: none
+    options:
+      - value: none
+        label: None
+      - value: modern
+        label: Modern layout
+        css: |-
+          @import url("https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Compatibility.css");
+      - value: legacy
+        label: '"Desktop (Legacy)" layout'
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility-Legacy.css");
+  - id: mobile-fixes
+    label: Phone fixes
+    type: toggle
+    group: compat
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-mobilefixes.css");
+  - id: small-screen-fixes
+    label: Small screen fixes
+    type: toggle
+    group: compat
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-smallscreen-fixes.css");
