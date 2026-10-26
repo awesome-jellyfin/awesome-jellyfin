@@ -7,12 +7,12 @@ repo: https://github.com/stpnwf/ZestyTheme
 description: A minimal and elegant theme for Jellyfin
 status: hidden
 screenshots:
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/home.jpg
-  - https://github.com/stpnwf/ZestyTheme/raw/main/images/nice-guys.jpg
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/avatar.jpg
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/player.jpg
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/login.jpg
-  - https://github.com/stpnwf/ZestyTheme/blob/main/images/phone.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/home.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/nice-guys.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/avatar.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/player.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/login.jpg
+  - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/phone.jpg
 variants:
   - id: default
     name: Zesty
@@ -147,5 +147,6 @@ settings:
     type: toggle
     group: other
     default: false
+    page: login
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/login-alt.css");

@@ -7,10 +7,10 @@ repo: https://github.com/n00bcodr/Jellyfish
 description: Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes.
 status: listed
 screenshots:
-  - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/home.png
-  - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/item-details.png
-  - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login1.png
-  - https://github.com/n00bcodr/Jellyfish/blob/main/screenshots/login2.png
+  - https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/home.png
+  - https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/item-details.png
+  - https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/login1.png
+  - https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/login2.png
 groups:
   - id: palette
     label: Palette
