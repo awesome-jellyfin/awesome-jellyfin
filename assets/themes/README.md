@@ -24,23 +24,116 @@ This folder holds the data behind [THEMES.md](../../THEMES.md). Each theme has o
 | `note`        | no       | Something users should know first.                                                                                                                                             |
 | `requires_js` | no       | `true` if the theme needs JavaScript or a plugin, so a CSS-only preview is not possible.                                                                                       |
 | `screenshots` | no       | List of screenshot links.                                                                                                                                                      |
-| `settings`    | no       | Optional add-ons, see below.                                                                                                                                                   |
+| `groups`      | no       | Sections for the settings, see [Settings](#settings).                                                                                                                          |
+| `settings`    | no       | What a visitor can change in the preview site, see [Settings](#settings).                                                                                                      |
 | `stale`       | no       | Set by the maintainers. Do not add it.                                                                                                                                         |
 
-Each variant has an `id`, a `name` and the `css` users paste into Jellyfin's Custom CSS. A variant can also set `settings` to change the default of a setting for that variant.
+Each variant has an `id`, a `name` and the `css` users paste into Jellyfin's Custom CSS. Write every `css` value as a `|-` block, even a single line, and write maps and lists in block style (one key or item per line), not as `{ ... }` or `[ ... ]`. A variant can also set `settings` to change the default of a setting for that variant.
 
-Every setting needs an `id` (lowercase letters, digits, dots and hyphens), a `label`, a `type` and a `default`. A `description` is optional. What else it needs depends on the type:
-
-- `toggle` needs `css`, which is added when the toggle is on. The `default` is `true` or `false`.
-- `select` needs two or more `options`, each with a `value` and a `label` and an optional `css`. The `default` is one of the option values.
-- `color` needs `var`, a CSS variable name starting with `--`. The `default` is a color.
-- `number` needs `var`, a CSS variable name starting with `--`. The `default` is a number. `min`, `max`, `step` and `unit` are optional.
+Settings are optional, see [Settings](#settings).
 
 ## Variants and settings
 
 Variants are mutually exclusive versions of a theme, such as a light and a dark edition. A visitor uses exactly one of them.
 
-Settings are optional add-ons on top of the chosen variant. A visitor can switch them on or change them in the preview site.
+Settings are what a visitor can change on top of the chosen variant in the [preview site](https://awesome-jellyfin.github.io/themes/): add-on files, a color scheme, a corner radius. The site turns them into the CSS the visitor copies, so a theme can have a full theme builder without its own website.
+
+## Settings
+
+Every setting has an `id` (lowercase letters, digits, dots and hyphens), a `label` and a `type`. All but presets have a `default`. Optional on every setting:
+
+| Field         | What it does                                                                                                                                                                     |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `description` | A line under the label.                                                                                                                                                          |
+| `group`       | The `id` of a group in `groups`. Groups are shown as sections, in the order of `groups`. Settings without a group come first.                                                    |
+| `variants`    | Variant ids the setting is for, e.g. options that only make sense with a "Custom" variant. It is hidden on the other variants.                                                   |
+| `when`        | Show the setting only while another one has (`is`) or doesn't have (`not`) a value, e.g. `setting: palette` with `is: custom`. Takes a value or a list.                          |
+| `tags`        | Small labels: `needs-plugin`, `not-in-preview`, `opinionated`, `experimental`.                                                                                                   |
+| `page`        | The preview page that shows the setting best (`home`, `movies`, `movie`, `shows`, `series`, `season`, `playlists`, `playlist`, `guide`). Changing it switches the preview there. |
+| `last`        | `true` puts the setting's `@import` lines after all others, for files that must load last.                                                                                       |
+| `display`     | How the control looks, see the table below.                                                                                                                                      |
+
+| Type     | Needs                                                                                                    | `default`                 | `display`                                              |
+| -------- | -------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------ |
+| `toggle` | `css`, added while it's on                                                                               | `true` or `false`         | `switch` (default), `card`                             |
+| `select` | two or more `options`: `value`, `label`, optional `css`, `description` and `swatch` (up to three colors) | one of the values         | `dropdown` (default), `segmented`, `swatches`, `cards` |
+| `color`  | `var` or `css`. `alpha: true` allows transparent colors                                                  | a color, e.g. `"#00a4dc"` | `picker`                                               |
+| `number` | `var` or `css`. Optional `min`, `max`, `step`, `unit`                                                    | a number                  | `slider` (default), `input`                            |
+| `text`   | optional `css`, `placeholder` and `pattern` (a regular expression the whole value must match)            | text                      | `field`                                                |
+| `image`  | optional `css`                                                                                           | an `https://` link        | `field`                                                |
+| `preset` | `options`, each a `label`, optional `swatch` and the `values` it gives other settings                    | none                      |                                                        |
+
+A `color` or `number` with `var` writes `--your-var: <value>;` in one `:root` block, and only when the visitor changed it (`number` adds its `unit`). Use `css` instead when you need more than one variable or a derived value. A `css` of a `color`, `number`, `text` or `image` setting is also left out while it gives the same CSS as at the default value, as long as the setting is shown by default; so write defaults that match your theme's own values. A setting that only shows after another choice (with `when`) always writes its `css`. Text can't contain `; { } ( ) [ ] < > " '`, backslashes or `/*`, and images must be plain `https://` links, so what a visitor types can't break out of your CSS. A text `pattern` may only use syntax JavaScript and Go read the same way: character classes, `(?:...)` groups and quantifiers, but no flags, lookarounds or `\p` classes.
+
+### Templates
+
+Any `css` (of variants, settings and options) can hold placeholders: `{{ value }}` is the setting's own value, and `{{ <id> }}` is another setting's. Filters after a `|` change the value:
+
+| Filter              | Example                             | Gives                                                |
+| ------------------- | ----------------------------------- | ---------------------------------------------------- |
+| `rgb`               | `{{ value \| rgb }}`                | `0, 164, 220`                                        |
+| `r`, `g`, `b`       | `{{ value \| r }}`                  | `0`                                                  |
+| `alpha <0-1>`       | `{{ value \| alpha 0.2 }}`          | `rgba(0, 164, 220, 0.2)`                             |
+| `mix <color> <0-1>` | `{{ value \| mix "#ffffff" 0.07 }}` | the color, 7% towards white                          |
+| `shade <-255-255>`  | `{{ value \| shade -30 }}`          | each channel 30 darker                               |
+| `contrast`          | `{{ value \| contrast }}`           | `#000000` or `#ffffff`, whichever reads better on it |
+| `hex`               | `{{ value \| hex }}`                | `#00a4dc`                                            |
+| `px`                | `{{ value \| px }}`                 | `15px`                                               |
+| `unit "<unit>"`     | `{{ value \| unit "rem" }}`         | `1.5rem`                                             |
+
+Filters can be chained: `{{ value | shade -30 | alpha 0.4 }}`. A text setting is handy for a version that every `@import` uses: `@import url("https://cdn.jsdelivr.net/gh/you/theme@{{ version }}/theme.css");`.
+
+The visitor's CSS is put together in this order: the variant's `css`, then the `css` of every shown setting (in file order), then the `:root` block with the changed `var` settings. Every `@import` moves to the top, those of `last` settings after the others. All top-level `:root { ... }` blocks are combined into one, a later value of the same variable winning.
+
+If you want to see a complex example, take a look at [jellyfish.yaml](themes.d/jellyfish.yaml) which uses most of this.
+Its custom palette, for example, is a `swatches` select with a `custom` option, and color settings that only show for it:
+
+```yaml
+groups:
+  - id: palette
+    label: Palette
+settings:
+  - id: color
+    label: Palette
+    type: select
+    group: palette
+    display: swatches
+    default: jellyblue
+    options:
+      - value: jellyblue
+        label: Jelly Blue
+        swatch:
+          - "#00a4dc"
+          - "#181818"
+      - value: custom
+        label: Custom
+  - id: accent
+    label: Accent
+    type: color
+    group: palette
+    default: "#00a4dc"
+    when:
+      setting: color
+      is: custom
+    css: |-
+      :root {
+        --primary-r: {{ value | r }};
+        --primary-g: {{ value | g }};
+        --primary-b: {{ value | b }};
+        --primary-alt1: {{ value | shade -30 | alpha 1 }};
+      }
+  - id: radius
+    label: Corner radius
+    type: number
+    group: palette
+    default: 15
+    min: 0
+    max: 30
+    unit: px
+    var: --rounded-cards
+```
+
+The bot checks every template on the pull request: unknown settings or filters, a `when` pointing at a value its setting can never have, and presets with invalid values all block the merge.
 
 ## What happens on the pull request
 

@@ -25,7 +25,7 @@ variants:
     # The name shown for this variant.
     name: My Theme
     # The CSS users paste into Jellyfin's Custom CSS, usually @import lines.
-    css: |
+    css: |-
       @import url("https://cdn.jsdelivr.net/gh/your-github-handle/my-theme@main/theme.css");
 
 # --- Optional ---
@@ -45,8 +45,11 @@ screenshots:
   - https://raw.githubusercontent.com/your-github-handle/my-theme/main/screenshots/home.png
   - https://raw.githubusercontent.com/your-github-handle/my-theme/main/screenshots/library.png
 
-# Optional add-ons a visitor can switch on in the preview site.
-# Remove the leading "# " to use them.
+# What a visitor can change in the preview site. README.md lists every type,
+# display and filter. Remove the leading "# " to use them.
+# groups:
+#   - id: tweaks
+#     label: Tweaks
 # settings:
 #   # A toggle adds its CSS when switched on.
 #   - id: rounded-corners
@@ -54,17 +57,44 @@ screenshots:
 #     description: Rounds the corners of posters and cards.
 #     type: toggle
 #     default: false
-#     css: |
+#     css: |-
 #       .cardImageContainer { border-radius: 12px; }
 #   # A select lets the visitor pick one option. Each option may add CSS.
 #   - id: accent
 #     label: Accent color
 #     type: select
+#     display: swatches
 #     default: blue
 #     options:
 #       - value: blue
 #         label: Blue
+#         swatch:
+#           - "#00a4dc"
 #       - value: green
 #         label: Green
-#         css: |
+#         swatch:
+#           - "#2e8b57"
+#         css: |-
 #           :root { --accent: #2e8b57; }
+#       - value: custom
+#         label: Custom
+#   # Only shown while "accent" is "custom". {{ value | rgb }} gives "46, 139, 87".
+#   - id: custom-accent
+#     label: Your accent
+#     type: color
+#     default: "#2e8b57"
+#     when:
+#       setting: accent
+#       is: custom
+#     css: |-
+#       :root { --accent: {{ value }}; --accent-rgb: {{ value | rgb }}; }
+#   # A slider that sets a CSS variable when the visitor moves it.
+#   - id: radius
+#     label: Corner radius
+#     type: number
+#     group: tweaks
+#     default: 12
+#     min: 0
+#     max: 30
+#     unit: px
+#     var: --my-theme-radius
