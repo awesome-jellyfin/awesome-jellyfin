@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/awesome-jellyfin/awesome-jellyfin/blob/main/assets/themes/schema.json",
   "title": "awesome-jellyfin theme",
   "type": "object",
   "additionalProperties": false,
@@ -45,23 +44,43 @@
         "properties": {
           "id": { "$ref": "#/definitions/id" },
           "name": { "type": "string", "minLength": 1 },
-          "css": { "type": "string", "minLength": 1 },
+          "css": {
+            "allOf": [{ "$ref": "#/definitions/template" }, { "minLength": 1 }]
+          },
           "settings": {
             "description": "Overrides of setting defaults for this variant: { settingId: value }.",
             "type": "object",
-            "additionalProperties": { "type": ["string", "number", "boolean"] }
+            "additionalProperties": { "$ref": "#/definitions/value" }
           }
         }
       }
     },
+    "groups": {
+      "description": "Sections the settings are shown in, in this order. Settings without a group come first.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "$ref": "#/definitions/id" },
+          "label": { "type": "string", "minLength": 1 },
+          "description": { "type": "string" }
+        }
+      }
+    },
     "settings": {
+      "description": "Options a visitor can change in the preview site. See README.md.",
       "type": "array",
       "items": {
         "oneOf": [
           { "$ref": "#/definitions/toggle" },
           { "$ref": "#/definitions/select" },
           { "$ref": "#/definitions/color" },
-          { "$ref": "#/definitions/number" }
+          { "$ref": "#/definitions/number" },
+          { "$ref": "#/definitions/text" },
+          { "$ref": "#/definitions/image" },
+          { "$ref": "#/definitions/preset" }
         ]
       }
     }
@@ -74,14 +93,43 @@
       "required": ["id", "label", "type", "default", "css"],
       "properties": {
         "id": { "$ref": "#/definitions/id" },
-        "label": { "type": "string" },
+        "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
+        "when": { "$ref": "#/definitions/when" },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
+        "page": {
+          "description": "The preview page that shows this option best; changing the option switches the preview there.",
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide"
+          ]
+        },
+        "last": {
+          "description": "Put this setting's @imports after all others (for files that must load last).",
+          "type": "boolean"
+        },
         "type": { "const": "toggle" },
         "default": { "type": "boolean" },
         "css": {
-          "description": "Added when the toggle is on.",
-          "type": "string"
-        }
+          "$ref": "#/definitions/template",
+          "description": "Added when the toggle is on."
+        },
+        "display": { "enum": ["switch", "card"] }
       }
     },
     "select": {
@@ -90,8 +138,36 @@
       "required": ["id", "label", "type", "default", "options"],
       "properties": {
         "id": { "$ref": "#/definitions/id" },
-        "label": { "type": "string" },
+        "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
+        "when": { "$ref": "#/definitions/when" },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
+        "page": {
+          "description": "The preview page that shows this option best; changing the option switches the preview there.",
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide"
+          ]
+        },
+        "last": {
+          "description": "Put this setting's @imports after all others (for files that must load last).",
+          "type": "boolean"
+        },
         "type": { "const": "select" },
         "default": { "type": "string" },
         "options": {
@@ -103,41 +179,318 @@
             "required": ["value", "label"],
             "properties": {
               "value": { "type": "string" },
-              "label": { "type": "string" },
-              "css": { "type": "string" }
+              "label": { "type": "string", "minLength": 1 },
+              "description": { "type": "string" },
+              "swatch": { "$ref": "#/definitions/swatch" },
+              "css": { "$ref": "#/definitions/template" }
             }
           }
-        }
+        },
+        "display": { "enum": ["dropdown", "segmented", "swatches", "cards"] }
       }
     },
     "color": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "label", "type", "default", "var"],
+      "required": ["id", "label", "type", "default"],
       "properties": {
         "id": { "$ref": "#/definitions/id" },
-        "label": { "type": "string" },
+        "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
+        "when": { "$ref": "#/definitions/when" },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
+        "page": {
+          "description": "The preview page that shows this option best; changing the option switches the preview there.",
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide"
+          ]
+        },
+        "last": {
+          "description": "Put this setting's @imports after all others (for files that must load last).",
+          "type": "boolean"
+        },
         "type": { "const": "color" },
         "default": { "type": "string" },
-        "var": { "type": "string", "pattern": "^--" }
-      }
+        "alpha": {
+          "description": "Allow transparent colours (#rrggbbaa).",
+          "type": "boolean"
+        },
+        "var": {
+          "description": "A CSS variable set in :root when the value differs from the default. Use css instead for anything more.",
+          "type": "string",
+          "pattern": "^--[A-Za-z0-9_-]+$"
+        },
+        "css": {
+          "$ref": "#/definitions/template",
+          "description": "Always added while the setting is shown; {{ value }} is the colour."
+        },
+        "display": { "enum": ["picker"] }
+      },
+      "anyOf": [{ "required": ["var"] }, { "required": ["css"] }]
     },
     "number": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "label", "type", "default", "var"],
+      "required": ["id", "label", "type", "default"],
       "properties": {
         "id": { "$ref": "#/definitions/id" },
-        "label": { "type": "string" },
+        "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
+        "when": { "$ref": "#/definitions/when" },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
+        "page": {
+          "description": "The preview page that shows this option best; changing the option switches the preview there.",
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide"
+          ]
+        },
+        "last": {
+          "description": "Put this setting's @imports after all others (for files that must load last).",
+          "type": "boolean"
+        },
         "type": { "const": "number" },
         "default": { "type": "number" },
         "min": { "type": "number" },
         "max": { "type": "number" },
-        "step": { "type": "number" },
-        "unit": { "type": "string" },
-        "var": { "type": "string", "pattern": "^--" }
+        "step": { "type": "number", "exclusiveMinimum": 0 },
+        "unit": {
+          "description": "Appended to the value written to var, e.g. px.",
+          "type": "string"
+        },
+        "var": {
+          "description": "A CSS variable set in :root when the value differs from the default. Use css instead for anything more.",
+          "type": "string",
+          "pattern": "^--[A-Za-z0-9_-]+$"
+        },
+        "css": {
+          "$ref": "#/definitions/template",
+          "description": "Always added while the setting is shown; {{ value }} is the number."
+        },
+        "display": { "enum": ["slider", "input"] }
+      },
+      "anyOf": [{ "required": ["var"] }, { "required": ["css"] }]
+    },
+    "template": {
+      "description": "CSS that may hold {{ placeholders }}: {{ value }} or another setting's id, optionally through filters, e.g. {{ accent | alpha 0.2 }}. See README.md. The bot and the preview site check them.",
+      "type": "string"
+    },
+    "value": { "type": ["string", "number", "boolean"] },
+    "tag": {
+      "description": "Shown as a small label on the option.",
+      "enum": ["needs-plugin", "not-in-preview", "opinionated", "experimental"]
+    },
+    "when": {
+      "description": "Show the setting only while another setting has (is) or doesn't have (not) one of these values.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["setting"],
+      "minProperties": 2,
+      "properties": {
+        "setting": { "$ref": "#/definitions/id" },
+        "is": { "$ref": "#/definitions/values" },
+        "not": { "$ref": "#/definitions/values" }
+      }
+    },
+    "values": {
+      "anyOf": [
+        { "$ref": "#/definitions/value" },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/value" }
+        }
+      ]
+    },
+    "swatch": {
+      "description": "Up to three colours shown on the option.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": { "type": "string" }
+    },
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "type", "default"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "label": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
+        "when": { "$ref": "#/definitions/when" },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
+        "page": {
+          "description": "The preview page that shows this option best; changing the option switches the preview there.",
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide"
+          ]
+        },
+        "last": {
+          "description": "Put this setting's @imports after all others (for files that must load last).",
+          "type": "boolean"
+        },
+        "type": { "const": "text" },
+        "default": { "type": "string" },
+        "placeholder": { "type": "string" },
+        "pattern": {
+          "description": "A regular expression the whole value must match.",
+          "type": "string"
+        },
+        "css": {
+          "$ref": "#/definitions/template",
+          "description": "Added while the setting is shown. Other settings' templates can use the value too."
+        },
+        "display": { "enum": ["field"] }
+      }
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "type", "default"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "label": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
+        "when": { "$ref": "#/definitions/when" },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
+        "page": {
+          "description": "The preview page that shows this option best; changing the option switches the preview there.",
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide"
+          ]
+        },
+        "last": {
+          "description": "Put this setting's @imports after all others (for files that must load last).",
+          "type": "boolean"
+        },
+        "type": { "const": "image" },
+        "default": { "type": "string", "pattern": "^https://" },
+        "css": {
+          "$ref": "#/definitions/template",
+          "description": "Added while the setting is shown; {{ value }} is the https:// URL."
+        },
+        "display": { "enum": ["field"] }
+      }
+    },
+    "preset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "type", "options"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "label": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
+        "when": { "$ref": "#/definitions/when" },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
+        "page": {
+          "description": "The preview page that shows this option best; changing the option switches the preview there.",
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide"
+          ]
+        },
+        "last": {
+          "description": "Put this setting's @imports after all others (for files that must load last).",
+          "type": "boolean"
+        },
+        "type": { "const": "preset" },
+        "options": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "values"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "swatch": { "$ref": "#/definitions/swatch" },
+              "values": {
+                "description": "Setting id -> the value this preset gives it.",
+                "type": "object",
+                "minProperties": 1,
+                "additionalProperties": { "$ref": "#/definitions/value" }
+              }
+            }
+          }
+        }
       }
     }
   }
