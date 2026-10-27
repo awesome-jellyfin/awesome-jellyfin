@@ -11,8 +11,16 @@ To make changes, please edit the matching YAML file in `assets/themes/themes.d`.
   <h1 align="center"><a href="https://github.com/awesome-jellyfin/awesome-jellyfin">Awesome Jellyfin</a> > Themes</h1>
 </p>
 
+> [!IMPORTANT]
+> **This list is moving to the [Theme Preview](https://awesome-jellyfin.github.io/themes/).**
+> There you can see every theme on snapshots of the real Jellyfin web interface (captured from the latest releases, desktop and mobile),
+> tweak its options and copy the finished CSS.
+>
+> 💬 **What do you think?** Missing something, found a bug, or have an idea?
+> [Leave feedback in the Discussions](https://github.com/orgs/awesome-jellyfin/discussions/725).
+
 The preview / screenshots were taken directly from the linked repositories.
-If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [PR](https://github.com/awesome-jellyfin/awesome-jellyfin/tree/main/assets/themes/themes.d).
+If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [pull request](https://github.com/awesome-jellyfin/awesome-jellyfin/tree/main/assets/themes/themes.d).
 
 ---
 
@@ -571,6 +579,16 @@ A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://githu
 ---
 
 </details>
+
+## Made a theme?
+
+- **Add it to the list:** one YAML file in [`assets/themes/themes.d`](https://github.com/awesome-jellyfin/awesome-jellyfin/tree/main/assets/themes/themes.d),
+  see the [themes README](assets/themes/README.md). The bot comments on your PR with a link to preview it live.
+- **Test it before the PR:** open `https://awesome-jellyfin.github.io/themes/?gh=<you>/<repo>&ref=<branch>&path=<file>.yaml`,
+  or use `Your CSS` > `Preview a theme file from GitHub` in the preview.
+- **Give it a builder:** a theme with `settings` gets palettes, sliders and toggles in the preview. Link it from your README:
+  `[Customize <Theme> in the theme preview](https://awesome-jellyfin.github.io/themes/?theme=<file name>&solo=1)`
+  (the share button next to *Use this theme* copies the line for you).
 
 <!--lint ignore unordered-list-marker-style-->
 * Stale / Inactive / May not work anymore ` 📅 `
