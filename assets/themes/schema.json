@@ -26,6 +26,17 @@
       "description": "The theme needs JavaScript or a plugin, so a CSS-only preview is impossible or partial.",
       "type": "boolean"
     },
+    "recommends": {
+      "description": "Jellyfin settings the theme works best with. The preview turns them on for this theme and says so.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "backdrops": {
+          "description": "Settings > Display > Backdrops.",
+          "type": "boolean"
+        }
+      }
+    },
     "stale": {
       "description": "Set by the stale scan. Rendered as the stale tag in THEMES.md.",
       "type": "boolean"
@@ -44,7 +55,9 @@
         "properties": {
           "id": { "$ref": "#/definitions/id" },
           "name": { "type": "string", "minLength": 1 },
-          "css": { "allOf": [{ "$ref": "#/definitions/template" }, { "minLength": 1 }] },
+          "css": {
+            "allOf": [{ "$ref": "#/definitions/template" }, { "minLength": 1 }]
+          },
           "settings": {
             "description": "Overrides of setting defaults for this variant: { settingId: value }.",
             "type": "object",
@@ -93,7 +106,10 @@
         "id": { "$ref": "#/definitions/id" },
         "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
-        "group": { "description": "The id of a group in groups.", "$ref": "#/definitions/id" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
         "variants": {
           "description": "Variant ids this setting is for; it is hidden on the other variants.",
           "type": "array",
@@ -102,10 +118,25 @@
           "items": { "$ref": "#/definitions/id" }
         },
         "when": { "$ref": "#/definitions/when" },
-        "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide",
+            "login"
+          ]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -113,7 +144,10 @@
         },
         "type": { "const": "toggle" },
         "default": { "type": "boolean" },
-        "css": { "$ref": "#/definitions/template", "description": "Added when the toggle is on." },
+        "css": {
+          "$ref": "#/definitions/template",
+          "description": "Added when the toggle is on."
+        },
         "display": { "enum": ["switch", "card"] }
       }
     },
@@ -125,7 +159,10 @@
         "id": { "$ref": "#/definitions/id" },
         "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
-        "group": { "description": "The id of a group in groups.", "$ref": "#/definitions/id" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
         "variants": {
           "description": "Variant ids this setting is for; it is hidden on the other variants.",
           "type": "array",
@@ -134,10 +171,25 @@
           "items": { "$ref": "#/definitions/id" }
         },
         "when": { "$ref": "#/definitions/when" },
-        "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide",
+            "login"
+          ]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -172,7 +224,10 @@
         "id": { "$ref": "#/definitions/id" },
         "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
-        "group": { "description": "The id of a group in groups.", "$ref": "#/definitions/id" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
         "variants": {
           "description": "Variant ids this setting is for; it is hidden on the other variants.",
           "type": "array",
@@ -181,10 +236,25 @@
           "items": { "$ref": "#/definitions/id" }
         },
         "when": { "$ref": "#/definitions/when" },
-        "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide",
+            "login"
+          ]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -192,7 +262,10 @@
         },
         "type": { "const": "color" },
         "default": { "type": "string" },
-        "alpha": { "description": "Allow transparent colours (#rrggbbaa).", "type": "boolean" },
+        "alpha": {
+          "description": "Allow transparent colours (#rrggbbaa).",
+          "type": "boolean"
+        },
         "var": {
           "description": "A CSS variable set in :root when the value differs from the default. Use css instead for anything more.",
           "type": "string",
@@ -213,7 +286,10 @@
         "id": { "$ref": "#/definitions/id" },
         "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
-        "group": { "description": "The id of a group in groups.", "$ref": "#/definitions/id" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
         "variants": {
           "description": "Variant ids this setting is for; it is hidden on the other variants.",
           "type": "array",
@@ -222,10 +298,25 @@
           "items": { "$ref": "#/definitions/id" }
         },
         "when": { "$ref": "#/definitions/when" },
-        "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide",
+            "login"
+          ]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -236,7 +327,10 @@
         "min": { "type": "number" },
         "max": { "type": "number" },
         "step": { "type": "number", "exclusiveMinimum": 0 },
-        "unit": { "description": "Appended to the value written to var, e.g. px.", "type": "string" },
+        "unit": {
+          "description": "Appended to the value written to var, e.g. px.",
+          "type": "string"
+        },
         "var": {
           "description": "A CSS variable set in :root when the value differs from the default. Use css instead for anything more.",
           "type": "string",
@@ -271,7 +365,14 @@
       }
     },
     "values": {
-      "anyOf": [{ "$ref": "#/definitions/value" }, { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/value" } }]
+      "anyOf": [
+        { "$ref": "#/definitions/value" },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/value" }
+        }
+      ]
     },
     "swatch": {
       "description": "Up to three colours shown on the option.",
@@ -288,7 +389,10 @@
         "id": { "$ref": "#/definitions/id" },
         "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
-        "group": { "description": "The id of a group in groups.", "$ref": "#/definitions/id" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
         "variants": {
           "description": "Variant ids this setting is for; it is hidden on the other variants.",
           "type": "array",
@@ -297,10 +401,25 @@
           "items": { "$ref": "#/definitions/id" }
         },
         "when": { "$ref": "#/definitions/when" },
-        "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide",
+            "login"
+          ]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -309,7 +428,10 @@
         "type": { "const": "text" },
         "default": { "type": "string" },
         "placeholder": { "type": "string" },
-        "pattern": { "description": "A regular expression the whole value must match.", "type": "string" },
+        "pattern": {
+          "description": "A regular expression the whole value must match.",
+          "type": "string"
+        },
         "css": {
           "$ref": "#/definitions/template",
           "description": "Added while the setting is shown. Other settings' templates can use the value too."
@@ -325,7 +447,10 @@
         "id": { "$ref": "#/definitions/id" },
         "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
-        "group": { "description": "The id of a group in groups.", "$ref": "#/definitions/id" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
         "variants": {
           "description": "Variant ids this setting is for; it is hidden on the other variants.",
           "type": "array",
@@ -334,10 +459,25 @@
           "items": { "$ref": "#/definitions/id" }
         },
         "when": { "$ref": "#/definitions/when" },
-        "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide",
+            "login"
+          ]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
@@ -360,7 +500,10 @@
         "id": { "$ref": "#/definitions/id" },
         "label": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
-        "group": { "description": "The id of a group in groups.", "$ref": "#/definitions/id" },
+        "group": {
+          "description": "The id of a group in groups.",
+          "$ref": "#/definitions/id"
+        },
         "variants": {
           "description": "Variant ids this setting is for; it is hidden on the other variants.",
           "type": "array",
@@ -369,10 +512,25 @@
           "items": { "$ref": "#/definitions/id" }
         },
         "when": { "$ref": "#/definitions/when" },
-        "tags": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/tag" } },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/tag" }
+        },
         "page": {
           "description": "The preview page that shows this option best; changing the option switches the preview there.",
-          "enum": ["home", "movies", "movie", "shows", "series", "season", "playlists", "playlist", "guide", "login"]
+          "enum": [
+            "home",
+            "movies",
+            "movie",
+            "shows",
+            "series",
+            "season",
+            "playlists",
+            "playlist",
+            "guide",
+            "login"
+          ]
         },
         "last": {
           "description": "Put this setting's @imports after all others (for files that must load last).",
