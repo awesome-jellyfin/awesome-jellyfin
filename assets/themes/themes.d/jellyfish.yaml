@@ -6,6 +6,8 @@ author: n00bcodr
 repo: https://github.com/n00bcodr/Jellyfish
 description: Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes.
 status: listed
+recommends:
+  backdrops: true
 screenshots:
   - https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/home.png
   - https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/item-details.png

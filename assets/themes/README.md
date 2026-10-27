@@ -23,6 +23,7 @@ This folder holds the data behind [THEMES.md](../../THEMES.md). Each theme has o
 | `description` | no       | A short description.                                                                                                                                                           |
 | `note`        | no       | Something users should know first.                                                                                                                                             |
 | `requires_js` | no       | `true` if the theme needs JavaScript or a plugin, so a CSS-only preview is not possible.                                                                                       |
+| `recommends`  | no       | Jellyfin settings the theme works best with: `backdrops: true` (Settings > Display > Backdrops). The preview turns them on and tells visitors.                                 |
 | `screenshots` | no       | List of screenshot links.                                                                                                                                                      |
 | `groups`      | no       | Sections for the settings, see [Settings](#settings).                                                                                                                          |
 | `settings`    | no       | What a visitor can change in the preview site, see [Settings](#settings).                                                                                                      |

@@ -7,6 +7,8 @@ author_url: https://github.com/safiyu
 repo: https://github.com/safiyu/ijelly
 description: A collection of six themes for Jellyfin Web (Apple TV, Cinematheque Noir, Editorial, Gallery, Blueprint, and Poster-Tinted).
 status: listed
+recommends:
+  backdrops: true
 screenshots:
   - https://github.com/safiyu/ijelly/blob/main/screenshots/web/apple-library.jpg?raw=true
   - https://github.com/safiyu/ijelly/blob/main/screenshots/web/noir-library.jpg?raw=true

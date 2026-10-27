@@ -8,6 +8,8 @@ repo: https://github.com/AumGupta/abyss-jellyfin
 website: https://aumgupta.github.io/abyss-jellyfin/
 description: A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on.
 status: listed
+recommends:
+  backdrops: true
 screenshots:
   - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_1.png?raw=true
   - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_2.png?raw=true

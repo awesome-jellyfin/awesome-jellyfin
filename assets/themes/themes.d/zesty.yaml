@@ -6,6 +6,8 @@ author: stpnwf
 repo: https://github.com/stpnwf/ZestyTheme
 description: A minimal and elegant theme for Jellyfin
 status: hidden
+recommends:
+  backdrops: true
 screenshots:
   - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/home.jpg
   - https://raw.githubusercontent.com/stpnwf/ZestyTheme/main/images/nice-guys.jpg
