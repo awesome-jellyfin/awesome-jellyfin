@@ -17,8 +17,8 @@
 <table>
   <tr>
     <th width="500px" align="center">
-      <h3><a href="THEMES.md">🖌️ Themes</a></h3>
-      Browse the collection of community themes<br />
+      <h3><a href="https://awesome-jellyfin.github.io/themes/">🖌️ Themes</a></h3>
+      Preview a collection of community themes<br />
       <img width="1" height="10" />
     </th>
     <th width="500px" align="center">
