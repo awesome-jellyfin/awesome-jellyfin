@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - Druidblack
+name: Jellyfin Icon Metadata
+author: Druidblack
+author_url: https://github.com/Druidblack
+repo: https://github.com/Druidblack/jellyfin-icon-metadata
+description: Replaces the text links to metadata providers on item pages, such as IMDb, TMDB, AniList and MusicBrainz, with their logos. Covers about 30 providers for movies, shows, anime, music and books.
+status: listed
+note: An add-on for the external links on item pages, not a full theme. Add it on top of the stock look or another theme.
+screenshots:
+  - https://github.com/user-attachments/assets/b7645f41-bf4a-4929-b14e-1e7b78f8a99a
+  - https://github.com/user-attachments/assets/5536574a-1dd7-4412-9a82-7d542476baca
+  - https://github.com/user-attachments/assets/7ac06608-90b1-43d9-8c47-9acb5cb293e2
+  - https://github.com/user-attachments/assets/bbd02b34-59ee-46f4-9326-6f8aa1f18c99
+  - https://github.com/user-attachments/assets/2f13825d-5f07-4dea-87b3-e3ab81120c47
+  - https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/image/anime%20menu.jpg
+  - https://github.com/user-attachments/assets/2a04a2f9-ac98-4017-a838-37ca733489eb
+variants:
+  - id: default
+    name: Jellyfin Icon Metadata
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/Druidblack/jellyfin-icon-metadata@main/public-icon.css");
