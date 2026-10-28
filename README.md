@@ -305,6 +305,7 @@
 - [Jellyswarrm](https://github.com/LLukas22/Jellyswarrm) - Reverse proxy that lets you combine multiple Jellyfin servers into one virtual instance.
 - [quality-gate-encoder](https://github.com/GeiserX/quality-gate-encoder) - Runs alongside your library and makes a 720p HEVC, H.264, or AV1 copy of each file using Intel or NVIDIA GPU, so remote viewers can direct play instead of transcoding live.
 - [Samsung-Jellyfin-Installer](https://github.com/Jellyfin2Samsung/Samsung-Jellyfin-Installer) - Cross-platform tool that helps you install Jellyfin on Samsung Smart TVs running Tizen OS.
+- [self-host](https://github.com/ajnart/self-host) - Install self-hosted apps, Jellyfin included, and get them set up for you: admin accounts, API keys and the apps connected to each other.
 - [Tracearr](https://github.com/connorgallopo/Tracearr) - Real-time Jellyfin monitoring dashboard for tracking streams and detecting account sharing.
 - [Universal Plugin Repo](https://github.com/0belous/universal-plugin-repo) - Consolidates many plugin repositories to create a universal catalogue.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
