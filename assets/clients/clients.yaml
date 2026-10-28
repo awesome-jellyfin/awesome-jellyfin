@@ -908,6 +908,20 @@ clients:
         owner: Phioster
         repo: sanctum_daemon
 
+  - name: "Glacier"
+    targets: [AndroidTV]
+    oss: https://github.com/Glacier-Jellyfin/glacier-androidtv
+    website: https://glacier-jellyfin.github.io/glacier-androidtv/
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Glacier-Jellyfin
+        repo: glacier-androidtv
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
