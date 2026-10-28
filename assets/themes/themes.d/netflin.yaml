@@ -1,0 +1,82 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - ahza-code
+name: Netflin
+author: ahza-code
+author_url: https://github.com/ahza-code
+repo: https://github.com/ahza-code/Netflin
+description: A Netflix-style dark theme for the new Modern layout, with title-art heroes, rows of cards and red accents on black and grey. Media Bar and KefinTweaks are styled to match.
+status: listed
+note: Built for Jellyfin 12 with Display Mode set to Auto. To theme the admin dashboard too, load the same files with the JavaScript Injector plugin instead of Custom CSS.
+screenshots:
+  - https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/01-home.webp
+  - https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/02-home-rows.webp
+  - https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/05-movie-details.webp
+  - https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/06-series.webp
+  - https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/03-library.webp
+  - https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/04-movie.webp
+variants:
+  - id: default
+    name: Netflin
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/ahza-code/Netflin@{{ version }}/Theme/Netflin.min.css");
+groups:
+  - id: appearance
+    label: Appearance
+  - id: add-ons
+    label: Add-ons
+  - id: advanced
+    label: Advanced
+settings:
+  - id: accent
+    label: Accent
+    description: The red used for buttons, progress bars and highlights.
+    type: color
+    group: appearance
+    default: "#e50914"
+    css: |-
+      :root,
+      :root[data-theme] {
+        --nf-red: {{ value }};
+        --nf-red-hover: {{ value | shade -36 }};
+        --jf-palette-primary-mainChannel: {{ value | r }} {{ value | g }} {{ value | b }};
+        --jf-palette-secondary-mainChannel: {{ value | r }} {{ value | g }} {{ value | b }};
+      }
+  - id: radius
+    label: Corner radius
+    description: Rounding of cards and buttons.
+    type: number
+    group: appearance
+    default: 4
+    min: 0
+    max: 16
+    step: 1
+    unit: px
+    var: --nf-radius
+  - id: netflin-logo
+    label: NETFLIN logo
+    description: Swaps the red JELLYFIN word in the top bar and menu for a curved NETFLIN wordmark.
+    type: toggle
+    group: add-ons
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/ahza-code/Netflin@{{ version }}/Theme/add-ons/netflin-logo.min.css");
+  - id: media-covers
+    label: Media covers
+    description: Custom artwork with the library name for the Movies, Shows, Anime, Collections and Live TV cards on the home page.
+    type: toggle
+    group: add-ons
+    display: card
+    page: home
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/ahza-code/Netflin@{{ version }}/Theme/add-ons/media-covers.min.css");
+  - id: version
+    label: Version
+    description: A release tag of Netflin, or latest. Pin a tag, e.g. v1.1.0, to stop updates from changing your setup.
+    type: text
+    group: advanced
+    default: latest
+    placeholder: latest
+    pattern: "v?[0-9]+(?:\\.[0-9]+)*|main|latest"
