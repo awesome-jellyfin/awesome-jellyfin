@@ -1,0 +1,440 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - nemesbak
+name: Nebula
+author: nemesbak
+author_url: https://github.com/nemesbak
+repo: https://github.com/nemesbak/jellyfin-nebula
+description: A dark theme with rounded cards, glass menus, the Inter font and a violet to cyan gradient accent. Movie pages show the title logo, and episodes are shown as cards.
+status: listed
+note: Built for Jellyfin 12. On 10.x it only partly works.
+screenshots:
+  - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/inicio.jpg
+  - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/antes-despues.jpg
+  - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/ficha.jpg
+  - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/biblioteca.jpg
+  - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/temporada.jpg
+  - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/movil.jpg
+variants:
+  - id: default
+    name: Nebula
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/nebula.css");
+groups:
+  - id: accent
+    label: Accent color
+    description: Pick one, or set your own two gradient colors.
+  - id: layout
+    label: Layout
+  - id: header
+    label: Top bar
+    description: Jellyfin 12 puts your libraries in the top bar. They stay reachable from My Media and the side menu.
+  - id: carousel
+    label: Featured carousel
+    description: For the optional home-page carousel (nebula-home.js), which the repo's installer or a JavaScript injector plugin adds. These settings do nothing without it.
+settings:
+  - id: accent
+    label: Accent
+    type: select
+    group: accent
+    display: swatches
+    default: nebula
+    options:
+      - value: nebula
+        label: Violet / Cyan
+        swatch:
+          - "#8b5cf6"
+          - "#22d3ee"
+      - value: coral
+        label: Coral
+        swatch:
+          - "#ff6b6b"
+          - "#ffa94d"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/acento-coral.css");
+      - value: emerald
+        label: Emerald
+        swatch:
+          - "#10b981"
+          - "#a3e635"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/acento-esmeralda.css");
+      - value: ocean
+        label: Ocean
+        swatch:
+          - "#3b82f6"
+          - "#22d3ee"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/acento-oceano.css");
+      - value: pink
+        label: Pink
+        swatch:
+          - "#ec4899"
+          - "#a855f7"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/acento-rosa.css");
+      - value: gold
+        label: Gold
+        swatch:
+          - "#f59e0b"
+          - "#fde047"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/acento-oro.css");
+      - value: white
+        label: White
+        swatch:
+          - "#e5e7eb"
+          - "#ffffff"
+        css: |-
+          @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/acento-blanco.css");
+      - value: custom
+        label: Custom
+        description: Your own gradient colors.
+        swatch:
+          - "#ff5555"
+          - "#55ee55"
+          - "#5555ff"
+  - id: accent-1
+    label: Gradient start
+    type: color
+    group: accent
+    default: "#8b5cf6"
+    when:
+      setting: accent
+      is: custom
+    css: |-
+      :root {
+        --nb-a1: {{ value }};
+        --nb-a1-rgb: {{ value | rgb }};
+      }
+  - id: accent-2
+    label: Gradient end
+    type: color
+    group: accent
+    default: "#22d3ee"
+    when:
+      setting: accent
+      is: custom
+    css: |-
+      :root {
+        --nb-a2: {{ value }};
+        --nb-a2-rgb: {{ value | rgb }};
+      }
+  - id: on-accent
+    label: Text on buttons
+    description: Use dark text if your colors are light.
+    type: select
+    group: accent
+    display: segmented
+    default: white
+    when:
+      setting: accent
+      is: custom
+    options:
+      - value: white
+        label: White
+        css: |-
+          :root { --nb-on-accent: #ffffff; }
+      - value: dark
+        label: Dark
+        css: |-
+          :root { --nb-on-accent: #111114; }
+      - value: auto
+        label: Auto
+        css: |-
+          :root { --nb-on-accent: {{ accent-1 | contrast }}; }
+  - id: radius
+    label: Corner radius
+    description: Cards, menus and dialogs. A changed value also replaces the smaller 12px radius the theme uses on phones.
+    type: number
+    group: layout
+    page: home
+    default: 16
+    min: 0
+    max: 32
+    step: 1
+    unit: px
+    var: --nb-radius
+  - id: centered-text
+    label: Centered card text
+    description: Centers the title and year under cards, like stock Jellyfin.
+    type: toggle
+    group: layout
+    display: card
+    default: false
+    page: movies
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/tarjetas-texto-centrado.css");
+  - id: text-title
+    label: Text title instead of the logo
+    description: The item page shows the written name instead of the title logo.
+    type: toggle
+    group: layout
+    display: card
+    default: false
+    page: movie
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/titulo-en-texto.css");
+  - id: no-animations
+    label: No animations
+    description: Everything appears instantly. For slow devices and TVs.
+    type: toggle
+    group: layout
+    display: card
+    default: false
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/sin-animaciones.css");
+  - id: header-style
+    label: Bar style
+    type: preset
+    group: header
+    page: home
+    options:
+      - label: Full
+        values:
+          hide-libraries: false
+          hide-favorites: false
+          hide-more: false
+      - label: Minimal
+        values:
+          hide-libraries: true
+          hide-favorites: true
+          hide-more: true
+  - id: hide-libraries
+    label: Hide libraries
+    type: toggle
+    group: header
+    default: false
+    page: home
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/ocultar-bibliotecas-cabecera.css");
+  - id: hide-favorites
+    label: Hide Favorites
+    type: toggle
+    group: header
+    default: false
+    page: home
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/ocultar-favoritos-cabecera.css");
+  - id: hide-more
+    label: Hide the More menu
+    description: The drop-down for libraries that don't fit in the bar.
+    type: toggle
+    group: header
+    default: false
+    page: home
+    tags:
+      - not-in-preview
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/ocultar-menu-mas.css");
+  - id: hero-hide
+    label: Hide the carousel
+    description: Hides it without uninstalling it.
+    type: toggle
+    group: carousel
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main/opciones/sin-carrusel.css");
+  - id: hero-source
+    label: Titles from
+    type: select
+    group: carousel
+    default: recent
+    tags:
+      - needs-plugin
+      - not-in-preview
+    options:
+      - value: recent
+        label: Recently added
+      - value: toprated
+        label: Top rated
+        css: |-
+          :root { --nb-hero-source: toprated; }
+      - value: random
+        label: Random
+        css: |-
+          :root { --nb-hero-source: random; }
+      - value: favorites
+        label: Each user's favorites
+        css: |-
+          :root { --nb-hero-source: favorites; }
+  - id: hero-types
+    label: Types
+    type: select
+    group: carousel
+    display: segmented
+    default: both
+    tags:
+      - needs-plugin
+      - not-in-preview
+    options:
+      - value: both
+        label: Movies and series
+      - value: movies
+        label: Movies
+        css: |-
+          :root { --nb-hero-types: "Movie"; }
+      - value: series
+        label: Series
+        css: |-
+          :root { --nb-hero-types: "Series"; }
+  - id: hero-library
+    label: Only these libraries
+    description: Library names, separated by commas. Empty means all libraries.
+    type: text
+    group: carousel
+    default: ""
+    placeholder: Movies,Anime
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      :root { --nb-hero-library: "{{ value }}"; }
+  - id: hero-days
+    label: Added in the last
+    description: Days. 0 means no limit.
+    type: number
+    group: carousel
+    default: 120
+    min: 0
+    max: 365
+    step: 1
+    var: --nb-hero-days
+    when:
+      setting: hero-source
+      is: recent
+    tags:
+      - needs-plugin
+      - not-in-preview
+  - id: hero-count
+    label: Number of titles
+    description: 0 turns the carousel off.
+    type: number
+    group: carousel
+    default: 8
+    min: 0
+    max: 20
+    step: 1
+    var: --nb-hero-count
+    tags:
+      - needs-plugin
+      - not-in-preview
+  - id: hero-interval
+    label: Seconds per slide
+    description: 0 stops it from moving on by itself.
+    type: number
+    group: carousel
+    default: 8
+    min: 0
+    max: 30
+    step: 1
+    var: --nb-hero-interval
+    tags:
+      - needs-plugin
+      - not-in-preview
+  - id: hero-watched
+    label: Include watched titles
+    type: toggle
+    group: carousel
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      :root { --nb-hero-unwatched: 0; }
+  - id: hero-no-logo
+    label: Include titles without a logo
+    description: Shows their name as text.
+    type: toggle
+    group: carousel
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      :root { --nb-hero-logo: 0; }
+  - id: hero-hide-overview
+    label: Hide the overview
+    type: toggle
+    group: carousel
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      :root { --nb-hero-overview: 0; }
+  - id: hero-hide-genres
+    label: Hide the genres
+    type: toggle
+    group: carousel
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      :root { --nb-hero-genres: 0; }
+  - id: hero-hide-rating
+    label: Hide the rating
+    type: toggle
+    group: carousel
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      :root { --nb-hero-rating: 0; }
+  - id: hero-hide-buttons
+    label: Hide the buttons
+    description: The Play now and More info buttons.
+    type: toggle
+    group: carousel
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      :root { --nb-hero-buttons: 0; }
+  - id: hero-play-opens
+    label: Play now opens the item page
+    description: Instead of starting playback.
+    type: toggle
+    group: carousel
+    default: false
+    when:
+      setting: hero-hide-buttons
+      is: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      :root { --nb-hero-play: 0; }
+  - id: hero-height
+    label: Height on desktop
+    description: The theme's default is 68vh, capped at 640px. A changed value has no cap.
+    type: number
+    group: carousel
+    default: 68
+    min: 30
+    max: 100
+    step: 1
+    unit: vh
+    var: --nb-hero-height
+    tags:
+      - needs-plugin
+      - not-in-preview
+  - id: hero-height-mobile
+    label: Height on phones
+    type: number
+    group: carousel
+    default: 62
+    min: 30
+    max: 100
+    step: 1
+    unit: vh
+    var: --nb-hero-height-mobile
+    tags:
+      - needs-plugin
+      - not-in-preview
