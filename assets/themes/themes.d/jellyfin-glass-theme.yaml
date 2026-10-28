@@ -1,0 +1,158 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - MadhavKrishanGoswami
+name: Jellyfin Glass Theme
+author: MadhavKrishanGoswami
+author_url: https://github.com/MadhavKrishanGoswami
+repo: https://github.com/MadhavKrishanGoswami/JellyfinGlassTheme
+description: A black, monochrome theme built on ElegantFin, with frosted glass panels, the Inter font, white play buttons and cards that lift on hover. The Editor's Choice home banner becomes a full-width hero.
+status: hidden
+note: Made for Jellyfin 10.11. Works best with the https://github.com/lachlandcp/jellyfin-editors-choice-plugin
+screenshots:
+  - https://raw.githubusercontent.com/MadhavKrishanGoswami/JellyfinGlassTheme/main/preview.gif
+variants:
+  - id: default
+    name: Glass
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/MadhavKrishanGoswami/JellyfinGlassTheme@main/theme.min.css");
+groups:
+  - id: glass
+    label: Glass
+  - id: cards
+    label: Cards
+  - id: details
+    label: Item pages
+    description: These change what shows on movie and show pages.
+  - id: mobile
+    label: Phones
+  - id: other
+    label: Other
+settings:
+  - id: blur
+    label: Blur strength
+    description: The frosted blur behind menus, dialogs and the side bar. A changed value also replaces the 12px the theme uses on phones.
+    type: number
+    group: glass
+    default: 20
+    min: 0
+    max: 40
+    step: 1
+    unit: px
+    css: |-
+      :root {
+        --blurLargest: blur({{ value | px }});
+      }
+  - id: radius
+    label: Corner radius
+    description: Cards, buttons and dialogs. Hovered cards keep the theme's 14px.
+    type: number
+    group: cards
+    page: home
+    default: 14
+    min: 0
+    max: 30
+    step: 1
+    unit: px
+    var: --largeRadius
+  - id: card-buttons
+    label: Watched and favourite buttons on hover
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --extraCardButtonsVisibility: block;
+      }
+  - id: centre-play
+    label: Play button in the middle of cards
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --overlayPlayButtonPosition: 50%;
+      }
+  - id: no-shine
+    label: No shine on hover
+    type: toggle
+    group: cards
+    default: false
+    css: |-
+      :root {
+        --cardHoverEffect: none;
+      }
+  - id: library-labels
+    label: Labels under library cards
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --libraryLabelVisibility: block;
+      }
+  - id: hide-original-title
+    label: Hide the original title
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --itemOriginalTitleVisibility: none;
+      }
+  - id: hide-clear-logo
+    label: Hide the clear logo
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --clearLogoVisibility: none;
+      }
+  - id: show-title
+    label: Always show the title
+    description: Also when a logo is shown.
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --itemTitleVisibility: block;
+      }
+  - id: backdrop-trim
+    label: Backdrop crop from the top
+    description: How much of the top of the backdrop image is cut off on 16:9 screens.
+    type: number
+    group: details
+    default: 10
+    min: 0
+    max: 20
+    step: 1
+    unit: "%"
+    page: movie
+    var: --backdropTrimFromTop
+  - id: hide-mini-buttons
+    label: Hide the small buttons on cards
+    type: toggle
+    group: mobile
+    default: false
+    css: |-
+      :root {
+        --miniOverlayButtonVisibility: none;
+      }
+  - id: login-text
+    label: Login page heading
+    type: text
+    group: other
+    default: Sign in to continue
+    placeholder: Sign in to continue
+    page: login
+    css: |-
+      :root {
+        --loginPageText: "{{ value }}";
+      }
