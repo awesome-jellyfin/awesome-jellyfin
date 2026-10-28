@@ -1,0 +1,169 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - kingchenc
+name: JellyThemes
+author: kingchenc
+author_url: https://github.com/kingchenc
+repo: https://github.com/kingchenc/JellyThemes
+description: Six dark color editions of ElegantFin, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass panels with blur, glowing buttons and the Inter font.
+status: hidden
+note: Based on ElegantFin and last updated in January 2026, before Jellyfin 12.
+screenshots:
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Nebula/assets/preview/Nebula.png
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Ember/assets/preview/Ember.png
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Void/assets/preview/Void.png
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Phantom/assets/preview/Phantom.png
+variants:
+  - id: obsidian
+    name: Obsidian (violet)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Obsidian/Obsidian.css");
+  - id: solaris
+    name: Solaris (gold)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Solaris/Solaris.css");
+  - id: nebula
+    name: Nebula (cyan)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Nebula/Nebula.css");
+  - id: ember
+    name: Ember (orange)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Ember/Ember.css");
+  - id: void
+    name: Void (black)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Void/Void.css");
+  - id: phantom
+    name: Phantom (slate)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Phantom/Phantom.css");
+groups:
+  - id: header
+    label: Top bar
+  - id: cards
+    label: Cards
+  - id: details
+    label: Item pages
+    description: What shows on the pages of movies and shows.
+  - id: mobile
+    label: Phones
+  - id: login
+    label: Login page
+settings:
+  - id: no-header-blur
+    label: No blur under the top bar
+    type: toggle
+    group: header
+    default: false
+    css: |-
+      :root {
+        --headerBlurLayerVisibility: none;
+      }
+  - id: card-buttons
+    label: Watched and favourite buttons on hover
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --extraCardButtonsVisibility: block;
+      }
+  - id: no-shine
+    label: No shine on hover
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --cardHoverEffect: none;
+      }
+  - id: library-labels
+    label: Labels under library cards
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --libraryLabelVisibility: block;
+      }
+  - id: hide-original-title
+    label: Hide the original title
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --itemOriginalTitleVisibility: none;
+      }
+  - id: hide-clear-logo
+    label: Hide the clear logo
+    description: Shows the title as text instead.
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --clearLogoVisibility: none;
+        --itemTitleVisibility: block;
+      }
+  - id: show-title
+    label: Always show the title
+    description: Also when a logo is shown.
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    when:
+      setting: hide-clear-logo
+      is: false
+    css: |-
+      :root {
+        --itemTitleVisibility: block;
+      }
+  - id: hide-mini-buttons
+    label: Hide the small buttons on cards
+    type: toggle
+    group: mobile
+    default: false
+    css: |-
+      :root {
+        --miniOverlayButtonVisibility: none;
+      }
+  - id: login-text
+    label: Heading
+    type: text
+    group: login
+    default: Sign in to continue
+    placeholder: Sign in to continue
+    page: login
+    css: |-
+      :root {
+        --loginPageText: "{{ value }}";
+      }
+  - id: login-image
+    label: Background image
+    type: toggle
+    group: login
+    default: false
+    page: login
+    css: |-
+      :root {
+        --loginPageBgUrl: url("{{ login-image-url }}");
+      }
+  - id: login-image-url
+    label: Image address
+    type: image
+    group: login
+    when:
+      setting: login-image
+      is: true
+    default: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
+    page: login
