@@ -10,11 +10,9 @@ status: listed
 note: Built for Jellyfin 12. On 10.x it only partly works.
 screenshots:
   - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/inicio.jpg
-  - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/antes-despues.jpg
   - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/ficha.jpg
   - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/biblioteca.jpg
   - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/temporada.jpg
-  - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/movil.jpg
 variants:
   - id: default
     name: Nebula
