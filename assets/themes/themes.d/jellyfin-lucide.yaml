@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - KartoffelChipss
+name: Jellyfin Lucide
+author: KartoffelChipss
+author_url: https://github.com/KartoffelChipss
+repo: https://github.com/KartoffelChipss/Jellyfin-Lucide
+description: An icon pack that swaps Jellyfin's Material Icons for the outline icons of Lucide. It changes only the icons, so it can go on top of NeutralFin or most other themes.
+status: listed
+note: Paste it below any other theme in your Custom CSS, so its icons win.
+screenshots:
+  - https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/sidebar.webp
+  - https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/moviepage.webp
+  - https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/contextmenu.webp
+variants:
+  - id: default
+    name: Jellyfin Lucide
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/KartoffelChipss/Jellyfin-Lucide@main/theme/jellyfin-lucide.css");
