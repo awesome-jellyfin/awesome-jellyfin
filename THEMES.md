@@ -126,6 +126,31 @@ A collection of six themes for Jellyfin Web (Apple TV, Cinematheque Noir, Editor
 
 ---
 
+## [jellyfin-netflix-theme](https://github.com/tashifkhan/jellyfin-netflix-theme) by [tashifkhan](https://github.com/tashifkhan)
+
+A Netflix style theme with a red JELLYFIN wordmark, edge to edge rows of 16:9 thumbnails, backdrop title pages and a phone layout. [` 🔵 Get this Theme `](https://github.com/tashifkhan/jellyfin-netflix-theme)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/tashifkhan/jellyfin-netflix-theme/blob/main/screenshots/home.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/tashifkhan/jellyfin-netflix-theme/blob/main/screenshots/details.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/tashifkhan/jellyfin-netflix-theme/blob/main/screenshots/season.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/tashifkhan/jellyfin-netflix-theme/blob/main/screenshots/login.png?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Jellyfish](https://github.com/n00bcodr/Jellyfish) by n00bcodr
 
 Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes. [` 🔵 Get this Theme `](https://github.com/n00bcodr/Jellyfish)
