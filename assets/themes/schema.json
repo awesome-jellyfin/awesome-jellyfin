@@ -51,6 +51,11 @@
       "description": "Set by the stale scan. Rendered as the stale tag in THEMES.md.",
       "type": "boolean"
     },
+    "thumbnail": {
+      "description": "An image for the theme's card in the preview site's picker, instead of one rendered from the preview. Useful for add-ons. Cropped to 16:10.",
+      "type": "string",
+      "pattern": "^https://"
+    },
     "screenshots": {
       "description": "Links to screenshots, or objects with a title and description for the preview site. hidden: true leaves one out of THEMES.md.",
       "type": "array",

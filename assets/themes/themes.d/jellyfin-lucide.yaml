@@ -8,9 +8,11 @@ repo: https://github.com/KartoffelChipss/Jellyfin-Lucide
 description: An icon pack that swaps Jellyfin's Material Icons for the outline icons of Lucide. It changes only the icons, so it can go on top of NeutralFin or most other themes.
 type: addon
 versions:
+  - "12"
   - "10.10"
   - "10.11"
 note: Paste it below any other theme in your Custom CSS, so its icons win.
+thumbnail: https://github.com/user-attachments/assets/8d87a8cf-916a-476d-96b5-bc997fd6e912
 screenshots:
   - https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/sidebar.webp
   - https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/moviepage.webp
