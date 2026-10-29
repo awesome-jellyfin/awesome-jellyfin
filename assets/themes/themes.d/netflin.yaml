@@ -6,7 +6,8 @@ author: ahza-code
 author_url: https://github.com/ahza-code
 repo: https://github.com/ahza-code/Netflin
 description: A Netflix-style dark theme for the new Modern layout, with title-art heroes, rows of cards and red accents on black and grey. Media Bar and KefinTweaks are styled to match.
-status: listed
+versions:
+  - "12"
 note: Built for Jellyfin 12 with Display Mode set to Auto. To theme the admin dashboard too, load the same files with the JavaScript Injector plugin instead of Custom CSS.
 screenshots:
   - https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/01-home.webp

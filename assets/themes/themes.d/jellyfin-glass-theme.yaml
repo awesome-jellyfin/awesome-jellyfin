@@ -6,8 +6,9 @@ author: MadhavKrishanGoswami
 author_url: https://github.com/MadhavKrishanGoswami
 repo: https://github.com/MadhavKrishanGoswami/JellyfinGlassTheme
 description: A black, monochrome theme built on ElegantFin, with frosted glass panels, the Inter font, white play buttons and cards that lift on hover. The Editor's Choice home banner becomes a full-width hero.
-status: hidden
-note: Made for Jellyfin 10.11. Works best with the https://github.com/lachlandcp/jellyfin-editors-choice-plugin
+versions:
+  - "10.11"
+note: Works best with the https://github.com/lachlandcp/jellyfin-editors-choice-plugin
 screenshots:
   - https://raw.githubusercontent.com/MadhavKrishanGoswami/JellyfinGlassTheme/main/preview.gif
 variants:

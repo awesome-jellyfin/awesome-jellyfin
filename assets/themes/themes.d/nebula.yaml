@@ -6,7 +6,8 @@ author: nemesbak
 author_url: https://github.com/nemesbak
 repo: https://github.com/nemesbak/jellyfin-nebula
 description: A dark theme with rounded cards, glass menus, the Inter font and a violet to cyan gradient accent. Movie pages show the title logo, and episodes are shown as cards.
-status: listed
+versions:
+  - "12"
 note: Built for Jellyfin 12. On 10.x it only partly works.
 screenshots:
   - https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/inicio.jpg

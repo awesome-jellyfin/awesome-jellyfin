@@ -6,7 +6,8 @@ author: kingchenc
 author_url: https://github.com/kingchenc
 repo: https://github.com/kingchenc/JellyThemes
 description: Six dark color editions of ElegantFin, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass panels with blur, glowing buttons and the Inter font.
-status: hidden
+versions:
+  - "10.11"
 note: Based on ElegantFin and last updated in January 2026, before Jellyfin 12.
 screenshots:
   - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
