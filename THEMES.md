@@ -259,6 +259,70 @@ Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes. [` 
 
 ---
 
+## [Nebula](https://github.com/nemesbak/jellyfin-nebula) by [nemesbak](https://github.com/nemesbak)
+
+A dark theme with rounded cards, glass menus, the Inter font and a violet to cyan gradient accent. Movie pages show the title logo, and episodes are shown as cards. [` 🔵 Get this Theme `](https://github.com/nemesbak/jellyfin-nebula)
+
+> [!NOTE]
+> Built for Jellyfin 12. On 10.x it only partly works.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/inicio.jpg" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/ficha.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/biblioteca.jpg" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main/screenshots/temporada.jpg" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Netflin](https://github.com/ahza-code/Netflin) by [ahza-code](https://github.com/ahza-code)
+
+A Netflix-style dark theme for the new Modern layout, with title-art heroes, rows of cards and red accents on black and grey. Media Bar and KefinTweaks are styled to match. [` 🔵 Get this Theme `](https://github.com/ahza-code/Netflin)
+
+> [!NOTE]
+> Built for Jellyfin 12 with Display Mode set to Auto. To theme the admin dashboard too, load the same files with the JavaScript Injector plugin instead of Custom CSS.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/01-home.webp" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/02-home-rows.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/05-movie-details.webp" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/06-series.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/03-library.webp" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/ahza-code/Netflin/main/Previews/desktop/04-movie.webp" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [NeutralFin](https://github.com/KartoffelChipss/NeutralFin) by KartoffelChipss
 
 NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look. [` 🔵 Get this Theme `](https://github.com/KartoffelChipss/NeutralFin)
@@ -496,6 +560,26 @@ Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media 
     </td>
     <td>
       <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/admin.jpg" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [JellyThemes](https://github.com/kingchenc/JellyThemes) by [kingchenc](https://github.com/kingchenc)
+
+Six dark color editions of ElegantFin, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass panels with blur, glowing buttons and the Inter font. [` 🔵 Get this Theme `](https://github.com/kingchenc/JellyThemes)
+
+> [!NOTE]
+> Based on ElegantFin and last updated in January 2026, before Jellyfin 12.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png" />
     </td>
   </tr>
 </table>
