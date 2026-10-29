@@ -5,7 +5,9 @@ name: Scyfin
 author: loof2736
 repo: https://github.com/loof2736/scyfin
 description: Custom CSS theme for Jellyfin with support for backdrops and themes
-status: hidden
+versions:
+  - "10.11"
+  - "12"
 screenshots:
   - https://github.com/loof2736/scyfin/raw/main/images/homepage.png
   - https://github.com/loof2736/scyfin/raw/main/images/homepage-backdrops.png

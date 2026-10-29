@@ -3,7 +3,7 @@
   "title": "awesome-jellyfin theme",
   "type": "object",
   "additionalProperties": false,
-  "required": ["owners", "name", "author", "repo", "status", "variants"],
+  "required": ["owners", "name", "author", "repo", "versions", "variants"],
   "properties": {
     "owners": {
       "description": "GitHub handles that maintain this file.",
@@ -17,9 +17,19 @@
     "repo": { "type": "string", "pattern": "^https?://" },
     "website": { "type": "string", "pattern": "^https?://" },
     "description": { "type": "string" },
-    "status": {
-      "description": "listed: shown in THEMES.md. hidden: shown in the collapsed section for themes not yet updated for the current Jellyfin version.",
-      "enum": ["listed", "hidden"]
+    "type": {
+      "description": "theme (the default) changes the whole look. addon adds or fixes something small, to stack on top of a theme.",
+      "enum": ["theme", "addon"]
+    },
+    "versions": {
+      "description": "The Jellyfin versions the theme works with: 10.x minors as 10.10, 10.11, later majors as 12, 13. Themes without the newest one are in the collapsed section of THEMES.md.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^(?:10\\.[0-9]+|1[1-9]|[2-9][0-9])$"
+      }
     },
     "note": { "type": "string" },
     "requires_js": {
@@ -42,8 +52,27 @@
       "type": "boolean"
     },
     "screenshots": {
+      "description": "Links to screenshots, or objects with a title and description for the preview site. hidden: true leaves one out of THEMES.md.",
       "type": "array",
-      "items": { "type": "string", "pattern": "^https?://" }
+      "items": {
+        "anyOf": [
+          { "$ref": "#/definitions/screenshotUrl" },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["url"],
+            "properties": {
+              "url": { "$ref": "#/definitions/screenshotUrl" },
+              "title": { "type": "string", "minLength": 1 },
+              "description": { "type": "string", "minLength": 1 },
+              "hidden": {
+                "description": "Only in the preview site, not in THEMES.md.",
+                "type": "boolean"
+              }
+            }
+          }
+        ]
+      }
     },
     "variants": {
       "description": "Mutually exclusive versions of the theme. The first one is the default. May be empty only when requires_js is true.",
@@ -97,6 +126,7 @@
     }
   },
   "definitions": {
+    "screenshotUrl": { "type": "string", "pattern": "^https?://" },
     "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
     "toggle": {
       "type": "object",

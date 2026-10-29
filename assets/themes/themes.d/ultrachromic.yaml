@@ -5,7 +5,9 @@ name: Ultrachromic
 author: CTalvio
 repo: https://github.com/CTalvio/Ultrachromic
 description: The final form, the true evolution of the chromic theme saga
-status: hidden
+versions:
+  - "10.11"
+  - "12"
 note: "There are several variations of the theme, for a more detailed overview, see the Ultrachromic README: https://github.com/CTalvio/Ultrachromic#readme"
 screenshots:
   - https://user-images.githubusercontent.com/4365015/127774204-03957527-7178-4ea2-8674-d83fe6a97d1c.png

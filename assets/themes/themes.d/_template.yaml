@@ -15,9 +15,11 @@ name: My Theme
 author: your-github-handle
 # Link to the theme's repository.
 repo: https://github.com/your-github-handle/my-theme
-# "listed" puts the theme in the normal section of THEMES.md. "hidden" puts it in the
-# collapsed section at the end, for themes not yet updated for the current Jellyfin version.
-status: listed
+# The Jellyfin versions the theme works with, in quotes: "10.10" and "10.11" for
+# 10.x, then "12", "13" and so on. Themes without the newest version are listed in
+# the collapsed section at the end of THEMES.md.
+versions:
+  - "12"
 # Mutually exclusive versions of the theme. The first one is the default.
 variants:
   # A short lowercase id (letters, digits, dots, hyphens).
@@ -29,6 +31,10 @@ variants:
       @import url("https://cdn.jsdelivr.net/gh/your-github-handle/my-theme@main/theme.css");
 
 # --- Optional ---
+
+# "addon" for small additions or fixes that go on top of a theme (icons, a fix
+# for one page). Leave it out for full themes.
+type: addon
 
 # Link to the author's profile.
 author_url: https://github.com/your-github-handle

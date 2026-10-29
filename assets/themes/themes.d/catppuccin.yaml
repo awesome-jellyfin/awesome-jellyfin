@@ -5,7 +5,10 @@ name: Catppuccin
 author: catppuccin
 repo: https://github.com/catppuccin/jellyfin
 description: The pastel Catppuccin palette, in all four flavours.
-status: hidden
+versions:
+  - "10.10"
+  - "10.11"
+  - "12"
 screenshots:
   - https://github.com/catppuccin/jellyfin/raw/main/assets/latte.webp
   - https://github.com/catppuccin/jellyfin/raw/main/assets/frappe.webp

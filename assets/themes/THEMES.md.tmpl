@@ -39,9 +39,17 @@ The preview / screenshots were taken directly from the linked repositories.
 If an image is no longer available or out of date, please create an [issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues) or a [pull request](https://github.com/awesome-jellyfin/awesome-jellyfin/tree/main/assets/themes/themes.d).
 
 ---
-{{ range listed .Themes }}
+{{ range themes (supports "12" .Themes) }}
 {{ template "theme" . }}
 {{ end }}
+{{- with addons (supports "12" .Themes) }}
+## Add-ons
+
+Smaller additions and fixes to put on top of a theme (or stock Jellyfin).
+{{ range . }}
+{{ template "theme" . }}
+{{ end }}
+{{- end }}
 ## Themes hidden pending Jellyfin v12 compatibility
 
 In an effort to make sure the themes in this list work with the newest version, the previously listed themes are hidden for now.
@@ -50,7 +58,7 @@ In an effort to make sure the themes in this list work with the newest version, 
 
 <details>
 <summary>Previously listed themes (may not work with v12)</summary>
-{{ range hidden .Themes }}
+{{ range lacks "12" .Themes }}
 {{ template "theme" . }}
 {{ end }}
 </details>

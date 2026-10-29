@@ -5,7 +5,10 @@ name: Evergarden
 author: evergardentheme
 repo: https://github.com/evergardentheme/jellyfin
 description: A cozy, muted palette with one variant for each season.
-status: hidden
+versions:
+  - "10.10"
+  - "10.11"
+  - "12"
 screenshots:
   - https://github.com/evergardentheme/jellyfin/raw/main/assets/summer.webp
   - https://github.com/evergardentheme/jellyfin/raw/main/assets/spring.webp
