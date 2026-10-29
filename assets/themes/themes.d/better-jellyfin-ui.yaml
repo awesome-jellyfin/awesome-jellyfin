@@ -14,7 +14,8 @@ screenshots:
   - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-library-i.png?raw=true
   - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-or.png?raw=true
   - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-player.png?raw=true
-  - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-admin.png?raw=true
+  - url: https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-admin.png?raw=true
+    hidden: true
 variants:
   - id: default
     name: Better Jellyfin UI
