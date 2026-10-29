@@ -33,7 +33,8 @@ variants:
 # --- Optional ---
 
 # "addon" for small additions or fixes that go on top of a theme (icons, a fix
-# for one page). Leave it out for full themes.
+# for one page). Add-ons are only shown in the preview site, not in THEMES.md.
+# Leave it out for full themes.
 type: addon
 
 # Link to the author's profile.
