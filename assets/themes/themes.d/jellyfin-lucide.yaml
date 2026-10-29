@@ -16,7 +16,8 @@ thumbnail: https://github.com/user-attachments/assets/8d87a8cf-916a-476d-96b5-bc
 screenshots:
   - https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/sidebar.webp
   - https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/moviepage.webp
-  - https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/contextmenu.webp
+  - url: https://raw.githubusercontent.com/KartoffelChipss/Jellyfin-Lucide/main/assets/contextmenu.webp
+    hidden: true
 variants:
   - id: default
     name: Jellyfin Lucide

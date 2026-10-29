@@ -18,8 +18,9 @@ screenshots:
   - https://github.com/user-attachments/assets/7ac06608-90b1-43d9-8c47-9acb5cb293e2
   - https://github.com/user-attachments/assets/bbd02b34-59ee-46f4-9326-6f8aa1f18c99
   - https://github.com/user-attachments/assets/2f13825d-5f07-4dea-87b3-e3ab81120c47
-  - https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/image/anime%20menu.jpg
   - https://github.com/user-attachments/assets/2a04a2f9-ac98-4017-a838-37ca733489eb
+  - url: https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/image/anime%20menu.jpg
+    hidden: true
 variants:
   - id: default
     name: Jellyfin Icon Metadata

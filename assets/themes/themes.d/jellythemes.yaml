@@ -12,10 +12,14 @@ note: Based on ElegantFin and last updated in January 2026, before Jellyfin 12.
 screenshots:
   - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
   - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png
-  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Nebula/assets/preview/Nebula.png
-  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Ember/assets/preview/Ember.png
-  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Void/assets/preview/Void.png
-  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Phantom/assets/preview/Phantom.png
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Nebula/assets/preview/Nebula.png
+    hidden: true
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Ember/assets/preview/Ember.png
+    hidden: true
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Void/assets/preview/Void.png
+    hidden: true
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Phantom/assets/preview/Phantom.png
+    hidden: true
 variants:
   - id: obsidian
     name: Obsidian (violet)
