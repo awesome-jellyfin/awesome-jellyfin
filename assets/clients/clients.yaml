@@ -908,6 +908,24 @@ clients:
         owner: Phioster
         repo: sanctum_daemon
 
+  - name: "nightfin"
+    targets: [AndroidTV, Android]
+    website: https://nightfin.app
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: shield
+        icon: Amazon
+        url: https://www.amazon.com/dp/B0HP8B7Q3Z
+      - type: shield
+        icon: Google Play
+        label: Google Play
+        content: Beta
+        url: https://nightfin.app/#beta
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
