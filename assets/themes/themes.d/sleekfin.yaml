@@ -5,7 +5,8 @@ name: SleekFin
 author: varunaditya-plus
 repo: https://github.com/varunaditya-plus/SleekFin
 description: A full reskin of every part of Jellyfin, with a modern black interface and precise customisation through a live UI Builder.
-status: listed
+versions:
+  - "12"
 note: Requires Jellyfin 12.0 and [File Transformation](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation).
 requires_js: true
 screenshots:

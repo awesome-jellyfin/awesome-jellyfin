@@ -5,7 +5,10 @@ name: infinitv
 author: buesche87
 repo: https://github.com/buesche87/infinitv
 description: A theme for Jellyfin, with a work-in-progress build for Jellyfin 12.
-status: hidden
+versions:
+  - "10.10"
+  - "10.11"
+  - "12"
 screenshots:
   - https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-home.png
   - https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-library.png

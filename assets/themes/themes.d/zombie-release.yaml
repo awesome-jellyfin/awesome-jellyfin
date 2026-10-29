@@ -6,7 +6,8 @@ author: MakD
 author_url: https://github.com/MakD
 repo: https://github.com/MakD/zombie-release
 description: An AMOLED black theme for Jellyfin 12, made for desktop, phones and tablets.
-status: listed
+versions:
+  - "12"
 note: The featured hero on the home page needs the separate Jellyfin Media Bar.
 screenshots:
   - https://raw.githubusercontent.com/MakD/zombie-release/main/img/desktop/v12-home.jpg

@@ -5,7 +5,8 @@ name: Finity
 author: prism2001
 repo: https://github.com/prism2001/finity
 description: A modern dark theme in two editions, complete and minimal.
-status: hidden
+versions:
+  - "10.11"
 screenshots:
   - https://github.com/prism2001/finity/raw/main/screenshots/home_featured.png
   - https://github.com/prism2001/finity/raw/main/screenshots/home_drawers.png

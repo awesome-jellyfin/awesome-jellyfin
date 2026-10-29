@@ -5,7 +5,9 @@ name: ElegantFin
 author: lscambo13
 repo: https://github.com/lscambo13/ElegantFin
 description: Inspired by Jellyseerr, with many small fixes to the UI and UX.
-status: listed
+versions:
+  - "10.11"
+  - "12"
 note: For Jellyfin v12, see https://github.com/mihaif7/elegantfin-jf12
 screenshots:
   - https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/4.%20Movie%20Page.webp?raw=true

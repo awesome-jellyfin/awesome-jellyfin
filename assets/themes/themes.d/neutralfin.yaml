@@ -5,7 +5,9 @@ name: NeutralFin
 author: KartoffelChipss
 repo: https://github.com/KartoffelChipss/NeutralFin
 description: NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look.
-status: hidden
+versions:
+  - "10.11"
+  - "12"
 recommends:
   backdrops: true
 screenshots:

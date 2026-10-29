@@ -10,28 +10,42 @@ This folder holds the data behind [THEMES.md](../../THEMES.md). Each theme has o
 
 ## Fields
 
-| Field         | Required | What it is                                                                                                                                                                     |
-| ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `owners`      | yes      | GitHub handles of the people who maintain the file. At least one.                                                                                                              |
-| `name`        | yes      | Display name of the theme.                                                                                                                                                     |
-| `author`      | yes      | Name of the author.                                                                                                                                                            |
-| `repo`        | yes      | Link to the theme's repository.                                                                                                                                                |
-| `status`      | yes      | `listed` puts the theme in the normal section of THEMES.md. `hidden` puts it in the collapsed section at the end, for themes not yet updated for the current Jellyfin version. |
-| `variants`    | yes      | Versions of the theme. The first one is the default. Can be empty only if `requires_js` is `true`.                                                                             |
-| `author_url`  | no       | Link to the author's profile.                                                                                                                                                  |
-| `website`     | no       | Link to the theme's website or demo.                                                                                                                                           |
-| `description` | no       | A short description.                                                                                                                                                           |
-| `note`        | no       | Something users should know first.                                                                                                                                             |
-| `requires_js` | no       | `true` if the theme needs JavaScript or a plugin, so a CSS-only preview is not possible.                                                                                       |
-| `recommends`  | no       | Jellyfin settings the theme works best with: `backdrops: true` (Settings > Display > Backdrops). The preview turns them on and tells visitors.                                 |
-| `screenshots` | no       | List of screenshot links.                                                                                                                                                      |
-| `groups`      | no       | Sections for the settings, see [Settings](#settings).                                                                                                                          |
-| `settings`    | no       | What a visitor can change in the preview site, see [Settings](#settings).                                                                                                      |
-| `stale`       | no       | Set by the maintainers. Do not add it.                                                                                                                                         |
+| Field         | Required | What it is                                                                                                                                                                                                               |
+| ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `owners`      | yes      | GitHub handles of the people who maintain the file. At least one.                                                                                                                                                        |
+| `name`        | yes      | Display name of the theme.                                                                                                                                                                                               |
+| `author`      | yes      | Name of the author.                                                                                                                                                                                                      |
+| `repo`        | yes      | Link to the theme's repository.                                                                                                                                                                                          |
+| `versions`    | yes      | The Jellyfin versions the theme works with, quoted: `"10.10"` and `"10.11"` for 10.x, then `"12"`, `"13"` and so on. Themes without the newest version go into the collapsed section at the end of THEMES.md.            |
+| `variants`    | yes      | Versions of the theme. The first one is the default. Can be empty only if `requires_js` is `true`.                                                                                                                       |
+| `type`        | no       | `addon` for small additions or fixes that go on top of a theme, like new icons. They are not listed in THEMES.md; the preview site has them in their own group and stacks them on a theme. Leave it out for full themes. |
+| `author_url`  | no       | Link to the author's profile.                                                                                                                                                                                            |
+| `website`     | no       | Link to the theme's website or demo.                                                                                                                                                                                     |
+| `description` | no       | A short description.                                                                                                                                                                                                     |
+| `note`        | no       | Something users should know first.                                                                                                                                                                                       |
+| `requires_js` | no       | `true` if the theme needs JavaScript or a plugin, so a CSS-only preview is not possible.                                                                                                                                 |
+| `recommends`  | no       | Jellyfin settings the theme works best with: `backdrops: true` (Settings > Display > Backdrops). The preview turns them on and tells visitors.                                                                           |
+| `screenshots` | no       | List of screenshot links, see [Screenshots](#screenshots).                                                                                                                                                               |
+| `groups`      | no       | Sections for the settings, see [Settings](#settings).                                                                                                                                                                    |
+| `settings`    | no       | What a visitor can change in the preview site, see [Settings](#settings).                                                                                                                                                |
+| `stale`       | no       | Set by the maintainers. Do not add it.                                                                                                                                                                                   |
 
 Each variant has an `id`, a `name` and the `css` users paste into Jellyfin's Custom CSS. Write every `css` value as a `|-` block, even a single line, and write maps and lists in block style (one key or item per line), not as `{ ... }` or `[ ... ]`. A variant can also set `settings` to change the default of a setting for that variant.
 
 Settings are optional, see [Settings](#settings).
+
+## Screenshots
+
+Each screenshot is a link, or a block with a `title` and `description` the preview site shows with it. `hidden: true` leaves a screenshot out of THEMES.md, for example a close-up of one detail, while the preview still shows it. THEMES.md wants at least two screenshots that aren't hidden.
+
+```yaml
+screenshots:
+  - https://raw.githubusercontent.com/you/my-theme/main/screenshots/home.png
+  - url: https://raw.githubusercontent.com/you/my-theme/main/screenshots/menu.png
+    title: Context menu
+    description: Animates the menu on hover.
+    hidden: true
+```
 
 ## Variants and settings
 

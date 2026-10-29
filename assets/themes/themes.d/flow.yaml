@@ -5,7 +5,9 @@ name: Flow
 author: LitCastVlog
 repo: https://github.com/LitCastVlog/Flow
 description: Inspired by Plex and built on Scyfin and Ultrachromic.
-status: hidden
+versions:
+  - "10.10"
+  - "10.11"
 screenshots:
   - https://github.com/LitCastVlog/Flow/raw/main/images/screen.jpg
   - https://github.com/LitCastVlog/Flow/raw/main/images/details.png

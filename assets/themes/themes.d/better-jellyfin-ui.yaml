@@ -5,13 +5,17 @@ name: Better Jellyfin UI
 author: tromoSM
 repo: https://github.com/tromoSM/better-jellyfin-ui
 description: A refined and modern UI enhancement for Jellyfin focused on improved layout, animations, and iOS design.
-status: hidden
+versions:
+  - "10.10"
+  - "10.11"
+  - "12"
 screenshots:
   - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-main.png?raw=true
   - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-library-i.png?raw=true
   - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-or.png?raw=true
   - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-player.png?raw=true
-  - https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-admin.png?raw=true
+  - url: https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-admin.png?raw=true
+    hidden: true
 variants:
   - id: default
     name: Better Jellyfin UI

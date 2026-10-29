@@ -5,7 +5,9 @@ name: Jellyfish
 author: n00bcodr
 repo: https://github.com/n00bcodr/Jellyfish
 description: Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes.
-status: listed
+versions:
+  - "10.11"
+  - "12"
 recommends:
   backdrops: true
 screenshots:
@@ -285,7 +287,6 @@ settings:
     step: 1
     unit: px
     var: --rounded-cards
-    page: home
   - id: blur
     label: Blur (frosted bar & menus)
     type: number

@@ -5,7 +5,9 @@ name: Zesty
 author: stpnwf
 repo: https://github.com/stpnwf/ZestyTheme
 description: A minimal and elegant theme for Jellyfin
-status: hidden
+versions:
+  - "10.10"
+  - "10.11"
 recommends:
   backdrops: true
 screenshots:
