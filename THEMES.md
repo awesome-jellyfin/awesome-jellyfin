@@ -57,6 +57,56 @@ A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and
 
 ---
 
+## [Better Jellyfin UI](https://github.com/tromoSM/better-jellyfin-ui) by tromoSM
+
+A refined and modern UI enhancement for Jellyfin focused on improved layout, animations, and iOS design. [` 🔵 Get this Theme `](https://github.com/tromoSM/better-jellyfin-ui)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-main.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-library-i.png?raw=true" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-or.png?raw=true" />
+    </td>
+    <td>
+      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-player.png?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Catppuccin](https://github.com/catppuccin/jellyfin) by catppuccin
+
+The pastel Catppuccin palette, in all four flavours. [` 🔵 Get this Theme `](https://github.com/catppuccin/jellyfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/latte.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/frappe.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/macchiato.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/mocha.webp" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [ElegantFin](https://github.com/lscambo13/ElegantFin) by lscambo13
 
 Inspired by Jellyseerr, with many small fixes to the UI and UX. [` 🔵 Get this Theme `](https://github.com/lscambo13/ElegantFin)
@@ -87,6 +137,31 @@ Inspired by Jellyseerr, with many small fixes to the UI and UX. [` 🔵 Get this
     </td>
     <td>
       <img src="https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/12.%20Movie%20Details.webp?raw=true" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Evergarden](https://github.com/evergardentheme/jellyfin) by evergardentheme
+
+A cozy, muted palette with one variant for each season. [` 🔵 Get this Theme `](https://github.com/evergardentheme/jellyfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/summer.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/spring.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/fall.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/winter.webp" />
     </td>
   </tr>
 </table>
@@ -126,6 +201,39 @@ A collection of six themes for Jellyfin Web (Apple TV, Cinematheque Noir, Editor
 
 ---
 
+## [infinitv](https://github.com/buesche87/infinitv) by buesche87
+
+A theme for Jellyfin, with a work-in-progress build for Jellyfin 12. [` 🔵 Get this Theme `](https://github.com/buesche87/infinitv)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-home.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-library.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-series.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-episodes.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-movie.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-player.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Jellyfish](https://github.com/n00bcodr/Jellyfish) by n00bcodr
 
 Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes. [` 🔵 Get this Theme `](https://github.com/n00bcodr/Jellyfish)
@@ -145,6 +253,64 @@ Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes. [` 
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/n00bcodr/Jellyfish/main/screenshots/login2.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [NeutralFin](https://github.com/KartoffelChipss/NeutralFin) by KartoffelChipss
+
+NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look. [` 🔵 Get this Theme `](https://github.com/KartoffelChipss/NeutralFin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie2.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-home.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movies.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie.webp" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Scyfin](https://github.com/loof2736/scyfin) by loof2736
+
+Custom CSS theme for Jellyfin with support for backdrops and themes [` 🔵 Get this Theme `](https://github.com/loof2736/scyfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/homepage.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/homepage-backdrops.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/details.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/details-backdrops.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/dashboard.png" />
+    </td>
+    <td>
+      <img src="https://github.com/loof2736/scyfin/raw/main/images/login.png" />
     </td>
   </tr>
 </table>
@@ -173,6 +339,34 @@ A full reskin of every part of Jellyfin, with a modern black interface and preci
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/varunaditya-plus/awesome-jellyfin/473c8c43dc13f59f91a790d13d96882d296312e2/screenshots/sleekfin/04-movies.webp" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [Ultrachromic](https://github.com/CTalvio/Ultrachromic) by CTalvio
+
+The final form, the true evolution of the chromic theme saga [` 🔵 Get this Theme `](https://github.com/CTalvio/Ultrachromic)
+
+> [!NOTE]
+> There are several variations of the theme, for a more detailed overview, see the Ultrachromic README: https://github.com/CTalvio/Ultrachromic#readme
+
+<table>
+  <tr>
+    <td>
+      <img src="https://user-images.githubusercontent.com/4365015/127774204-03957527-7178-4ea2-8674-d83fe6a97d1c.png" />
+    </td>
+    <td>
+      <img src="https://user-images.githubusercontent.com/4365015/127768733-c86aee2c-3bff-4b78-be54-003823d60276.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://user-images.githubusercontent.com/4365015/127768970-e827c7e4-f4ce-4229-a68a-b2e87a723ef0.png" />
+    </td>
+    <td>
+      <img src="https://user-images.githubusercontent.com/4365015/127778994-ddee8235-6bb2-42ae-a8b1-f9023dc69398.png" />
     </td>
   </tr>
 </table>
@@ -215,86 +409,6 @@ In an effort to make sure the themes in this list work with the newest version, 
 
 <details>
 <summary>Previously listed themes (may not work with v12)</summary>
-
-## [Better Jellyfin UI](https://github.com/tromoSM/better-jellyfin-ui) by tromoSM
-
-A refined and modern UI enhancement for Jellyfin focused on improved layout, animations, and iOS design. [` 🔵 Get this Theme `](https://github.com/tromoSM/better-jellyfin-ui)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-main.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-library-i.png?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-or.png?raw=true" />
-    </td>
-    <td>
-      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-player.png?raw=true" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/tromoSM/better-jellyfin-ui/blob/main/Assets/desktop-admin.png?raw=true" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [Catppuccin](https://github.com/catppuccin/jellyfin) by catppuccin
-
-The pastel Catppuccin palette, in all four flavours. [` 🔵 Get this Theme `](https://github.com/catppuccin/jellyfin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/latte.webp" />
-    </td>
-    <td>
-      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/frappe.webp" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/macchiato.webp" />
-    </td>
-    <td>
-      <img src="https://github.com/catppuccin/jellyfin/raw/main/assets/mocha.webp" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [Evergarden](https://github.com/evergardentheme/jellyfin) by evergardentheme
-
-A cozy, muted palette with one variant for each season. [` 🔵 Get this Theme `](https://github.com/evergardentheme/jellyfin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/summer.webp" />
-    </td>
-    <td>
-      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/spring.webp" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/fall.webp" />
-    </td>
-    <td>
-      <img src="https://github.com/evergardentheme/jellyfin/raw/main/assets/winter.webp" />
-    </td>
-  </tr>
-</table>
-
----
 
 ## [Finimalism](https://github.com/tedhinklater/finimalism) by tedhinklater
 
@@ -363,39 +477,6 @@ Inspired by Plex and built on Scyfin and Ultrachromic. [` 🔵 Get this Theme `]
 
 ---
 
-## [infinitv](https://github.com/buesche87/infinitv) by buesche87
-
-A theme for Jellyfin, with a work-in-progress build for Jellyfin 12. [` 🔵 Get this Theme `](https://github.com/buesche87/infinitv)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-home.png" />
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-library.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-series.png" />
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-episodes.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-movie.png" />
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/buesche87/infinitv/refs/heads/main/resource/desktop-player.png" />
-    </td>
-  </tr>
-</table>
-
----
-
 ## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
 
 Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
@@ -440,105 +521,6 @@ A cinematic Netflix-inspired theme with deep dark visuals, refined hover effects
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/69d1e032-e99e-4fdf-af4e-428d7e81252b" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [NeutralFin](https://github.com/KartoffelChipss/NeutralFin) by KartoffelChipss
-
-NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look. [` 🔵 Get this Theme `](https://github.com/KartoffelChipss/NeutralFin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie2.webp" />
-    </td>
-    <td>
-      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-home.webp" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movies.webp" />
-    </td>
-    <td>
-      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie.webp" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [Scyfin](https://github.com/loof2736/scyfin) by loof2736
-
-Custom CSS theme for Jellyfin with support for backdrops and themes [` 🔵 Get this Theme `](https://github.com/loof2736/scyfin)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/homepage.png" />
-    </td>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/homepage-backdrops.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/details.png" />
-    </td>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/details-backdrops.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/dashboard.png" />
-    </td>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/login.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/seafoam.png" />
-    </td>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/coral.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/loof2736/scyfin/raw/main/images/snow.png" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [Ultrachromic](https://github.com/CTalvio/Ultrachromic) by CTalvio
-
-The final form, the true evolution of the chromic theme saga [` 🔵 Get this Theme `](https://github.com/CTalvio/Ultrachromic)
-
-> [!NOTE]
-> There are several variations of the theme, for a more detailed overview, see the Ultrachromic README: https://github.com/CTalvio/Ultrachromic#readme
-
-<table>
-  <tr>
-    <td>
-      <img src="https://user-images.githubusercontent.com/4365015/127774204-03957527-7178-4ea2-8674-d83fe6a97d1c.png" />
-    </td>
-    <td>
-      <img src="https://user-images.githubusercontent.com/4365015/127768733-c86aee2c-3bff-4b78-be54-003823d60276.png" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://user-images.githubusercontent.com/4365015/127768970-e827c7e4-f4ce-4229-a68a-b2e87a723ef0.png" />
-    </td>
-    <td>
-      <img src="https://user-images.githubusercontent.com/4365015/127778994-ddee8235-6bb2-42ae-a8b1-f9023dc69398.png" />
     </td>
   </tr>
 </table>
