@@ -474,7 +474,7 @@ In an effort to make sure the themes in this list work with the newest version, 
 <details>
 <summary>Previously listed themes (may not work with v12)</summary>
 
-## [Finimalism](https://github.com/tedhinklater/finimalism) by tedhinklater
+## [Finimalism](https://github.com/tedhinklater/finimalism) by tedhinklater ` 📅 `
 
 A minimal theme with separate builds for Jellyfin 10.11 and 12. [` 🔵 Get this Theme `](https://github.com/tedhinklater/finimalism)
 
@@ -491,7 +491,7 @@ A minimal theme with separate builds for Jellyfin 10.11 and 12. [` 🔵 Get this
 
 ---
 
-## [Finity](https://github.com/prism2001/finity) by prism2001
+## [Finity](https://github.com/prism2001/finity) by prism2001 ` 📅 `
 
 A modern dark theme in two editions, complete and minimal. [` 🔵 Get this Theme `](https://github.com/prism2001/finity)
 
@@ -541,7 +541,7 @@ Inspired by Plex and built on Scyfin and Ultrachromic. [` 🔵 Get this Theme `]
 
 ---
 
-## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos
+## [Jamfin](https://github.com/JamsRepos/Jamfin) by JamsRepos ` 📅 `
 
 Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media server's aesthetics. [` 🔵 Get this Theme `](https://github.com/JamsRepos/Jamfin)
 
@@ -566,7 +566,7 @@ Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media 
 
 ---
 
-## [JellyThemes](https://github.com/kingchenc/JellyThemes) by [kingchenc](https://github.com/kingchenc)
+## [JellyThemes](https://github.com/kingchenc/JellyThemes) by [kingchenc](https://github.com/kingchenc) ` 📅 `
 
 Six dark color editions of ElegantFin, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass panels with blur, glowing buttons and the Inter font. [` 🔵 Get this Theme `](https://github.com/kingchenc/JellyThemes)
 
@@ -611,7 +611,7 @@ A cinematic Netflix-inspired theme with deep dark visuals, refined hover effects
 
 ---
 
-## [Zesty](https://github.com/stpnwf/ZestyTheme) by stpnwf
+## [Zesty](https://github.com/stpnwf/ZestyTheme) by stpnwf ` 📅 `
 
 A minimal and elegant theme for Jellyfin [` 🔵 Get this Theme `](https://github.com/stpnwf/ZestyTheme)
 
