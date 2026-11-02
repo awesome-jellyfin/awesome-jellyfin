@@ -59,6 +59,7 @@
 - [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager) - Helps you to download and install skins.
 - [Jellyfin-Seasonals](https://github.com/CodeDevMLH/Jellyfin-Seasonals) - Collections of seasonal themes and animations for Jellyfin.
 - [JellyFrame](https://github.com/Jellyfin-PG/JellyFrame) - A complete customization and extension framework for Jellyfin. Install community mods and themes from the dashboard, or build your own with a full server-side JavaScript API.
+- [Media Carousel](https://github.com/peterdu1109/MediaCarousel) - Adds ranked rows under your libraries, including user and worldwide Top 10 rankings and rows built from your library.
 - [SeerrFin](https://github.com/varunaditya-plus/SeerrFin) - Discover and request movies and TV shows through Seerr directly from Jellyfin.
 - [StarTrack](https://github.com/ZL154/jellyfin-plugin-startrack) - Adds per-user ratings, watchlists, diaries, lists, and member profiles to Jellyfin, with optional Letterboxd/Trakt/Simkl sync.
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin. `🔸 Stale`
@@ -91,6 +92,7 @@
 - [jellyfin-plugin-jellysleep](https://github.com/jon4hz/jellyfin-plugin-jellysleep) - Adds sleep timer functionality to Jellyfin.
 - [Jellyfin.Plugin.StreamLimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows limiting the number of simultaneous streams per user.
 - [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
+- [OpEdSync](https://github.com/ElieMFR/OpEdSync) - Plays anime openings and endings from AnimeThemes when you open an anime page, with optional theme videos.
 - [Replay Gain](https://github.com/SKProCH/JellyfinReplayGain) - Normalizes audio volume across your media on the fly to maintain a consistent loudness level. `✅ JF12`
 - [Stream Generator](https://github.com/SKProCH/JellyfinStreamGenerator) - Generates customizable, secure HLS stream URLs with isolated tokens and selectable audio or subtitle tracks for external players (e.g. in games). `✅ JF12`
 - [TheIntroDB](https://github.com/TheIntroDB/jellyfin-plugin) - Community powered database of intro, recap, credits, and preview segments for movies and TV shows.
@@ -124,7 +126,7 @@
 - [Jellyfin-Newsletter-Plugin](https://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin) - Newsletters for recently added media. `🔹 Beta` `🔸 Stale`
 - [jellyfin-plugin-DiscordNotifier](https://github.com/cedev-1/jellyfin-plugin-DiscordNotifier) - Sends notifications of Jellyfin server events to Discord.
 - [jellyfin-plugin-TelegramNotifier](https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier) - Receive notifications of Jellyfin server events via Telegram.
-- [NotifySync](https://github.com/peterdu1109/NotifySync) - Adds a notification bell to Jellyfin that displays recent additions.
+- [NotifySync](https://github.com/ElieMFR/NotifySync) - Adds a notification bell to Jellyfin with recent movie, series, and music additions. `✅ JF12`
 - [Telefin](https://github.com/LoloZarro/Telefin) - Jellyfin plugin that enables Telegram notifications for Jellyfin events with many additional features. `🔸 Stale`
 
 
