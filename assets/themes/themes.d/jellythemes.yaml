@@ -10,7 +10,6 @@ versions:
   - "10.10"
   - "10.11"
   - "12"
-stale: true
 screenshots:
   - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
   - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png
