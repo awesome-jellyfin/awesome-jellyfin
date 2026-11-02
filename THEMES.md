@@ -259,6 +259,23 @@ Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes. [` 
 
 ---
 
+## [JellyThemes](https://github.com/kingchenc/JellyThemes) by [kingchenc](https://github.com/kingchenc)
+
+Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass top bar with blur and glowing cards and buttons. One small file of about 28 KB for every display mode of Jellyfin 12, including TVs. [` 🔵 Get this Theme `](https://github.com/kingchenc/JellyThemes)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [Nebula](https://github.com/nemesbak/jellyfin-nebula) by [nemesbak](https://github.com/nemesbak)
 
 A dark theme with rounded cards, glass menus, the Inter font and a violet to cyan gradient accent. Movie pages show the title logo, and episodes are shown as cards. [` 🔵 Get this Theme `](https://github.com/nemesbak/jellyfin-nebula)
@@ -560,26 +577,6 @@ Bringing a modern, sleek glassmorphism design to Jellyfin, enhancing your media 
     </td>
     <td>
       <img src="https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/admin.jpg" />
-    </td>
-  </tr>
-</table>
-
----
-
-## [JellyThemes](https://github.com/kingchenc/JellyThemes) by [kingchenc](https://github.com/kingchenc) ` 📅 `
-
-Six dark color editions of ElegantFin, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass panels with blur, glowing buttons and the Inter font. [` 🔵 Get this Theme `](https://github.com/kingchenc/JellyThemes)
-
-> [!NOTE]
-> Based on ElegantFin and last updated in January 2026, before Jellyfin 12.
-
-<table>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png" />
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png" />
     </td>
   </tr>
 </table>
