@@ -5,14 +5,17 @@ name: JellyThemes
 author: kingchenc
 author_url: https://github.com/kingchenc
 repo: https://github.com/kingchenc/JellyThemes
-description: Six dark color editions of ElegantFin, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass panels with blur, glowing buttons and the Inter font.
+description: Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass top bar with blur and glowing cards and buttons. One small file of about 28 KB for every display mode of Jellyfin 12, including TVs.
 versions:
+  - "10.10"
   - "10.11"
-stale: true
-note: Based on ElegantFin and last updated in January 2026, before Jellyfin 12.
+  - "12"
 screenshots:
   - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
   - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian-details.png
+    title: Movie page
+    hidden: true
   - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Nebula/assets/preview/Nebula.png
     hidden: true
   - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Ember/assets/preview/Ember.png
@@ -47,8 +50,9 @@ variants:
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Phantom/Phantom.css");
 groups:
-  - id: header
-    label: Top bar
+  - id: effects
+    label: Effects
+    description: Everything is on by default. On older TVs, turning these off makes the interface faster.
   - id: cards
     label: Cards
   - id: details
@@ -58,45 +62,69 @@ groups:
     label: Phones
   - id: login
     label: Login page
+  - id: other
+    label: Other
 settings:
   - id: no-header-blur
     label: No blur under the top bar
     type: toggle
-    group: header
+    group: effects
     default: false
     css: |-
       :root {
-        --headerBlurLayerVisibility: none;
+        --jt-header-backdrop: none;
       }
-  - id: card-buttons
-    label: Watched and favourite buttons on hover
+  - id: no-glow
+    label: No glow on cards and buttons
+    type: toggle
+    group: effects
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-glow: none;
+        --jt-glow-s: none;
+      }
+  - id: no-motion
+    label: No animations
+    type: toggle
+    group: effects
+    default: false
+    css: |-
+      :root {
+        --jt-motion: 0s;
+        --jt-motion-fast: 0s;
+      }
+  - id: card-radius
+    label: Corner radius
+    type: number
+    group: cards
+    default: 0.6
+    min: 0
+    max: 1.5
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-card-radius
+  - id: hide-card-buttons
+    label: Hide the watched and favourite buttons on hover
     type: toggle
     group: cards
     default: false
     page: home
     css: |-
       :root {
-        --extraCardButtonsVisibility: block;
+        --jt-card-extra-buttons: none;
       }
-  - id: no-shine
-    label: No shine on hover
+  - id: hide-library-labels
+    label: Hide the labels under library cards
     type: toggle
     group: cards
     default: false
     page: home
     css: |-
       :root {
-        --cardHoverEffect: none;
-      }
-  - id: library-labels
-    label: Labels under library cards
-    type: toggle
-    group: cards
-    default: false
-    page: home
-    css: |-
-      :root {
-        --libraryLabelVisibility: block;
+        --jt-library-labels: none;
       }
   - id: hide-original-title
     label: Hide the original title
@@ -106,23 +134,21 @@ settings:
     page: movie
     css: |-
       :root {
-        --itemOriginalTitleVisibility: none;
+        --jt-original-title: none;
       }
   - id: hide-clear-logo
-    label: Hide the clear logo
-    description: Shows the title as text instead.
+    label: Hide the logo
     type: toggle
     group: details
     default: false
     page: movie
     css: |-
       :root {
-        --clearLogoVisibility: none;
-        --itemTitleVisibility: block;
+        --jt-detail-logo: none;
       }
-  - id: show-title
-    label: Always show the title
-    description: Also when a logo is shown.
+  - id: hide-title
+    label: Hide the title
+    description: The logo still shows the name.
     type: toggle
     group: details
     default: false
@@ -132,27 +158,27 @@ settings:
       is: false
     css: |-
       :root {
-        --itemTitleVisibility: block;
+        --jt-item-title: none;
       }
   - id: hide-mini-buttons
-    label: Hide the small buttons on cards
+    label: Hide the small play button on cards
     type: toggle
     group: mobile
     default: false
     css: |-
       :root {
-        --miniOverlayButtonVisibility: none;
+        --jt-card-mini-buttons: none;
       }
   - id: login-text
     label: Heading
     type: text
     group: login
-    default: Sign in to continue
-    placeholder: Sign in to continue
+    default: ""
+    placeholder: Welcome home
     page: login
     css: |-
       :root {
-        --loginPageText: "{{ value }}";
+        --jt-login-text: "{{ value }}";
       }
   - id: login-image
     label: Background image
@@ -162,7 +188,7 @@ settings:
     page: login
     css: |-
       :root {
-        --loginPageBgUrl: url("{{ login-image-url }}");
+        --jt-login-bg: url("{{ login-image-url }}");
       }
   - id: login-image-url
     label: Image address
@@ -173,3 +199,13 @@ settings:
       is: true
     default: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
     page: login
+  - id: hide-footer
+    label: Hide the footer
+    description: The line with theme name, version and author at the end of each page.
+    type: toggle
+    group: other
+    default: false
+    css: |-
+      :root {
+        --jt-footer: none;
+      }
