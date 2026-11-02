@@ -5,7 +5,7 @@ name: JellyThemes
 author: kingchenc
 author_url: https://github.com/kingchenc
 repo: https://github.com/kingchenc/JellyThemes
-description: Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass top bar with blur, glowing cards and buttons, and a labelled Play button on item pages. One small file of about 28 KB that works in every display mode of Jellyfin 12, including TVs.
+description: Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass top bar with blur and glowing cards and buttons. One small file of about 28 KB for every display mode of Jellyfin 12, including TVs.
 versions:
   - "10.10"
   - "10.11"
