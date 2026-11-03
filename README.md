@@ -171,6 +171,7 @@
 - [Jellyfin.Plugin.Allocine](https://github.com/charlesbel/Jellyfin.Plugin.Allocine) - Displays Allociné press and audience ratings alongside Jellyfin's existing ratings. `✅ JF12`
 - [jellyfin-plugin-AnimeMultiSource](https://github.com/webbster64/jellyfin-plugin-AnimeMultiSource) - Aggregates anime metadata, tags, artwork, and people from multiple sources (AniList, AniDB, MAL/Jikan, TVDB, Fanart.tv) with rate limiting and persistent caching for large libraries.
 - [jellyfin-plugin-applemusic](https://github.com/lyarenei/jellyfin-plugin-applemusic) - Fetches album and artist metadata from Apple Music.
+- [Jellyfin.Plugin.YandexMusic](https://github.com/Druidblack/Jellyfin.Plugin.YandexMusic) - Fetches album and artist metadata from Yandex Music.
 - [Jellyfin.Plugin.ArtworkMultiSource](https://github.com/Druidblack/Jellyfin.Plugin.ArtworkMultiSource) - Combines posters and logos from TMDb and TVDB with language-aware priority and configurable sorting.
 - [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Metadata and images for anime and manga from the Hikka website. `🔸 Stale`
 - [jellyfin-plugin-justwatch](https://github.com/IDisposable/jellyfin-plugin-justwatch) - Adds JustWatch external IDs and streaming-provider deep-links to movies, series, seasons, and episodes. `✅ JF12`
