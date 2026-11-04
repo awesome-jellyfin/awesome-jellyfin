@@ -246,6 +246,7 @@
 ### 📁 Media Organization
 
 <!-- sort list:tools-organization -->
+- [CineRename](https://github.com/CineRename/CineRename) - Cross-platform desktop tool to automatically match and rename movies, TV shows, and anime for Jellyfin and Plex.
 - [CineSync](https://github.com/sureshfizzy/CineSync) - Python-based library management tool for organizing debrid and local libraries without Sonarr or Radarr.
 - [JellyCC](https://github.com/parkejunior/jellycc-cli) - Command-line tool that audits, repairs and optimizes media to ensure Direct Play on Jellyfin. 
 - [Jellyfin-Auto-Collections](https://github.com/ghomasHudson/Jellyfin-Auto-Collections) - A tool to automatically make and update collections based on internet lists such as IMDb and Letterboxd.
