@@ -918,6 +918,9 @@ clients:
       free: true
       paid: false
     downloads:
+      - type: shield
+        icon: Amazon
+        url: https://www.amazon.com/dp/B0HPL2YVVQ
       - type: github
         owner: Glacier-Jellyfin
         repo: glacier-androidtv
