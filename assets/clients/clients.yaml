@@ -908,6 +908,26 @@ clients:
         owner: Phioster
         repo: sanctum_daemon
 
+  - name: "Tuvora"
+    targets: [Android, AndroidTV, AppleTV, iOS, Windows, macOS, Linux]
+    oss: https://github.com/paradox-kush/tuvora
+    website: https://tuvora.co/jellyfin-player
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: google-play
+        id: com.tuvora.mobile
+      - type: github
+        owner: paradox-kush
+        repo: TuvoraTV
+      - type: shield
+        label: TestFlight
+        content: iOS & Apple TV
+        color: blue
+        url: https://testflight.apple.com/join/XDc6gVXc
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
