@@ -273,6 +273,7 @@ To make changes, please edit those YAML files instead.
 | ---- | --- | ---- | ---- | --------- |
 | [JellyCon ` 🔹 `](https://github.com/jellyfin/jellycon) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellycon/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellycon/releases) |
 | [Jellyfin for Kodi ` 🔹 `](https://github.com/jellyfin/jellyfin-kodi) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/jellyfin/jellyfin-kodi/total?logo=github&label=GitHub)](https://github.com/jellyfin/jellyfin-kodi/releases) |
+| [Kofin for Jellyfin](https://github.com/kontell/plugin.video.kofin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/kontell/plugin.video.kofin/total?logo=github&label=GitHub)](https://github.com/kontell/plugin.video.kofin/releases) |
 | [Kofin PVR for Jellyfin](https://github.com/kontell/pvr.kofin) | ✅ | ✅ | ❎ | [![github](https://img.shields.io/github/downloads/kontell/pvr.kofin/total?logo=github&label=GitHub)](https://github.com/kontell/pvr.kofin/releases) |
 
 ### Roku
