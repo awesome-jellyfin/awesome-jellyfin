@@ -5,7 +5,7 @@ name: JellyThemes
 author: kingchenc
 author_url: https://github.com/kingchenc
 repo: https://github.com/kingchenc/JellyThemes
-description: Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass top bar with blur and glowing cards and buttons. One small file of about 28 KB for every display mode of Jellyfin 12, including TVs.
+description: Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on black and slate. Floating glass top bar with own icons, a jellyfish logo and styled menus. Works in every display mode of Jellyfin 12, including TVs.
 versions:
   - "10.10"
   - "10.11"
@@ -53,11 +53,16 @@ groups:
   - id: effects
     label: Effects
     description: Everything is on by default. On older TVs, turning these off makes the interface faster.
+  - id: top-bar
+    label: Top bar
   - id: cards
     label: Cards
   - id: details
     label: Item pages
     description: What shows on the pages of movies and shows.
+  - id: jellyfish
+    label: Jellyfish
+    description: The JellyThemes mascot.
   - id: mobile
     label: Phones
   - id: login
@@ -95,6 +100,86 @@ settings:
         --jt-motion: 0s;
         --jt-motion-fast: 0s;
       }
+  - id: header-width
+    label: Width
+    description: On desktop and TV. 93.4 lines it up with the page content, 100 is the full width.
+    type: number
+    group: top-bar
+    default: 95.5
+    min: 80
+    max: 100
+    step: 0.5
+    unit: "%"
+    page: home
+    var: --jt-header-width
+  - id: header-gap
+    label: Space around it
+    type: number
+    group: top-bar
+    default: 0.6
+    min: 0
+    max: 1.5
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-header-gap
+  - id: header-radius
+    label: Corner radius
+    type: number
+    group: top-bar
+    default: 1
+    min: 0
+    max: 2
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-header-radius
+  - id: logo
+    label: Logo
+    type: select
+    group: top-bar
+    default: jellythemes
+    page: home
+    display: segmented
+    options:
+      - value: jellythemes
+        label: JellyThemes
+      - value: jellyfin
+        label: Jellyfin
+        css: |-
+          :root {
+            --jt-logo: normal;
+            --jt-logo-banner: contain;
+            --jt-server-name: 1;
+          }
+      - value: own
+        label: Your own
+        css: |-
+          :root {
+            --jt-logo: url("{{ logo-url }}");
+          }
+  - id: logo-url
+    label: Logo address
+    type: image
+    group: top-bar
+    default: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/assets/brand/jellythemes-logo.png
+    page: home
+    when:
+      setting: logo
+      is: own
+  - id: server-name
+    label: Show the server name next to the logo
+    type: toggle
+    group: top-bar
+    default: false
+    page: home
+    when:
+      setting: logo
+      not: jellyfin
+    css: |-
+      :root {
+        --jt-server-name: 1;
+      }
   - id: card-radius
     label: Corner radius
     type: number
@@ -106,6 +191,51 @@ settings:
     unit: em
     page: home
     var: --jt-card-radius
+  - id: card-zoom
+    label: Size of a hovered card
+    description: 1 turns the zoom off.
+    type: number
+    group: cards
+    default: 1.04
+    min: 1
+    max: 1.1
+    step: 0.01
+    page: home
+    var: --jt-card-zoom
+  - id: progress-gap
+    label: Space around the progress bar
+    description: 0 puts it at the bottom edge, like Jellyfin.
+    type: number
+    group: cards
+    default: 0.5
+    min: 0
+    max: 1
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-progress-gap
+  - id: round-badges
+    label: Jellyfin's round badges
+    description: Instead of the badges in the corner (watched, number of episodes).
+    type: toggle
+    group: cards
+    default: false
+    page: movies
+    css: |-
+      :root {
+        --jt-badge-corner: 0;
+      }
+  - id: library-style
+    label: Library cards in the theme's style
+    description: The theme's banner with the name in the middle, instead of Jellyfin's pictures with the name in white.
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-library-style: 1;
+      }
   - id: hide-card-buttons
     label: Hide the watched and favourite buttons on hover
     type: toggle
@@ -125,6 +255,51 @@ settings:
     css: |-
       :root {
         --jt-library-labels: none;
+      }
+  - id: backdrop-height
+    label: Height of the backdrop picture
+    description: In wide windows. Jellyfin's own is 40.
+    type: number
+    group: details
+    default: 58
+    min: 30
+    max: 80
+    step: 2
+    unit: vh
+    page: movie
+    var: --jt-backdrop-height
+  - id: tall-cast
+    label: Jellyfin's tall cast photos
+    description: Instead of round ones.
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --jt-cast-round: 0;
+      }
+  - id: episode-list
+    label: Episodes as a list
+    description: Instead of tiles in columns.
+    type: toggle
+    group: details
+    default: false
+    page: season
+    css: |-
+      :root {
+        --jt-episode-tiles: 0;
+      }
+  - id: list-rows
+    label: Upcoming episodes as rows
+    description: Instead of compact tiles.
+    type: toggle
+    group: details
+    default: false
+    page: series
+    css: |-
+      :root {
+        --jt-compact-lists: 0;
       }
   - id: hide-original-title
     label: Hide the original title
@@ -159,6 +334,54 @@ settings:
     css: |-
       :root {
         --jt-item-title: none;
+      }
+  - id: hide-mascot-login
+    label: Hide it above the login card
+    type: toggle
+    group: jellyfish
+    default: false
+    page: login
+    css: |-
+      :root {
+        --jt-mascot-login: 0;
+      }
+  - id: hide-mascot-bg
+    label: Hide it in the page background
+    type: toggle
+    group: jellyfish
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-mascot-bg: 0;
+      }
+  - id: hide-mascot-footer
+    label: Hide it in the footer
+    type: toggle
+    group: jellyfish
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-mascot-footer: 0;
+      }
+  - id: hide-mascot-empty
+    label: Hide it on empty pages
+    type: toggle
+    group: jellyfish
+    default: false
+    css: |-
+      :root {
+        --jt-mascot-empty: 0;
+      }
+  - id: hide-mascot-menu
+    label: Hide it in the menu drawer
+    type: toggle
+    group: jellyfish
+    default: false
+    css: |-
+      :root {
+        --jt-mascot-menu: 0;
       }
   - id: hide-mini-buttons
     label: Hide the small play button on cards
@@ -201,11 +424,24 @@ settings:
     page: login
   - id: hide-footer
     label: Hide the footer
-    description: The line with theme name, version and author at the end of each page.
+    description: The small bar with theme name, version and author.
     type: toggle
     group: other
     default: false
     css: |-
       :root {
         --jt-footer: none;
+      }
+  - id: footer-end
+    label: Footer at the end of each page
+    description: Instead of a bar at the bottom of the screen.
+    type: toggle
+    group: other
+    default: false
+    when:
+      setting: hide-footer
+      is: false
+    css: |-
+      :root {
+        --jt-footer-fixed: 0;
       }
