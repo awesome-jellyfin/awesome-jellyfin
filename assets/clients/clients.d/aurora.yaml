@@ -1,0 +1,16 @@
+clients:
+  - name: "Aurora"
+    targets: [Browser]
+    oss: https://github.com/Get-Coral/aurora
+    website: https://getcoral.dev/apps/aurora
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Get-Coral
+        repo: aurora
+      - type: docker
+        user: getcoral
+        repo: aurora
