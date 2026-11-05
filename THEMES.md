@@ -261,7 +261,7 @@ Inspired by Flow, Zesty and Ultrachromic, with a large set of color schemes. [` 
 
 ## [JellyThemes](https://github.com/kingchenc/JellyThemes) by [kingchenc](https://github.com/kingchenc)
 
-Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on pure black and ghostly slate. Glass top bar with blur and glowing cards and buttons. One small file of about 28 KB for every display mode of Jellyfin 12, including TVs. [` 🔵 Get this Theme `](https://github.com/kingchenc/JellyThemes)
+Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on black and slate. Floating glass top bar with own icons, a jellyfish logo and styled menus. Works in every display mode of Jellyfin 12, including TVs. [` 🔵 Get this Theme `](https://github.com/kingchenc/JellyThemes)
 
 <table>
   <tr>
