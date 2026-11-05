@@ -73,6 +73,7 @@
 - [Jellyfin.Plugin.ACdb](https://github.com/jonjonsson/Jellyfin.Plugin.ACdb) - Syncs auto-updating collections, posters, and backgrounds from [ACdb.tv](https://acdb.tv). `🔺 Paid`
 - [jellyfin-plugin-auto-collections](https://github.com/KeksBombe/jellyfin-plugin-auto-collections) - Automatically creates and maintains dynamic collections based on flexible criteria.
 - [jellyfin-plugin-collection-import](https://github.com/lostb1t/jellyfin-plugin-collection-import) - Creates and sorts collections by importing from external sources like *mdblist*.
+- [jellyfin-plugin-interest-collections](https://github.com/elisamuel40/jellyfin-plugin-interest-collections) - Tags movies and shows with granular IMDb-style interests, such as Psychological Thriller or Drug Crime, and maintains a collection per interest. `🔹 Beta`
 - [jellyfin-plugin-mindthegaps](https://github.com/IDisposable/jellyfin-plugin-mindthegaps) - Finds missing entries across your library (collections, series episodes, cast and crew filmographies) and organizes them into a fillable report.
 - [jellyfin-smartlists-plugin](https://github.com/jyourstone/jellyfin-smartlists-plugin) - Creates dynamic collections and playlists in Jellyfin that automatically update based on customizable rules as the library changes.
 - [playlist-generator](https://github.com/Eeeeelias/playlist-generator) - Creates personal playlists based on your listening history.
