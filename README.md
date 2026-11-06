@@ -93,6 +93,7 @@
 - [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
 - [Replay Gain](https://github.com/SKProCH/JellyfinReplayGain) - Normalizes audio volume across your media on the fly to maintain a consistent loudness level. `✅ JF12`
 - [Stream Generator](https://github.com/SKProCH/JellyfinStreamGenerator) - Generates customizable, secure HLS stream URLs with isolated tokens and selectable audio or subtitle tracks for external players (e.g. in games). `✅ JF12`
+- [SyncPlay V2](https://github.com/kontell/jellyfin-plugin-syncplayv2) - Drop-in replacement for SyncPlay with steadier group sync and reconnects, compatible with existing clients.
 - [TheIntroDB](https://github.com/TheIntroDB/jellyfin-plugin) - Community powered database of intro, recap, credits, and preview segments for movies and TV shows.
 - [VFQ Auto Selector](https://github.com/samuelloranger/jellyfin-vfq) - Automatically selects Québécois/French Canadian (VFQ) audio tracks on playback, choosing the highest-quality matching track. `✅ JF12`
 
