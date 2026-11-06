@@ -1,0 +1,124 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - AumGupta
+name: Abyss
+author: AumGupta
+author_url: https://github.com/AumGupta
+repo: https://github.com/AumGupta/abyss-jellyfin
+website: https://aumgupta.github.io/abyss-jellyfin/
+description: A clean, minimal dark theme with frosted glass surfaces, smooth transitions, and a clutter-free home screen spotlight add-on.
+versions:
+  - "10.10"
+  - "10.11"
+  - "12"
+recommends:
+  backdrops: true
+screenshots:
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_1.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_2.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_3.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_4.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_5.png?raw=true
+  - https://github.com/AumGupta/abyss-jellyfin/blob/main/docs/assets/images/abyss_6.png?raw=true
+variants:
+  - id: default
+    name: Abyss
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/abyss.css");
+  - id: lite
+    name: Abyss Lite
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/abyss.css");
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/styles/abyss-lite.css");
+groups:
+  - id: appearance
+    label: Appearance
+  - id: plugins
+    label: Plugin add-ons
+    description: For the Jellyfin Enhanced and Media Bar Enhanced plugins.
+settings:
+  - id: accent
+    label: Accent
+    type: color
+    group: appearance
+    default: "#f5f5f7"
+    css: |-
+      :root {
+        --abyss-accent: {{ value | rgb }};
+        --abyss-accent-channel: {{ value | r }} {{ value | g }} {{ value | b }};
+      }
+  - id: accents
+    label: Accent examples
+    type: preset
+    group: appearance
+    options:
+      - label: Default
+        swatch:
+          - "#f5f5f7"
+        values:
+          accent: "#f5f5f7"
+      - label: Warm
+        swatch:
+          - "#fffaf0"
+        values:
+          accent: "#fffaf0"
+      - label: Blue
+        swatch:
+          - "#64a0ff"
+        values:
+          accent: "#64a0ff"
+      - label: Teal
+        swatch:
+          - "#32c8b4"
+        values:
+          accent: "#32c8b4"
+      - label: Rose
+        swatch:
+          - "#ff6478"
+        values:
+          accent: "#ff6478"
+  - id: radius
+    label: Corner radius
+    type: number
+    group: appearance
+    page: home
+    default: 24
+    min: 0
+    max: 32
+    step: 1
+    unit: px
+    var: --abyss-radius
+  - id: indicator
+    label: Indicator background
+    description: Behind episode counts and other indicators.
+    type: color
+    group: appearance
+    default: "#373737"
+    css: |-
+      :root {
+        --abyss-indicator: {{ value | rgb }};
+      }
+  - id: jellyfin-enhanced
+    label: Jellyfin Enhanced
+    description: Styles for the Jellyfin Enhanced plugin (v11.3).
+    type: toggle
+    group: plugins
+    display: card
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/styles/abyss-je.css");
+  - id: media-bar
+    label: Media Bar Enhanced
+    description: Styles for the Media Bar Enhanced plugin (v1.9).
+    type: toggle
+    group: plugins
+    display: card
+    default: false
+    tags:
+      - needs-plugin
+      - not-in-preview
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/AumGupta/abyss-jellyfin@main/styles/abyss-mbe.css");

@@ -1,0 +1,447 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - kingchenc
+name: JellyThemes
+author: kingchenc
+author_url: https://github.com/kingchenc
+repo: https://github.com/kingchenc/JellyThemes
+description: Six dark themes, each with its own accent on a near-black background, from violet, gold, cyan and orange to gray on black and slate. Floating glass top bar with own icons, a jellyfish logo and styled menus. Works in every display mode of Jellyfin 12, including TVs.
+versions:
+  - "10.10"
+  - "10.11"
+  - "12"
+screenshots:
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian-details.png
+    title: Movie page
+    hidden: true
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Nebula/assets/preview/Nebula.png
+    hidden: true
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Ember/assets/preview/Ember.png
+    hidden: true
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Void/assets/preview/Void.png
+    hidden: true
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Phantom/assets/preview/Phantom.png
+    hidden: true
+variants:
+  - id: obsidian
+    name: Obsidian (violet)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Obsidian/Obsidian.css");
+  - id: solaris
+    name: Solaris (gold)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Solaris/Solaris.css");
+  - id: nebula
+    name: Nebula (cyan)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Nebula/Nebula.css");
+  - id: ember
+    name: Ember (orange)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Ember/Ember.css");
+  - id: void
+    name: Void (black)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Void/Void.css");
+  - id: phantom
+    name: Phantom (slate)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Phantom/Phantom.css");
+groups:
+  - id: effects
+    label: Effects
+    description: Everything is on by default. On older TVs, turning these off makes the interface faster.
+  - id: top-bar
+    label: Top bar
+  - id: cards
+    label: Cards
+  - id: details
+    label: Item pages
+    description: What shows on the pages of movies and shows.
+  - id: jellyfish
+    label: Jellyfish
+    description: The JellyThemes mascot.
+  - id: mobile
+    label: Phones
+  - id: login
+    label: Login page
+  - id: other
+    label: Other
+settings:
+  - id: no-header-blur
+    label: No blur under the top bar
+    type: toggle
+    group: effects
+    default: false
+    css: |-
+      :root {
+        --jt-header-backdrop: none;
+      }
+  - id: no-glow
+    label: No glow on cards and buttons
+    type: toggle
+    group: effects
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-glow: none;
+        --jt-glow-s: none;
+      }
+  - id: no-motion
+    label: No animations
+    type: toggle
+    group: effects
+    default: false
+    css: |-
+      :root {
+        --jt-motion: 0s;
+        --jt-motion-fast: 0s;
+      }
+  - id: header-width
+    label: Width
+    description: On desktop and TV. 93.4 lines it up with the page content, 100 is the full width.
+    type: number
+    group: top-bar
+    default: 95.5
+    min: 80
+    max: 100
+    step: 0.5
+    unit: "%"
+    page: home
+    var: --jt-header-width
+  - id: header-gap
+    label: Space around it
+    type: number
+    group: top-bar
+    default: 0.6
+    min: 0
+    max: 1.5
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-header-gap
+  - id: header-radius
+    label: Corner radius
+    type: number
+    group: top-bar
+    default: 1
+    min: 0
+    max: 2
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-header-radius
+  - id: logo
+    label: Logo
+    type: select
+    group: top-bar
+    default: jellythemes
+    page: home
+    display: segmented
+    options:
+      - value: jellythemes
+        label: JellyThemes
+      - value: jellyfin
+        label: Jellyfin
+        css: |-
+          :root {
+            --jt-logo: normal;
+            --jt-logo-banner: contain;
+            --jt-server-name: 1;
+          }
+      - value: own
+        label: Your own
+        css: |-
+          :root {
+            --jt-logo: url("{{ logo-url }}");
+          }
+  - id: logo-url
+    label: Logo address
+    type: image
+    group: top-bar
+    default: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/assets/brand/jellythemes-logo.png
+    page: home
+    when:
+      setting: logo
+      is: own
+  - id: server-name
+    label: Show the server name next to the logo
+    type: toggle
+    group: top-bar
+    default: false
+    page: home
+    when:
+      setting: logo
+      not: jellyfin
+    css: |-
+      :root {
+        --jt-server-name: 1;
+      }
+  - id: card-radius
+    label: Corner radius
+    type: number
+    group: cards
+    default: 0.6
+    min: 0
+    max: 1.5
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-card-radius
+  - id: card-zoom
+    label: Size of a hovered card
+    description: 1 turns the zoom off.
+    type: number
+    group: cards
+    default: 1.04
+    min: 1
+    max: 1.1
+    step: 0.01
+    page: home
+    var: --jt-card-zoom
+  - id: progress-gap
+    label: Space around the progress bar
+    description: 0 puts it at the bottom edge, like Jellyfin.
+    type: number
+    group: cards
+    default: 0.5
+    min: 0
+    max: 1
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-progress-gap
+  - id: round-badges
+    label: Jellyfin's round badges
+    description: Instead of the badges in the corner (watched, number of episodes).
+    type: toggle
+    group: cards
+    default: false
+    page: movies
+    css: |-
+      :root {
+        --jt-badge-corner: 0;
+      }
+  - id: library-style
+    label: Library cards in the theme's style
+    description: The theme's banner with the name in the middle, instead of Jellyfin's pictures with the name in white.
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-library-style: 1;
+      }
+  - id: hide-card-buttons
+    label: Hide the watched and favourite buttons on hover
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-card-extra-buttons: none;
+      }
+  - id: hide-library-labels
+    label: Hide the labels under library cards
+    type: toggle
+    group: cards
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-library-labels: none;
+      }
+  - id: backdrop-height
+    label: Height of the backdrop picture
+    description: In wide windows. Jellyfin's own is 40.
+    type: number
+    group: details
+    default: 58
+    min: 30
+    max: 80
+    step: 2
+    unit: vh
+    page: movie
+    var: --jt-backdrop-height
+  - id: tall-cast
+    label: Jellyfin's tall cast photos
+    description: Instead of round ones.
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --jt-cast-round: 0;
+      }
+  - id: episode-list
+    label: Episodes as a list
+    description: Instead of tiles in columns.
+    type: toggle
+    group: details
+    default: false
+    page: season
+    css: |-
+      :root {
+        --jt-episode-tiles: 0;
+      }
+  - id: list-rows
+    label: Upcoming episodes as rows
+    description: Instead of compact tiles.
+    type: toggle
+    group: details
+    default: false
+    page: series
+    css: |-
+      :root {
+        --jt-compact-lists: 0;
+      }
+  - id: hide-original-title
+    label: Hide the original title
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --jt-original-title: none;
+      }
+  - id: hide-clear-logo
+    label: Hide the logo
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    css: |-
+      :root {
+        --jt-detail-logo: none;
+      }
+  - id: hide-title
+    label: Hide the title
+    description: The logo still shows the name.
+    type: toggle
+    group: details
+    default: false
+    page: movie
+    when:
+      setting: hide-clear-logo
+      is: false
+    css: |-
+      :root {
+        --jt-item-title: none;
+      }
+  - id: hide-mascot-login
+    label: Hide it above the login card
+    type: toggle
+    group: jellyfish
+    default: false
+    page: login
+    css: |-
+      :root {
+        --jt-mascot-login: 0;
+      }
+  - id: hide-mascot-bg
+    label: Hide it in the page background
+    type: toggle
+    group: jellyfish
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-mascot-bg: 0;
+      }
+  - id: hide-mascot-footer
+    label: Hide it in the footer
+    type: toggle
+    group: jellyfish
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-mascot-footer: 0;
+      }
+  - id: hide-mascot-empty
+    label: Hide it on empty pages
+    type: toggle
+    group: jellyfish
+    default: false
+    css: |-
+      :root {
+        --jt-mascot-empty: 0;
+      }
+  - id: hide-mascot-menu
+    label: Hide it in the menu drawer
+    type: toggle
+    group: jellyfish
+    default: false
+    css: |-
+      :root {
+        --jt-mascot-menu: 0;
+      }
+  - id: hide-mini-buttons
+    label: Hide the small play button on cards
+    type: toggle
+    group: mobile
+    default: false
+    css: |-
+      :root {
+        --jt-card-mini-buttons: none;
+      }
+  - id: login-text
+    label: Heading
+    type: text
+    group: login
+    default: ""
+    placeholder: Welcome home
+    page: login
+    css: |-
+      :root {
+        --jt-login-text: "{{ value }}";
+      }
+  - id: login-image
+    label: Background image
+    type: toggle
+    group: login
+    default: false
+    page: login
+    css: |-
+      :root {
+        --jt-login-bg: url("{{ login-image-url }}");
+      }
+  - id: login-image-url
+    label: Image address
+    type: image
+    group: login
+    when:
+      setting: login-image
+      is: true
+    default: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
+    page: login
+  - id: hide-footer
+    label: Hide the footer
+    description: The small bar with theme name, version and author.
+    type: toggle
+    group: other
+    default: false
+    css: |-
+      :root {
+        --jt-footer: none;
+      }
+  - id: footer-end
+    label: Footer at the end of each page
+    description: Instead of a bar at the bottom of the screen.
+    type: toggle
+    group: other
+    default: false
+    when:
+      setting: hide-footer
+      is: false
+    css: |-
+      :root {
+        --jt-footer-fixed: 0;
+      }

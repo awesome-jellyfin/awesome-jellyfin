@@ -1,6 +1,8 @@
 # Jellyfin Client YAML Configuration Format
 
-This configuration file is used by the [Markdown generator](https://github.com/awesome-jellyfin/clients-md-generator) to produce the Clients list.
+The [bot](https://github.com/awesome-jellyfin/bot) generates `CLIENTS.md` from `clients.yaml`, the files in [`clients.d`](clients.d/README.md) and the template [`CLIENTS.md.tmpl`](CLIENTS.md.tmpl).
+
+[`schema.json`](schema.json) describes the format of `clients.yaml` and the `clients.d` files. Editors that support the `yaml-language-server` comment at the top of each file use it to check fields and suggest values as you type.
 
 ---
 
@@ -94,6 +96,10 @@ Here:
 - It’s official, in beta, open-sourced on GitHub.
 - It supports `iOS` and `AppleTV`.
 - There’s a single download link, an App Store badge, referencing the app ID `1604098728`.
+
+### Clients in `clients.d`
+
+Some clients live in their own file in [`clients.d`](clients.d/README.md) instead of `clients.yaml`, so their developers can maintain them directly. Those files have a top-level `owners` list with the GitHub handles of the client's maintainers, plus a `clients` list that gets merged with `clients.yaml` when the list is generated. **Please do not add new clients there unless we ask you to.** The details are in [`clients.d/README.md`](clients.d/README.md).
 
 ---
 
