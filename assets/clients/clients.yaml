@@ -940,6 +940,19 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "MyIPTV"
+    targets: [Browser]
+    website: https://my-iptv.app
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: shield
+        label: Web
+        content: my-iptv.app
+        color: blue
+        url: https://my-iptv.app
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
