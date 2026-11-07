@@ -1,3 +1,7 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - avdept
+
 clients:
   - name: "JellyBox"
     targets: [Windows, macOS, Linux, iOS, Android]

@@ -1,3 +1,7 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - edde746
+
 clients:
   - name: Plezy
     targets: [Android, AndroidTV, AppleTV, Linux, Windows, iOS, macOS]
@@ -13,6 +17,6 @@ clients:
         owner: edde746
         repo: plezy
       - type: app-store
-        id: 6754315964
+        id: "6754315964"
       - type: google-play
         id: com.edde746.plezy

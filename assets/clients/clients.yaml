@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=./schema.json
 clients:
   - name: "Jellyfin Media Player"
     targets: [Windows, Linux, macOS]
@@ -293,7 +294,7 @@ clients:
     types: [Reader]
     oss: https://github.com/JellyBookOrg/JellyBook
     official: false
-    beta: false 
+    beta: false
     downloads:
       - type: github
         owner: JellyBookOrg
@@ -329,13 +330,13 @@ clients:
       - type: demo
         url: https://jellyflix.kiejon.com/
       - type: app-store
-        id: 6476043683
+        id: "6476043683"
       - type: github
         owner: jellyflix-app
         repo: jellyflix
 
   - name: "Switchfin"
-    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows]
+    targets: [NintendoSwitch, Xbox, macOS, Linux, Windows, PlayStation]
     official: false
     beta: true
     oss: https://github.com/dragonflylee/switchfin
@@ -512,17 +513,6 @@ clients:
       - type: app-store
         id: "6746067740"
 
-  - name: "Foxy"
-    targets: [Windows, Linux, macOS]
-    types: [Music]
-    oss: https://github.com/Devioxic/Foxy-Desktop
-    official: false
-    beta: false
-    downloads:
-      - type: github
-        owner: Devioxic
-        repo: Foxy-Desktop
-
   - name: "Jelly Music App"
     targets: [Browser, Windows, macOS, Linux]
     types: [Music]
@@ -549,18 +539,6 @@ clients:
         id: com.appsynergyts.phyn
       - type: app-store
         id: "6457674815"
-
-  - name: "Finetic"
-    targets: [Browser]
-    oss: https://github.com/AyaanZaveri/finetic
-    official: false
-    beta: false
-    price:
-      free: true
-    downloads:
-      - type: github
-        owner: AyaanZaveri
-        repo: finetic
 
   - name: "Hills"
     targets: [Windows, Android]
@@ -681,7 +659,7 @@ clients:
     downloads:
       - type: google-play
         id: com.hush.yamby
-  
+
   - name: JellySee
     targets: [AppleTV]
     official: false
@@ -692,7 +670,7 @@ clients:
     downloads:
       - type: app-store
         id: "6748783768"
-          
+
   - name: Dee Jellie
     targets: [iOS, AppleTV, macOS]
     types: [Music]
@@ -761,7 +739,7 @@ clients:
   - name: Litefin
     targets: [Tizen, WebOS]
     oss: https://github.com/MoazSalem/litefin
-    official: false    
+    official: false
     price:
       free: true
       paid: false
@@ -779,7 +757,7 @@ clients:
       - type: github
         owner: jellyfin
         repo: jellyfin-web
-  
+
   - name: "Jellium Desktop"
     targets: [Windows, Linux, macOS]
     oss: https://github.com/andrewrabert/jellium-desktop
@@ -812,7 +790,7 @@ clients:
       - type: github
         owner: kontell
         repo: pvr.kofin
-  
+
   - name: "Linthra"
     targets: [Android]
     types: [Music]
@@ -838,6 +816,18 @@ clients:
       - type: github
         owner: Malinskiy
         repo: mellow
+
+  - name: "Kofin for Jellyfin"
+    targets: [Kodi]
+    oss: https://github.com/kontell/plugin.video.kofin
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: kontell
+        repo: plugin.video.kofin
 
   - name: "Spectati"
     targets: [iOS, AppleTV, macOS]
@@ -868,6 +858,87 @@ clients:
       - type: github
         owner: LouisMarotta
         repo: m7-jellyfin
+
+  - name: "RoadSonic"
+    targets: [iOS]
+    types: [Music]
+    official: false
+    beta: false
+    website: https://www.roadsonic.com/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6811639958"
+
+  - name: "Strimr"
+    targets: [iOS, macOS, AppleTV]
+    oss: https://github.com/wunax/strimr
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757491271"
+
+  - name: "ReelFin"
+    targets: [iOS, AppleTV]
+    website: https://flovflo.github.io/reelfin-site/
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6762079357"
+
+  - name: Meringo
+    targets: [Android]
+    types: [Music]
+    official: false
+    website: https://meringo.app
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: google-play
+        id: app.meringo
+
+  - name: "Sanctumd"
+    targets: [Android, AndroidTV]
+    oss: https://github.com/Phioster/sanctum_daemon
+    website: https://sanctumd.dpdns.org
+    official: false
+    beta: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Phioster
+        repo: sanctum_daemon
+
+  - name: "Tuvora"
+    targets: [Android, AndroidTV, AppleTV, iOS, Windows, macOS, Linux]
+    oss: https://github.com/paradox-kush/tuvora
+    website: https://tuvora.co/jellyfin-player
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: google-play
+        id: com.tuvora.mobile
+      - type: github
+        owner: paradox-kush
+        repo: TuvoraTV
+      - type: shield
+        label: TestFlight
+        content: iOS & Apple TV
+        color: blue
+        url: https://testflight.apple.com/join/XDc6gVXc
 
 targets:
   - key: Browser
@@ -921,6 +992,8 @@ targets:
         mapped: "Roku"
       - name: Tizen
         mapped: "Tizen"
+      - name: Vega
+        mapped: "Vega"
       - name: WebOS
         mapped: "webOS"
 

@@ -1,3 +1,7 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - jmshrv
+
 clients:
   - name: "Finamp"
     targets: [Android, iOS]

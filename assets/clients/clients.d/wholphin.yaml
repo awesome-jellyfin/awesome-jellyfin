@@ -1,3 +1,7 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - damontecres
+
 clients:
   - name: Wholphin
     targets: [AndroidTV]

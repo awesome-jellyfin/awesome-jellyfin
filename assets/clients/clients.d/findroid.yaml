@@ -1,3 +1,7 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - jarnedemeulemeester
+
 clients:
   - name: "Findroid"
     targets: [Android]
