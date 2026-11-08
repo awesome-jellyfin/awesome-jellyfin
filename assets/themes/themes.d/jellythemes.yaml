@@ -28,27 +28,27 @@ variants:
   - id: solaris
     name: Solaris (gold)
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Solaris/Solaris.css");
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Solaris/Solaris.css?v=2.4");
   - id: obsidian
     name: Obsidian (violet)
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Obsidian/Obsidian.css");
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Obsidian/Obsidian.css?v=2.4");
   - id: nebula
     name: Nebula (cyan)
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Nebula/Nebula.css");
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Nebula/Nebula.css?v=2.4");
   - id: ember
     name: Ember (orange)
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Ember/Ember.css");
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Ember/Ember.css?v=2.4");
   - id: void
     name: Void (black)
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Void/Void.css");
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Void/Void.css?v=2.4");
   - id: phantom
     name: Phantom (slate)
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Phantom/Phantom.css");
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Phantom/Phantom.css?v=2.4");
 groups:
   - id: effects
     label: Effects
