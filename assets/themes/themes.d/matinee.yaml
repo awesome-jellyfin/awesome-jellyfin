@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - "61021"
+name: Matinee
+author: "61021"
+author_url: https://github.com/61021
+repo: https://github.com/61021/matinee
+description: Made for the new Jellyfin 12 interface, full-bleed artwork on show and movie pages, title logos, Phosphor icons and an amber accent, in dark and light.
+versions:
+  - "12"
+screenshots:
+  - https://raw.githubusercontent.com/61021/matinee/main/docs/screenshots/show.webp
+  - https://raw.githubusercontent.com/61021/matinee/main/docs/screenshots/home.webp
+  - https://raw.githubusercontent.com/61021/matinee/main/docs/screenshots/season.webp
+  - https://raw.githubusercontent.com/61021/matinee/main/docs/screenshots/light.webp
+variants:
+  - id: default
+    name: Matinee
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/61021/matinee@0/dist/matinee.css");
