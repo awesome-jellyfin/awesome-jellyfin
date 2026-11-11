@@ -940,6 +940,23 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Mira"
+    targets: [Windows, macOS, iOS]
+    oss: https://github.com/sasou-web/Mira
+    website: https://miracinema.app/en/
+    official: false
+    beta: true
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: sasou-web
+        repo: Mira
+      - type: text
+        text: "Homebrew tap"
+        url: https://github.com/sasou-web/homebrew-mira
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
