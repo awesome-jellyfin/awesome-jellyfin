@@ -153,6 +153,7 @@
 - [jellyfin-plugin-MediathekViewDL](https://github.com/CatNoir2006/jellyfin-plugin-MediathekViewDL) - Integrates MediathekViewDL into Jellyfin and allows users to search, download, and manage content.
 - [jellyfin-plugin-meilisearch](https://github.com/arnesacnussem/jellyfin-plugin-meilisearch) - Enhances Jellyfin search speed and accuracy by offloading queries to a Meilisearch instance. `✅ JF12`
 - [jellyfin-plugin-pre-transcode](https://github.com/mugurc/jellyfin-plugin-pre-transcode) - Re-encodes library media in the background to a configurable compatibility baseline, so the server does not live-transcode the same files on every playback. `✅ JF12`
+- [jellyfin-plugin-restore-userdata-after-move](https://github.com/voc0der/jellyfin-plugin-restore-userdata-after-move) - Recovers user data (played status, resume position, favorites) that Jellyfin strands when media paths change. `✅ JF12`
 - [jellyfin-powertoys](https://github.com/lennykean/jellyfin-powertoys) - A collection of plugins to enhance Jellyfin with additional features and tools.
 - [JellyfinTweaks](https://github.com/n00bcodr/JellyfinTweaks) - Overrides Jellyfin settings such as *Enable Backdrops* and *Enable Theme Music* across all devices. `✅ JF12`
 - [Jellyfin-Xtream-Library](https://github.com/firestaerter3/Jellyfin-Xtream-Library) - Syncs Xtream VOD and Series content to native Jellyfin libraries via STRM files, with automatic metadata lookup and Live TV support.
