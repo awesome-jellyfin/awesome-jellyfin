@@ -106,6 +106,7 @@
 - [Jellyfin.Plugin.JF_To_Stash_Sync](https://github.com/Druidblack/Jellyfin.Plugin.JF_To_Stash_Sync) - Synchronizes viewing activity with Stash.
 - [jellyfin-plugin-letterboxd-sync](https://github.com/Gizmo091/jellyfin-plugin-letterboxd-sync) - Automatically syncs your watched movie history with Letterboxd.
 - [jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz) - Automatically syncs your music activity with ListenBrainz.
+- [jellyfin-plugin-seerr-proxy](https://github.com/voc0der/jellyfin-plugin-seerr-proxy) - Proxies Seerr API calls through Jellyfin authentication, so clients can use Seerr as the signed-in Jellyfin user. `✅ JF12`
 - [jellyfin-plugin-streamyfin](https://github.com/streamyfin/jellyfin-plugin-streamyfin) - Companion plugin for Streamyfin which allows for a centralized configuration of the Streamyfin application.
 - [jellyfin-rpc by *kennethsible*](https://github.com/kennethsible/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
 - [jellyfin-rpc by *Radiicall*](https://github.com/JustRadical/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord. `🔸 Stale`
