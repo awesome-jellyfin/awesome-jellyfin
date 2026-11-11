@@ -107,6 +107,7 @@
 - [jellyfin-plugin-letterboxd-sync](https://github.com/Gizmo091/jellyfin-plugin-letterboxd-sync) - Automatically syncs your watched movie history with Letterboxd.
 - [jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz) - Automatically syncs your music activity with ListenBrainz.
 - [jellyfin-plugin-streamyfin](https://github.com/streamyfin/jellyfin-plugin-streamyfin) - Companion plugin for Streamyfin which allows for a centralized configuration of the Streamyfin application.
+- [jellyfin-plugin-torrent-throttle](https://github.com/voc0der/jellyfin-plugin-torrent-throttle) - Automatically scales qBittorrent speed limits to reserve bandwidth for remote playback. `✅ JF12`
 - [jellyfin-rpc by *kennethsible*](https://github.com/kennethsible/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord.
 - [jellyfin-rpc by *Radiicall*](https://github.com/JustRadical/jellyfin-rpc) - Displays your current Jellyfin activity directly on Discord. `🔸 Stale`
 - [jellynext](https://github.com/luall0/jellynext) - Creates per-user virtual libraries for personalized Trakt recommendations and new seasons. `🔸 Stale`
