@@ -940,6 +940,18 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Yonto Player"
+    targets: [Android, AndroidTV]
+    website: https://player.yonto.app
+    official: false
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: github
+        owner: yonto-app
+        repo: yonto-player-releases
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
