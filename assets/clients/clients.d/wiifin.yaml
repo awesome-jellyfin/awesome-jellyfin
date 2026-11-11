@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - fabienmillet
+
+clients:
+  - name: "WiiFin"
+    targets: [NintendoWii]
+    oss: https://github.com/fabienmillet/WiiFin
+    official: false
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: fabienmillet
+        repo: WiiFin
