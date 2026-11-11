@@ -321,6 +321,7 @@
 - [KefinTweaks](https://github.com/ranaldsgift/KefinTweaks) - Collection of UI enhancements and customization tweaks for Jellyfin.
 - [macos-random-jellyfin-screensaver](https://github.com/ndom91/macos-random-jellyfin-screensaver) - Screensaver for macOS that plays a random Jellyfin item.
 - [MPC-JF](https://github.com/Damocles-fr/MPC-JF) - Launch external media players (MPC-HC, MPC-BE, PotPlayer) from Jellyfin Web or Jellyfin Media Player.
+- [RelayTV](https://github.com/mcgeezy/relaytv) - Turns a Linux device connected to a TV into a playback endpoint with a mobile Jellyfin browser, shared queue, Seerr requests, and Home Assistant integration.
 - [Scyphomote](https://github.com/eiffelbeef/scyphomote) - A dedicated remote control for Jellyfin with support for playback transparency, trickplay previews, and more.
 - [tunarr](https://github.com/chrisbenincasa/tunarr) - Create custom live TV channels from your Plex or Jellyfin library with a web UI and IPTV support.
 
