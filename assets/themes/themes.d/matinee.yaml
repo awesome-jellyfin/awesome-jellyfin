@@ -1,0 +1,127 @@
+# yaml-language-server: $schema=../schema.json
+owners:
+  - "61021"
+name: Matinee
+author: "61021"
+author_url: https://github.com/61021
+repo: https://github.com/61021/matinee
+description: Made for the new Jellyfin 12 interface, full-bleed artwork on show and movie pages, title logos, Phosphor icons and an amber accent, in dark and light.
+versions:
+  - "12"
+screenshots:
+  - https://raw.githubusercontent.com/61021/matinee/main/docs/screenshots/show.webp
+  - https://raw.githubusercontent.com/61021/matinee/main/docs/screenshots/home.webp
+  - https://raw.githubusercontent.com/61021/matinee/main/docs/screenshots/season.webp
+  - https://raw.githubusercontent.com/61021/matinee/main/docs/screenshots/light.webp
+variants:
+  - id: default
+    name: Matinee
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/61021/matinee@{{ version }}/dist/matinee.css");
+groups:
+  - id: color
+    label: Color
+  - id: layout
+    label: Layout
+  - id: type
+    label: Type
+  - id: advanced
+    label: Advanced
+settings:
+  - id: accent
+    label: Accent
+    description: Progress bars, badges, sliders and favorites. Replaces the amber in both dark and light mode.
+    type: color
+    group: color
+    default: "#f2b84b"
+    css: |-
+      :root[data-theme] {
+        --matinee-accent: {{ value }};
+      }
+  - id: card-radius
+    label: Card corners
+    type: number
+    group: layout
+    default: 12
+    min: 0
+    max: 24
+    step: 1
+    unit: px
+    css: |-
+      :root[data-theme] {
+        --jf-card-borderRadius: {{ value | px }};
+      }
+  - id: card-hover
+    label: Card hover
+    description: The lift cards get under the mouse.
+    type: select
+    group: layout
+    display: segmented
+    default: lift
+    options:
+      - value: lift
+        label: Lift
+      - value: none
+        label: None
+        css: |-
+          :root[data-theme] {
+            --matinee-card-hover: none;
+          }
+  - id: button-radius
+    label: Detail-page buttons
+    description: The shape of the buttons on show and movie pages.
+    type: select
+    group: layout
+    display: segmented
+    default: round
+    page: series
+    options:
+      - value: round
+        label: Round
+      - value: rounded
+        label: Rounded
+        css: |-
+          :root[data-theme] {
+            --matinee-button-radius: 12px;
+          }
+      - value: square
+        label: Square
+        css: |-
+          :root[data-theme] {
+            --matinee-button-radius: 0;
+          }
+  - id: hero-height
+    label: Artwork height
+    description: How much artwork shows on show and movie pages on desktop, at least 440px. Phones keep their own layout.
+    type: number
+    group: layout
+    default: 62
+    min: 40
+    max: 90
+    step: 1
+    unit: vh
+    page: series
+    css: |-
+      :root[data-theme] {
+        --matinee-hero-height: max({{ value | unit "vh" }}, 440px);
+      }
+  - id: font
+    label: Font
+    description: A font family list for the whole UI. Other fonts have to be installed on the device, Matinee only loads Geist and IBM Plex Sans Arabic.
+    type: text
+    group: type
+    default: Geist Variable, IBM Plex Sans Arabic, Noto Sans, sans-serif
+    placeholder: Noto Sans, sans-serif
+    pattern: "[A-Za-z0-9 ,-]+"
+    css: |-
+      :root[data-theme] {
+        --matinee-font: {{ value }};
+      }
+  - id: version
+    label: Version
+    description: A release of Matinee. 0 follows every 0.x release, pin one like 0.2.3 to update by hand.
+    type: text
+    group: advanced
+    default: "0"
+    placeholder: "0"
+    pattern: "v?[0-9]+(?:\\.[0-9]+){0,2}|main"
