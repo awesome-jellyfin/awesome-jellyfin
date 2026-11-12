@@ -387,6 +387,18 @@ clients:
       - type: flathub
         package: nl.jknaapen.fladder
 
+  - name: "JellyDroid"
+    targets: [Android]
+    oss: https://github.com/Torahlzy/JellyDroid
+    official: false
+    beta: false
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: Torahlzy
+        repo: JellyDroid
+
   - name: AfuseKt
     targets: [Android]
     official: false
