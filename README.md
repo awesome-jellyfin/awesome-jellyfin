@@ -62,6 +62,7 @@
 - [SeerrFin](https://github.com/varunaditya-plus/SeerrFin) - Discover and request movies and TV shows through Seerr directly from Jellyfin.
 - [StarTrack](https://github.com/ZL154/jellyfin-plugin-startrack) - Adds per-user ratings, watchlists, diaries, lists, and member profiles to Jellyfin, with optional Letterboxd/Trakt/Simkl sync.
 - [Static Assets](https://github.com/cleverdevil/jelly-static-assets) - Upload and serve static assets such as CSS, JavaScript, and images directly from Jellyfin. `🔸 Stale`
+- [StreamFlix](https://github.com/streamflix-dev/jellyfin-streamflix) - Transforms Jellyfin Web into a Netflix-style interface with Google sign-in, per-user "Who's watching?" profiles with PINs, hover previews, smart collections, and a redesigned video player. `🔹 Beta` `✅ JF12`
 
 
 ### 📂 Collections & Playlists
