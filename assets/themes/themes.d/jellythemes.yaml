@@ -11,9 +11,9 @@ versions:
   - "10.11"
   - "12"
 screenshots:
-  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
   - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png
-  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian-details.png
+  - https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
+  - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris-details.png
     title: Movie page
     hidden: true
   - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Nebula/assets/preview/Nebula.png
@@ -25,14 +25,14 @@ screenshots:
   - url: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Phantom/assets/preview/Phantom.png
     hidden: true
 variants:
-  - id: obsidian
-    name: Obsidian (violet)
-    css: |-
-      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Obsidian/Obsidian.css");
   - id: solaris
     name: Solaris (gold)
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Solaris/Solaris.css");
+  - id: obsidian
+    name: Obsidian (violet)
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/kingchenc/JellyThemes@master/Themes/Obsidian/Obsidian.css");
   - id: nebula
     name: Nebula (cyan)
     css: |-
@@ -67,6 +67,9 @@ groups:
     label: Phones
   - id: login
     label: Login page
+  - id: footer
+    label: Footer
+    description: The small bar with theme name, version and author.
   - id: other
     label: Other
 settings:
@@ -99,6 +102,30 @@ settings:
       :root {
         --jt-motion: 0s;
         --jt-motion-fast: 0s;
+      }
+  - id: no-page-glow
+    label: No glow at the top of the page
+    description: A plain dark background.
+    type: toggle
+    group: effects
+    default: false
+    page: home
+    css: |-
+      :root {
+        --jt-page-bg: none;
+      }
+  - id: tv-fast
+    label: Faster on older TVs
+    description: Blur, glow and animations off only in Jellyfin's TV display mode.
+    type: toggle
+    group: effects
+    default: false
+    css: |-
+      :root {
+        --jt-tv-blur: none;
+        --jt-tv-glow: 0 0 0 3px var(--jt-accent);
+        --jt-tv-glow-s: none;
+        --jt-tv-motion: 0s;
       }
   - id: header-width
     label: Width
@@ -180,6 +207,18 @@ settings:
       :root {
         --jt-server-name: 1;
       }
+  - id: logo-height
+    label: Logo height
+    description: In the top bar of Jellyfin 12.
+    type: number
+    group: top-bar
+    default: 1.6
+    min: 1
+    max: 3
+    step: 0.1
+    unit: em
+    page: home
+    var: --jt-logo-height
   - id: card-radius
     label: Corner radius
     type: number
@@ -355,16 +394,6 @@ settings:
       :root {
         --jt-mascot-bg: 0;
       }
-  - id: hide-mascot-footer
-    label: Hide it in the footer
-    type: toggle
-    group: jellyfish
-    default: false
-    page: home
-    css: |-
-      :root {
-        --jt-mascot-footer: 0;
-      }
   - id: hide-mascot-empty
     label: Hide it on empty pages
     type: toggle
@@ -420,13 +449,13 @@ settings:
     when:
       setting: login-image
       is: true
-    default: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Obsidian/assets/preview/Obsidian.png
+    default: https://raw.githubusercontent.com/kingchenc/JellyThemes/main/Themes/Solaris/assets/preview/Solaris.png
     page: login
   - id: hide-footer
     label: Hide the footer
     description: The small bar with theme name, version and author.
     type: toggle
-    group: other
+    group: footer
     default: false
     css: |-
       :root {
@@ -436,7 +465,7 @@ settings:
     label: Footer at the end of each page
     description: Instead of a bar at the bottom of the screen.
     type: toggle
-    group: other
+    group: footer
     default: false
     when:
       setting: hide-footer
@@ -445,3 +474,27 @@ settings:
       :root {
         --jt-footer-fixed: 0;
       }
+  - id: hide-mascot-footer
+    label: Hide the jellyfish in it
+    type: toggle
+    group: footer
+    default: false
+    page: home
+    when:
+      setting: hide-footer
+      is: false
+    css: |-
+      :root {
+        --jt-mascot-footer: 0;
+      }
+  - id: radius
+    label: Corner radius of buttons and panels
+    type: number
+    group: other
+    default: 0.65
+    min: 0
+    max: 1.5
+    step: 0.05
+    unit: em
+    page: home
+    var: --jt-radius
