@@ -265,6 +265,7 @@
 - [jellyfin-plugin-subtitleocr](https://github.com/IDisposable/jellyfin-plugin-subtitleocr) - Converts image-based subtitles (VobSub/DVD, PGS/Blu-ray) to SRT or ASS files using pattern-matching OCR.
 - [LAPSE](https://github.com/Schwponaco-org/lapse-jellyfin-plugin) - Fixes subtitles that are out of sync, with built-in conversion, translation, embedded extraction, and readable styling. `✅ JF12`
 - [OpenSubtitlesDownload](https://github.com/emericg/OpenSubtitlesDownload) - Automatically or manually downloads subtitles using CLI/Gnome/KDE. `🔸 Stale`
+- [SubDL Scribe](https://github.com/nrg80/subdl-scribe) - Downloads missing subtitles from SubDL, aligns them against the audio track and uploads embedded subtitles. `✅ JF12`
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
 - [vlsub-jellyfin](https://github.com/joanbono/vlsub-jellyfin) - Downloads subtitles using VLC's subtitle engine. No API key needed.
 
