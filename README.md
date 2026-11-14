@@ -84,6 +84,7 @@
 
 <!-- sort list:plugins-playback -->
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin. `✅ JF12`
+- [JellyEmu](https://github.com/Jellyfin-PG/JellyEmu) - Adds retro game library support and browser-based emulation to Jellyfin with save states, virtual gamepad support, and StrategyWiki guide integration. `✅ JF12`
 - [jellyfin-alexa-plugin](https://github.com/paoloantinori/jellyfin-alexa-plugin) - Alexa skill for voice-controlled playback across 17 locales, including live TV, audiobooks with resume, and photo slideshows on Echo Show.
 - [jellyfin-plugin-cinemamode](https://github.com/CherryFloors/jellyfin-plugin-cinemamode) - Enables Jellyfin's Cinema Mode with local trailers and pre-rolls.
 - [jellyfin-plugin-dedupe-continue-watching](https://github.com/SloMR/jellyfin-plugin-dedupe-continue-watching) - Deduplicates the Continue Watching row so each series appears only once, using the most recently played episode. `🔸 Stale`
