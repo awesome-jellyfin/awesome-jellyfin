@@ -295,6 +295,7 @@
 - [ADRG](https://github.com/jaldertech/adrg) - Dynamic Docker resource governor using cgroups v2 to throttle background tasks during media activity. `🔸 Stale`
 - [autopulse](https://github.com/dan-online/autopulse) - Lightweight automation service that updates Plex, Jellyfin, and Emby libraries based on notifications from media organizers like Sonarr and Radarr.
 - [declarative-jellyfin](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS. `🔹 Beta`
+- [jellyfin-android-server](https://github.com/Mohsen-Tavakoli/jellyfin-android-server) - Toolkit and guide to provision retired Android phones as low-power 24/7 Jellyfin servers via Termux and Debian, with cross-platform media sync and subtitle utilities.
 - [jellyfin-helper](https://github.com/JellyPlugins/jellyfin-helper) - Server administration dashboard with cleanup tasks, library statistics, health checks, Arr/Seerr integration, backups, user insights, and on-device neural recommendations.
 - [JellyGlance](https://github.com/Nerdy-Technician/JellyGlance) - Dashboard for monitoring live sessions, user watch stats, libraries, requests, download queues, calendars, webhooks, and backups.
 - [jellyhub](https://github.com/Zigl3ur/jellyhub) - Indexes media from multiple Jellyfin servers into a single searchable hub.
