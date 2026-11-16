@@ -387,6 +387,18 @@ clients:
       - type: flathub
         package: nl.jknaapen.fladder
 
+  - name: "Chudder"
+    targets: [Android, AndroidTV, iOS, macOS, Windows, Linux, Browser]
+    oss: https://github.com/JenteJan/Chudder
+    official: false
+    beta: false
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: JenteJan
+        repo: Chudder
+
   - name: AfuseKt
     targets: [Android]
     official: false
