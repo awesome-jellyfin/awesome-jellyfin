@@ -141,6 +141,7 @@
 ### 📚 Library Management
 
 <!-- sort list:plugins-library -->
+- [Additional Material](https://github.com/4o66/jellyfin-plugin-additional-material) - Offers the non-audio/video files stored with your media, such as PDFs, labs, and notes, as a zip download on movies, series, seasons, and episodes. `✅ JF12`
 - [AniLiberty STRM Plugin](https://github.com/queukat/AniLibriaStrmPlugin) - Generates AniLiberty STRM libraries for Jellyfin with metadata, intro markers, and watch-progress sync.
 - [GhostLibrary](https://github.com/upchui/Jellyfin-GhostLibrary) - Hides selected media libraries from the client home screen and library list without blocking server-side plugin or filesystem access.
 - [Ignore Empty Items](https://github.com/Rijul-A/ignore-empty-items-jellyfin) - Hides or removes Jellyfin library items that contain no associated media files while preserving the files and folders on disk. `✅ JF12`
