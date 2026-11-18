@@ -83,6 +83,7 @@
 ### ▶️ Playback
 
 <!-- sort list:plugins-playback -->
+- [Enhanced Continue Watching](https://github.com/PublicEnemy1010/jellyfin-plugin-enhanced-continue-watching) - Replaces the Continue Watching row with one entry per series, lets you remove items without losing watch progress, and updates the row when items are marked played or unplayed. `✅ JF12`
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin. `✅ JF12`
 - [jellyfin-alexa-plugin](https://github.com/paoloantinori/jellyfin-alexa-plugin) - Alexa skill for voice-controlled playback across 17 locales, including live TV, audiobooks with resume, and photo slideshows on Echo Show.
 - [jellyfin-plugin-cinemamode](https://github.com/CherryFloors/jellyfin-plugin-cinemamode) - Enables Jellyfin's Cinema Mode with local trailers and pre-rolls.
