@@ -1,0 +1,13 @@
+clients:
+  - name: "Jellyboxd"
+    targets: [iOS]
+    oss: https://github.com/matthewhalf/jellyboxd
+    official: false
+    beta: false
+    website: https://jellyboxd.boxdsuite.app
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6816114676"
