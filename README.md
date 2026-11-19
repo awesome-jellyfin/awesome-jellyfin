@@ -142,6 +142,7 @@
 
 <!-- sort list:plugins-library -->
 - [AniLiberty STRM Plugin](https://github.com/queukat/AniLibriaStrmPlugin) - Generates AniLiberty STRM libraries for Jellyfin with metadata, intro markers, and watch-progress sync.
+- [Arr Refresh](https://github.com/Jacob-Lasky/jellyfin-plugin-arr-refresh) - Updates only the movie or episode that Sonarr or Radarr changed, through their built-in Webhook connection, instead of rescanning the library. `✅ JF12`
 - [GhostLibrary](https://github.com/upchui/Jellyfin-GhostLibrary) - Hides selected media libraries from the client home screen and library list without blocking server-side plugin or filesystem access.
 - [Ignore Empty Items](https://github.com/Rijul-A/ignore-empty-items-jellyfin) - Hides or removes Jellyfin library items that contain no associated media files while preserving the files and folders on disk. `✅ JF12`
 - [Jellyfin Ignore](https://github.com/fdett/jellyfin-ignore/) - Ignores filename patterns on library scans. Useful to prevent album playlists from showing up in the library. `🔹 Beta` `✅ JF12`
