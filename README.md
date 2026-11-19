@@ -216,6 +216,7 @@
 - [seerr](https://github.com/seerr-team/seerr) - Request management and media discovery tool for Jellyfin, Plex, and Emby.
 - [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) - Automatically request suggested movies and TV shows to [Seerr](https://github.com/seerr-team/seerr) based on recently watched.
 - [swiparr](https://github.com/m3sserstudi0s/swiparr) - Swipe through your library, match with friends in a session, and find something everyone wants to watch.
+- [vettarr](https://github.com/GeiserX/vettarr) - Checks Seerr requests and shared titles against your own rules (age rating, parents guide, genres, library duplicates), then approves, holds for review, or rejects each with its reasons.
 - [whatseerr](https://github.com/SuFxGIT/whatseerr) - WhatsApp bot for Seerr that allows users to search and request media via WhatsApp messages. `🔸 Stale`
 
 
