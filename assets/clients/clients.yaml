@@ -940,6 +940,18 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "RetroGuide.TV"
+    targets: [iOS, AppleTV]
+    oss: https://github.com/shikyo13/RetroGuide.TV
+    website: https://www.retroguide.tv
+    official: false
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6816213425"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
