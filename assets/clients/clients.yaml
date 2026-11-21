@@ -940,6 +940,19 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "PoRaBar"
+    targets: [iOS, macOS]
+    types: [Music]
+    official: false
+    beta: false
+    website: https://porabar.com
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6761472273"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
