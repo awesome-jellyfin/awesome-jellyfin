@@ -91,6 +91,7 @@
 - [jellyfin-plugin-jellysleep](https://github.com/jon4hz/jellyfin-plugin-jellysleep) - Adds sleep timer functionality to Jellyfin.
 - [Jellyfin.Plugin.StreamLimit](https://github.com/JellyboxAD/Jellyfin.Plugin.StreamLimit) - Allows limiting the number of simultaneous streams per user. `✅ JF12`
 - [jellyfin-transcode-nag](https://github.com/voc0der/jellyfin-transcode-nag) - Nags users when they're transcoding due to unsupported formats or codecs, while allowing bitrate-based transcoding.
+- [Lumen](https://github.com/LK59/lumen) - Plays MKV and MP4 files in the web client without server-side remuxing or audio transcoding: the browser remuxes the file and decodes the audio itself. `✅ JF12`
 - [Replay Gain](https://github.com/SKProCH/JellyfinReplayGain) - Normalizes audio volume across your media on the fly to maintain a consistent loudness level. `✅ JF12`
 - [Stream Generator](https://github.com/SKProCH/JellyfinStreamGenerator) - Generates customizable, secure HLS stream URLs with isolated tokens and selectable audio or subtitle tracks for external players (e.g. in games). `✅ JF12`
 - [TheIntroDB](https://github.com/TheIntroDB/jellyfin-plugin) - Community powered database of intro, recap, credits, and preview segments for movies and TV shows.
