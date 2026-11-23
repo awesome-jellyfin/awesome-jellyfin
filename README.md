@@ -334,6 +334,7 @@
 ## 📖 Guides
 
 <!-- sort list:guides -->
+- [Ditchly Plex to Jellyfin guide](https://ditchly.co/migrate/plex-to-jellyfin) - Short guide for moving from Plex to Jellyfin: same media folders, watch history, and what does not carry over.
 - [jellyfin-on-macos](https://github.com/Digital-Shane/jellyfin-on-macos) - Guide for hosting Jellyfin on macOS with dynamic DNS, geo-filtering, and monitoring dashboards.
 
 ## 🌌 Related
