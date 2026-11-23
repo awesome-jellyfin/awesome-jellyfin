@@ -255,6 +255,7 @@
 - [mnamer](https://github.com/jkwill87/mnamer) - Customizable tool to automatically rename and organize media files.
 - [Multi-User Media Cleaner](https://github.com/terrelsa13/MUMC) - Query and delete unwanted media content from your Jellyfin server.
 - [plex2jellyfin](https://github.com/Nomadcxx/plex2jellyfin) - Migrates Plex libraries to Jellyfin (rename, dedupe, consolidate), with a daemon and companion plugin that keep new downloads organized.
+- [pt-tools](https://github.com/sunerpy/pt-tools) - Private-tracker automation that follows shows and movies, hard-links finished downloads into the library with Kodi-style NFO files and artwork, and asks Jellyfin to scan. Web UI in Chinese.
 - [Squishy](https://github.com/cleverdevil/squishy) - Transcode and download your Jellyfin media with fully customizable presets and hardware acceleration. `🔸 Stale`
 
 
