@@ -940,6 +940,20 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Sonarune"
+    targets: [Windows, Linux]
+    types: [Music]
+    oss: https://github.com/Ariazonaa/sonarune
+    official: false
+    beta: true
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: Ariazonaa
+        repo: sonarune
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
