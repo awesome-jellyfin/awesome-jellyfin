@@ -940,6 +940,20 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Morph Audiophile"
+    targets: [Android]
+    types: [Music]
+    official: false
+    beta: true
+    website: https://morphaudiophile.com
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: google-play
+        id: it.paolo.morph
+        url: https://play.google.com/apps/testing/it.paolo.morph
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
