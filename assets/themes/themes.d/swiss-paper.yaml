@@ -13,10 +13,13 @@ versions:
 screenshots:
   - url: https://raw.githubusercontent.com/chius-me/swiss-paper-jellyfin/main/screenshots/desktop-home.png
     title: Home
-    description: Warm paper home view with wavy active navigation underline and segmented toolbar.
+    description: Warm paper home view with wavy active navigation underline and brick-red section markers.
+  - url: https://raw.githubusercontent.com/chius-me/swiss-paper-jellyfin/main/screenshots/desktop-library.png
+    title: Library
+    description: Movies library with hairline segmented toolbar, framed posters, and monospace metadata.
   - url: https://raw.githubusercontent.com/chius-me/swiss-paper-jellyfin/main/screenshots/desktop-detail.png
     title: Item Detail
-    description: Series detail page with warm-paper backdrop veil, metadata chips, and dashed episode rows.
+    description: Movie detail page with warm-paper backdrop veil, action controls, and tabular metadata chips.
   - url: https://raw.githubusercontent.com/chius-me/swiss-paper-jellyfin/main/screenshots/desktop-login.png
     title: Sign In
     description: Centered monospace sign-in column with instant dashed focus outline.
@@ -25,3 +28,44 @@ variants:
     name: Swiss Paper
     css: |-
       @import url("https://cdn.jsdelivr.net/gh/chius-me/swiss-paper-jellyfin@main/swiss-paper.css");
+groups:
+  - id: colours
+    label: Colours & Geometry
+settings:
+  - id: accent
+    label: Accent colour
+    description: Primary interactive links, buttons, active tabs, and focus rings.
+    type: color
+    group: colours
+    default: "#256786"
+    css: |-
+      :root,
+      html[data-theme="dark"],
+      html[data-theme="light"] {
+        --accent: {{ value }};
+        --accent-rgb: {{ value | rgb }};
+      }
+  - id: mark
+    label: Marker colour
+    description: Section # markers, unplayed badges, and resume progress bars.
+    type: color
+    group: colours
+    default: "#b24c37"
+    css: |-
+      :root,
+      html[data-theme="dark"],
+      html[data-theme="light"] {
+        --mark: {{ value }};
+        --mark-rgb: {{ value | rgb }};
+      }
+  - id: radius
+    label: Corner radius
+    description: Keep subtle Swiss corners (default 4px).
+    type: number
+    group: colours
+    default: 4
+    min: 0
+    max: 12
+    step: 1
+    unit: px
+    var: --radius
