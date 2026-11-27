@@ -940,6 +940,22 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: OpenPlayer for Garmin
+    targets: [Garmin]
+    types: [Music]
+    oss: https://github.com/web-gears/openplayer
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: shield
+        label: Garmin
+        content: Connect IQ
+        icon: garmin
+        color: "007CC3"
+        url: https://apps.garmin.com/apps/261eb561-66a9-448f-8ef0-9d3a5b22652a
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
@@ -996,6 +1012,12 @@ targets:
         mapped: "Vega"
       - name: WebOS
         mapped: "webOS"
+
+  - key: Wearables
+    display: "⌚ Wearables"
+    has:
+      - name: Garmin
+        mapped: "Garmin"
 
 types:
   # dummy type for official badge
