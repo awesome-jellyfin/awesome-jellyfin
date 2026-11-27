@@ -940,6 +940,16 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Lagoon"
+    targets: [iOS, AppleTV]
+    oss: https://github.com/helop-ou/lagoon
+    website: https://lagoon.helop.dev/
+    official: false
+    beta: false
+    downloads:
+      - type: app-store
+        id: "6801882873"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
