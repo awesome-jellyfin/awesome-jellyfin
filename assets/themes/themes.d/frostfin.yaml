@@ -1,0 +1,68 @@
+# yaml-language-server: $schema=../schema.json
+
+owners:
+  - ashdriod
+name: Frostfin
+author: ashdriod
+author_url: https://github.com/ashdriod
+repo: https://github.com/ashdriod/frostfin
+versions:
+  - "12"
+description: A glass-inspired dark theme with frosted floating menus, posters that lift on focus and large Continue Watching tiles.
+note: An optional companion script for the JavaScript Injector plugin adds a featured hero with title logos and backdrop artwork on Home.
+requires_js: false
+variants:
+  - id: default
+    name: Frostfin
+    css: |-
+      @import url("https://cdn.jsdelivr.net/gh/ashdriod/frostfin@v1.0.0/dist/theme.min.css");
+screenshots:
+  - https://raw.githubusercontent.com/ashdriod/frostfin/main/docs/screenshots/home-desktop.jpg
+  - https://raw.githubusercontent.com/ashdriod/frostfin/main/docs/screenshots/home-rows.jpg
+  - url: https://raw.githubusercontent.com/ashdriod/frostfin/main/docs/screenshots/home-tv.jpg
+    title: TV layout
+    description: Focus lifts posters for remote navigation.
+  - url: https://raw.githubusercontent.com/ashdriod/frostfin/main/docs/screenshots/home-mobile.jpg
+    title: Phone layout
+    hidden: true
+
+groups:
+  - id: tweaks
+    label: Tweaks
+settings:
+  - id: my-media
+    label: Show "My Media" row
+    description: Brings back the library row on Home.
+    type: toggle
+    group: tweaks
+    page: home
+    default: false
+    css: |-
+      :root { --frost-home-my-media: block; }
+  - id: solid
+    label: Solid surfaces
+    description: Turns off the frosted glass. Faster on slow devices.
+    type: toggle
+    group: tweaks
+    default: false
+    css: |-
+      :root { --frost-glass: 0; }
+  - id: focus-scale
+    label: Poster lift
+    description: How far a focused poster lifts. 1 turns it off.
+    type: number
+    group: tweaks
+    default: 1.07
+    min: 1
+    max: 1.15
+    step: 0.01
+    var: --frost-focus-scale
+  - id: radius
+    label: Poster corner radius
+    type: number
+    group: tweaks
+    default: 14
+    min: 0
+    max: 28
+    unit: px
+    var: --frost-radius-card
