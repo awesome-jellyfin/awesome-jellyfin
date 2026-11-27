@@ -940,6 +940,19 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Pixette"
+    targets: [iOS, Android, AppleTV, AndroidTV]
+    official: false
+    website: https://pixette.app/getting-started/jellyfin/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "1566334108"
+      - type: google-play
+        id: app.moleson.pixette
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
