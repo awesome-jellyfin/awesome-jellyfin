@@ -940,6 +940,17 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Ephyra"
+    targets: [Android, AndroidTV]
+    oss: https://github.com/midasvo/ephyra
+    website: https://midasvo.nl/ephyra/
+    official: false
+    beta: false
+    downloads:
+      - type: github
+        owner: midasvo
+        repo: ephyra
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
