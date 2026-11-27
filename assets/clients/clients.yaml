@@ -940,6 +940,19 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Veya"
+    targets: [Android, iOS]
+    website: https://veya.e775.com/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: com.tf.uniplayer
+        url: https://play.google.com/store/apps/details?id=com.tf.uniplayer&referrer=utm_source%3Dawesome_jellyfin%26utm_campaign%3Ddirectory
+      - type: app-store
+        id: "6837163350"
+        
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
