@@ -940,6 +940,16 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "Trovu"
+    targets: [iOS, AppleTV]
+    website: https://www.trovuplayer.com/
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6760936018"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
