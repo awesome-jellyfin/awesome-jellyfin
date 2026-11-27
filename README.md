@@ -157,6 +157,7 @@
 - [JellyfinTweaks](https://github.com/n00bcodr/JellyfinTweaks) - Overrides Jellyfin settings such as *Enable Backdrops* and *Enable Theme Music* across all devices. `✅ JF12`
 - [Jellyfin-Xtream-Library](https://github.com/firestaerter3/Jellyfin-Xtream-Library) - Syncs Xtream VOD and Series content to native Jellyfin libraries via STRM files, with automatic metadata lookup and Live TV support.
 - [JellySTRMprobe](https://github.com/firestaerter3/JellySTRMprobe) - Probes STRM files to extract media information (codec, resolution, duration, audio) that Jellyfin skips during library scans.
+- [Media Source Bridge](https://github.com/shahadat-hossion/media-source-bridge) - Searches private FTP, HTTP, and HTTPS media servers from Jellyfin and adds titles to libraries as STRM files. `✅ JF12`
 - [media-upload-plugin](https://github.com/GrandguyJS/media-upload-plugin) - Media-manager that provides uploads, bulk downloads from URLs, and directory browsing within Jellyfin.
 - [quality-gate](https://github.com/GeiserX/quality-gate) - Restricts each user to a resolution limit between 480p and 4K, checked against the file's actual video stream rather than its filename. `✅ JF12`
 - [smart-covers](https://github.com/GeiserX/smart-covers) - Cover extraction for books, audiobooks, comics, magazines, and music libraries with online fallback via Open Library & Google Books.
