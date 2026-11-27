@@ -2,12 +2,12 @@
 clients:
   - name: "Jellyfin Media Player"
     targets: [Windows, Linux, macOS]
-    oss: https://github.com/jellyfin/jellyfin-media-player
+    oss: https://github.com/jellyfin/jellyfin-desktop
     official: true
     downloads:
       - type: github
         owner: jellyfin
-        repo: jellyfin-media-player
+        repo: jellyfin-desktop
       - type: flathub
         package: com.github.iwalton3.jellyfin-media-player
 
@@ -98,7 +98,7 @@ clients:
 
   - name: "Jellyfin Mobile for iOS"
     targets: [iOS]
-    oss: https://github.com/jellyfin/jellyfin-expo
+    oss: https://github.com/jellyfin/jellyfin-ios
     official: true
     downloads:
       - type: app-store
@@ -207,12 +207,12 @@ clients:
   - name: "Supersonic"
     targets: [Windows, Linux, macOS]
     types: [Music]
-    oss: https://github.com/dweymouth/supersonic
+    oss: https://github.com/supersonic-app/supersonic
     official: false
     beta: true
     downloads:
       - type: github
-        owner: dweymouth
+        owner: supersonic-app
         repo: supersonic
       - type: flathub
         package: io.github.dweymouth.supersonic
@@ -220,12 +220,12 @@ clients:
   - name: "Tauon Music Box"
     targets: [Windows, Linux]
     types: [Music]
-    oss: https://github.com/Taiko2k/TauonMusicBox
+    oss: https://github.com/Taiko2k/Tauon
     official: false
     downloads:
       - type: github
         owner: Taiko2k
-        repo: TauonMusicBox
+        repo: Tauon
       - type: flathub
         package: com.github.taiko2k.tauonmb
 
@@ -253,13 +253,13 @@ clients:
   - name: "Fintunes"
     targets: [Android, iOS]
     types: [Music]
-    oss: https://github.com/leinelissen/jellyfin-audio-player
+    oss: https://github.com/leinelissen/fintunes
     official: false
     beta: false
     downloads:
       - type: github
         owner: leinelissen
-        repo: jellyfin-audio-player
+        repo: fintunes
       - type: shield
         icon: F-Droid
         url: https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer
@@ -569,7 +569,7 @@ clients:
 
   - name: "JellyRock"
     targets: [Roku]
-    oss: https://github.com/cewert/jellyrock
+    oss: https://github.com/jellyrock/jellyrock
     price:
       free: true
       paid: false
@@ -580,7 +580,7 @@ clients:
         icon: Roku
         url: https://channelstore.roku.com/details/232f9e82db11ce628e3fe7e01382a330:a85d6e9e520567806e8dae1c0cabadd5/jellyrock
       - type: github
-        owner: cewert
+        owner: jellyrock
         repo: jellyrock
 
   - name: Void
