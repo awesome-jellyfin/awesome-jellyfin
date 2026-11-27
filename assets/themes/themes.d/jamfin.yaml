@@ -8,6 +8,7 @@ description: Bringing a modern, sleek glassmorphism design to Jellyfin, enhancin
 versions:
   - "10.10"
   - "10.11"
+stale: true
 screenshots:
   - https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/home.jpg
   - https://github.com/JamsRepos/Jamfin/raw/main/assets/screenshots/details.jpg

@@ -8,6 +8,7 @@ description: A minimal and elegant theme for Jellyfin
 versions:
   - "10.10"
   - "10.11"
+stale: true
 recommends:
   backdrops: true
 screenshots:

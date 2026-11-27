@@ -11,6 +11,7 @@ versions:
   - "12"
   - "10.10"
   - "10.11"
+stale: true
 note: Paste it below any other theme in your Custom CSS, so its icons win.
 thumbnail: https://github.com/user-attachments/assets/8d87a8cf-916a-476d-96b5-bc997fd6e912
 screenshots:
