@@ -974,6 +974,8 @@ targets:
     has:
       - name: NintendoSwitch
         mapped: "Nintendo Switch"
+      - name: NintendoWii
+        mapped: "Nintendo Wii"
       - name: Xbox
         mapped: "Xbox"
       - name: PlayStation
