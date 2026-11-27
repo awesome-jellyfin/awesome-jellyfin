@@ -1,33 +1,33 @@
 # yaml-language-server: $schema=../schema.json
 owners:
-  - chius-me
+  - chius-n
 name: Swiss Paper
-author: chius-me
-author_url: https://github.com/chius-me
-repo: https://github.com/chius-me/jellyfin-theme-swiss
+author: chius-n
+author_url: https://github.com/chius-n
+repo: https://github.com/chius-n/jellyfin-theme-swiss
 description: Minimalist warm-paper light monospace theme inspired by Swiss International Typographic Style, featuring 1px hairlines, wavy active navigation underlines, and zero-displacement interactions.
 versions:
   - "10.10"
   - "10.11"
   - "12"
 screenshots:
-  - url: https://raw.githubusercontent.com/chius-me/jellyfin-theme-swiss/main/screenshots/desktop-home.png
+  - url: https://raw.githubusercontent.com/chius-n/jellyfin-theme-swiss/main/screenshots/desktop-home.png
     title: Home
     description: Warm paper home view with wavy active navigation underline and brick-red section markers.
-  - url: https://raw.githubusercontent.com/chius-me/jellyfin-theme-swiss/main/screenshots/desktop-library.png
+  - url: https://raw.githubusercontent.com/chius-n/jellyfin-theme-swiss/main/screenshots/desktop-library.png
     title: Library
     description: Movies library with hairline segmented toolbar, framed posters, and monospace metadata.
-  - url: https://raw.githubusercontent.com/chius-me/jellyfin-theme-swiss/main/screenshots/desktop-detail.png
+  - url: https://raw.githubusercontent.com/chius-n/jellyfin-theme-swiss/main/screenshots/desktop-detail.png
     title: Item Detail
     description: Movie detail page with warm-paper backdrop veil, action controls, and tabular metadata chips.
-  - url: https://raw.githubusercontent.com/chius-me/jellyfin-theme-swiss/main/screenshots/desktop-login.png
+  - url: https://raw.githubusercontent.com/chius-n/jellyfin-theme-swiss/main/screenshots/desktop-login.png
     title: Sign In
     description: Centered monospace sign-in column with instant dashed focus outline.
 variants:
   - id: default
     name: Swiss Paper
     css: |-
-      @import url("https://cdn.jsdelivr.net/gh/chius-me/jellyfin-theme-swiss@main/swiss-paper.css");
+      @import url("https://cdn.jsdelivr.net/gh/chius-n/jellyfin-theme-swiss@main/swiss-paper.css");
 groups:
   - id: colours
     label: Colours & Geometry
