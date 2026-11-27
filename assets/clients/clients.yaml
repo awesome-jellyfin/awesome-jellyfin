@@ -949,9 +949,6 @@ clients:
       free: true
       paid: false
     downloads:
-      - type: github
-        owner: web-gears
-        repo: openplayer
       - type: shield
         label: Garmin
         content: Connect IQ
