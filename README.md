@@ -210,12 +210,12 @@
 - [content-recommender](https://github.com/jeffersoncgo/content-recommender) - Suggests movies or TV shows from your library based on watch history.
 - [jellyfin-updoot](https://github.com/BobHasNoSoul/jellyfin-updoot) - Adds thumbs-up recommendations, per-item comments, and a "recommended by users" page.
 - [List-Sync](https://github.com/Woahai321/list-sync) - Automatically import movies and TV shows from IMDB or Trakt lists into [Seerr](https://github.com/seerr-team/seerr). `🔹 Beta` `🔸 Stale`
+- [Messer](https://github.com/jakobbjelver/messer-swipe) - Swipe through your library, match with friends in a session, and find something everyone wants to watch.
 - [Questorr](https://github.com/Jellyforge-Dev/Questorr) - Discord bot for Jellyfin media requests, with moderated approvals, per-user quotas, and an admin audit log.
 - [reiverr](https://github.com/aleksilassila/reiverr) - Combined interface for Jellyfin, TMDB, Radarr, and Sonarr. `🔹 Beta`
 - [scenepeek-android](https://github.com/Divinelink/scenepeek-android) - An Android app that provides detailed movie and TV show information with TMDB and Seerr integration.
 - [seerr](https://github.com/seerr-team/seerr) - Request management and media discovery tool for Jellyfin, Plex, and Emby.
 - [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) - Automatically request suggested movies and TV shows to [Seerr](https://github.com/seerr-team/seerr) based on recently watched.
-- [Messer](https://github.com/jakobbjelver/messer-swipe) - Swipe through your library, match with friends in a session, and find something everyone wants to watch.
 - [whatseerr](https://github.com/SuFxGIT/whatseerr) - WhatsApp bot for Seerr that allows users to search and request media via WhatsApp messages. `🔸 Stale`
 
 
@@ -293,6 +293,7 @@
 
 <!-- sort list:tools-admin -->
 - [ADRG](https://github.com/jaldertech/adrg) - Dynamic Docker resource governor using cgroups v2 to throttle background tasks during media activity. `🔸 Stale`
+- [Apps2Samsung](https://github.com/Apps2Samsung/Apps2Samsung) - Cross-platform tool that helps you install Jellyfin on Samsung Smart TVs running Tizen OS.
 - [autopulse](https://github.com/dan-online/autopulse) - Lightweight automation service that updates Plex, Jellyfin, and Emby libraries based on notifications from media organizers like Sonarr and Radarr.
 - [declarative-jellyfin](https://github.com/Sveske-Juice/declarative-jellyfin) - Declarative configuration of your Jellyfin server on NixOS. `🔹 Beta`
 - [jellyfin-helper](https://github.com/JellyPlugins/jellyfin-helper) - Server administration dashboard with cleanup tasks, library statistics, health checks, Arr/Seerr integration, backups, user insights, and on-device neural recommendations.
@@ -303,7 +304,6 @@
 - [JellySearch](https://gitlab.com/DomiStyle/jellysearch) - A fast full-text search proxy for Jellyfin using Meilisearch.
 - [Jellyswarrm](https://github.com/LLukas22/Jellyswarrm) - Reverse proxy that lets you combine multiple Jellyfin servers into one virtual instance.
 - [quality-gate-encoder](https://github.com/GeiserX/quality-gate-encoder) - Runs alongside your library and makes a 720p HEVC, H.264, or AV1 copy of each file using Intel or NVIDIA GPU, so remote viewers can direct play instead of transcoding live.
-- [Apps2Samsung](https://github.com/Apps2Samsung/Apps2Samsung) - Cross-platform tool that helps you install Jellyfin on Samsung Smart TVs running Tizen OS.
 - [Tracearr](https://github.com/connorgallopo/Tracearr) - Real-time Jellyfin monitoring dashboard for tracking streams and detecting account sharing.
 - [Universal Plugin Repo](https://github.com/0belous/Jellyfin-Universal-Plugin-Repo) - Consolidates many plugin repositories to create a universal catalogue.
 - [xsrv.jellyfin](https://github.com/nodiscc/xsrv/tree/master/roles/jellyfin) - Ansible role to deploy and configure Jellyfin.
@@ -317,9 +317,9 @@
 - [jelly-clipper](https://github.com/arnolicious/jelly-clipper) - Web application for creating, sharing, and managing video clips from Jellyfin libraries. `🔹 Beta`
 - [Jellyfin Episodes Ratings Grid](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid) - Show IMDb episode ratings in a heatmap-style grid on Jellyfin series pages.
 - [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) - Collection of modifications and customizations for personalizing Jellyfin. `🔸 Stale`
+- [jellyfin-random-macos-screensaver](https://github.com/ndom91/jellyfin-random-macos-screensaver) - Screensaver for macOS that plays a random Jellyfin item.
 - [Jellyfin Segment Editor](https://github.com/intro-skipper/segment-editor) - Manage Jellyfin Media Segment positions.
 - [KefinTweaks](https://github.com/ranaldsgift/KefinTweaks) - Collection of UI enhancements and customization tweaks for Jellyfin.
-- [jellyfin-random-macos-screensaver](https://github.com/ndom91/jellyfin-random-macos-screensaver) - Screensaver for macOS that plays a random Jellyfin item.
 - [PlayBridge](https://github.com/Damocles-fr/PlayBridge) - Launch external media players (MPC-HC, MPC-BE, PotPlayer) from Jellyfin Web or Jellyfin Media Player.
 - [Scyphomote](https://github.com/eiffelbeef/scyphomote) - A dedicated remote control for Jellyfin with support for playback transparency, trickplay previews, and more.
 - [tunarr](https://github.com/chrisbenincasa/tunarr) - Create custom live TV channels from your Plex or Jellyfin library with a web UI and IPTV support.
@@ -373,3 +373,4 @@ This section contains links to communities which focus on Jellyfin or related to
 
 Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.
 You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
+
