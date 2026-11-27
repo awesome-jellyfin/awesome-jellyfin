@@ -940,6 +940,18 @@ clients:
         color: blue
         url: https://testflight.apple.com/join/XDc6gVXc
 
+  - name: "xfinn"
+    targets: [iOS, AppleTV]
+    oss: https://github.com/Glob0x17/xfinn
+    website: https://xfinn.app
+    official: false
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757672232"
+
 targets:
   - key: Browser
     display: "🌎 Browser-Based"
