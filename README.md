@@ -277,6 +277,7 @@
 - [MusicBrainz-UserScripts](https://github.com/Druidblack/MusicBrainz-UserScripts) - One-click importing of album from Jellyfin into MusicBrainz.
 - [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts YouTube Music playlists to Jellyfin playlists.
 - [Themerr](https://github.com/Themerr/Themerr) - Theme song manager for Plex and Jellyfin using ThemerrDB.
+- [Trackhop](https://github.com/xlollx/Trackhop) - Keeps Jellyfin playlists in sync with Spotify, YouTube Music, Apple Music, TIDAL, Deezer and other services, on Android, desktop or Docker.
 
 
 ### 📥 Content Import
